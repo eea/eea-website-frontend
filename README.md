@@ -1,61 +1,82 @@
+# eea-website-frontend
+
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Feea-website-frontend%2Fmaster&subject=pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/master/display/redirect)
+[![Release](https://img.shields.io/github/v/release/eea/eea-website-frontend?sort=semver)](https://github.com/eea/eea-website-frontend/releases)
+
 ## Documentation
 
 A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
 
-## Quick Start
 
-Below is a list of commands you will probably find useful.
+## Getting started
 
-### `yarn start`
+1. Install `nvm`
 
-Runs the project in development mode.
-You can view your application at `http://localhost:3000`
+        touch ~/.bash_profile
+        curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 
-The page will reload if you make edits.
+        source ~/.bash_profile
+        nvm version
 
-### `yarn build`
+1. Install latest `NodeJS 16.x`:
 
-Builds the app for production to the build folder.
+        nvm install 16
+        nvm use 16
+        node -v
+        v16.16.2
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+1. Install `yarn`
 
-### `yarn start:prod`
+        curl -o- -L https://yarnpkg.com/install.sh | bash
+        yarn -v
 
-Runs the compiled app in production.
+1. Clone:
 
-You can again view your application at `http://localhost:3000`
+        git clone https://github.com/eea/eea-website-frontend.git
+        cd eea-website-frontend
 
-### `yarn test`
+1. Install
 
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
+        yarn
 
-### `yarn i18n`
+1. Start backend
 
-Runs the test i18n runner which extracts all the translation strings and
-generates the needed files.
+        docker-compose up -d
+        docker-compose logs -f
 
+1. Start frontend
 
-### mrs-developer
+        yarn start
 
-[mrs-developer](https://github.com/collective/mrs-developer) is a great tool
-for developing multiple packages at the same time.
+1. See application at http://localhost:3000
 
-mrs-developer should work with this project by running the configured shortcut script:
+## Development
 
-```bash
-yarn develop
-```
+### Frontend
 
-Volto's latest razzle config will pay attention to your tsconfig.json (or jsconfig.json) file for any customizations.
+1. Add your frontend add-ons to `mrs.developer.json` and run:
 
-In case you don't want (or can't) install mrs-developer globally, you can install it in this project by running:
+        yarn develop
 
-```bash
-yarn add -W mrs-developer
-```
-release of this code via `git tag` command or [Draft new release](https://github.com/eea/eea-website-frontend/releases/new) on Github.
+1. Install
+
+        yarn
+
+1. Start frontend
+
+        yarn start
+
+### Backend
+
+We recommend using [mxdev](https://pypi.org/project/mxdev/).
+
+## Production
+
+We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [Jenkins](https://jenkins.io/) to deploy this application in production.
+
+### Release
+
+* Create a new release of this code via `git tag` command or [Draft new release](https://github.com/eea/eea-website-frontend/releases/new) on Github.
   * A new Docker image is built and released automatically on [DockerHub](https://hub.docker.com/r/eeacms/eea-website-frontend) based on this tag.
 
 ### Upgrade

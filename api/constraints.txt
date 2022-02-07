@@ -1,1 +1,6 @@
-# Add your custom backend add-ons constraints here
+-f https://eggrepo.eea.europa.eu/simple/
+# Develop
+mxdev==2.0.0
+
+# KitKat
+eea.kitkat==1.5
