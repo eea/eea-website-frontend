@@ -1,8 +1,8 @@
 {
   "name": "eea-website-frontend",
-  "description": "A Volto-powered Plone frontend",
+  "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "scripts": {
     "start": "razzle start",
     "preinstall": "if [ -f $(pwd)/mrs.developer.json ]; then if [ -f $(pwd)/node_modules/.bin/missdev ]; then yarn develop; else yarn develop:npx; fi; fi",
