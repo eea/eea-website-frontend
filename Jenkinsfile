@@ -2,12 +2,12 @@ pipeline {
   environment {
     RANCHER_STACKID = ""
     RANCHER_ENVID = ""
-    GIT_NAME = "<%= name %>"
-    registry = "eeacms/<%= name %>"
-    template = "templates/<%= name %>"
+    GIT_NAME = "eea-website-frontend"
+    registry = "eeacms/eea-website-frontend"
+    template = "templates/eea-website-frontend"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = '<%= name %>.eionet.europa.eu'
+    SONARQUBE_TAG = 'eea-website-frontend.eionet.europa.eu'
   }
 
   agent any
