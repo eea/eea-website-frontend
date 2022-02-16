@@ -2369,6 +2369,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
+"@eeacms/volto-eea-design-system@*":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.2.0.tgz#f814d01fa9d1089db48496868962249fb0572a29"
+  integrity sha512-jFf3dhopr3L4xf5uU3ojB6Je+xzDduXDcBaE74wDgDg3pkkAkqTLEq0bxvw+3zTDFSgRT7lu9Vo5K9i5Fc2WMw==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
+
 "@eeacms/volto-eea-kitkat@*":
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.1.6.tgz#9eed3a1e7b48da5c0840f19a0732a3f731e20223"
@@ -3220,10 +3227,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@14.8.1":
-  version "14.8.1"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-14.8.1.tgz#255ce057322bb637b3105fcf5b7483e11d26d283"
-  integrity sha512-8NC323Da6GwhhJYgrtJQ2hR8zz3g3HpKVbOMB91aFuzbp+/VotdaG+zC+5Hq+MbnPCM9mONdSTN3Zn0sqOW41w==
+"@plone/volto@14.10.0":
+  version "14.10.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-14.10.0.tgz#a42d9ce46f842bdb9013d6041f3478ba33de9012"
+  integrity sha512-dUB+N0vS0CjGPKiR3BWSyjRa7Q56x7+SFFPTe41OTuz2ix4LQKs91HMoc9w6rO/EP2W82kXRb1j2nfOOZPc4fw==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"

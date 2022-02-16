@@ -214,5 +214,13 @@
     "branch": "develop",
     "develop": false,
     "path": "src"
+  },
+  "volto-eea-design-system": {
+    "url": "git@github.com:eea/volto-eea-design-system.git",
+    "https": "https://github.com/eea/volto-eea-design-system.git",
+    "package": "@eeacms/volto-eea-design-system",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }
