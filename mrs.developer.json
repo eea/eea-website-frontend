@@ -222,5 +222,13 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-eea-website-theme": {
+    "url": "git@github.com:eea/volto-eea-website-theme.git",
+    "https": "https://github.com/eea/volto-eea-website-theme.git",
+    "package": "@eeacms/volto-eea-website-theme",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }
