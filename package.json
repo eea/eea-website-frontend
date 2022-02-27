@@ -142,7 +142,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#develop-itml",
+    "@eeacms/volto-eea-design-system": "*",
     "@eeacms/volto-eea-website-theme": "*",
     "@eeacms/volto-eea-kitkat": "*",
     "@plone/volto": "14.10.0"
