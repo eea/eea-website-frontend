@@ -42,8 +42,7 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-eea-design-system",
-    "@eeacms/volto-eea-website-theme",
-    "@eeacms/volto-eea-website-policy"
+    "@eeacms/volto-eea-website-theme"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -145,7 +144,6 @@
   "dependencies": {
     "@eeacms/volto-eea-design-system": "*",
     "@eeacms/volto-eea-website-theme": "*",
-    "@eeacms/volto-eea-website-policy": "*",
     "@eeacms/volto-eea-kitkat": "*",
     "@plone/volto": "14.10.0"
   },

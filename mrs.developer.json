@@ -230,13 +230,5 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
-  },
-  "volto-eea-website-policy": {
-    "url": "git@github.com:eea/volto-eea-website-policy.git",
-    "https": "https://github.com/eea/volto-eea-website-policy.git",
-    "package": "@eeacms/volto-eea-website-policy",
-    "branch": "develop",
-    "develop": true,
-    "path": "src"
   }
 }
