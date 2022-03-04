@@ -1,14 +1,13 @@
 pipeline {
   environment {
-    //RANCHER_STACKID = "1st2402"
     RANCHER_STACKID = ""
-    RANCHER_ENVID = "1a140884"
+    RANCHER_ENVID = ""
     GIT_NAME = "eea-website-frontend"
     registry = "eeacms/eea-website-frontend"
     template = "templates/eea-website-frontend"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = 'eea-website-frontend.eionet.europa.eu'
+    SONARQUBE_TAG = 'demo-www.eea.europa.eu'
   }
 
   agent any
@@ -190,36 +189,33 @@ pipeline {
       }
     }
 
-     stage('Release catalog ( on tag )') {
-       when {
-         buildingTag()
-       }
-       steps{
-         node(label: 'docker') {
-           withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
-            sh '''docker pull eeacms/gitflow; docker run -i --rm --name="${BUILD_TAG}-release" -e GIT_TOKEN="${GITHUB_TOKEN}" -e RANCHER_CATALOG_PATH="${template}" -e DOCKER_IMAGEVERSION="${BRANCH_NAME}" -e DOCKER_IMAGENAME="${registry}" --entrypoint /add_rancher_catalog_entry.sh eeacms/gitflow'''
-          }
+    stage('Release catalog ( on tag )') {
+      when {
+        buildingTag()
+      }
+      steps{
+        node(label: 'docker') {
+          withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
+           sh '''docker pull eeacms/gitflow; docker run -i --rm --name="${BUILD_TAG}-release" -e GIT_TOKEN="${GITHUB_TOKEN}" -e RANCHER_CATALOG_PATH="${template}" -e DOCKER_IMAGEVERSION="${BRANCH_NAME}" -e DOCKER_IMAGENAME="${registry}" --entrypoint /add_rancher_catalog_entry.sh eeacms/gitflow'''
          }
-       }
-     }
+        }
+      }
+    }
 
-     stage('Upgrade demo ( on tag )') {
-       when {
-           allOf {
-             not { environment name: 'RANCHER_STACKID', value: '' }
-             buildingTag()
-           }
-       }
-       steps {
-         node(label: 'docker') {
-           withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Rancher_dev_token', usernameVariable: 'RANCHER_ACCESS', passwordVariable: 'RANCHER_SECRET'],string(credentialsId: 'Rancher_dev_url', variable: 'RANCHER_URL')]) {
-             sh '''wget -O rancher_upgrade.sh https://raw.githubusercontent.com/eea/eea.docker.gitflow/master/src/rancher_upgrade.sh'''
-             sh '''chmod 755 rancher_upgrade.sh'''
-             sh '''./rancher_upgrade.sh'''
-          }
+    stage('Upgrade demo ( on tag )') {
+      when {
+        buildingTag()
+      }
+      steps {
+        node(label: 'docker') {
+          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Rancher_dev_token', usernameVariable: 'RANCHER_ACCESS', passwordVariable: 'RANCHER_SECRET'],string(credentialsId: 'Rancher_dev_url', variable: 'RANCHER_URL')]) {
+            sh '''wget -O rancher_upgrade.sh https://raw.githubusercontent.com/eea/eea.docker.gitflow/master/src/rancher_upgrade.sh'''
+            sh '''chmod 755 rancher_upgrade.sh'''
+            sh '''./rancher_upgrade.sh'''
          }
-       }
-     }
+        }
+      }
+    }
 
     stage('Update SonarQube Tags') {
       when {
@@ -240,8 +236,6 @@ pipeline {
       }
     }
   }
-
-
 
   post {
     changed {

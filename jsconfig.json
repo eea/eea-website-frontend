@@ -1,6 +1,16 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-eea-design-system": [
+                "addons/volto-eea-design-system/src"
+            ],
+            "@eeacms/volto-eea-website-theme": [
+                "addons/volto-eea-website-theme/src"
+            ],
+            "@eeacms/volto-eea-website-policy": [
+                "addons/volto-eea-website-policy/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }
