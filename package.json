@@ -33,7 +33,13 @@
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https",
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "update": "./scripts/update.sh",
+    "release": "./scripts/release.py",
+    "issues": "./scripts/pull-requests.py WARN",
+    "issues:all": "./scripts/pull-requests-volto.py WARN",
+    "status": "./scripts/status.sh",
+    "pull": "./scripts/pull.sh"
   },
   "private": true,
   "workspaces": [
