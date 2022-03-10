@@ -49,7 +49,9 @@
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
-    "@eeacms/volto-eea-website-policy"
+    "@eeacms/volto-eea-website-policy",
+    "@eeacms/volto-blockquote",
+    "@eeacms/volto-statistic-block"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -153,6 +155,8 @@
     "@eeacms/volto-eea-kitkat": "5.2.4",
     "@eeacms/volto-eea-website-policy": "0.1.1",
     "@eeacms/volto-eea-website-theme": "0.2.0",
+    "@eeacms/volto-blockquote": "1.0.2",
+    "@eeacms/volto-statistic-block": "0.1.1",
     "@plone/volto": "14.10.0"
   },
   "devDependencies": {

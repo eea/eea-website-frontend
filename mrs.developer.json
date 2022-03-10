@@ -238,5 +238,21 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-blockquote": {
+    "url": "git@github.com:eea/volto-blockquote.git",
+    "https": "https://github.com/eea/volto-blockquote.git",
+    "package": "@eeacms/volto-blockquote",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
+  },
+  "volto-statistic-block": {
+    "url": "git@github.com:eea/volto-statistic-block.git",
+    "https": "https://github.com/eea/volto-statistic-block.git",
+    "package": "@eeacms/volto-statistic-block",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   }
 }
