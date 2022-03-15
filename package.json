@@ -151,7 +151,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-blockquote": "1.0.2",
+    "@eeacms/volto-blockquote": "1.1.0",
     "@eeacms/volto-eea-design-system": "1.6.0",
     "@eeacms/volto-eea-kitkat": "5.2.5",
     "@eeacms/volto-eea-website-policy": "0.1.1",
