@@ -1416,13 +1416,15 @@
   dependencies:
     "@plone/scripts" "*"
 
-"@eeacms/volto-eea-website-theme@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.3.1.tgz#70aee7c7e8ec944804c233cef87720e03f9c32c0"
-  integrity sha512-lyXtwiiZh+IHi4Lnt2p+A1BE8JMlvBvXuN1xJBkGY9lhVG/vkdksknzVAC02ztUKte5zJvT8EnKrtnWO4Cza/Q==
+"@eeacms/volto-eea-website-theme@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.4.0.tgz#ac5a558dc588be1a309293cc245353fa2921d7b8"
+  integrity sha512-dLuaLyXDSgOd1qwbEoowoOwff7suN+zGGM293AJCJj0vz+BPbuDIKepbRD93v6/R8FYBpcPs7dgW8tmOm0WINg==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
+    slate "^0.71.0"
+    slate-react "^0.71.0"
 
 "@eeacms/volto-group-block@4.3.5":
   version "4.3.5"
