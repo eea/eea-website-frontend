@@ -1369,10 +1369,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.7.0.tgz#fd23d6875022e0c081afa0215276096a3ed72e92"
-  integrity sha512-93TfY6RETb5/1Y3j6tInXALu/z1GKEquEi1RJ8VhSR5WWwUdSja1IDxSZoBNQ2dQNufbAkMI/K/hsih0TpxqWw==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.8.0.tgz#b5956fa2125aabcd162369f1de44b303b9a45d11"
+  integrity sha512-3N9YXISLA7qJnlUNuXBSVelXKNT+59PC1J2T/n0ffzVCDryvLI3xIcW7K+1/9QWdpKj55cWHxTBAiH6hFlpVWw==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     remixicon "2.5.0"
