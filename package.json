@@ -47,11 +47,11 @@
   ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-blockquote",
+    "@eeacms/volto-statistic-block",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
-    "@eeacms/volto-eea-website-policy",
-    "@eeacms/volto-blockquote",
-    "@eeacms/volto-statistic-block"
+    "@eeacms/volto-eea-website-policy"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
