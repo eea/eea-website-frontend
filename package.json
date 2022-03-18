@@ -154,7 +154,7 @@
     "@eeacms/volto-blockquote": "1.1.0",
     "@eeacms/volto-eea-design-system": "1.7.0",
     "@eeacms/volto-eea-kitkat": "5.2.6",
-    "@eeacms/volto-eea-website-policy": "0.1.1",
+    "@eeacms/volto-eea-website-policy": "0.2.0",
     "@eeacms/volto-eea-website-theme": "0.4.0",
     "@eeacms/volto-statistic-block": "0.1.1",
     "@plone/volto": "15.2.0"
