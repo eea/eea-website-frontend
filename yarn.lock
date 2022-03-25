@@ -1344,10 +1344,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.2.5.tgz#c1df8b6c333bb33704b864d8eda169600a960782"
   integrity sha512-vtakw3UyVVWp6Cc+I1hh/c0TIB4QQJzsdvQDNdAEFz6kdcTdOF6EzU+K9A4K+WTHZnh61SxxfsjO6Mhrj1WUXA==
 
-"@eeacms/volto-blockquote@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blockquote/-/volto-blockquote-1.1.0.tgz#b22df04a6ab64973bb95c629c6741e3b9ea73661"
-  integrity sha512-yEmMI9r+1LoJCcUlDJ/GZYKFNV/IZMYAx0kOtuj8L1oRYGAHlYQvgIoGX58icGwL0+b4aqDzSWumTK9fjWrw1A==
+"@eeacms/volto-blockquote@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-blockquote/-/volto-blockquote-1.2.0.tgz#96b5c7b9e96e3c632d85d09cf9be8ec0ed1ddb72"
+  integrity sha512-Xi1RzMNWxsd11/3Q1WSiRxJo7W69ztZOnZGPwddXv2hcK2AduwLMfP1rZz+CQGguoyHNg9caiXeYl7w0tir5gA==
   dependencies:
     "@plone/scripts" "*"
     volto-slate "*"
