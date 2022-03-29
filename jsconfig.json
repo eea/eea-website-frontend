@@ -96,6 +96,9 @@
             ],
             "@eeacms/volto-statistic-block": [
                 "addons/volto-statistic-block/src"
+            ],
+            "@eeacms/volto-timeline-block": [
+                "addons/volto-timeline-block/src"
             ]
         },
         "baseUrl": "src"
