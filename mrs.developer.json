@@ -262,5 +262,13 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-progress-block": {
+    "url": "git@github.com:eea/volto-progress-block.git",
+    "https": "https://github.com/eea/volto-progress-block.git",
+    "package": "@eeacms/volto-progress-block",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }

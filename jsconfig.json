@@ -99,6 +99,9 @@
             ],
             "@eeacms/volto-timeline-block": [
                 "addons/volto-timeline-block/src"
+            ],
+            "@eeacms/volto-progress-block": [
+                "addons/volto-progress-block/src"
             ]
         },
         "baseUrl": "src"
