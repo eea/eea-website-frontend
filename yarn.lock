@@ -1519,6 +1519,13 @@
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
+"@eeacms/volto-tags-block@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tags-block/-/volto-tags-block-0.2.0.tgz#40cde83f6c3cb7cdf24959a54b1767ce844fe29b"
+  integrity sha512-FtFCRBiLyCJwY8BihMU/AthK4fuQThq5S9EtQlc2nEk2rbSj2oKJsNvGbo2dEPVLgBHDywdnoQ9HnoJAFP9tgA==
+  dependencies:
+    "@plone/scripts" "*"
+
 "@eeacms/volto-taxonomy@2.0.4":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.4.tgz#0ee8a9a10c45ee055bc3025c681f9f217447e58e"
