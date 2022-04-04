@@ -1455,6 +1455,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-3.0.3.tgz#1d12a769c3f0d9a1448f857e60be4dd6771a647b"
   integrity sha512-AZiWLwS4kXRN696BzJfSncfvbnHsnF11m7iCF+W38ROGIUau3fmiLV9KnXxgDJZg/AV/wI3AcdSXr2fnH3uOAA==
 
+"@eeacms/volto-progress-block@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-progress-block/-/volto-progress-block-0.2.0.tgz#7961169e457c18d9a1ee532ae05780c289509b1a"
+  integrity sha512-ytp21Gmc3HpgYzH6Nr1xX21sR2KvkqsaXQq+8YWoyEaRjzcLNY0x8gcW3Z1+dtvKiQvhgIMYvzPO/yCDwmu4yg==
+  dependencies:
+    "@plone/scripts" "*"
+
 "@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.8":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.8.tgz#bedb2d2b4e4da6c8e1263f1b618204fe9def3b53"
@@ -1470,6 +1477,14 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-4.0.4.tgz#bfe1845145d047604b8cff3dc51aaaaa968b56dc"
   integrity sha512-epFqag9H7vYYlSyo+8tbCFg0/PfnAKOR7LpeSFLFpwHTktJgWCEaP2qz9FNN7qjTeE4PXE83QWf0TM5fQz+m5w==
   dependencies:
+    volto-slate "*"
+
+"@eeacms/volto-slate-label@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-label/-/volto-slate-label-0.2.0.tgz#126f973c54a81a3f54c51b626dc43c2276155d57"
+  integrity sha512-vLodFm4o5Xr4r5u2/+lcf4Kh7PtNhpUodVgknZpSbQxmUUMMigm2sN6y6joDakRff+d/nNxxt9lO8VDDs3lC6g==
+  dependencies:
+    "@plone/scripts" "*"
     volto-slate "*"
 
 "@eeacms/volto-slate-metadata-mentions@4.0.3":
@@ -1508,6 +1523,13 @@
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.4.tgz#0ee8a9a10c45ee055bc3025c681f9f217447e58e"
   integrity sha512-gC4T7K+FpIGyRKKEmqhV498fcFgaFDgj4utxm4U5yaYtjw1YbXakKb8/qnWx5vpPnVZwyq7i7Cmckeu+owkR7g==
+
+"@eeacms/volto-timeline-block@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-timeline-block/-/volto-timeline-block-0.2.0.tgz#8cdb3bbd5c3052110dca6a06142a29528e1b4b1d"
+  integrity sha512-aHOIPD+yB73bzGAskkNlpZBJyGJ395hknH8yHaZXkehbBV1IIn9k3CrWaTOl84Aep8XcVDZRaIIgk+xDHUOsAw==
+  dependencies:
+    "@plone/scripts" "*"
 
 "@eeacms/volto-widget-geolocation@4.0.3":
   version "4.0.3"
@@ -2271,10 +2293,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@15.2.2":
-  version "15.2.2"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.2.2.tgz#754378fbceaa281a227cf48643a972f1decca0ba"
-  integrity sha512-TKvjhkVoreqWTukJ2aVk1NG1GvlvfTHSmQVInI5ajYApcQzHCO6jazsnBFFBO+rObOFPp9VSzPU+aFOSV/pX/A==
+"@plone/volto@15.3.0":
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.3.0.tgz#f868c1a0ef0a8212a9d087dd81f0270915bcaf92"
+  integrity sha512-6Bzmto544xM5haY49BGvL+Mlx/4XbEv94E30iOJKKwMTdxDM4XQpixuYv0NGPZj/Eo/2JGs2BOrN5OlFhsp01g==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2431,7 +2453,7 @@
     tlds "1.203.1"
     undoo "0.5.0"
     universal-cookie-express "4.0.3"
-    use-deep-compare-effect "1.6.1"
+    use-deep-compare-effect "1.8.1"
     xmlrpc "1.3.2"
     yarn-deduplicate "3.1.0"
     yarnhook "0.5.1"
@@ -4004,7 +4026,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.0":
+"@types/react@*":
   version "17.0.37"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.37.tgz#6884d0aa402605935c397ae689deed115caad959"
   integrity sha512-2FS1oTqBGcH/s0E+CjrCCR9+JMpsu9b69RTFO+40ua43ZqP5MmQ4iUde/dMjWR909KxZwmOQIFq6AV6NjEG5xg==
@@ -19438,13 +19460,12 @@ use-composed-ref@^1.0.0:
   dependencies:
     ts-essentials "^2.0.3"
 
-use-deep-compare-effect@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/use-deep-compare-effect/-/use-deep-compare-effect-1.6.1.tgz#061a0ac5400aa0461e33dddfaa2a98bca873182a"
-  integrity sha512-VB3b+7tFI81dHm8buGyrpxi8yBhzYZdyMX9iBJra7SMFMZ4ci4FJ1vFc1nvChiB1iLv4GfjqaYfvbNEpTT1rFQ==
+use-deep-compare-effect@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/use-deep-compare-effect/-/use-deep-compare-effect-1.8.1.tgz#ef0ce3b3271edb801da1ec23bf0754ef4189d0c6"
+  integrity sha512-kbeNVZ9Zkc0RFGpfMN3MNfaKNvcLNyxOAAd9O4CBZ+kCBXXscn9s/4I+8ytUER4RDpEYs5+O6Rs4PqiZ+rHr5Q==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@types/react" "^17.0.0"
     dequal "^2.0.2"
 
 use-isomorphic-layout-effect@^1.0.0:
