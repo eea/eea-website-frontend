@@ -50,6 +50,7 @@
     "@eeacms/volto-blockquote",
     "@eeacms/volto-progress-block",
     "@eeacms/volto-statistic-block",
+    "@eeacms/volto-tags-block",
     "@eeacms/volto-timeline-block",
     "@eeacms/volto-slate-label",
     "@eeacms/volto-eea-design-system",
@@ -162,6 +163,7 @@
     "@eeacms/volto-progress-block": "0.2.0",
     "@eeacms/volto-slate-label": "0.2.0",
     "@eeacms/volto-statistic-block": "0.1.1",
+    "@eeacms/volto-tags-block": "0.2.0",
     "@eeacms/volto-timeline-block": "0.2.0",
     "@plone/volto": "15.3.0"
   },

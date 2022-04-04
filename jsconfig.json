@@ -105,6 +105,9 @@
             ],
             "@eeacms/volto-slate-label": [
                 "addons/volto-slate-label/src"
+            ],
+            "@eeacms/volto-tags-block": [
+                "addons/volto-tags-block/src"
             ]
         },
         "baseUrl": "src"
