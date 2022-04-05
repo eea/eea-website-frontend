@@ -1455,10 +1455,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-3.0.3.tgz#1d12a769c3f0d9a1448f857e60be4dd6771a647b"
   integrity sha512-AZiWLwS4kXRN696BzJfSncfvbnHsnF11m7iCF+W38ROGIUau3fmiLV9KnXxgDJZg/AV/wI3AcdSXr2fnH3uOAA==
 
-"@eeacms/volto-progress-block@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-progress-block/-/volto-progress-block-0.2.0.tgz#7961169e457c18d9a1ee532ae05780c289509b1a"
-  integrity sha512-ytp21Gmc3HpgYzH6Nr1xX21sR2KvkqsaXQq+8YWoyEaRjzcLNY0x8gcW3Z1+dtvKiQvhgIMYvzPO/yCDwmu4yg==
+"@eeacms/volto-progress-block@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-progress-block/-/volto-progress-block-0.2.1.tgz#e1555f4b01989f33d80d4697360cede7d0a40212"
+  integrity sha512-yH+89NSKCYxseJwgLxHBtRWw1JkVjZYkKQltVBvtgYAWX52ya2IB5COEIYmrxkurRCpPmJDWsN+W4QSBYatngQ==
   dependencies:
     "@plone/scripts" "*"
 
