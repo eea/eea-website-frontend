@@ -96,6 +96,18 @@
             ],
             "@eeacms/volto-statistic-block": [
                 "addons/volto-statistic-block/src"
+            ],
+            "@eeacms/volto-timeline-block": [
+                "addons/volto-timeline-block/src"
+            ],
+            "@eeacms/volto-progress-block": [
+                "addons/volto-progress-block/src"
+            ],
+            "@eeacms/volto-slate-label": [
+                "addons/volto-slate-label/src"
+            ],
+            "@eeacms/volto-tags-block": [
+                "addons/volto-tags-block/src"
             ]
         },
         "baseUrl": "src"
