@@ -1371,7 +1371,7 @@
 
 "@eeacms/volto-eea-design-system@*":
   version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.10.0.tgz#e6c5a9b7cdaa96015a9b11e38fa5a726bc783f93"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.2.1.tgz#c22aa941d3be5f5169495394fb26b10a41358e1f"
   integrity sha512-yuFDVP+4AccrPEdsA8kc71URFTzcHNh0f6/gOlxHjO47clGaJVp2JNwqQT5ED6e9EGTu1GbOj9K2xPCoXNikLQ==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
