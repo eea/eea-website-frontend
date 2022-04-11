@@ -1369,10 +1369,18 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.10.0":
+"@eeacms/volto-eea-design-system@*":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.10.0.tgz#e6c5a9b7cdaa96015a9b11e38fa5a726bc783f93"
   integrity sha512-yuFDVP+4AccrPEdsA8kc71URFTzcHNh0f6/gOlxHjO47clGaJVp2JNwqQT5ED6e9EGTu1GbOj9K2xPCoXNikLQ==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
+    remixicon "2.5.0"
+
+"@eeacms/volto-eea-design-system@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.2.1.tgz#c22aa941d3be5f5169495394fb26b10a41358e1f"
+  integrity sha512-v/Xm8icVos7f/9XyfRt96HRAemH4TGQlgUf2J0L9tvlRmiayopV91THDFPd1knBhIErKnMQqRqnBXGzqpqYqow==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     remixicon "2.5.0"
@@ -1416,10 +1424,10 @@
   dependencies:
     "@plone/scripts" "*"
 
-"@eeacms/volto-eea-website-theme@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.5.1.tgz#05ea9d682cc2a359d0795eaeb970d6dd3a8adcfb"
-  integrity sha512-uILnE4v9NyEYtafq+wFfJrJQgwXOF4jEbsiuRPYKli+VdA3JF0SIHvMQue3eFQxceIg7bdk+Pk1bwVc+dlj18Q==
+"@eeacms/volto-eea-website-theme@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.5.2.tgz#f14394abaebdfcc01671045192d5080000915ea2"
+  integrity sha512-cUycHJ4/ZUNKhXccsY/l6vxNHp0OurtPzc13/ZDTNwQm0CMdofYhc/ufCfAJAbm9pqXRIzGp08J1iqT41BJw7A==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
