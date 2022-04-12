@@ -2300,10 +2300,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@15.3.0":
-  version "15.3.0"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.3.0.tgz#f868c1a0ef0a8212a9d087dd81f0270915bcaf92"
-  integrity sha512-6Bzmto544xM5haY49BGvL+Mlx/4XbEv94E30iOJKKwMTdxDM4XQpixuYv0NGPZj/Eo/2JGs2BOrN5OlFhsp01g==
+"@plone/volto@15.4.1":
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-15.4.1.tgz#04bf5544098b60fa36a97f11efed43958bd077aa"
+  integrity sha512-pITjhK4Gn03ozHcOBh0Xum9SbJyGOm99nbLuieQUhK3fmr1w88kxtbDWBqutsMOmHMwvWTZ2QDSC/haxlsaY/Q==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2416,7 +2416,7 @@
     react-dom "17.0.2"
     react-dropzone "11.1.0"
     react-fast-compare "2.0.4"
-    react-image-gallery "1.0.7"
+    react-image-gallery "1.2.7"
     react-intl "3.8.0"
     react-intl-redux "2.2.0"
     react-medium-image-zoom "3.0.15"
@@ -12689,11 +12689,6 @@ lodash.isboolean@^3.0.3:
   resolved "https://registry.yarnpkg.com/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz#6c2e171db2a257cd96802fd43b01b20d5f5870f6"
   integrity sha1-bC4XHbKiV82WgC/UOwGyDV9YcPY=
 
-lodash.isequal@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
-  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
-
 lodash.isinteger@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz#619c0af3d03f8b04c31f5882840b77b11cd68343"
@@ -16130,18 +16125,10 @@ react-helmet-async@^1.0.7:
     react-fast-compare "^3.2.0"
     shallowequal "^1.1.0"
 
-react-image-gallery@1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/react-image-gallery/-/react-image-gallery-1.0.7.tgz#75e0d3f995d1475762f80f5a6958b4a9bb88bf97"
-  integrity sha512-4M8HdzTmH13kFNXezcsL6gWT460HUUqlKoAN0XUZMFSQIXdx7eGSj7dkjQlij2UJVZ6LGpjXcEVR7YzJ1Gz9Sg==
-  dependencies:
-    clsx "^1.0.4"
-    lodash.debounce "^4.0.8"
-    lodash.isequal "^4.5.0"
-    lodash.throttle "^4.1.1"
-    prop-types "^15.5.8"
-    react-swipeable "^5.2.0"
-    resize-observer-polyfill "^1.5.0"
+react-image-gallery@1.2.7:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/react-image-gallery/-/react-image-gallery-1.2.7.tgz#2dfb83c52f32828a5340ca565f91bca58241fcfe"
+  integrity sha512-ts7yMWykvZhslGMuvVAUk7a1dJIx9QtIwK6Clv8dOGxPsJid92FRrLvXbZDvkYcUyj48sHalnBhqU6mZNCB2jg==
 
 react-input-autosize@^3.0.0:
   version "3.0.0"
@@ -16428,13 +16415,6 @@ react-sortable-hoc@2.0.0:
     "@babel/runtime" "^7.2.0"
     invariant "^2.2.4"
     prop-types "^15.5.7"
-
-react-swipeable@^5.2.0:
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-5.5.1.tgz#48ae6182deaf62f21d4b87469b60281dbd7c4a76"
-  integrity sha512-EQObuU3Qg3JdX3WxOn5reZvOSCpU4fwpUAs+NlXSN3y+qtsO2r8VGkVnOQzmByt3BSYj9EWYdUOUfi7vaMdZZw==
-  dependencies:
-    prop-types "^15.6.2"
 
 react-syntax-highlighter@^13.5.3:
   version "13.5.3"
