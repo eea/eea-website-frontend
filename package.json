@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -156,16 +156,16 @@
   },
   "dependencies": {
     "@eeacms/volto-blockquote": "1.2.0",
-    "@eeacms/volto-eea-design-system": "1.10.0",
-    "@eeacms/volto-eea-kitkat": "5.2.9",
+    "@eeacms/volto-eea-design-system": "0.2.2",
+    "@eeacms/volto-eea-kitkat": "5.4.0",
     "@eeacms/volto-eea-website-policy": "0.2.1",
-    "@eeacms/volto-eea-website-theme": "0.5.1",
+    "@eeacms/volto-eea-website-theme": "0.5.3",
     "@eeacms/volto-progress-block": "0.2.1",
-    "@eeacms/volto-slate-label": "0.2.1",
+    "@eeacms/volto-slate-label": "0.2.2",
     "@eeacms/volto-statistic-block": "0.1.1",
     "@eeacms/volto-tags-block": "0.2.0",
-    "@eeacms/volto-timeline-block": "0.2.0",
-    "@plone/volto": "15.3.0"
+    "@eeacms/volto-timeline-block": "0.2.1",
+    "@plone/volto": "15.4.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
