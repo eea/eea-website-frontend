@@ -108,6 +108,9 @@
             ],
             "@eeacms/volto-tags-block": [
                 "addons/volto-tags-block/src"
+            ],
+            "@eeacms/volto-description-block": [
+                "addons/volto-description-block/src"
             ]
         },
         "baseUrl": "src"

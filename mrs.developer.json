@@ -286,5 +286,13 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-description-block": {
+    "url": "git@github.com:eea/volto-description-block.git",
+    "https": "https://github.com/eea/volto-description-block.git",
+    "package": "@eeacms/volto-description-block",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }
