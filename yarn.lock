@@ -1369,6 +1369,14 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
+"@eeacms/volto-description-block@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-0.1.2.tgz#4f6f1e43fdf88648159efc6a4f6b113c91fbc525"
+  integrity sha512-Vl1QgAZDquNn5mgvnu0VFRGtTqrZuorC9IypRMPtmuztXnTkX7QIVe7kY5LsWhx63YkBHamoCqMmQ+eWUNNTmg==
+  dependencies:
+    "@plone/scripts" "*"
+    volto-slate "*"
+
 "@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.2.2.tgz#844fcc6b84c75bc1ae6d815b87afc30c90fa4533"
