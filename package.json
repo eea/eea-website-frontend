@@ -157,6 +157,7 @@
   },
   "dependencies": {
     "@eeacms/volto-blockquote": "1.2.0",
+    "@eeacms/volto-description-block": "0.1.2",
     "@eeacms/volto-eea-design-system": "0.2.2",
     "@eeacms/volto-eea-kitkat": "5.4.0",
     "@eeacms/volto-eea-website-policy": "0.2.1",
@@ -166,8 +167,7 @@
     "@eeacms/volto-statistic-block": "0.1.1",
     "@eeacms/volto-tags-block": "0.2.0",
     "@eeacms/volto-timeline-block": "0.2.1",
-    "@eeacms/volto-description-block": "0.1.2",
-    "@plone/volto": "15.4.1"
+    "@plone/volto": "15.6.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
