@@ -1377,10 +1377,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.2.2.tgz#844fcc6b84c75bc1ae6d815b87afc30c90fa4533"
-  integrity sha512-srw8HZiDqvmRwxdYyIuLSoxycHy1ZYaDlqk4W15dVLjKWSF72Xt32bAlE/h8jgI6eMaL0ZT8DcTL5psqy64iZA==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.2.3.tgz#dc6b94c5db59e9d1defaea4cdfb3e53424ef872c"
+  integrity sha512-SHvBXXspkwMwbSipsZ/lGnfHXvWTxokGH60FCBvRR1bfCCZu8++pki739qHPs2/vVnSA1DNu/Z8o/eZNRJpuvA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     remixicon "2.5.0"
