@@ -91,8 +91,8 @@
             "@eeacms/volto-eea-website-policy": [
                 "addons/volto-eea-website-policy/src"
             ],
-            "@eeacms/volto-blockquote": [
-                "addons/volto-blockquote/src"
+            "@eeacms/volto-quote-block": [
+                "addons/volto-quote-block/src"
             ],
             "@eeacms/volto-statistic-block": [
                 "addons/volto-statistic-block/src"

@@ -47,7 +47,7 @@
   ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-blockquote",
+    "@eeacms/volto-quote-block",
     "@eeacms/volto-progress-block",
     "@eeacms/volto-statistic-block",
     "@eeacms/volto-tags-block",
@@ -156,7 +156,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-blockquote": "1.2.0",
+    "@eeacms/volto-quote-block": "0.1.1",
     "@eeacms/volto-description-block": "0.1.2",
     "@eeacms/volto-eea-design-system": "0.2.3",
     "@eeacms/volto-eea-kitkat": "5.4.0",

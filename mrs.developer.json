@@ -239,10 +239,10 @@
     "develop": true,
     "path": "src"
   },
-  "volto-blockquote": {
-    "url": "git@github.com:eea/volto-blockquote.git",
-    "https": "https://github.com/eea/volto-blockquote.git",
-    "package": "@eeacms/volto-blockquote",
+  "volto-quote-block": {
+    "url": "git@github.com:eea/volto-quote-block.git",
+    "https": "https://github.com/eea/volto-quote-block.git",
+    "package": "@eeacms/volto-quote-block",
     "branch": "develop",
     "develop": true,
     "path": "src"
