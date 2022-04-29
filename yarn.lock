@@ -1344,14 +1344,6 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-2.3.0.tgz#51ba525a4c5cf1ab94fc6db267482fd3467b244f"
   integrity sha512-xczE/HagB1B+jwrCwI7oideRoPBKwTwXknx9wcEL++sCJLJFwI5pGh5jkCJyHhBbwY79HlucEk7WXc9SFJLdVg==
 
-"@eeacms/volto-blockquote@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-blockquote/-/volto-blockquote-1.2.0.tgz#96b5c7b9e96e3c632d85d09cf9be8ec0ed1ddb72"
-  integrity sha512-Xi1RzMNWxsd11/3Q1WSiRxJo7W69ztZOnZGPwddXv2hcK2AduwLMfP1rZz+CQGguoyHNg9caiXeYl7w0tir5gA==
-  dependencies:
-    "@plone/scripts" "*"
-    volto-slate "*"
-
 "@eeacms/volto-columns-block@4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-columns-block/-/volto-columns-block-4.5.0.tgz#d0865ddb22ef5df6fb02f1981841b38927604ade"
@@ -1469,6 +1461,14 @@
   integrity sha512-yH+89NSKCYxseJwgLxHBtRWw1JkVjZYkKQltVBvtgYAWX52ya2IB5COEIYmrxkurRCpPmJDWsN+W4QSBYatngQ==
   dependencies:
     "@plone/scripts" "*"
+
+"@eeacms/volto-quote-block@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-0.1.1.tgz#149f17b42ea1a184dc34ef1e5e86da68182e085e"
+  integrity sha512-JZ+AqyZqf9fVtRPlqK+hoLLJ0YKLt7TzQCV5YKiuCdJSOBBX5Y1A8lG3ZHvlg89doMgZbItfO6spmGjWXukhzg==
+  dependencies:
+    "@plone/scripts" "*"
+    volto-slate "*"
 
 "@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.9":
   version "0.2.9"
