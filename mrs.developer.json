@@ -294,5 +294,39 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-searchlib": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-searchlib.git",
+    "https": "https://github.com/eea/volto-searchlib.git",
+    "package": "@eeacms/volto-searchlib",
+    "branch": "develop",
+    "path": "src"
+  },
+  "searchlib": {
+    "develop": true,
+    "https": "https://github.com/eea/searchlib.git",
+    "url": "git@github.com:eea/searchlib.git",
+    "branch": "standalone-split",
+    "packages": {
+      "@eeacms/search": "packages/searchlib/src",
+      "@eeacms/search-less": "packages/searchlib-less"
+    }
+  },
+  "volto-datahub": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-datahub.git",
+    "https": "https://github.com/eea/volto-datahub.git",
+    "package": "@eeacms/volto-datahub",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-globalsearch": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-globalsearch.git",
+    "https": "https://github.com/eea/volto-globalsearch.git",
+    "package": "@eeacms/volto-globalsearch",
+    "path": "src",
+    "branch": "develop"
   }
 }
