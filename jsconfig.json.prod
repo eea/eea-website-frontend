@@ -1,6 +1,12 @@
 {
     "compilerOptions": {
         "paths": {
+            "@eeacms/search": [
+                "addons/searchlib/packages/searchlib/src"
+            ],
+            "@eeacms/search-less": [
+                "addons/searchlib/packages/searchlib-less"
+            ],
         },
         "baseUrl": "src"
     }

@@ -15,6 +15,11 @@ RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
  && rm -rf /opt/frontend/src/addons/* \
  && find /opt/frontend -not -user node -exec chown node {} \+
 
+WORKDIR /opt/frontend/src/addons
+RUN git clone https://github.com/eea/searchlib.git
+WORKDIR /opt/frontend/src/addons/searchlib
+RUN git checkout standalone-split
+
 USER node
 RUN cd /opt/frontend \
  && RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
