@@ -111,6 +111,21 @@
             ],
             "@eeacms/volto-description-block": [
                 "addons/volto-description-block/src"
+            ],
+            "@eeacms/volto-searchlib": [
+                "addons/volto-searchlib/src"
+            ],
+            "@eeacms/search": [
+                "addons/searchlib/packages/searchlib/src"
+            ],
+            "@eeacms/search-less": [
+                "addons/searchlib/packages/searchlib-less"
+            ],
+            "@eeacms/volto-datahub": [
+                "addons/volto-datahub/src"
+            ],
+            "@eeacms/volto-globalsearch": [
+                "addons/volto-globalsearch/src"
             ]
         },
         "baseUrl": "src"
