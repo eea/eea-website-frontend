@@ -1416,10 +1416,10 @@
   dependencies:
     "@plone/scripts" "*"
 
-"@eeacms/volto-eea-website-theme@0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.5.4.tgz#511f0bde09d29594da741249745cac7333719f36"
-  integrity sha512-+CJ76CvyZN2UagQGYn+GD5a3nBhsUMVIkQIEAk2kMfml1F9p8Tnyav8Do2iWQYep3bc3GDK4C8sS2iVD4pY/mw==
+"@eeacms/volto-eea-website-theme@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.6.0.tgz#7246d3c8acb961c860cde6cca71ca7f8a7e9f4b3"
+  integrity sha512-X+tXypTliuMk6eZCBXyBu/QlqY2XaA124Or+UGOV01OW9qR0+n6gWDe29kQrRVo/AX1HCKY/o71m0zfV/E8hKQ==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
