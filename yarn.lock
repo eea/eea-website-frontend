@@ -1361,10 +1361,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-description-block@0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-0.1.3.tgz#9e4b2c5acb4b9e726c982b07e14eeeb572bc94d2"
-  integrity sha512-MGjQlKcmF4Y+xKAQVIvxXWU1cJ9wA1mFBsql/mhbOQIZYnlcN7T3EEO5rkWwfMVE1q+52g8V8wIZQi5xtEkVag==
+"@eeacms/volto-description-block@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-0.2.0.tgz#db93595d432cef926034cd3cc2345d93697e4c1f"
+  integrity sha512-ATQX6s0rHnzXSxq2w+Jud+yee5ytzndE1kJ1DDnqmv63qKAo0cmtUFzeL688o6JZ30KZjfBfwozGOj54SyjYKw==
   dependencies:
     "@plone/scripts" "*"
     volto-slate "*"
