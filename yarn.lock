@@ -1455,11 +1455,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-3.0.3.tgz#1d12a769c3f0d9a1448f857e60be4dd6771a647b"
   integrity sha512-AZiWLwS4kXRN696BzJfSncfvbnHsnF11m7iCF+W38ROGIUau3fmiLV9KnXxgDJZg/AV/wI3AcdSXr2fnH3uOAA==
 
-"@eeacms/volto-quote-block@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-0.1.2.tgz#203eb8f9929963b1e4c4dc350bcaf8eabf994fb0"
-  integrity sha512-4gRhiqAncp/ZS7GwQkjFQehNOfANnmLTmqVLmcJj3OxxZs8AFLXyOtn3hUE+9R8ZBF74x+90jTI1lPdWtbwNOw==
+"@eeacms/volto-quote-block@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-0.2.0.tgz#abfd27b0fe08955b7ebe4aa8ff31004508999ea5"
+  integrity sha512-0457Y1C35JcF7eL00cUzliZMpIOL5117xuFy2WNwN8UGO9PLOWDTIJ+zAnZiaa9ueD3WpLq6wJSBnlbd+RbiHQ==
   dependencies:
+    "@eeacms/volto-object-widget" "*"
     "@plone/scripts" "*"
     volto-slate "*"
 
