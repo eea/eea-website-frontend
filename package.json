@@ -163,7 +163,7 @@
     "@eeacms/volto-quote-block": "0.1.2",
     "@eeacms/volto-slate-label": "0.2.2",
     "@eeacms/volto-statistic-block": "0.1.1",
-    "@eeacms/volto-tags-block": "0.2.1",
+    "@eeacms/volto-tags-block": "0.2.2",
     "@eeacms/volto-timeline-block": "0.2.1",
     "@plone/volto": "15.11.0"
   },
