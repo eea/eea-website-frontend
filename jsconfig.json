@@ -91,8 +91,8 @@
             "@eeacms/volto-eea-website-policy": [
                 "addons/volto-eea-website-policy/src"
             ],
-            "@eeacms/volto-blockquote": [
-                "addons/volto-blockquote/src"
+            "@eeacms/volto-quote-block": [
+                "addons/volto-quote-block/src"
             ],
             "@eeacms/volto-statistic-block": [
                 "addons/volto-statistic-block/src"
@@ -100,14 +100,14 @@
             "@eeacms/volto-timeline-block": [
                 "addons/volto-timeline-block/src"
             ],
-            "@eeacms/volto-progress-block": [
-                "addons/volto-progress-block/src"
-            ],
             "@eeacms/volto-slate-label": [
                 "addons/volto-slate-label/src"
             ],
             "@eeacms/volto-tags-block": [
                 "addons/volto-tags-block/src"
+            ],
+            "@eeacms/volto-description-block": [
+                "addons/volto-description-block/src"
             ]
         },
         "baseUrl": "src"
