@@ -309,7 +309,7 @@
     "https": "https://github.com/eea/eeacms-searchlib.git",
     "package": "@eeacms/search",
     "path": "src",
-    "branch": "reqs"
+    "branch": "develop"
   },
   "volto-datahub": {
     "develop": true,
