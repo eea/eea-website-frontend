@@ -97,9 +97,6 @@
             "@eeacms/volto-timeline-block": [
                 "addons/volto-timeline-block/src"
             ],
-            "@eeacms/volto-progress-block": [
-                "addons/volto-progress-block/src"
-            ],
             "@eeacms/volto-slate-label": [
                 "addons/volto-slate-label/src"
             ],

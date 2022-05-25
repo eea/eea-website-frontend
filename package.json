@@ -48,7 +48,6 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-quote-block",
-    "@eeacms/volto-progress-block",
     "@eeacms/volto-statistic-block",
     "@eeacms/volto-tags-block",
     "@eeacms/volto-timeline-block",
@@ -162,18 +161,18 @@
     "react-select": "4.3.1"
   },
   "dependencies": {
-    "@eeacms/volto-quote-block": "0.1.1",
-    "@eeacms/volto-description-block": "0.1.2",
-    "@eeacms/volto-eea-design-system": "0.3.0",
-    "@eeacms/volto-eea-kitkat": "5.4.0",
-    "@eeacms/volto-eea-website-policy": "0.2.1",
-    "@eeacms/volto-eea-website-theme": "0.5.3",
+    "@eeacms/volto-description-block": "0.3.0",
+    "@eeacms/volto-eea-design-system": "0.3.1",
+    "@eeacms/volto-eea-kitkat": "6.0.0",
+    "@eeacms/volto-eea-website-policy": "0.2.2",
+    "@eeacms/volto-eea-website-theme": "0.6.1",
     "@eeacms/volto-progress-block": "0.2.1",
+    "@eeacms/volto-quote-block": "0.1.1",
     "@eeacms/volto-slate-label": "0.2.2",
     "@eeacms/volto-statistic-block": "0.1.1",
-    "@eeacms/volto-tags-block": "0.2.0",
+    "@eeacms/volto-tags-block": "0.2.2",
     "@eeacms/volto-timeline-block": "0.2.1",
-    "@plone/volto": "15.7.0"
+    "@plone/volto": "15.11.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
