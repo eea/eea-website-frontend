@@ -112,9 +112,6 @@
             "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
             ],
-            "@eeacms/search-less": [
-                "addons/searchlib/packages/searchlib-less"
-            ],
             "@eeacms/search": [
                 "addons/eeacms-searchlib/src"
             ],

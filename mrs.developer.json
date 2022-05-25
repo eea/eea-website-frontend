@@ -303,22 +303,13 @@
     "branch": "develop",
     "path": "src"
   },
-  "searchlib": {
-    "develop": true,
-    "https": "https://github.com/eea/searchlib.git",
-    "url": "git@github.com:eea/searchlib.git",
-    "branch": "standalone-split",
-    "packages": {
-      "@eeacms/search-less": "packages/searchlib-less"
-    }
-  },
   "eeacms-searchlib": {
     "develop": true,
     "url": "git@github.com:eea/eeacms-searchlib.git",
     "https": "https://github.com/eea/eeacms-searchlib.git",
     "package": "@eeacms/search",
     "path": "src",
-    "branch": "develop"
+    "branch": "reqs"
   },
   "volto-datahub": {
     "develop": true,
