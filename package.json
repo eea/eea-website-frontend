@@ -158,6 +158,9 @@
   "engines": {
     "node": "^12 || ^14 || ^16"
   },
+  "resolutions": {
+    "react-select": "4.3.1"
+  },
   "dependencies": {
     "@eeacms/volto-quote-block": "0.1.1",
     "@eeacms/volto-description-block": "0.1.2",
