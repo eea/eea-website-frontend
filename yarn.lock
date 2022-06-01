@@ -1369,12 +1369,13 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.3.1.tgz#7267439a5e00ba81cb89bb1c9071523fa845c122"
-  integrity sha512-YhDBGx/PJrEMK/SnR4H7v2zUimkwcmXmt6L7AGh+AH2MBj8zvJqU0r163qtZosBvrwuKsSwfojePJB0k8ChM0A==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.4.0.tgz#d109a4e6c735325a562955055f5eb93ff799b6c5"
+  integrity sha512-OM/tu+/Zrvpnaz2QWyNt7Nc7W/EoiEOX5tWnx4TqZRNStMdRSBgRAV3PpVudSGD4UG89bdjt/o0pYz9fBJEvBw==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
+    react-slick "^0.28.1"
     remixicon "2.5.0"
 
 "@eeacms/volto-eea-kitkat@6.0.1":
@@ -16337,6 +16338,17 @@ react-slick@^0.24.0:
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.24.0.tgz#1a4e078a82de4e9458255d9ce26aa6f3b17b168b"
   integrity sha512-Pvo0B74ohumQdYOf0qP+pdQpj9iUbAav7+2qiF3uTc5XeQp/Y/cnIeDBM2tB3txthfSe05jKIqLMJTS6qVvt5g==
+  dependencies:
+    classnames "^2.2.5"
+    enquire.js "^2.1.6"
+    json2mq "^0.2.0"
+    lodash.debounce "^4.0.8"
+    resize-observer-polyfill "^1.5.0"
+
+react-slick@^0.28.1:
+  version "0.28.1"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.28.1.tgz#12c18d991b59432df9c3757ba540a227b3fb85b9"
+  integrity sha512-JwRQXoWGJRbUTE7eZI1rGIHaXX/4YuwX6gn7ulfvUZ4vFDVQAA25HcsHSYaUiRCduTr6rskyIuyPMpuG6bbluw==
   dependencies:
     classnames "^2.2.5"
     enquire.js "^2.1.6"
