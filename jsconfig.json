@@ -111,9 +111,6 @@
             ],
             "@eeacms/volto-call-to-action-block": [
                 "addons/volto-call-to-action-block/src"
-            ],
-            "@eeacms/volto-cards-block": [
-                "addons/volto-cards-block/src"
             ]
         },
         "baseUrl": "src"

@@ -294,13 +294,5 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
-  },
-  "volto-cards-block": {
-    "url": "git@github.com:eea/volto-cards-block.git",
-    "https": "https://github.com/eea/volto-cards-block.git",
-    "package": "@eeacms/volto-cards-block",
-    "branch": "develop",
-    "develop": true,
-    "path": "src"
   }
 }
