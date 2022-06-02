@@ -46,14 +46,14 @@
     "src/addons/*"
   ],
   "addons": [
-    "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-quote-block",
     "@eeacms/volto-statistic-block",
     "@eeacms/volto-tags-block",
     "@eeacms/volto-timeline-block",
-    "@eeacms/volto-slate-label",
     "@eeacms/volto-description-block",
     "@eeacms/volto-call-to-action-block",
+    "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-slate-label",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-eea-website-policy"
