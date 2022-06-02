@@ -286,5 +286,13 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-call-to-action-block": {
+    "url": "git@github.com:eea/volto-call-to-action-block.git",
+    "https": "https://github.com/eea/volto-call-to-action-block.git",
+    "package": "@eeacms/volto-call-to-action-block",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }
