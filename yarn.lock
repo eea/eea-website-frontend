@@ -1369,19 +1369,19 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.4.2.tgz#579bb8a3382cdc6d3e3c9baaf74d0d82ca0a279d"
-  integrity sha512-DBdbbZ7wTI0Ks/QI5TEQESZ7USwP7I2kKlzt1AwonvQNqbszaDa3ZXvqD0m/cGOzd5D30KE6OZLxWFLQinC/2w==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.4.3.tgz#4a2246e86d78dcd8deeef8597a31ab2fb8a60cb3"
+  integrity sha512-EO5kDR417acgU5jv9T5abfLQVimxnYZ3PJ4KQMCoWnMCDURIY2BzilLxiHR+iIOalRb+aT6ntMhDgYMxJ208CQ==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-slick "^0.28.1"
     remixicon "2.5.0"
 
-"@eeacms/volto-eea-kitkat@6.0.2":
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.0.2.tgz#b758bc6c0542fa6e0b6e978351d9b2d2260d8f28"
-  integrity sha512-lZSkYDr5bE4eyWetyAhCLmlGVd1rxhBcQDhc43g0M3aOz23tipS7AO3blkgFKe9EDLB6cHm8mCgkZ2Mzq1x7Yg==
+"@eeacms/volto-eea-kitkat@6.0.3":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.0.3.tgz#081c501df62c41aa917ae911e588519d20cbfbce"
+  integrity sha512-foF0n0eaP5JBWB10YdRoDBIQKDipfQ06CSIVh64XO5APqnjkkD7VXKJdwXqjG5mh7eloTrWuetfS37T9cIA++g==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.16"
     "@eeacms/volto-banner" "2.2.0"
@@ -1402,7 +1402,7 @@
     "@eeacms/volto-slate-footnote" "5.0.0"
     "@eeacms/volto-slate-metadata-mentions" "5.0.0"
     "@eeacms/volto-slate-zotero" "4.0.4"
-    "@eeacms/volto-tabs-block" "1.3.1"
+    "@eeacms/volto-tabs-block" "1.3.2"
     "@eeacms/volto-taxonomy" "2.0.5"
     "@eeacms/volto-widget-geolocation" "4.0.3"
     "@eeacms/volto-widget-temporal-coverage" "4.0.5"
@@ -1418,10 +1418,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-website-theme@0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.6.4.tgz#69b7dfced79c9efe2f38eaa8a8c59ec9f3d79cf6"
-  integrity sha512-SvFxnxMpTnxZJ9sXySKfHTR2Ed72mGkqhAMntaGKv9Vcte0sEX0h588zkLOH5ePN4eilLaDuXK/ykIc+lkP9WQ==
+"@eeacms/volto-eea-website-theme@0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.6.5.tgz#aba80e31d9861bd522cf4eab5f1f4981691abfcf"
+  integrity sha512-LhigutepK1/TOr5GIyDMX6ckmyNOs9A0InLikZyV1FQivXLa7ZUPKSOltbTVt94TOtPrcucnhNfYztbWJd1XvQ==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
@@ -1514,10 +1514,10 @@
   dependencies:
     "@plone/scripts" "*"
 
-"@eeacms/volto-tabs-block@1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.3.1.tgz#1335219b89deaa29c865880c73c7d657d6fcbba0"
-  integrity sha512-PX2HOjhOCGoPZApnbRoutdeYWfWmWx11+TiwBINu0xg1FLYviM0it+giw0OdqA0qtxjkajsjjJoX88UdmGwIKg==
+"@eeacms/volto-tabs-block@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-1.3.2.tgz#c6f7537eb40eda57d8c8609dcc88e20da5d30357"
+  integrity sha512-JfyqKw5+mwDKH86ecmWZbcgzLVmyotN635OXvRQ7Xvy1x7+OY9byg6Idw7Fogmd9APt+M6zqpAOii/+1WYWu9Q==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-slick "^0.24.0"
