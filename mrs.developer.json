@@ -180,7 +180,7 @@
     "https": "https://github.com/eea/volto-block-image-cards.git",
     "package": "@eeacms/volto-block-image-cards",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-banner": {
@@ -296,7 +296,7 @@
     "path": "src"
   },
   "eeacms-searchlib": {
-    "develop": true,
+    "develop": false,
     "url": "git@github.com:eea/eeacms-searchlib.git",
     "https": "https://github.com/eea/eeacms-searchlib.git",
     "package": "@eeacms/search",
