@@ -2203,11 +2203,6 @@
     react-speech-recognition "^3.8.2"
     semantic-ui-react "^2.0.3"
 
-"@eeacms/volto-call-to-action-block@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-0.2.2.tgz#a73d39d3d7b56c5ea4089b95ea4a1407a3e52740"
-  integrity sha512-1pG5aRoNhsBFDWKf7+TKEsNDWnfSA5GZfVGUo9lnoDp+OpPcZHrHpVut5Z4mY8nReAVlQYRBJNFD1kCsx4YpbQ==
-
 "@eeacms/volto-eea-design-system@0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.3.1.tgz#7267439a5e00ba81cb89bb1c9071523fa845c122"
