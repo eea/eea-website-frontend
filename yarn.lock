@@ -1507,10 +1507,10 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-statistic-block@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-statistic-block/-/volto-statistic-block-0.1.1.tgz#f27f104d241dd42ad125989bf2f8dfd59957a4be"
-  integrity sha512-czCdLGl8fls6r5t17whu884vp1YAmv/0hYATvAE6o9b96jCngKD3AGM5E6ld27fGfkDM/RyibKfEOpJ4qUvpqw==
+"@eeacms/volto-statistic-block@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-statistic-block/-/volto-statistic-block-0.1.2.tgz#f348c5ecdd9ad76960cb12b6191ecc683c410fa1"
+  integrity sha512-JtZneu49R7UMAnQrEo/a95Cx8qCRBl8BlkOU3MNORtDIzBekBgQDUJtHB697UcS1eqHNP1qCVeIPAhth+kNrKw==
   dependencies:
     "@plone/scripts" "*"
 
