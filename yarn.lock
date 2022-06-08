@@ -6228,12 +6228,12 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@2.2.6, classnames@2.x, classnames@^2.2.5, classnames@^2.2.6:
+classnames@2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
   integrity sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
 
-classnames@^2.3.1:
+classnames@2.x, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -19592,25 +19592,7 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-volto-slate@*:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-6.1.0.tgz#cc95494a84a7977c552aeda3ef41d9b126eb650d"
-  integrity sha512-le80edC/+4HRV043FrqpW8TmGuZrOZrorB8tz33F3FL1eKQyPHj4TDepv9lOvzxsO2qQy4tZNMfmNMnecOAd7Q==
-  dependencies:
-    "@eeacms/volto-object-widget" "*"
-    classnames "2.2.6"
-    image-extensions "1.1.0"
-    is-url "1.2.4"
-    jsdom "^16.6.0"
-    react-intersection-observer "^8.32.0"
-    react-visibility-sensor "5.1.1"
-    slate "^0.71.0"
-    slate-history "^0.66.0"
-    slate-hyperscript "^0.67.0"
-    slate-react "^0.71.0"
-    weak-key "^1.0.2"
-
-volto-slate@6.2.0:
+volto-slate@*, volto-slate@6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-6.2.0.tgz#eaca227b27c566a3980d064faf28a5e4c803a87b"
   integrity sha512-RRg9Ak/bCpoej0k4N5kRgp5kvsbBtpSo8QRRgMDUMBBe+8v80yyxHCUewAgBovNEV3RPHm5iObhlhRNXIVOthQ==
