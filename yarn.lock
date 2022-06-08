@@ -1523,10 +1523,10 @@
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-tags-block@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tags-block/-/volto-tags-block-0.2.2.tgz#2c4576eb8ac79315cbd5c90fce5c8653251b996e"
-  integrity sha512-oti7aK9YNgxgqVTfdgB0ZCIN8cFGW/RxEaPect/3ZsUMHzzP2E9wvSY6r1Vvt3m+LsqExVyNd+r6xYRopm3sfQ==
+"@eeacms/volto-tags-block@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tags-block/-/volto-tags-block-0.2.3.tgz#5c165e03789db2f3beb59bb4d1e8893e51055f41"
+  integrity sha512-5ZQ/uJy45tZv6z4sAEoHvaL34S4ri5OJZ0DZdvlCpxY5oXlSmrI7lPI8TAxn4wV8RreGFgVST9HpJv4+GsrziQ==
   dependencies:
     "@plone/scripts" "*"
 
