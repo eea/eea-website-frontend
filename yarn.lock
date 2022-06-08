@@ -1535,10 +1535,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-2.0.5.tgz#d016ef17021418d50bc7848865174074b1a063ea"
   integrity sha512-JfEpyRTHLyF8F2ZFD0BUH5wz/hE+wAWYKfalfXiO6WRV4kVrgEiuFSU5ive/i0i0wq1YdZGyaLpndmJJ7mmphg==
 
-"@eeacms/volto-timeline-block@0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-timeline-block/-/volto-timeline-block-0.2.1.tgz#80e8f4aa4afff5364ecb40411b2b57cb0467a5c2"
-  integrity sha512-Kwl+OCuGOepd6ngDD8Gcb0nY5NZ1EWhyjVdarDBLcKVdISPSbxwiihXlaf4X7+Y3LqRdoi4cQbJT/c/R/zhIHw==
+"@eeacms/volto-timeline-block@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-timeline-block/-/volto-timeline-block-0.2.2.tgz#f2799f66348753369cc373bdf0c0a7152751e7fd"
+  integrity sha512-d+e7+kBVqly7b1wkZfUQnuXAhGOtCg13gVwMwgQW7sgLhx74gJId5GT6ISdcMvO2wZUMWJEbRajRb9I7/qcS4A==
   dependencies:
     "@plone/scripts" "*"
 
