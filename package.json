@@ -52,6 +52,7 @@
     "@eeacms/volto-timeline-block",
     "@eeacms/volto-description-block",
     "@eeacms/volto-call-to-action-block",
+    "@eeacms/volto-hero-block",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-slate-label",
     "@eeacms/volto-eea-design-system",

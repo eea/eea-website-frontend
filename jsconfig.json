@@ -111,6 +111,9 @@
             ],
             "@eeacms/volto-call-to-action-block": [
                 "addons/volto-call-to-action-block/src"
+            ],
+            "@eeacms/volto-hero-block": [
+                "addons/volto-hero-block/src"
             ]
         },
         "baseUrl": "src"
