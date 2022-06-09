@@ -115,9 +115,6 @@
             "@eeacms/volto-globalsearch": [
                 "addons/volto-globalsearch/src"
             ],
-            "@eeacms/search": [
-                "addons/eeacms-searchlib/src"
-            ],
             "volto-slate": [
                 "addons/volto-slate/src"
             ]
