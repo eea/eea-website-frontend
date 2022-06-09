@@ -117,6 +117,12 @@
             ],
             "volto-slate": [
                 "addons/volto-slate/src"
+            ],
+            "@eeacms/search": [
+                "addons/eeacms-searchlib/src"
+            ],
+            "@eeacms/volto-datahub": [
+                "addons/volto-datahub/src"
             ]
         },
         "baseUrl": "src"
