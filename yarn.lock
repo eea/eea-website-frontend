@@ -1355,6 +1355,31 @@
     superagent "3.8.2"
     use-deep-compare-effect "1.8.1"
 
+"@eeacms/volto-block-style@3.5.18":
+  version "3.5.18"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-style/-/volto-block-style-3.5.18.tgz#c08508acd0dfae5a6ec9bff3a701b57400bcfe5d"
+  integrity sha512-c2qiltquVE/5smqs77UGsgXZcn0aACy2JiwEMEu8JI3t60KKsVB1p9cYaKqgtQuhd8nqe5G9p5n6+pRaadFDXw==
+  dependencies:
+    "@eeacms/volto-resize-helper" "*"
+    react-color "~2.18.1"
+
+"@eeacms/volto-eea-website-policy@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-policy/-/volto-eea-website-policy-0.2.2.tgz#9180ee02cef0b9887962f1995dd4a94142ff4adf"
+  integrity sha512-MnlhR0AUX7jrxfeU0Qy6AWPy3h6LyjRc/I7RhB414xZgJOLmTHGy5c8nxIeZI2Rjcl/4rF3ojic1OMt65k6eHA==
+  dependencies:
+    "@plone/scripts" "*"
+    volto-slate "*"
+
+"@eeacms/volto-quote-block@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-0.3.0.tgz#9f0832bf1c52130e650a28b277540690b3701788"
+  integrity sha512-D8bJrGI9l99KNMgoXcS7sWQ4mgbdkn9jPs5dCHKD1u8cdN4VpY0agXSABxQ+kVcWo3uDq90wu3cDWmHkiXAacw==
+  dependencies:
+    "@eeacms/volto-object-widget" "*"
+    "@plone/scripts" "*"
+    volto-slate "*"
+
 "@eeacms/volto-widget-geolocation@4.0.3":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.3.tgz#29bfd2346498628aca6e2f73d42d7214983aa667"
