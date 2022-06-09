@@ -1355,11 +1355,6 @@
     superagent "3.8.2"
     use-deep-compare-effect "1.8.1"
 
-"@eeacms/volto-call-to-action-block@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-0.2.2.tgz#a73d39d3d7b56c5ea4089b95ea4a1407a3e52740"
-  integrity sha512-1pG5aRoNhsBFDWKf7+TKEsNDWnfSA5GZfVGUo9lnoDp+OpPcZHrHpVut5Z4mY8nReAVlQYRBJNFD1kCsx4YpbQ==
-
 "@eeacms/volto-eea-design-system@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.3.1.tgz#7267439a5e00ba81cb89bb1c9071523fa845c122"
@@ -1367,6 +1362,14 @@
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     remixicon "2.5.0"
+
+"@eeacms/volto-widget-geolocation@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.3.tgz#29bfd2346498628aca6e2f73d42d7214983aa667"
+  integrity sha512-zNkwjOsjfI7kP5iaIqb78BT/ud462yuARpHEqOnkAbYYBaJkzjAp/KW+8utpyslbnLemYEEuG5e5mRJrwxcoiQ==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
+    i18n-iso-countries "6.2.1"
 
 "@elastic/react-search-ui-views@1.12.1", "@elastic/react-search-ui-views@^1.9.0":
   version "1.12.1"
