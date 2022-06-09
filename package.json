@@ -46,6 +46,7 @@
     "src/addons/*"
   ],
   "addons": [
+    "@kitconcept/volto-blocks-grid",
     "@eeacms/volto-quote-block",
     "@eeacms/volto-statistic-block",
     "@eeacms/volto-tags-block",
@@ -168,6 +169,7 @@
     "@eeacms/volto-statistic-block": "0.1.2",
     "@eeacms/volto-tags-block": "0.2.3",
     "@eeacms/volto-timeline-block": "0.2.2",
+    "@kitconcept/volto-blocks-grid": "3.0.1",
     "@plone/volto": "16.0.0-alpha.7"
   },
   "devDependencies": {

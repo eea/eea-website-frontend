@@ -2020,6 +2020,13 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@kitconcept/volto-blocks-grid@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-3.0.1.tgz#435d871eb428368c943b0c44e024edad06406f5d"
+  integrity sha512-CWZUq3Gmu9AJSAHI3oojBq0Xu/yHm/X3mdSnVM0wjTMSx2Oma7qYM0nosS/tmYm+57O97DbG9tyR14vjtBp4iw==
+  dependencies:
+    "@plone/scripts" "*"
+
 "@kwsites/file-exists@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@kwsites/file-exists/-/file-exists-1.1.1.tgz#ad1efcac13e1987d8dbaf235ef3be5b0d96faa99"
