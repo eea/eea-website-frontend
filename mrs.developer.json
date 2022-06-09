@@ -294,7 +294,7 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
-  }
+  },
   "volto-searchlib": {
     "develop": true,
     "url": "git@github.com:eea/volto-searchlib.git",
