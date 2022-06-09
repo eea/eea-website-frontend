@@ -180,7 +180,7 @@
     "https": "https://github.com/eea/volto-block-image-cards.git",
     "package": "@eeacms/volto-block-image-cards",
     "branch": "develop",
-    "develop": false,
+    "develop": true,
     "path": "src"
   },
   "volto-banner": {
@@ -287,6 +287,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-call-to-action-block": {
+    "url": "git@github.com:eea/volto-call-to-action-block.git",
+    "https": "https://github.com/eea/volto-call-to-action-block.git",
+    "package": "@eeacms/volto-call-to-action-block",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-searchlib": {
     "develop": true,
     "url": "git@github.com:eea/volto-searchlib.git",
@@ -296,7 +304,7 @@
     "path": "src"
   },
   "eeacms-searchlib": {
-    "develop": true,
+    "develop": false,
     "url": "git@github.com:eea/eeacms-searchlib.git",
     "https": "https://github.com/eea/eeacms-searchlib.git",
     "package": "@eeacms/search",
