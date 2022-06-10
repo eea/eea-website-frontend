@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -46,12 +46,14 @@
     "src/addons/*"
   ],
   "addons": [
+    "@kitconcept/volto-blocks-grid",
     "@eeacms/volto-quote-block",
     "@eeacms/volto-statistic-block",
     "@eeacms/volto-tags-block",
     "@eeacms/volto-timeline-block",
     "@eeacms/volto-description-block",
     "@eeacms/volto-call-to-action-block",
+    "@eeacms/volto-hero-block",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-slate-label",
     "@eeacms/volto-eea-design-system",
@@ -158,15 +160,17 @@
   "dependencies": {
     "@eeacms/volto-call-to-action-block": "0.2.2",
     "@eeacms/volto-description-block": "0.3.0",
-    "@eeacms/volto-eea-design-system": "0.4.5",
-    "@eeacms/volto-eea-kitkat": "6.0.4",
-    "@eeacms/volto-eea-website-policy": "0.2.2",
-    "@eeacms/volto-eea-website-theme": "0.6.6",
-    "@eeacms/volto-quote-block": "0.3.0",
+    "@eeacms/volto-eea-design-system": "0.5.0",
+    "@eeacms/volto-eea-kitkat": "6.1.0",
+    "@eeacms/volto-eea-website-policy": "0.2.3",
+    "@eeacms/volto-eea-website-theme": "0.6.7",
+    "@eeacms/volto-hero-block": "0.1.0",
+    "@eeacms/volto-quote-block": "0.3.1",
     "@eeacms/volto-slate-label": "0.2.2",
     "@eeacms/volto-statistic-block": "0.1.2",
     "@eeacms/volto-tags-block": "0.2.3",
     "@eeacms/volto-timeline-block": "0.2.2",
+    "@kitconcept/volto-blocks-grid": "3.0.1",
     "@plone/volto": "16.0.0-alpha.7"
   },
   "devDependencies": {
