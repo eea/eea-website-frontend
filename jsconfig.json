@@ -1,9 +1,6 @@
 {
     "compilerOptions": {
         "paths": {
-            "volto-slate": [
-                "addons/volto-slate/src"
-            ],
             "@eeacms/volto-matomo": [
                 "addons/volto-matomo/src"
             ],
@@ -117,6 +114,12 @@
             ],
             "@eeacms/volto-globalsearch": [
                 "addons/volto-globalsearch/src"
+            ],
+            "volto-slate": [
+                "addons/volto-slate/src"
+            ],
+            "@eeacms/volto-searchlib": [
+                "addons/volto-searchlib/src"
             ]
         },
         "baseUrl": "src"

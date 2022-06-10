@@ -1312,7 +1312,7 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/search@^0.2.10":
+"@eeacms/search@*":
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.10.tgz#e3888bc6a44785c6fad8d4bb9d3a08f15812f63b"
   integrity sha512-ve4s+j4/5hqHXRhVpijn3b4v1ANftyftQ6po/2r87Nnss2QfW+DWyC6h3cJm3QicUQ6djA21gPzmsexoKoRl5Q==
@@ -1386,6 +1386,16 @@
     "@eeacms/volto-object-widget" "*"
     "@plone/scripts" "*"
     volto-slate "*"
+
+"@eeacms/volto-tabs-block@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.0.tgz#d266812e3c84309d809ae8aa705fb6eb4d4df02f"
+  integrity sha512-PjZVfIRTUQvrGZ6c+kj1wslpdiQ63/fI/I0DwnJ1KC6gBCAMHvVNo7tbsrfu8VebqD/13X7Y3PP94V5BanUe7g==
+  dependencies:
+    "@eeacms/volto-block-style" "*"
+    react-responsive-tabs "4.4.3"
+    react-slick "^0.24.0"
+    slick-carousel "^1.8.1"
 
 "@eeacms/volto-widget-geolocation@4.0.3":
   version "4.0.3"
