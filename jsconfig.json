@@ -112,9 +112,6 @@
             "@eeacms/volto-call-to-action-block": [
                 "addons/volto-call-to-action-block/src"
             ],
-            "@eeacms/volto-searchlib": [
-                "addons/volto-searchlib/src"
-            ],
             "@eeacms/volto-datahub": [
                 "addons/volto-datahub/src"
             ],
