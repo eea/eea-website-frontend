@@ -1369,10 +1369,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.4.5":
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.4.5.tgz#b2b519d0db820d621b26124a0004ce895947e558"
-  integrity sha512-NeDsJob1bVpcEogbGYEJ2fJHr33x6g7jZqx4L8THb1L6jXI+Nt1CYiDViO5bYhHKY1khTggcSMS3u0ZMp9i6Ug==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.5.0.tgz#6b5c0ee5d815317dc34a1c8ac1872f18e76515f5"
+  integrity sha512-i91eYbJ2ak5ocAW2trOl7yVaCKXnr0wSiKddeKcZb+HzU4UzvTsaVRBiLGroHKBeO5zkyRYmuMFNqTp3fMdhPA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-slick "^0.28.1"
