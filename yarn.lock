@@ -1433,6 +1433,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.5.tgz#43e2413f9f03b9fa9c9541988ef4a351a410d338"
   integrity sha512-Takka/4kXVUCwpin7Gj8aNbWx1g7L35bTCM6AAUJIQYPgvNg2j04/S2jaZ+iWWOopasND5GaiBBQ4LqgF1U0zA==
 
+"@eeacms/volto-hero-block@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-0.1.0.tgz#e83ed6d67039cb4d2598df8417b418ae3c0f460c"
+  integrity sha512-j+Ade/uGd1SUdM/VS3qMshV4BbjdFO8QSPzwa+W3OWzsK/6RkxhQO7nToG4rb4PRmtzEKKxn/G9KBCG2WmjI/g==
+  dependencies:
+    "@plone/scripts" "*"
+
 "@eeacms/volto-listing-block@0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.3.2.tgz#115489e771ab7b80527cbfa5f63561cb502a5d50"
