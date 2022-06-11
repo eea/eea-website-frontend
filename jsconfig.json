@@ -120,6 +120,9 @@
             ],
             "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
+            ],
+            "@eeacms/volto-hero-block": [
+                "addons/volto-hero-block/src"
             ]
         },
         "baseUrl": "src"
