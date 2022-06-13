@@ -112,6 +112,15 @@
             "@eeacms/volto-call-to-action-block": [
                 "addons/volto-call-to-action-block/src"
             ],
+            "@eeacms/volto-searchlib": [
+                "addons/volto-searchlib/src"
+            ],
+            "@eeacms/volto-datahub": [
+                "addons/volto-datahub/src"
+            ],
+            "@eeacms/volto-globalsearch": [
+                "addons/volto-globalsearch/src"
+            ],
             "@eeacms/volto-hero-block": [
                 "addons/volto-hero-block/src"
             ]
