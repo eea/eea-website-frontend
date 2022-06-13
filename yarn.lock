@@ -1355,15 +1355,6 @@
     superagent "3.8.2"
     use-deep-compare-effect "1.8.1"
 
-"@eeacms/volto-eea-design-system@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.5.0.tgz#6b5c0ee5d815317dc34a1c8ac1872f18e76515f5"
-  integrity sha512-i91eYbJ2ak5ocAW2trOl7yVaCKXnr0wSiKddeKcZb+HzU4UzvTsaVRBiLGroHKBeO5zkyRYmuMFNqTp3fMdhPA==
-  dependencies:
-    "@eeacms/volto-corsproxy" "*"
-    react-slick "^0.28.1"
-    remixicon "2.5.0"
-
 "@eeacms/volto-eea-kitkat@6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.0.tgz#cfa41526a0cb1d7f2b99189c0c69b80d422de99a"
@@ -1396,43 +1387,12 @@
     "@eeacms/volto-widgets-view" "3.0.4"
     volto-slate "6.2.0"
 
-"@eeacms/volto-hero-block@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-0.1.0.tgz#e83ed6d67039cb4d2598df8417b418ae3c0f460c"
-  integrity sha512-j+Ade/uGd1SUdM/VS3qMshV4BbjdFO8QSPzwa+W3OWzsK/6RkxhQO7nToG4rb4PRmtzEKKxn/G9KBCG2WmjI/g==
+"@eeacms/volto-widget-dataprovenance@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-dataprovenance/-/volto-widget-dataprovenance-0.1.1.tgz#50c0f6bebca634b23165b1c54c0c0f6c69f4d24b"
+  integrity sha512-B0bostiTBaSEOUn9D3n1p2P5HnjVPypg2AVsweOndqyr+ldhE4+QPkFFdM93lEwKw9sggNGW9yvYrxBl/kSqyg==
   dependencies:
     "@plone/scripts" "*"
-
-"@eeacms/volto-listing-block@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.3.2.tgz#115489e771ab7b80527cbfa5f63561cb502a5d50"
-  integrity sha512-oHa33q3g1MV9dW9Ve2M0USAFxed/Nu+Y5iFSP+UpM5+LlIxk9xN6PRVpBI8s4BD/BrHAXB1OOOPFotW8t4qwgg==
-
-"@eeacms/volto-listing-block@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.4.0.tgz#f5cc3ec17e43c427e22363fb2daf6796e4137b0a"
-  integrity sha512-21L1KXZE06okU6miz1XAW+u+xUMJown+a0p2hFjRf7ixvAXqSol24N13khXChfE8VoHn+nZSk8C+FXRmwp2sBQ==
-  dependencies:
-    react-slick "0.29.0"
-    slick-carousel "1.8.1"
-
-"@eeacms/volto-tabs-block@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.0.tgz#d266812e3c84309d809ae8aa705fb6eb4d4df02f"
-  integrity sha512-PjZVfIRTUQvrGZ6c+kj1wslpdiQ63/fI/I0DwnJ1KC6gBCAMHvVNo7tbsrfu8VebqD/13X7Y3PP94V5BanUe7g==
-  dependencies:
-    "@eeacms/volto-block-style" "*"
-    react-responsive-tabs "4.4.3"
-    react-slick "^0.24.0"
-    slick-carousel "^1.8.1"
-
-"@eeacms/volto-widget-geolocation@4.0.3":
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-geolocation/-/volto-widget-geolocation-4.0.3.tgz#29bfd2346498628aca6e2f73d42d7214983aa667"
-  integrity sha512-zNkwjOsjfI7kP5iaIqb78BT/ud462yuARpHEqOnkAbYYBaJkzjAp/KW+8utpyslbnLemYEEuG5e5mRJrwxcoiQ==
-  dependencies:
-    "@eeacms/volto-corsproxy" "*"
-    i18n-iso-countries "6.2.1"
 
 "@elastic/react-search-ui-views@1.12.1", "@elastic/react-search-ui-views@^1.9.0":
   version "1.12.1"
