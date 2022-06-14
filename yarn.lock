@@ -1419,10 +1419,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.5.1.tgz#29ca115a79b44aa2ffe916e79ada84c14525a2cf"
-  integrity sha512-eCFdtsMcrm5QIADxa5n3e3GlNiuukMpxGM0Vb37VSubkZX7HPZefo8A+aZcvgW5DJIL/WmzQ7wYsGQGo8NKpXQ==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.5.2.tgz#a397296342d9a3f41eae7399b72604c3185c7d51"
+  integrity sha512-zEkXDprX0mHBbQcUK4v/dIXWzYfrghG6O8gfiZEF2Ms7aaGwdctJ6RwiB0dBajOjpdOTNwW2FCrY03C59K8Xhw==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-slick "^0.28.1"
@@ -1469,10 +1469,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-website-theme@0.6.8":
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.6.8.tgz#ba66ca66b408954a92b0b5c3ffc028a72a191e2b"
-  integrity sha512-kKm14RGOchCoI1lxwJlR3Lg/XRHfasj/zmllko0MC5LXc8E3Sr/DktIFi/JKK+6UPCVNlzu1a/V6P6H0O5++Bg==
+"@eeacms/volto-eea-website-theme@0.6.9":
+  version "0.6.9"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.6.9.tgz#2701fa4cb0bab4d3bed63744056ebcd3f531fa36"
+  integrity sha512-xFCbCdmtlvoULbqSg9vGM85xso/xlx9A9vXjkIcdVbf6E/vMtRdwoI5P1OBnY+FNOOSEFNy3Jx66nvw/tPU1gA==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
