@@ -1,43 +1,62 @@
-# Yeoman Volto App development
-
-### Defensive settings for make:
-#     https://tech.davis-hansson.com/p/make/
+##############################################################################
+# Run:
+#    make
+#    make start
+#
+# Go to:
+#
+#     http://localhost:3000
+#
+##############################################################################
+# SETUP MAKE
+#
+## Defensive settings for make: https://tech.davis-hansson.com/p/make/
 SHELL:=bash
 .ONESHELL:
-.SHELLFLAGS:=-xeu -o pipefail -O inherit_errexit -c
+# for Makefile debugging purposes add -x to the .SHELLFLAGS
+.SHELLFLAGS:=-eu -o pipefail -O inherit_errexit -c
 .SILENT:
 .DELETE_ON_ERROR:
 MAKEFLAGS+=--warn-undefined-variables
 MAKEFLAGS+=--no-builtin-rules
 
-# Project settings
+# Colors
+# OK=Green, warn=yellow, error=red
+ifeq ($(TERM),)
+# no colors if not in terminal
+	MARK_COLOR=
+	OK_COLOR=
+	WARN_COLOR=
+	ERROR_COLOR=
+	NO_COLOR=
+else
+	MARK_COLOR=`tput setaf 6`
+	OK_COLOR=`tput setaf 2`
+	WARN_COLOR=`tput setaf 3`
+	ERROR_COLOR=`tput setaf 1`
+	NO_COLOR=`tput sgr0`
+endif
 
-DIR=$(shell basename $$(pwd))
-
-# Recipe snippets for reuse
-
-# We like colors
-# From: https://coderwall.com/p/izxssa/colored-makefile-for-golang-projects
-RED=`tput setaf 1`
-GREEN=`tput setaf 2`
-RESET=`tput sgr0`
-YELLOW=`tput setaf 3`
+##############################################################################
 
 
 # Top-level targets
 .PHONY: all
-all: project
+all: develop install
 
-.PHONY: start-test-backend
-start-test-backend: ## Start Test Plone Backend
-	@echo "$(GREEN)==> Start Test Plone Backend$(RESET)"
-	docker run -i --rm -e ZSERVER_HOST=0.0.0.0 -e ZSERVER_PORT=55001 -p 55001:55001 -e VERSIONS="plone.restapi=8.17.0 plone.rest=2.0.0a1 plone.app.vocabularies=4.3.0" -e APPLY_PROFILES=plone.app.contenttypes:plone-content,plone.restapi:default,plone.volto:default-homepage -e CONFIGURE_PACKAGES=plone.app.contenttypes,plone.restapi,plone.volto,plone.volto.cors -e ADDONS='plone.app.robotframework plone.app.contenttypes plone.restapi plone.volto' plone ./bin/robot-server plone.app.robotframework.testing.PLONE_ROBOT_TESTING
+.PHONY: develop
+develop:	## Frontend: Checkout add-ons defined via mrs.developer.json to src/addons/
+	yarn develop
 
-.PHONY: start-backend-docker
-start-backend-docker:		## Starts a Docker-based backend
-	@echo "$(GREEN)==> Start Docker-based Plone Backend$(RESET)"
-	docker run -it --rm --name=plone -p 8080:8080 -e VERSIONS="plone.restapi=8.17.0 plone.rest=2.0.0a1 plone.app.vocabularies=4.3.0" -e SITE=Plone -e ADDONS="plone.volto" -e ZCML="plone.volto.cors" plone
+.PHONY: install
+install:	## Frontend: Install project and add-ons
+	yarn install
+
+.PHONY: start
+start:		## Frontend: Start
+	yarn start
 
 .PHONY: help
 help:		## Show this help.
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
+	head -n 10 Makefile
