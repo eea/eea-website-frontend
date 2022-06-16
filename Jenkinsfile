@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    RANCHER_STACKID = ""
-    RANCHER_ENVID = ""
+    RANCHER_STACKID = "1st2402"
+    RANCHER_ENVID = "1a140884"
     GIT_NAME = "eea-website-frontend"
     registry = "eeacms/eea-website-frontend"
     template = "templates/eea-website-frontend"

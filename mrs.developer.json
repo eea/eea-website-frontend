@@ -63,6 +63,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-widget-dataprovenance": {
+    "url": "git@github.com:eea/volto-widget-dataprovenance.git",
+    "https": "https://github.com/eea/volto-widget-dataprovenance.git",
+    "package": "@eeacms/volto-widget-dataprovenance",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-widget-temporal-coverage": {
     "url": "git@github.com:eea/volto-widget-temporal-coverage.git",
     "https": "https://github.com/eea/volto-widget-temporal-coverage.git",

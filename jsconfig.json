@@ -28,6 +28,9 @@
             "@eeacms/volto-widget-toggle": [
                 "addons/volto-widget-toggle/src"
             ],
+            "@eeacms/volto-widget-dataprovenance": [
+                "addons/volto-widget-dataprovenance/src"
+            ],
             "@eeacms/volto-widget-temporal-coverage": [
                 "addons/volto-widget-temporal-coverage/src"
             ],
