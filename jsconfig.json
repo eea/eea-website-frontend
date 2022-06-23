@@ -126,6 +126,9 @@
             ],
             "@eeacms/volto-hero-block": [
                 "addons/volto-hero-block/src"
+            ],
+            "@eeacms/volto-workflow-progress": [
+                "addons/volto-workflow-progress/src"
             ]
         },
         "baseUrl": "src"
