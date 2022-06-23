@@ -342,5 +342,12 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-workflow-progress": {
+    "url": "git@github.com:eea/volto-workflow-progress.git",
+    "https": "https://github.com/eea/volto-workflow-progress.git",
+    "package": "@eeacms/volto-workflow-progress",
+    "branch": "develop",
+    "path": "src"
   }
 }
