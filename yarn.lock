@@ -1499,10 +1499,10 @@
     "@eeacms/volto-object-widget" "*"
     volto-slate "*"
 
-"@eeacms/volto-listing-block@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.4.0.tgz#f5cc3ec17e43c427e22363fb2daf6796e4137b0a"
-  integrity sha512-21L1KXZE06okU6miz1XAW+u+xUMJown+a0p2hFjRf7ixvAXqSol24N13khXChfE8VoHn+nZSk8C+FXRmwp2sBQ==
+"@eeacms/volto-listing-block@0.4.0", "@eeacms/volto-listing-block@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.4.1.tgz#0a7ed7d82cbb751a094e84c2048275fd503317d0"
+  integrity sha512-SvVqpGfyppVlPJy2yEsu/C8EpiIhk3ySvZthWzWU+EQfA1otZHzMZ9oUT3UHyeu8OKy+vIYkqKieZ3QMFwJ8Gw==
   dependencies:
     react-slick "0.29.0"
     slick-carousel "1.8.1"

@@ -162,7 +162,8 @@
     "node": "^12 || ^14 || ^16"
   },
   "resolutions": {
-    "react-select": "4.3.1"
+    "react-select": "4.3.1",
+    "@eeacms/volto-listing-block": "0.4.1"
   },
   "dependencies": {
     "@eeacms/search": "0.2.13",
@@ -183,7 +184,8 @@
     "@eeacms/volto-timeline-block": "0.2.2",
     "@eeacms/volto-workflow-progress": "2.3.11",
     "@kitconcept/volto-blocks-grid": "3.1.0",
-    "@plone/volto": "16.0.0-alpha.7"
+    "@plone/volto": "16.0.0-alpha.7",
+    "@eeacms/volto-listing-block": "0.4.1"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
