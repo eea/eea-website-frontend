@@ -2132,10 +2132,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@kitconcept/volto-blocks-grid@3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-3.0.2.tgz#c23549eac1d195a5911181914c70e4dd4b4f7f8c"
-  integrity sha512-EW+c3Gu764Ay01Z6ZTXDRqzYkhrscdQA8V9TbTaTg0qIMDMTIrDDeONohzAX8Cb1hMk/cGV8y/6Nf2wc9tIy2Q==
+"@kitconcept/volto-blocks-grid@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-3.1.0.tgz#6808a8e9642f31624554045c0b3a265b31e9eed6"
+  integrity sha512-VSZ46t7A0U05tMAFE7/fTin1Bp5pogjyjzVUjAuiSALpjQhlSz2z8tihmDLTBMOvgShrcnbZTIHMiLBlRDKraA==
   dependencies:
     "@plone/scripts" "*"
 
