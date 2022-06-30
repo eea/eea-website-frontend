@@ -1383,10 +1383,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.0.tgz#e521ff18f7ca57033b77d70e23d7f3a77f674d2a"
   integrity sha512-57a8i6spgk/ZySRM9ukt7+XaWWrGs8fS4GyYGtctDj6BG5CjFx77ETBzM1mJWgsIkEeXS3ekB4HYzNRHFGjRJw==
 
-"@eeacms/volto-call-to-action-block@0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-0.2.3.tgz#6aaef48a0b1dd6a9b88973160014606446ee9f28"
-  integrity sha512-jMtF+1dI6Vmp5bL3z6TgmY/LmZUVUPQLOzgsmBfwnBhY+wA5ODmjNPiMfF2aSbOPdJrFr4rIDNQ4AUyeIgGl+g==
+"@eeacms/volto-call-to-action-block@0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-0.2.4.tgz#7d0e5c8616aa29f76e8a89a06589f26943055606"
+  integrity sha512-YzxwW9a4vgTWz2XxZBHTyrPJ1E99IIErqFt7EbiUi7cX6VGcy0jsPu0Xg/MK5hJxG3rJegOZcKuq6WJmDytWdw==
 
 "@eeacms/volto-columns-block@4.5.0":
   version "4.5.0"
