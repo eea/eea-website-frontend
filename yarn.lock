@@ -1297,10 +1297,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
-"@eeacms/search@*", "@eeacms/search@0.2.13":
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.13.tgz#b7a4d7b36b568d522fdbe399bfd3d2e41260c4ab"
-  integrity sha512-s93Cd4Rgc+vllckoGfs4RUBo1naBr1QlYjFFslnBoixhKUpXBQTaeQOnpUb4Kv5gVWpXBnFmPD9sMfI8iIBu/A==
+"@eeacms/search@*", "@eeacms/search@0.2.15":
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.15.tgz#41cc2572db0528c17e31ed5a5a148aa3e7249f9a"
+  integrity sha512-g3ZUE6mafo9oM6SzP8hExgQeUvZhlEbKMSMk8SMUL5cbRmq5SMWY87naFXIHoE9IQ9y3dQVNufZG1RLJw6YX2Q==
   dependencies:
     "@elastic/react-search-ui" "^1.9.0"
     "@elastic/react-search-ui-views" "^1.9.0"
@@ -1338,6 +1338,7 @@
     redux "4.1.0"
     semantic-ui-react "2.0.3"
     superagent "3.8.2"
+    svg-loader "0.0.2"
     use-deep-compare-effect "1.8.1"
 
 "@eeacms/volto-accordion-block@3.4.16":
