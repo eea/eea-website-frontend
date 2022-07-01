@@ -1421,12 +1421,13 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.6.0.tgz#0278f4b66c5d7382927b6ac026af0e4252c118bf"
-  integrity sha512-TXWIT5+TJ1rbGjRYZ/Hp9ol811aoUKu9ToTFOqm75EQJ27+SB9wDV4oz3RbVlkC/tNYMrru4EtTDjnc/Ga8rew==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.6.1.tgz#cc940aeb19fe81bf0a8ad9b73ed3171a4ac8d0a6"
+  integrity sha512-Oaf3SevSnD/y398eP1Po6ZOP6ox4Jv6xR1dDv6wiCkS6Jc84j6uQb/ELaCpZemyghtAjCyVqb7KjxUaWCxZdIA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
+    react-countup "^6.3.0"
     react-slick "^0.28.1"
     remixicon "2.5.0"
 
@@ -7054,6 +7055,11 @@ cosmiconfig@^7.0.0, cosmiconfig@^7.0.1:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.10.0"
+
+countup.js@^2.2.0:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/countup.js/-/countup.js-2.3.1.tgz#764b386136ac5d532cacb9134f4fc18d538c486a"
+  integrity sha512-kZ0OIYQo1Ni5VIyZD1BapS1yBaHGCeV/NfgKAunmKsm6EvU84Vs90LQNbeBWzejivJ13FXgq3m4OxOMCnb6aZA==
 
 coveralls@3.0.2:
   version "3.0.2"
@@ -16437,6 +16443,13 @@ react-cookie@4.1.1:
     "@types/hoist-non-react-statics" "^3.0.1"
     hoist-non-react-statics "^3.0.0"
     universal-cookie "^4.0.0"
+
+react-countup@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.3.0.tgz#9a345674d571f76c1046a0ded89fc86dbe52a2f0"
+  integrity sha512-uZsE+kuisXp/3OZeAuq2lzp6sXKmzw331Et5CRy4ueR9VcOp7z7T6/O1F04BC2Pa2frKmIITsghi3Hh933qWXQ==
+  dependencies:
+    countup.js "^2.2.0"
 
 react-dates@21.5.1:
   version "21.5.1"
