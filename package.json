@@ -175,7 +175,7 @@
     "@eeacms/volto-eea-website-policy": "0.2.6",
     "@eeacms/volto-eea-website-theme": "0.6.15",
     "@eeacms/volto-globalsearch": "0.1.4",
-    "@eeacms/volto-hero-block": "0.1.4",
+    "@eeacms/volto-hero-block": "0.2.0",
     "@eeacms/volto-listing-block": "0.4.3",
     "@eeacms/volto-quote-block": "0.3.2",
     "@eeacms/volto-searchlib": "0.3.8",

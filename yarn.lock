@@ -1494,10 +1494,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-4.3.6.tgz#545f2bce0be9770210b6f8eba3376fddb43af1b6"
   integrity sha512-A6VdwFppz2+v2ft7ZsAkXYJwxBLZ941xnR3Uz8JC6fouQd0IXTM5BQER69DTEm8cs/I7yc3gQMYte90HCXbIJQ==
 
-"@eeacms/volto-hero-block@0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-0.1.4.tgz#ec1ff8f0e310fcde04dd4ffa71e762ca5cddc21c"
-  integrity sha512-Eb5ppZYU96XJaYS3sL6JkNRm5ylUdXBgrBwwpNLgWqeW0Vx75zaGMcZYW3M/x2uwrOq/aDgjVHHZmkUMf5ru0A==
+"@eeacms/volto-hero-block@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-0.2.0.tgz#70d996dd72bf09ecbeac84be622ed249e9f5d7da"
+  integrity sha512-QK3OsWycu7wdlsetUmLUmpWJ52nIya/68AFPR77n0mauDOcLUOUXiB5iwflVjbxgXudVFnpiHCBeHZLeuSSqLQ==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     volto-slate "*"
