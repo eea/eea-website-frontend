@@ -185,9 +185,7 @@
     "@eeacms/volto-timeline-block": "0.2.3",
     "@eeacms/volto-workflow-progress": "2.3.12",
     "@kitconcept/volto-blocks-grid": "3.1.0",
-    "@plone/volto": "16.0.0-alpha.11",
-    "react-use-compare-debugger": "1.0.5",
-    "why-did-you-update": "1.0.8"
+    "@plone/volto": "16.0.0-alpha.11"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",

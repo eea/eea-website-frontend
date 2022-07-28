@@ -308,7 +308,7 @@
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
-    "branch": "dropdown-filters",
+    "branch": "develop",
     "path": "src"
   },
   "eeacms-searchlib": {
@@ -317,7 +317,7 @@
     "https": "https://github.com/eea/eeacms-searchlib.git",
     "package": "@eeacms/search",
     "path": "src",
-    "branch": "dropdown-filters"
+    "branch": "develop"
   },
   "volto-datahub": {
     "develop": true,
@@ -333,7 +333,7 @@
     "https": "https://github.com/eea/volto-globalsearch.git",
     "package": "@eeacms/volto-globalsearch",
     "path": "src",
-    "branch": "dropdown-filters"
+    "branch": "develop"
   },
   "volto-hero-block": {
     "url": "git@github.com:eea/volto-hero-block.git",
