@@ -312,7 +312,7 @@
     "path": "src"
   },
   "eeacms-searchlib": {
-    "develop": true,
+    "develop": false,
     "url": "git@github.com:eea/eeacms-searchlib.git",
     "https": "https://github.com/eea/eeacms-searchlib.git",
     "package": "@eeacms/search",
