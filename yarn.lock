@@ -1543,10 +1543,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.10.tgz#f58ecd866988444f3b0b855e30dde17431a25edf"
   integrity sha512-kbCIIzvDeqO5otAJfIgzJkJzkZFUudoG49/e320QxQzZQFrGF/jUUk54J1qgl5RJpgIcJFvchTZMFLKx5KUJ+A==
 
-"@eeacms/volto-searchlib@*", "@eeacms/volto-searchlib@0.3.9":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.3.9.tgz#d681118ad1b12542c294153e74af7c0f5087adec"
-  integrity sha512-6CZqypKoN7HlHRxYjIBF/UoDfrHioXS7AXcvIqi2siAxdBjovbYxnoYf6+gL/RiAD2QCA5mM6SDIzcYbsIqiWQ==
+"@eeacms/volto-searchlib@*", "@eeacms/volto-searchlib@0.3.10":
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.3.10.tgz#4e3eb6160306e63f4799c7a7ea8ec51ff309d4d4"
+  integrity sha512-qnhNu6fNpc07Dfkb48JIi1QT/EmO/vh3Ykj9yUL8tSiaBwtYmY809mquh9nn8ZCxlIi3E4eS5h5ZbaWFRHXYZA==
   dependencies:
     "@eeacms/search" "*"
     "@eeacms/volto-eea-design-system" "*"
