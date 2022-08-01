@@ -1529,10 +1529,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-4.0.2.tgz#7f92eb6998e74b4a60bb874d054334265b5178d6"
   integrity sha512-j4RdHxiobaRuLIaszl3S5ukED3VsWCmxl3pdUHG3Sib9L79XOBG6WPfCzNkNGaC0rfigkvAhp6ryuA/GLyAlTg==
 
-"@eeacms/volto-quote-block@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-0.3.2.tgz#303a12f0117f9896652239ca566cf8d9a7d633ef"
-  integrity sha512-gEkmluMFhazB7JMcO8X9WWOCIOc1vApd8cLbYKNCA2IE9N1GrM6Wyo4rKmIxfdsWx+e4BxYTaIx9IATzeyqoDA==
+"@eeacms/volto-quote-block@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-0.3.3.tgz#1e62384204ebae538867d35c15fae5adf1f44677"
+  integrity sha512-mvSkA0FmVUfOto82zY3dzmI42YhHszSzxyo3Ft+OZvoVaKyeJEXTBxH82wvGLimDeciFQDGuwCjMWTYZHc4jxg==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     "@plone/scripts" "*"
