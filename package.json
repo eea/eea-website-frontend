@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -166,7 +166,7 @@
     "@eeacms/volto-listing-block": "0.4.4"
   },
   "dependencies": {
-    "@eeacms/search": "0.2.17",
+    "@eeacms/search": "0.2.18",
     "@eeacms/volto-call-to-action-block": "0.2.4",
     "@eeacms/volto-datahub": "0.1.5",
     "@eeacms/volto-description-block": "0.3.1",
