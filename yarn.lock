@@ -1297,10 +1297,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
-"@eeacms/search@*", "@eeacms/search@0.2.18":
-  version "0.2.18"
-  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.18.tgz#0abf75b5f74838bc4e6e9c6a4e5eea8ef480c847"
-  integrity sha512-cYUbfNDYPerN+mEFc8/Eq0bpEweUbshxgp4prqHnsaFlKRg77ffdNhlBFiiEyGLO4LqKe11ISt9RquljLWGgVw==
+"@eeacms/search@*", "@eeacms/search@0.2.21":
+  version "0.2.21"
+  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.21.tgz#d198bac262d51298bc32f8282e5dbd6d259b0de1"
+  integrity sha512-1kxi7LE4FWH2p+R/+0lz0Iax/Ad5dUMe4W16BZLXqt/WNPI1Gzkws9qCZhW8itJuVVgE1vD2ZIWWJuSZv7fwng==
   dependencies:
     "@elastic/react-search-ui" "^1.9.0"
     "@elastic/react-search-ui-views" "^1.9.0"
@@ -1401,10 +1401,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datahub@0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.5.tgz#fef110e90ff36d6c36f8d5dc17bad45a0c71909e"
-  integrity sha512-VmfGOG899AWUNHT1o290sg2FNE/dUg4eODROiPja9HHhSLmR5KLFD8d6Pl4wHYzkt6Yz5jscADPv3Aet4Cd6TQ==
+"@eeacms/volto-datahub@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.6.tgz#2da469fe2d6f5a9072afd6e44551a24402852305"
+  integrity sha512-1EC+8ZZl0XzqEuIhexbVhRt19fxvhftXgMMCsnuLQtcvnZdg1HH1QjIOY75+l1nsehg6qujvqhkrVkLNRfLArw==
   dependencies:
     "@eeacms/volto-globalsearch" "*"
 
@@ -1421,10 +1421,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.7.1.tgz#bb12f463e1e6c927f1f9554be6222b5fcfe41654"
-  integrity sha512-GZdoErf2B0VWUXgviiICP7gOSZa4hjBIxQMAEQu5dYgKUKCEw1bAeYdylLd3YBioSMsblTaU7KokO1jz5FOVfw==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.7.3.tgz#40cf204cc56a7f2279ddefd76ac57e71d9ef0a3f"
+  integrity sha512-hSJTjoSYWZJ5tUX36+rYT6khPXkc/jS1R+Q6FB2/ZmntDFLtFUCVY95tOSrmQ6YI3xFq6jgTc4TkoqLpodkNHg==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-countup "^6.3.0"
@@ -1472,10 +1472,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-website-theme@0.6.16":
-  version "0.6.16"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.6.16.tgz#eb2cc3948be1d4ca27b495d48f9f199b4af2a43d"
-  integrity sha512-g7H43ke+k/zg6e9SD3cOXu5Njatzw+aphkWp9hS9LLPt/w5OZnYxgRxgJnBkrgQvf57JdXPUdMqMRpNKwlKWvA==
+"@eeacms/volto-eea-website-theme@0.6.18":
+  version "0.6.18"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.6.18.tgz#203b53c36b3cf44a4e5c3be10648c97a608e3691"
+  integrity sha512-bw9+NOT6odx/it6j9F7aagbhZ4X8zScS7zF5pnMxgY8N7zJNoddpgyaqEFf+D3+KPphYDlasIs1fhynGE3CPiw==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
@@ -1543,10 +1543,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.10.tgz#f58ecd866988444f3b0b855e30dde17431a25edf"
   integrity sha512-kbCIIzvDeqO5otAJfIgzJkJzkZFUudoG49/e320QxQzZQFrGF/jUUk54J1qgl5RJpgIcJFvchTZMFLKx5KUJ+A==
 
-"@eeacms/volto-searchlib@*", "@eeacms/volto-searchlib@0.3.10":
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.3.10.tgz#4e3eb6160306e63f4799c7a7ea8ec51ff309d4d4"
-  integrity sha512-qnhNu6fNpc07Dfkb48JIi1QT/EmO/vh3Ykj9yUL8tSiaBwtYmY809mquh9nn8ZCxlIi3E4eS5h5ZbaWFRHXYZA==
+"@eeacms/volto-searchlib@*", "@eeacms/volto-searchlib@0.3.11":
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.3.11.tgz#bfd84bf3b880b8617be39474338651fa316c2d41"
+  integrity sha512-CWxnQWOnOPa1dUlmvuUfmKEv2kkrU1uw8fiyP8qjurhEr7rJezsV/wfGvqG1OJlKKVYVXEuib/uXPFy9xAD4FQ==
   dependencies:
     "@eeacms/search" "*"
     "@eeacms/volto-eea-design-system" "*"
@@ -2412,10 +2412,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@16.0.0-alpha.14":
-  version "16.0.0-alpha.14"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.14.tgz#11f28de22f017d74a82be2f1bd4f1f241145f72f"
-  integrity sha512-rxf/4skmhhnYmA48Md5+0akLSuotUyKR4hfHkOJMeM6Vs7k0TMXkG/ii1Wp0QyROtaERXWjFeuxFVehq9p3pXg==
+"@plone/volto@16.0.0-alpha.12":
+  version "16.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.12.tgz#ab6bcedaa4183615e7ce36ee5003b0bc0660a218"
+  integrity sha512-hNhQtQJyt0tre9HxuK+/eKlm0QiZa9EvvR++N6kip8nSI14i+EzakCJBzAQ4KSd2HNRElE+dypGCbil2FWWc1g==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
