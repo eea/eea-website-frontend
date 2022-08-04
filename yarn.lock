@@ -2412,10 +2412,10 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@16.0.0-alpha.14":
-  version "16.0.0-alpha.14"
-  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.14.tgz#11f28de22f017d74a82be2f1bd4f1f241145f72f"
-  integrity sha512-rxf/4skmhhnYmA48Md5+0akLSuotUyKR4hfHkOJMeM6Vs7k0TMXkG/ii1Wp0QyROtaERXWjFeuxFVehq9p3pXg==
+"@plone/volto@16.0.0-alpha.11":
+  version "16.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@plone/volto/-/volto-16.0.0-alpha.11.tgz#82384afd898a4723dc0d299cc2d26ab629939536"
+  integrity sha512-b+4HSB4ntM2rsVMrNMW4+GcF3xCK6erfr0b7/fDqA5XR1xrYoyMxhsZNfuDoIpaqSjscmovgRdl0x6m6Sd2hcA==
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
