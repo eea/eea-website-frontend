@@ -1653,10 +1653,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-3.0.5.tgz#a6b3480c7c0350d5ac10ed1aadd69256ca1f747b"
   integrity sha512-2VgPsKP2oIP5o9gv54RyWSxlxOwVoQwCJmCpNWtLN2pPt0jIf5xzpUq4EOuEZFLWGKR0bBAQEYVkPenb3eDDZw==
 
-"@eeacms/volto-workflow-progress@2.3.13":
-  version "2.3.13"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-2.3.13.tgz#c540adfd9f8275f6423cd1f7614ce8bbc1027247"
-  integrity sha512-MldvJ39n9hHAAyi/fS5D5TMKw1/y/msMnlpfeU/Cht3aVUoJ6eIfAHk3HI9f/c7Ol9FTS9kPb4JY+AKBxZslBw==
+"@eeacms/volto-workflow-progress@2.3.14":
+  version "2.3.14"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-2.3.14.tgz#76b53243958d85ca867b55ad132548a06246d1c5"
+  integrity sha512-aL5bHjRKwboy6QC2PS87aSTcMBvWVrEFookCrcNsehiHESl+RgonlCCjV6OGK4Kj2qE1+Pq81D0utxmIvmu17w==
 
 "@elastic/react-search-ui-views@1.12.1", "@elastic/react-search-ui-views@^1.9.0":
   version "1.12.1"
