@@ -2,7 +2,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/eea-website-frontend?sort=semver)](https://github.com/eea/eea-website-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/eea-website-frontend/master&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/master/display/redirect)
 [![Pipeline develop](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Feea-website-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Feea-website-frontend%2F0.28.0&build=last&subject=release%20v0.28.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/0.28.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Feea-website-frontend%2F0.29.0&build=last&subject=release%20v0.29.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/0.29.0/lastBuild/display/redirect/)
 
 ## Documentation
 
