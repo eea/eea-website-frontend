@@ -1297,10 +1297,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
-"@eeacms/search@*", "@eeacms/search@0.2.21":
-  version "0.2.21"
-  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.21.tgz#d198bac262d51298bc32f8282e5dbd6d259b0de1"
-  integrity sha512-1kxi7LE4FWH2p+R/+0lz0Iax/Ad5dUMe4W16BZLXqt/WNPI1Gzkws9qCZhW8itJuVVgE1vD2ZIWWJuSZv7fwng==
+"@eeacms/search@*", "@eeacms/search@0.2.22":
+  version "0.2.22"
+  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.22.tgz#779f28a171e666e66beeda0c7762dd407ee362d7"
+  integrity sha512-VbL0W2VrO8twf02ELswGfNp5PELD/HOCIwWTIuxJBlvNGy5u/+ad7LwHZmF6BRY0qRdbH38LyaisUwnlTUxLCg==
   dependencies:
     "@elastic/react-search-ui" "^1.9.0"
     "@elastic/react-search-ui-views" "^1.9.0"
@@ -1401,10 +1401,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datahub@0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.7.tgz#1451515ec3be48eca83a849234c24f207f7a5dad"
-  integrity sha512-Ib8FNHgYyrKuVbObNt6UMTsl057lWijRpfOGYKIm31z7Mrvn7WuiM9tzRuw3txU5p+RNI4a/WihYJCNa9hx4iQ==
+"@eeacms/volto-datahub@0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.8.tgz#53979d178350db85ea5df4bbbe90cbd780abdf5f"
+  integrity sha512-cfUALkhXDDeKgNMMNvsL7plo1MHRQrAkfIJt4U9q6qoSwnf4CNr7yjZVVnr2781/F33TM761pfFdXLvKH59FUA==
   dependencies:
     "@eeacms/volto-globalsearch" "*"
 
@@ -1431,10 +1431,10 @@
     react-slick "^0.28.1"
     remixicon "2.5.0"
 
-"@eeacms/volto-eea-kitkat@7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.0.0.tgz#ed0e9ca2084b06582424e834c292799fa10455ad"
-  integrity sha512-LxVBY2Vc8DYWMAXBtMJ3rkTTuxuXCyPBU+BJwn9TAhZeTeRUzltoXnjIH/D+FlsBx35uIicUUOIqmbUUGH6SfQ==
+"@eeacms/volto-eea-kitkat@7.1.0":
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.0.tgz#d2d8be9a968b6b67716ed895ff7d191116b26d61"
+  integrity sha512-T6O/MCDYnEwo+NyOhdhIn8CCOtyQC2KSFO5I4OepmSYLM8W79/l/O77eRdMeD4EoxmBPzt4I81IfNcqmcx05Eg==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
