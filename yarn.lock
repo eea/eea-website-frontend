@@ -1472,10 +1472,10 @@
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-website-theme@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.7.0.tgz#4ff13d52a76ac9ca875c15b30f3e5265fbb7c1a9"
-  integrity sha512-3lKFjeqj29OCOnSnu2opHmEIw99WvWCph37QwQSLYK+swLE8gtu9ELQxJBtLbUrVurvn+lmgLSFP3EMu5w2+Tg==
+"@eeacms/volto-eea-website-theme@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.7.1.tgz#dfd8441bc20dcb97d1c5f7a85a1d1b220fb8d8ad"
+  integrity sha512-dhb1rBX10lTp0LYnf72HybZr7nSG4Xzxc5YAybbTwrkBtXUXo511IiSSdKmvpzeNytuvSduHWUu9F5rwk8WhiQ==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
