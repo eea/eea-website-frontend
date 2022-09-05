@@ -1431,10 +1431,10 @@
     react-slick "^0.28.1"
     remixicon "2.5.0"
 
-"@eeacms/volto-eea-kitkat@7.1.0":
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.0.tgz#d2d8be9a968b6b67716ed895ff7d191116b26d61"
-  integrity sha512-T6O/MCDYnEwo+NyOhdhIn8CCOtyQC2KSFO5I4OepmSYLM8W79/l/O77eRdMeD4EoxmBPzt4I81IfNcqmcx05Eg==
+"@eeacms/volto-eea-kitkat@7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.1.tgz#0fff5107bb51163272dca79935369fecac4d062e"
+  integrity sha512-/5ix7qy08fMaTjzdHgqHVXYcS8viVhAVuwiBDo56UvA4dfa/cUm5dU9kiA4fX/h/GLk0GWDUz+z74rYxP2U3+g==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
@@ -1464,18 +1464,18 @@
     "@eeacms/volto-widgets-view" "3.0.5"
     volto-slate "6.3.0"
 
-"@eeacms/volto-eea-website-policy@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-policy/-/volto-eea-website-policy-0.3.2.tgz#69fb429f11a1d5d293f433257c5ad46486fb5a6c"
-  integrity sha512-AcVuLOeaPFG2GDHlgueE+WV67uJJ1eSMQJ1Qyc+Damlg15ARggVMcrBzlYTC1bzxQE37X6TV8tP8UNj/r0kGuQ==
+"@eeacms/volto-eea-website-policy@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-policy/-/volto-eea-website-policy-0.3.3.tgz#56a99d1f5daf4f32841755dedf5f96c10508d3b9"
+  integrity sha512-Hb7varIWzCIRFuCNtns7VkI3t129N6S7NadA9u73nbUzgV/w8QJ2ApeHxQ0B2f8cVy1STwBMg4fp1ErbWED5MA==
   dependencies:
     "@plone/scripts" "*"
     volto-slate "*"
 
-"@eeacms/volto-eea-website-theme@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.7.0.tgz#4ff13d52a76ac9ca875c15b30f3e5265fbb7c1a9"
-  integrity sha512-3lKFjeqj29OCOnSnu2opHmEIw99WvWCph37QwQSLYK+swLE8gtu9ELQxJBtLbUrVurvn+lmgLSFP3EMu5w2+Tg==
+"@eeacms/volto-eea-website-theme@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-0.7.1.tgz#dfd8441bc20dcb97d1c5f7a85a1d1b220fb8d8ad"
+  integrity sha512-dhb1rBX10lTp0LYnf72HybZr7nSG4Xzxc5YAybbTwrkBtXUXo511IiSSdKmvpzeNytuvSduHWUu9F5rwk8WhiQ==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@plone/scripts" "*"
