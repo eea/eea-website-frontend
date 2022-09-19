@@ -171,7 +171,7 @@
     "@eeacms/volto-datahub": "0.1.9",
     "@eeacms/volto-description-block": "0.3.1",
     "@eeacms/volto-eea-design-system": "0.9.0",
-    "@eeacms/volto-eea-kitkat": "7.1.4",
+    "@eeacms/volto-eea-kitkat": "8.0.0",
     "@eeacms/volto-eea-website-policy": "0.4.0",
     "@eeacms/volto-eea-website-theme": "0.7.2",
     "@eeacms/volto-globalsearch": "0.1.5",

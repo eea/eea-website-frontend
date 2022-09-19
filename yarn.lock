@@ -1431,10 +1431,10 @@
     react-slick "^0.28.1"
     remixicon "2.5.0"
 
-"@eeacms/volto-eea-kitkat@7.1.4":
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.4.tgz#039c28039085431d163976cc0b32e462fb23ad8e"
-  integrity sha512-zLkdg/OC+SBTzbGmLMWfNXDMnJm1bzw7afid/Fbt7olfHsjujVgSHzQHDui0Yzh2h+xip/1kRyC+vXqdojDAyA==
+"@eeacms/volto-eea-kitkat@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-8.0.0.tgz#49d43b5c64a9f15ff05344554ee4aeeef17b6f2d"
+  integrity sha512-pHn5PwKUOpfNZ8YnUhvVRpd8pYMBQs49yqynH5gHoNingiz1xB64tNAPtIasBeVVxJtstnRh10i+zOb3VSIXYQ==
   dependencies:
     "@eeacms/volto-accordion-block" "3.5.0"
     "@eeacms/volto-banner" "2.2.1"
@@ -1446,7 +1446,7 @@
     "@eeacms/volto-corsproxy" "2.1.6"
     "@eeacms/volto-depiction" "0.1.6"
     "@eeacms/volto-group-block" "4.3.8"
-    "@eeacms/volto-listing-block" "0.4.4"
+    "@eeacms/volto-listing-block" "0.5.0"
     "@eeacms/volto-matomo" "2.0.9"
     "@eeacms/volto-metadata-block" "4.0.8"
     "@eeacms/volto-object-widget" "4.0.2"
@@ -1502,7 +1502,7 @@
     "@eeacms/volto-object-widget" "*"
     volto-slate "*"
 
-"@eeacms/volto-listing-block@0.4.4", "@eeacms/volto-listing-block@0.5.0":
+"@eeacms/volto-listing-block@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.5.0.tgz#0acd1a2c51597e9683b4cc3091fab247482cd434"
   integrity sha512-Xgg6veTp/J5ll0tuEfILVvTRkfuL8k71YWBnsRkO6llkLg9ILriYR2D4oYdDdO1pITx7W3FxK3oAlnrl9hqn2Q==
