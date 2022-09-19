@@ -1587,12 +1587,14 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-statistic-block@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-statistic-block/-/volto-statistic-block-0.2.0.tgz#1b4fd72905c5c3b3ad83dd0a2468d5ef109960dc"
-  integrity sha512-5vUi/gcBGAUKKSlsPKY1hZ8QCQe34GI6Ws1EIIJ6m/KmCYSnsOdDERCo05VCFOFgh+uHQS5HJauhZZneAVAb7w==
+"@eeacms/volto-statistic-block@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-statistic-block/-/volto-statistic-block-0.3.0.tgz#9ceee8e845d8c20164e4525c2e1a2a930a8bb020"
+  integrity sha512-8ILiEuIr1D2myt/Sz9YZ7Gwxu2h1rMBqUL2LZqi6g9c9T9yTwJIo5NfoYOm5XFiUCnA+gS8QVw/NJZSU1ElyOA==
   dependencies:
     "@plone/scripts" "*"
+    react-countup "6.3.1"
+    react-visibility-sensor "5.1.1"
     volto-slate "*"
 
 "@eeacms/volto-tabs-block@2.2.0":
@@ -16445,10 +16447,10 @@ react-cookie@4.1.1:
     hoist-non-react-statics "^3.0.0"
     universal-cookie "^4.0.0"
 
-react-countup@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.3.0.tgz#9a345674d571f76c1046a0ded89fc86dbe52a2f0"
-  integrity sha512-uZsE+kuisXp/3OZeAuq2lzp6sXKmzw331Et5CRy4ueR9VcOp7z7T6/O1F04BC2Pa2frKmIITsghi3Hh933qWXQ==
+react-countup@6.3.1, react-countup@^6.3.0:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.3.1.tgz#ae4e8d33a7ed86c2cfc27e20b1fe76704f61d9fb"
+  integrity sha512-+Bf1caAZHtmVQ5Jmhe2MZuN1cw1CEP5OdeMph9CBwM5K8DEDGmg00AzcN6fO9XolUhqUfiR0pOEiSyngSrHwig==
   dependencies:
     countup.js "^2.2.0"
 
