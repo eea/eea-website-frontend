@@ -1,4 +1,6 @@
 cypress
+build
+eea-website-backend
 locales/*.json
 node_modules
 omelette
@@ -8,5 +10,6 @@ Dockerfile
 Jenkinsfile
 src/addons
 .git
+.storybook
 .env
 *.log
