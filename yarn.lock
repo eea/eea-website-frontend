@@ -1401,12 +1401,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datahub@0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.9.tgz#652da8a16f8b2f3721b994aa928fb9e09a578525"
-  integrity sha512-xnvw5ZrbCK3i6QClQnSCRmix2voN+DZeutT4DFH3CktpHsgjGCDjKPhWZCVitWCGCxkbkN5n6q1Sz4pF/9oc4A==
+"@eeacms/volto-datahub@0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.10.tgz#5d293b810c042ee97bff6110ac666ffbb8183bbc"
+  integrity sha512-glnCqT3wpoGHr5+kVjuDxwPnvDNxJ93JWhdFdjI5IYS7hJLLEXKW/yz2xCQupIxe2d8vF57FXUk/wbNt/HxleA==
   dependencies:
     "@eeacms/volto-globalsearch" "*"
+    "@eeacms/volto-listing-block" "*"
 
 "@eeacms/volto-depiction@0.1.6":
   version "0.1.6"
@@ -1502,7 +1503,7 @@
     "@eeacms/volto-object-widget" "*"
     volto-slate "*"
 
-"@eeacms/volto-listing-block@0.5.0":
+"@eeacms/volto-listing-block@*", "@eeacms/volto-listing-block@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-0.5.0.tgz#0acd1a2c51597e9683b4cc3091fab247482cd434"
   integrity sha512-Xgg6veTp/J5ll0tuEfILVvTRkfuL8k71YWBnsRkO6llkLg9ILriYR2D4oYdDdO1pITx7W3FxK3oAlnrl9hqn2Q==
