@@ -1483,10 +1483,10 @@
     slate "^0.71.0"
     slate-react "^0.71.0"
 
-"@eeacms/volto-globalsearch@*", "@eeacms/volto-globalsearch@0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-globalsearch/-/volto-globalsearch-0.1.6.tgz#1ce73e2e1880b2456ebcc79b250b7eb519c4d059"
-  integrity sha512-8x4q6MYf3M1zYB3WUYj/zMncReph/cqS/95pr2yCg6cyo870DSqdz4IpIlxTvBC0GxcYgNxcJbd/u4S23nstDQ==
+"@eeacms/volto-globalsearch@*", "@eeacms/volto-globalsearch@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-globalsearch/-/volto-globalsearch-0.1.7.tgz#5f8967c231f5908f20ba49d1c4b15d78273ce0db"
+  integrity sha512-BU1ckEO3dKbGvlw3LaylCB4pQf3MEvSzxaUpW9JVh4e5P/cWXkC+U/MbWrGGLqFwAImurow1TOF5Ka/kTAJXpw==
   dependencies:
     "@eeacms/volto-listing-block" "*"
     "@eeacms/volto-searchlib" "*"
