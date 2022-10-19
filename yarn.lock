@@ -1297,10 +1297,10 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.6.tgz#d5e0706cf8c6acd8c6032f8d54070af261bbbb2f"
   integrity sha512-ws57AidsDvREKrZKYffXddNkyaF14iHNHm8VQnZH6t99E8gczjNN0GpvcGny0imC80yQ0tHz1xVUKk/KFQSUyA==
 
-"@eeacms/search@*", "@eeacms/search@0.2.28":
-  version "0.2.28"
-  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.28.tgz#5e74e7ac881f01e16cc9c26dca6c6ac90cb9daf4"
-  integrity sha512-d8ps/mSECtBZlUOxNNvY0MSjNTCfgNwMG5JS9sgNRGuGLA5H91zoGKqKNaI+kMhqSeOvUXj6uKYq7t222gGDvA==
+"@eeacms/search@*", "@eeacms/search@0.2.30":
+  version "0.2.30"
+  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.30.tgz#c419adeb12da8431dd6a61d5d28e7492cecc4509"
+  integrity sha512-BlGMO1ZjB/IPaQamQ1tBezyAI6cnaz6lMbNy0YuaoavB2h9xR+XBBgIrrs715pM0VWN7xiusGPAC0ZIqGpkbgw==
   dependencies:
     "@elastic/react-search-ui" "^1.9.0"
     "@elastic/react-search-ui-views" "^1.9.0"
