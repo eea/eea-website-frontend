@@ -1401,10 +1401,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datahub@0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.11.tgz#4ad7b5f59b71d7866dcd8e7b4cdd7101ddd02780"
-  integrity sha512-mYlIXO4W20l+AMj3sTSjAYw4xsuHEnL3lp2uZQ8D+3+vp+LP3Nb7fS8MoV2LDI/thDXK/8qQRiteCTp7UUbnlA==
+"@eeacms/volto-datahub@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-0.1.12.tgz#51d67733603c66b5dccfe8952fb04b1c0afc508c"
+  integrity sha512-BvXZQzpI4lIjh3Es/DX+erC0qcfsAc3ulxoCqBr0rabKWexUKT/9wXVc6tm8PBSo9omer5DPqpYOX7Zs+XpB5Q==
   dependencies:
     "@eeacms/volto-globalsearch" "*"
     "@eeacms/volto-listing-block" "*"
