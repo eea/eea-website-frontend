@@ -1601,10 +1601,10 @@
     react-visibility-sensor "5.1.1"
     volto-slate "*"
 
-"@eeacms/volto-tabs-block@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.2.0.tgz#b5ac9fc636bd8696b3bb502315e7778884d267ab"
-  integrity sha512-JsdoyjTYYzSh2cAGLE86FJueS6vSA3huSuSyutSWn6/b4hG801blujisYXPOVOPdBSQFbzpXhARzNN+IR8ySjg==
+"@eeacms/volto-tabs-block@2.2.0", "@eeacms/volto-tabs-block@2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.2.1.tgz#f75874a1fa464c4d96d78a766a02d9cb20343b54"
+  integrity sha512-AB0O4UBtcvHT8lZ1syB8yKVR9Glg6UZJn8LHxs6HqpT5O0uMLYPHvmjQlkMC6pmE5AvfseKzkWqbWT64G3sWRA==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-responsive-tabs "4.4.3"
