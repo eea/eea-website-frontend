@@ -1567,10 +1567,10 @@
   dependencies:
     volto-slate "*"
 
-"@eeacms/volto-slate-label@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-label/-/volto-slate-label-0.4.0.tgz#d52967462ff96422cc5d19c8b5f7cf39b59884c4"
-  integrity sha512-X9JqHmyMO41MQYZppEbwvwcxHNSqa3Cffk+GcvASx4dlnbSp0cq8yTL8Ruce1tnbeq9Bzu7FBPzVea2ZmZhnnQ==
+"@eeacms/volto-slate-label@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-label/-/volto-slate-label-0.4.1.tgz#ecea76d90b520d3fa2a818044c865a2cd530d09a"
+  integrity sha512-HllhsIAmrDC0Nha2FNOq8gVHQpqHLY+p9EZU+V9QDmO2P8scjAlHRkWzcj97du5wWb8rTNhXEHagGZO6BbeswQ==
 
 "@eeacms/volto-slate-metadata-mentions@5.0.1":
   version "5.0.1"
