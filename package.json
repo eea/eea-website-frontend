@@ -18,7 +18,7 @@
     "stylelint": "stylelint 'theme/**/*.{css,less}' 'src/**/*.{css,less}'",
     "stylelint:overrides": "stylelint 'theme/**/*.overrides' 'src/**/*.overrides'",
     "stylelint:fix": "yarn stylelint --fix && yarn stylelint:overrides --fix",
-    "test": "razzle test --env=jest-environment-jsdom-sixteen --passWithNoTests",
+    "test": "razzle test --env=jsdom --passWithNoTests",
     "cypress:run": "NODE_ENV=test cypress run",
     "cypress:open": "NODE_ENV=test cypress open",
     "cypress:start-frontend": "RAZZLE_API_PATH=http://localhost:55001/plone yarn start",
@@ -162,9 +162,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "resolutions": {
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.1",
-    "@eeacms/volto-tabs-block": "2.2.1",
-    "react-select": "4.3.1"
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.1"
   },
   "dependencies": {
     "@eeacms/search": "0.2.30",

@@ -87,14 +87,6 @@
     "develop": true,
     "path": "src"
   },
-  "volto-slate": {
-    "url": "git@github.com:eea/volto-slate.git",
-    "https": "https://github.com/eea/volto-slate.git",
-    "package": "volto-slate",
-    "branch": "develop",
-    "develop": true,
-    "path": "src"
-  },
   "volto-slate-metadata-mentions": {
     "url": "git@github.com:eea/volto-slate-metadata-mentions.git",
     "https": "https://github.com/eea/volto-slate-metadata-mentions.git",
