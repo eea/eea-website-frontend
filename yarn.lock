@@ -1886,12 +1886,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@kitconcept/volto-blocks-grid@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-3.1.0.tgz#6808a8e9642f31624554045c0b3a265b31e9eed6"
-  integrity sha512-VSZ46t7A0U05tMAFE7/fTin1Bp5pogjyjzVUjAuiSALpjQhlSz2z8tihmDLTBMOvgShrcnbZTIHMiLBlRDKraA==
-  dependencies:
-    "@plone/scripts" "*"
+"@kitconcept/volto-blocks-grid@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@kitconcept/volto-blocks-grid/-/volto-blocks-grid-5.1.1.tgz#bc2f31a8fa5691f7204066d3e74862369f5fcd88"
+  integrity sha512-f8yyyq/b5JZ4FY7Rv4D2Nzu0F2axT/AfUb4VmNp3UpGUEaPXtSeSFCFArI2mRU9BsJCSwuqsB7K36EbAoSc8jw==
 
 "@kwsites/file-exists@^1.1.1":
   version "1.1.1"
