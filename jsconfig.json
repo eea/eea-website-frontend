@@ -46,9 +46,6 @@
             "@eeacms/volto-accordion-block": [
                 "addons/volto-accordion-block/src"
             ],
-            "@eeacms/volto-block-toc": [
-                "addons/volto-block-toc/src"
-            ],
             "@eeacms/volto-block-divider": [
                 "addons/volto-block-divider/src"
             ],

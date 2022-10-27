@@ -119,14 +119,6 @@
     "develop": true,
     "path": "src"
   },
-  "volto-block-toc": {
-    "url": "git@github.com:eea/volto-block-toc.git",
-    "https": "https://github.com/eea/volto-block-toc.git",
-    "package": "@eeacms/volto-block-toc",
-    "branch": "develop",
-    "develop": true,
-    "path": "src"
-  },
   "volto-block-divider": {
     "url": "git@github.com:eea/volto-block-divider.git",
     "https": "https://github.com/eea/volto-block-divider.git",
