@@ -179,7 +179,6 @@
     "@eeacms/volto-searchlib": "0.3.19",
     "@eeacms/volto-slate-label": "0.4.3",
     "@eeacms/volto-statistic-block": "0.3.0",
-    "@eeacms/volto-tabs-block": "2.2.1",
     "@eeacms/volto-tags-block": "0.2.4",
     "@eeacms/volto-timeline-block": "0.2.3",
     "@eeacms/volto-workflow-progress": "2.3.14",
