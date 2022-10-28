@@ -1460,14 +1460,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-4.0.2.tgz#7f92eb6998e74b4a60bb874d054334265b5178d6"
   integrity sha512-j4RdHxiobaRuLIaszl3S5ukED3VsWCmxl3pdUHG3Sib9L79XOBG6WPfCzNkNGaC0rfigkvAhp6ryuA/GLyAlTg==
 
-"@eeacms/volto-quote-block@0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-0.3.3.tgz#1e62384204ebae538867d35c15fae5adf1f44677"
-  integrity sha512-mvSkA0FmVUfOto82zY3dzmI42YhHszSzxyo3Ft+OZvoVaKyeJEXTBxH82wvGLimDeciFQDGuwCjMWTYZHc4jxg==
+"@eeacms/volto-quote-block@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-1.0.0.tgz#95e41e40773bf477a1ab6a2eb59a6b3769d515e3"
+  integrity sha512-+oKlgzT1OieRDXp6TjzNDP5H93nE15n85oveSxPQVrCnTDsMN8vt9dmVrgUXnVL3mq8tq8KnwPg2bTb6DTbEpQ==
   dependencies:
     "@eeacms/volto-object-widget" "*"
-    "@plone/scripts" "*"
-    volto-slate "*"
 
 "@eeacms/volto-resize-helper@*":
   version "1.0.0"
