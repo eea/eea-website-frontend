@@ -1335,10 +1335,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-description-block/-/volto-description-block-1.0.0.tgz#0ec5c614b563bae9daf628a825130e2c5e476b2d"
   integrity sha512-JnQVKlybDPE2ldVux5BgEXn5GjkXDAGJmvdzXBQylaT6FyCTfaaXImLvMM7Z3H42OmWBg4e6hbvdw9NuKj09FA==
 
-"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.0.0-alpha.1":
-  version "1.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.1.tgz#b414d208d78afb00b69284bff8dfffcc41b17f38"
-  integrity sha512-ta1272dmjnAv1uStMzPmkYOkxWGCrDvsNihi+D/bEGmb98LvznqJvhjs8VDN5D9rdO8R0/4Oy1F8/Rj3LjUG5A==
+"@eeacms/volto-eea-design-system@*", "@eeacms/volto-eea-design-system@1.0.0-alpha.2":
+  version "1.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.2.tgz#9fb5e278e315abf51f3e567a12ee8fec6fd9cb06"
+  integrity sha512-mEy376/IawRd614KL/fXF7fS7RAoZHMDYTFimktSS5zuWfnI9MUQ3o1nKQBNRhPqrsWOsqLw/GjuxixbgKW8VA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-countup "^6.3.0"
