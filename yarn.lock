@@ -1533,15 +1533,13 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-statistic-block@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-statistic-block/-/volto-statistic-block-0.3.0.tgz#9ceee8e845d8c20164e4525c2e1a2a930a8bb020"
-  integrity sha512-8ILiEuIr1D2myt/Sz9YZ7Gwxu2h1rMBqUL2LZqi6g9c9T9yTwJIo5NfoYOm5XFiUCnA+gS8QVw/NJZSU1ElyOA==
+"@eeacms/volto-statistic-block@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-statistic-block/-/volto-statistic-block-1.0.0.tgz#48889a7475c23831673638a01ed6942408da1f6a"
+  integrity sha512-9iKIO8ddOmuEM21hGEeed4v94NPFpvpX6X44HFlGKiNyWIAYcjqEbzGpDfeR6qoqQRraVLwuSacjadmAKiePYw==
   dependencies:
-    "@plone/scripts" "*"
     react-countup "6.3.1"
     react-visibility-sensor "5.1.1"
-    volto-slate "*"
 
 "@eeacms/volto-tabs-block@2.2.0":
   version "2.2.0"
