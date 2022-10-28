@@ -180,7 +180,7 @@
     "@eeacms/volto-slate-label": "0.4.3",
     "@eeacms/volto-statistic-block": "0.3.0",
     "@eeacms/volto-tags-block": "0.2.4",
-    "@eeacms/volto-timeline-block": "0.2.3",
+    "@eeacms/volto-timeline-block": "1.0.0",
     "@eeacms/volto-workflow-progress": "2.3.14",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.0.0-alpha.45"
