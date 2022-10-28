@@ -181,7 +181,7 @@
     "@eeacms/volto-statistic-block": "1.0.0",
     "@eeacms/volto-tags-block": "1.0.0",
     "@eeacms/volto-timeline-block": "1.0.0",
-    "@eeacms/volto-workflow-progress": "2.3.14",
+    "@eeacms/volto-workflow-progress": "3.0.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.0.0-alpha.45"
   },
