@@ -1,9 +1,6 @@
 {
     "compilerOptions": {
         "paths": {
-            "volto-slate": [
-                "addons/volto-slate/src"
-            ],
             "@eeacms/volto-matomo": [
                 "addons/volto-matomo/src"
             ],
@@ -48,9 +45,6 @@
             ],
             "@eeacms/volto-accordion-block": [
                 "addons/volto-accordion-block/src"
-            ],
-            "@eeacms/volto-block-toc": [
-                "addons/volto-block-toc/src"
             ],
             "@eeacms/volto-block-divider": [
                 "addons/volto-block-divider/src"
