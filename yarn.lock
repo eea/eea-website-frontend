@@ -1200,50 +1200,6 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/search@*", "@eeacms/search@0.2.31":
-  version "0.2.31"
-  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.31.tgz#f4ebb65e5910b59278a8b9d052a330882ae21ecd"
-  integrity sha512-9AmBcooy1wDDq/Wly/U3rCETa9vDvo402X+3oRbi9jgJOwPf7/mIr+v7GXU+Q2HzkQ3c+EIDe/16YfecD06Gdg==
-  dependencies:
-    "@elastic/react-search-ui" "^1.9.0"
-    "@elastic/react-search-ui-views" "^1.9.0"
-    "@elastic/search-ui" "^1.9.0"
-    "@visx/group" "^1.7.0"
-    "@visx/responsive" "^1.10.1"
-    "@visx/scale" "^1.11.1"
-    "@visx/shape" "^1.12.0"
-    "@visx/tooltip" "^1.7.2"
-    classnames "2.2.6"
-    csv-stringify "5.6.5"
-    d3-array "^2.12.1"
-    d3-scale "^3.3.0"
-    deep-equal "^2.0.5"
-    downshift "^3.4.8"
-    elasticsearch "16.7.3"
-    fast-deep-equal "^3.1.3"
-    http-proxy-middleware "^2.0.1"
-    jotai "^1.6.0"
-    lodash "4.17.21"
-    lodash.clonedeep "^4.5.0"
-    lodash.isfunction "^3.0.9"
-    lodash.uniq "^4.5.0"
-    luxon "^1.22.0"
-    node-fetch "^2.6.1"
-    prop-types "15.7.2"
-    re-resizable "^6.9.0"
-    react "^17.0.2"
-    react-compound-slider "^3.4.0"
-    react-dom "^17.0.2"
-    react-masonry-component "6.3.0"
-    react-motion "^0.5.2"
-    react-speech-recognition "^3.8.2"
-    react-toastify "5.4.1"
-    redux "4.1.0"
-    semantic-ui-react "2.0.3"
-    superagent "3.8.2"
-    svg-loader "0.0.2"
-    use-deep-compare-effect "1.8.1"
-
 "@eeacms/volto-accordion-block@5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-accordion-block/-/volto-accordion-block-5.0.0.tgz#9308b0fb3fd9a837383450af0d16571d4893081c"
@@ -1298,10 +1254,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-3.0.0.tgz#124e40f65b7bebd9f2e254a75897c1eab6b0956f"
   integrity sha512-cYx0X1W9r2GgQw4hAiVJmn8d+vslOLkaKirbr4Eo//y7SdTBt6ZLC9qMQNgNx4ai5kRtsapscVAk5IzdyfJjlg==
 
-"@eeacms/volto-datahub@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-1.0.0.tgz#05b166fc6c0e953b495d83b88e96042f1628ed7d"
-  integrity sha512-9T5M/JMb49XBQkmz2aoeIMq6siDS6/Gg9KlIYMCuMJGsWXQyQtzs8d7esF1k+9RwmoaK4jTb2TKjufhQ93WoNg==
+"@eeacms/volto-datahub@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-1.0.1.tgz#179a30448db5660582245daba2d047cd4120944a"
+  integrity sha512-M5Koia6uIXoD87B507g7cYpXqnu4eQxitVh1cw8Ucr0Il+3tnB0P3di1jQDXiWYkAqPI61fJyntbnhcg89SpPQ==
   dependencies:
     "@eeacms/volto-globalsearch" "*"
     "@eeacms/volto-listing-block" "*"
@@ -1431,7 +1387,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-1.0.0.tgz#bb18e7a862dbed0ef2b6ad15c221b7d86f59bfa0"
   integrity sha512-wIrbH0ELOUKYsa+efwlCJzeX9UWrcY1OQCT9OhR9eb5Auba1w3JQazaqLt+Uu61nlpxk5OwjIRxtqFjHmUzAaw==
 
-"@eeacms/volto-searchlib@*", "@eeacms/volto-searchlib@0.4.1":
+"@eeacms/volto-searchlib@*":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.4.1.tgz#10772000f6aa16563f7a50c987aa77dd44e55809"
   integrity sha512-o+LAo/EK4FxK5xNr4rYFc7WaIGoM3/FUXW5W93VqacrBJ0rZLiZXPprEUqhKsqVLLJMpszH80tApDdRsUw26ow==
@@ -6481,7 +6437,7 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.6.tgz#865d0b5833d7d8d40f4e5b8a6d76aea3de4725ef"
   integrity sha512-+ZAmfyWMT7TiIlzdqJgjMb7S4f1beorDbWbsocyK4RaiqA5RTX3K14bnBWmmA9QEM0gRdsjyyrEmcyga8Zsxmw==
 
-csv-stringify@5.6.5, csv-stringify@^5.6.5:
+csv-stringify@^5.6.5:
   version "5.6.5"
   resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-5.6.5.tgz#c6d74badda4b49a79bf4e72f91cce1e33b94de00"
   integrity sha512-PjiQ659aQ+fUTQqSrd1XEDnOr52jh30RBurfzkscaE2tPaFsDH5wOAHJiw8XAHphRknCwMUE9KRayc4K/NbO8A==
@@ -14163,7 +14119,7 @@ react-docgen@^5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
-react-dom@17.0.2, react-dom@^17.0.2:
+react-dom@17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
   integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
@@ -14704,7 +14660,7 @@ react-with-styles@^4.1.0:
     prop-types "^15.7.2"
     react-with-direction "^1.3.1"
 
-react@17.0.2, react@^17.0.2:
+react@17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
