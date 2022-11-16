@@ -1363,7 +1363,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-1.0.0.tgz#bb18e7a862dbed0ef2b6ad15c221b7d86f59bfa0"
   integrity sha512-wIrbH0ELOUKYsa+efwlCJzeX9UWrcY1OQCT9OhR9eb5Auba1w3JQazaqLt+Uu61nlpxk5OwjIRxtqFjHmUzAaw==
 
-"@eeacms/volto-searchlib@*":
+"@eeacms/volto-searchlib@*", "@eeacms/volto-searchlib@0.4.2":
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.4.2.tgz#797adf6b4e41b3a53fefea3a4041df33341a8c57"
   integrity sha512-JnAh0aMp+S/u6PXDv8fCp8nlGagyXlld/vQplUi63L+agepE90ACqA7MMtPgsgcqtrSN06kuMrIEAoAWgb7Qxw==
@@ -1472,10 +1472,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-4.0.0.tgz#3619d1bc6501c2124b959233a297c9c64fb95413"
   integrity sha512-hbLzVdrQ+SADKPq4iWnTW670eZ0gDZYXxv4yOdjwHwtesSodI0G93IntMyf937DYSNsk7WRLguNeMWiDenIjyA==
 
-"@eeacms/volto-workflow-progress@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-3.0.0.tgz#7314c2a96cd19de94b0a7d67c48d0d3ce5842b2f"
-  integrity sha512-bd2wU+BdGueSCUBoe8/lpdhBe4CSsxh+o/6r5aPjRbSC7S5Mnc9nPWJ01UvhyEEQP3SZzwixOFbJYtkP+gVcgw==
+"@eeacms/volto-workflow-progress@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-3.0.1.tgz#92e9125635d04081e2acf864465ba46e17ecf5bd"
+  integrity sha512-NXgFB1A9nT50mcdk2MrREJpSv5ZMsN5TIp357Kseyz6Zrghl01hz/gEtAmZyNBt4QoB84q+oTVuHzB6GI83KXQ==
 
 "@elastic/react-search-ui-views@1.18.2", "@elastic/react-search-ui-views@^1.9.0":
   version "1.18.2"
