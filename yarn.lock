@@ -1303,10 +1303,10 @@
     "@eeacms/volto-widget-toggle" "3.0.0"
     "@eeacms/volto-widgets-view" "4.0.0"
 
-"@eeacms/volto-eea-website-policy@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-policy/-/volto-eea-website-policy-1.0.1.tgz#4af0f5ba6f7594f77373e9a4c811ccdba1589a7f"
-  integrity sha512-Lv5cAmGr6QjqTA/jrtK42CxJa6Zgp/bs516JuN6MMycebW5rLJVwPCbZU+5enW8P3N2yBVuc/5NkF0CgUyaw3w==
+"@eeacms/volto-eea-website-policy@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-policy/-/volto-eea-website-policy-1.0.2.tgz#d862a54d4efb0b44bf79e92d85ab9d70255d468d"
+  integrity sha512-fMd61dPgLHHfjI7egK/vpRCRboEMuz1d8PSTUZ34AY+lnWtNvOdXyftkJfnIoOSC8eD7qAbmsYhiZP8pHDliTA==
 
 "@eeacms/volto-eea-website-theme@1.1.0":
   version "1.1.0"
