@@ -295,14 +295,6 @@
     "branch": "develop",
     "path": "src"
   },
-  "eeacms-searchlib": {
-    "develop": false,
-    "url": "git@github.com:eea/eeacms-searchlib.git",
-    "https": "https://github.com/eea/eeacms-searchlib.git",
-    "package": "@eeacms/search",
-    "path": "src",
-    "branch": "develop"
-  },
   "volto-datahub": {
     "develop": true,
     "url": "git@github.com:eea/volto-datahub.git",

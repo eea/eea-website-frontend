@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -46,23 +46,15 @@
     "src/addons/*"
   ],
   "addons": [
-    "@kitconcept/volto-blocks-grid",
-    "@eeacms/volto-quote-block",
-    "@eeacms/volto-statistic-block",
-    "@eeacms/volto-tags-block",
-    "@eeacms/volto-timeline-block",
-    "@eeacms/volto-description-block",
-    "@eeacms/volto-call-to-action-block",
-    "@eeacms/volto-hero-block",
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-slate-label",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-searchlib",
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-datahub",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
-    "@eeacms/volto-eea-website-policy"
+    "@eeacms/volto-eea-website-policy",
+    "volto-subsites"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -162,28 +154,22 @@
     "node": "^12 || ^14 || ^16"
   },
   "resolutions": {
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.2"
+    "@eeacms/volto-listing-block": "2.0.0",
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.3"
   },
   "dependencies": {
-    "@eeacms/search": "0.2.30",
-    "@eeacms/volto-call-to-action-block": "1.0.0",
-    "@eeacms/volto-datahub": "1.0.0",
-    "@eeacms/volto-description-block": "1.0.0",
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.2",
-    "@eeacms/volto-eea-kitkat": "9.0.0",
-    "@eeacms/volto-eea-website-policy": "1.0.1",
-    "@eeacms/volto-eea-website-theme": "1.1.0",
-    "@eeacms/volto-globalsearch": "1.0.0",
-    "@eeacms/volto-hero-block": "1.0.0",
-    "@eeacms/volto-quote-block": "1.0.0",
-    "@eeacms/volto-searchlib": "0.4.0",
-    "@eeacms/volto-slate-label": "0.4.3",
-    "@eeacms/volto-statistic-block": "1.0.0",
-    "@eeacms/volto-tags-block": "1.0.0",
-    "@eeacms/volto-timeline-block": "1.0.0",
-    "@eeacms/volto-workflow-progress": "3.0.0",
+    "@eeacms/volto-listing-block": "2.0.0",
+    "@eeacms/volto-datahub": "1.0.2",
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.3",
+    "@eeacms/volto-eea-kitkat": "10.0.0",
+    "@eeacms/volto-eea-website-policy": "1.0.3",
+    "@eeacms/volto-eea-website-theme": "1.2.0",
+    "@eeacms/volto-globalsearch": "1.0.1",
+    "@eeacms/volto-searchlib": "0.4.2",
+    "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
-    "@plone/volto": "16.0.0-alpha.46"
+    "@plone/volto": "16.0.0-alpha.46",
+    "volto-subsites": "4.0.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
