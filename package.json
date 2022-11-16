@@ -181,7 +181,7 @@
     "@eeacms/volto-timeline-block": "1.0.0",
     "@eeacms/volto-workflow-progress": "3.0.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
-    "@plone/volto": "16.0.0-alpha.46"
+    "@plone/volto": "16.0.0-alpha.50"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
