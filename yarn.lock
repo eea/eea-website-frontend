@@ -1336,10 +1336,10 @@
     "@eeacms/volto-eea-design-system" "*"
     volto-subsites "*"
 
-"@eeacms/volto-globalsearch@*", "@eeacms/volto-globalsearch@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-globalsearch/-/volto-globalsearch-1.0.0.tgz#7d8e4b6332f033dec0100428b6cdda72bdaa1e14"
-  integrity sha512-a47fJXWM3TSOOikSDvFduD4RvHXJvW/oqT7dvFMc4S4nv0XV2TNhlPMRlbfxQ13koM331aP4HoSYL0AY1cxoCQ==
+"@eeacms/volto-globalsearch@*", "@eeacms/volto-globalsearch@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-globalsearch/-/volto-globalsearch-1.0.1.tgz#67e8db0a4e8a7572bfea167af00dd944018dc410"
+  integrity sha512-okmnLkmk+F+wlW/kVa/5OwxNf4tjI6x250R4N82XsrKB1eCtO0UZdTjdDZUSE1SenlOSHs88NHr0DYUqavYezQ==
   dependencies:
     "@eeacms/volto-listing-block" "*"
     "@eeacms/volto-searchlib" "*"

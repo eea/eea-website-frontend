@@ -162,7 +162,7 @@
     "@eeacms/volto-eea-kitkat": "10.0.0",
     "@eeacms/volto-eea-website-policy": "1.0.3",
     "@eeacms/volto-eea-website-theme": "1.2.0",
-    "@eeacms/volto-globalsearch": "1.0.0",
+    "@eeacms/volto-globalsearch": "1.0.1",
     "@eeacms/volto-searchlib": "0.4.2",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
