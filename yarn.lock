@@ -1356,10 +1356,10 @@
   dependencies:
     "@eeacms/volto-object-widget" "*"
 
-"@eeacms/volto-listing-block@*", "@eeacms/volto-listing-block@1.0.1", "@eeacms/volto-listing-block@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-2.0.0.tgz#f31ad21df47078c978d8b399a3d1857fb5559722"
-  integrity sha512-lIvTfEsS+lhgB9LWBn3eq2JPxXdVUTcYSJ7OMZHZAbZHqWZzAm3Ao7uai2O4ATWLD3DFuFSbymHzRvTQdTS2kA==
+"@eeacms/volto-listing-block@*", "@eeacms/volto-listing-block@1.0.1", "@eeacms/volto-listing-block@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-2.0.1.tgz#488175933cf5c52027dfca16d0d33bb058de8bee"
+  integrity sha512-0NrbAkbCFuctMWkaOlRbyxfkiez9FcOAdkUPxx6BoWB4J/EnA7lQzJcsQsDjhSUZBdiWhjgSKV0Syz7zCGLsgA==
   dependencies:
     react-resize-detector "7.1.2"
     react-slick "0.29.0"
