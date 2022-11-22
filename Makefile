@@ -63,6 +63,30 @@ omelette: ## Creates the omelette folder that contains a link to the installed v
 patches:
 	/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true
 
+.PHONY: release
+release: ## Show release candidates
+	./scripts/release.py
+
+.PHONY: update
+update: ## git pull all src/addons
+	./scripts/update.sh
+
+.PHONY: issues
+issues: ## Check github for open pull-requests
+	./scripts/pull-requests.py WARN
+
+.PHONY: issues-all
+issues-all: ## Check github for open pull-requests
+	./scripts/pull-requests-volto.py WARN
+
+.PHONY: status
+status: ## Check src/addons for changes
+	./scripts/status.sh
+
+.PHONY: pull
+pull: ## Run git pull on all src/addons
+	./scripts/pull.sh
+
 .PHONY: help
 help:		## Show this help.
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"

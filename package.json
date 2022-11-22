@@ -33,12 +33,12 @@
     "develop": "missdev --config=jsconfig.json --output=addons --fetch-https",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "update": "./scripts/update.sh",
-    "release": "./scripts/release.py",
-    "issues": "./scripts/pull-requests.py WARN",
-    "issues:all": "./scripts/pull-requests-volto.py WARN",
-    "status": "./scripts/status.sh",
-    "pull": "./scripts/pull.sh"
+    "update": "make update",
+    "release": "make release",
+    "issues": "make issues",
+    "issues:all": "make issues-all",
+    "status": "make status",
+    "pull": "make pull"
   },
   "private": true,
   "workspaces": [
