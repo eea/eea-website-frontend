@@ -11,9 +11,6 @@ function apply_rebuild {
 # Should we re-build
 test -n "$REBUILD" && apply_rebuild
 
-# Sentry
-gosu node ./create-sentry-release.sh
-
 if [[ "$1" == "yarn"* ]]; then
   echo "Starting Volto"
   exec gosu node "$@"
