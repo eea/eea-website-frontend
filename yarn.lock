@@ -1919,14 +1919,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-listing-block@npm:2.0.1"
+"@eeacms/volto-listing-block@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@eeacms/volto-listing-block@npm:2.1.0"
   dependencies:
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: 027e70fc83d03f24abaeeb4d1c435f4567c935247cd588f048e3c6b47547f67f1f6eeedf9aabb3cf3c67c1aff6856d6fc24c0cbbdb6d1879eefd35b4b9fa0471
+  checksum: 572cdf7a28e26f71b2447c20714590eba2924e26b010f908f97cf774b2c43b485db0dbbb25e5b52a55a6b7188ae777abcecf78687291cd00a5efb7f137a9b529
   languageName: node
   linkType: hard
 
@@ -10735,7 +10735,7 @@ __metadata:
     "@eeacms/volto-eea-website-policy": 1.0.4
     "@eeacms/volto-eea-website-theme": 1.3.0
     "@eeacms/volto-globalsearch": 1.0.1
-    "@eeacms/volto-listing-block": 2.0.1
+    "@eeacms/volto-listing-block": 2.1.0
     "@eeacms/volto-searchlib": 0.4.2
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
