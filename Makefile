@@ -39,14 +39,13 @@ endif
 
 ##############################################################################
 
-
 # Top-level targets
 .PHONY: all
 all: develop install
 
 .PHONY: develop
-develop:	## Frontend: Checkout add-ons defined via mrs.developer.json to src/addons/
-	yarn develop
+develop: ## Runs missdev in the local project (mrs.developer.json should be present)
+	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
 
 .PHONY: install
 install:	## Frontend: Install project and add-ons
@@ -55,6 +54,14 @@ install:	## Frontend: Install project and add-ons
 .PHONY: start
 start:		## Frontend: Start
 	yarn start
+
+.PHONY: omelette
+omelette: ## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)
+	if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi
+
+.PHONY: patches
+patches:
+	/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true
 
 .PHONY: help
 help:		## Show this help.
