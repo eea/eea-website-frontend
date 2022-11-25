@@ -123,6 +123,9 @@
             ],
             "@eeacms/volto-workflow-progress": [
                 "addons/volto-workflow-progress/src"
+            ],
+            "@plone-collective/volto-sentry": [
+                "addons/volto-sentry/src"
             ]
         },
         "baseUrl": "src"
