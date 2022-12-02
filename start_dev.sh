@@ -1,6 +1,11 @@
 #!/bin/sh
-ES_URL="http://search:60168"
-QA_URL="http://search:60022"
+
+SEARCH=10.120.10.204
+QA=10.120.10.204
+
+ES_URL="http://$SEARCH:60168"
+QA_URL="http://$QA:60022"
+
 env \
   DEBUG=esmiddleware \
   RAZZLE_PROXY_ES_DSN_datahub=$ES_URL/data_searchui_datahub \
