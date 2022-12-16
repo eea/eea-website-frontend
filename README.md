@@ -56,7 +56,7 @@ Trainings on how to create your own website using Plone 6 is available as part o
 
 1. Enable `develop` option for add-ons you want to develop within `mrs.developer.json` and run:
 
-        yarn develop
+        make develop
 
 1. Install
 
