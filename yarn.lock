@@ -2016,9 +2016,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:0.4.8":
-  version: 0.4.8
-  resolution: "@eeacms/volto-searchlib@npm:0.4.8"
+"@eeacms/volto-searchlib@npm:0.4.9":
+  version: 0.4.9
+  resolution: "@eeacms/volto-searchlib@npm:0.4.9"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": ^1.9.0
@@ -2056,7 +2056,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 342db0a1e7445136075c7f44eb153604adc9845cee8ee4698dc51ffff9b29d3445888fe247200c228155aaa87c8ba3e38441ea8838eb6a324c9464d924e7cba5
+  checksum: 60035a7a565cd250a7e123c3f6e170a010553412dc78ae8ea4ec5dede41b004bf88e36198d4f5182c26b7f5b6e639676f029bee90cd3673458d8fa7dd56c9b74
   languageName: node
   linkType: hard
 
@@ -10850,7 +10850,7 @@ __metadata:
     "@eeacms/volto-eea-website-policy": 1.2.1
     "@eeacms/volto-eea-website-theme": 1.4.2
     "@eeacms/volto-globalsearch": 1.0.1
-    "@eeacms/volto-searchlib": 0.4.8
+    "@eeacms/volto-searchlib": 0.4.9
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
