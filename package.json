@@ -156,7 +156,7 @@
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.9"
   },
   "dependencies": {
-    "@eeacms/volto-datahub": "1.0.5",
+    "@eeacms/volto-datahub": "1.0.6",
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.9",
     "@eeacms/volto-eea-kitkat": "10.4.0",
     "@eeacms/volto-eea-website-policy": "1.2.1",
