@@ -126,6 +126,9 @@
             ],
             "@plone-collective/volto-sentry": [
                 "addons/volto-sentry/src"
+            ],
+            "@eeacms/volto-redmine-helpdesk": [
+                "addons/volto-redmine-helpdesk/src"
             ]
         },
         "baseUrl": "src"
