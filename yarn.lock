@@ -1904,13 +1904,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@eeacms/volto-globalsearch@npm:1.0.2"
+"@eeacms/volto-globalsearch@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@eeacms/volto-globalsearch@npm:1.0.3"
   dependencies:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
-  checksum: 77c896cd076f257a08e009c60b7758252612a86741f9cb6b37a58f69c697153cf3614e7afeade6dafa692b69bf106ba94459b3a62a12af1a685fd4bf644c3d9b
+  checksum: 68d633f1cd102a0cb2da81b3d97cdd7d7b0c7862e6a0ee42b7ff09524525285173349d06b801b601592f6103d114d5a0479f239aea249696cb61f1662428c5be
   languageName: node
   linkType: hard
 
@@ -10859,7 +10859,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 10.5.0
     "@eeacms/volto-eea-website-policy": 1.2.1
     "@eeacms/volto-eea-website-theme": 1.5.0
-    "@eeacms/volto-globalsearch": 1.0.2
+    "@eeacms/volto-globalsearch": 1.0.3
     "@eeacms/volto-searchlib": 0.4.11
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
