@@ -53,7 +53,6 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-eea-website-policy",
-    "@eeacms/volto-redmine-helpdesk",
     "volto-subsites"
   ],
   "jest": {
