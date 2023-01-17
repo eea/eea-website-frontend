@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "1.0.0-alpha.10.1",
+  "version": "1.0.0-alpha.11",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -153,16 +153,16 @@
     "node": "^12 || ^14 || ^16"
   },
   "resolutions": {
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.10"
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.11"
   },
   "dependencies": {
-    "@eeacms/volto-datahub": "1.0.8",
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.10",
+    "@eeacms/volto-datahub": "1.0.9",
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.11",
     "@eeacms/volto-eea-kitkat": "10.5.1",
     "@eeacms/volto-eea-website-policy": "1.2.1",
-    "@eeacms/volto-eea-website-theme": "1.5.1",
-    "@eeacms/volto-globalsearch": "1.0.4",
-    "@eeacms/volto-searchlib": "0.4.13",
+    "@eeacms/volto-eea-website-theme": "1.6.0",
+    "@eeacms/volto-globalsearch": "1.0.6",
+    "@eeacms/volto-searchlib": "0.4.15",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.7.0",
