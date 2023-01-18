@@ -1797,13 +1797,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datahub@npm:1.0.9":
-  version: 1.0.9
-  resolution: "@eeacms/volto-datahub@npm:1.0.9"
+"@eeacms/volto-datahub@npm:1.0.10":
+  version: 1.0.10
+  resolution: "@eeacms/volto-datahub@npm:1.0.10"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-listing-block": "*"
-  checksum: 02570a70038c58fdbc01665a1f75761c39bb8a9bde3b14ff42dd0015921ca8ba942486ca3840d4123f3f7245efae9c3e74ef62056abc3c11fd9bcaadd2fea73a
+  checksum: fa953df1c82822df233ad3bfb8644db5579fc785b20812b516b121a569e3057c8c85e76381ad01253909e9e0c14c70beab7e8d9c6896b2436ec621485a138a32
   languageName: node
   linkType: hard
 
@@ -3201,9 +3201,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.7.0":
-  version: 16.7.0
-  resolution: "@plone/volto@npm:16.7.0"
+"@plone/volto@npm:16.8.1":
+  version: 16.8.1
+  resolution: "@plone/volto@npm:16.8.1"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -3382,7 +3382,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: be368f7f79480354d809e659fa41b052cb191263a4f681027af2709bba56bd7a7e23e0894f9973d47ce13b833722475c9a59118a32cccf54fc9bde3669538e74
+  checksum: 529663fd513389fc0c6aa12980b02dc7596e3d9b14ad37d9ef90db664c5ae2d806535dea7a364a40aa06e21eebe77898b29bd1c8a8a19ca19960beee823c8ff4
   languageName: node
   linkType: hard
 
@@ -10854,7 +10854,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eea-website-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-datahub": 1.0.9
+    "@eeacms/volto-datahub": 1.0.10
     "@eeacms/volto-eea-design-system": 1.0.0-alpha.11
     "@eeacms/volto-eea-kitkat": 10.5.1
     "@eeacms/volto-eea-website-policy": 1.2.1
@@ -10864,7 +10864,7 @@ __metadata:
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
-    "@plone/volto": 16.7.0
+    "@plone/volto": 16.8.1
     "@storybook/addon-actions": ^6.3.0
     "@storybook/addon-controls": 6.3.0
     "@storybook/addon-essentials": ^6.3.0
