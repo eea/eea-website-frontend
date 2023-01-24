@@ -53,6 +53,7 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-eea-website-policy",
+    "@eeacms/volto-redmine-helpdesk",
     "volto-subsites"
   ],
   "jest": {
@@ -162,6 +163,7 @@
     "@eeacms/volto-eea-website-policy": "1.2.1",
     "@eeacms/volto-eea-website-theme": "1.6.0",
     "@eeacms/volto-globalsearch": "1.0.7",
+    "@eeacms/volto-redmine-helpdesk": "0.1.1",
     "@eeacms/volto-searchlib": "0.4.17",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
