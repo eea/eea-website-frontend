@@ -162,7 +162,7 @@
     "@eeacms/volto-eea-website-policy": "1.2.1",
     "@eeacms/volto-eea-website-theme": "1.6.0",
     "@eeacms/volto-globalsearch": "1.0.7",
-    "@eeacms/volto-searchlib": "0.4.16",
+    "@eeacms/volto-searchlib": "0.4.17",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.8.1",
