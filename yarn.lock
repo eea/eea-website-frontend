@@ -1904,13 +1904,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:1.0.6":
-  version: 1.0.6
-  resolution: "@eeacms/volto-globalsearch@npm:1.0.6"
+"@eeacms/volto-globalsearch@npm:1.0.7":
+  version: 1.0.7
+  resolution: "@eeacms/volto-globalsearch@npm:1.0.7"
   dependencies:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
-  checksum: 5da50079764a3c404a4aa86af3da1d512328198a193494fd436a549562dcd04a7821546be45ba1e644ef522e217680698cf67dd2a6dca4387f07f67a3ef0260a
+  checksum: d399d318541ab8cfde0a928572c2f7f06cbb5d1f3223c4abc4b941639d21005611e0b7392e316bfe2b8a73ed1ea1fb35d0c89f1687aa83059d1d1ac5f072930c
   languageName: node
   linkType: hard
 
@@ -2026,9 +2026,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:0.4.15":
-  version: 0.4.15
-  resolution: "@eeacms/volto-searchlib@npm:0.4.15"
+"@eeacms/volto-searchlib@npm:0.4.16":
+  version: 0.4.16
+  resolution: "@eeacms/volto-searchlib@npm:0.4.16"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": ^1.9.0
@@ -2066,7 +2066,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: e2a16b1b29934f7af701d5a63010ad03d8a55be53517040ebb04b139eece9077c85809d65582491af8232df138f9cc74ef7eb1395bf9e208d54adcb062b112cd
+  checksum: f9ef817368724f0c20a22d68257d88762cbadec2a56e76d37cc15b975a30fe0c32f28dd8f694926758406f6e96f2674b5f01ee11ef4136f2c737b65531f4b250
   languageName: node
   linkType: hard
 
@@ -10859,8 +10859,8 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 10.5.1
     "@eeacms/volto-eea-website-policy": 1.2.1
     "@eeacms/volto-eea-website-theme": 1.6.0
-    "@eeacms/volto-globalsearch": 1.0.6
-    "@eeacms/volto-searchlib": 0.4.15
+    "@eeacms/volto-globalsearch": 1.0.7
+    "@eeacms/volto-searchlib": 0.4.16
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
