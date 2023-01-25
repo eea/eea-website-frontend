@@ -1798,10 +1798,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-call-to-action-block@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-call-to-action-block@npm:3.0.0"
-  checksum: df3ff907697741365c75b08b0e6f3ea4643d455d76ba5718411e6e3699261a93fe2d7f0b06c776510c5f07bb1d3721bb84fd03235ebe22f066c47e9d74cc8fa9
+"@eeacms/volto-call-to-action-block@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-call-to-action-block@npm:3.0.1"
+  checksum: 34a721b03bfc1624e71a228350ef72208d9ba500f6f9930cee4c1b0d55dc80cec3d7fd95830589ceb1be0d58192c12f319e6fa09a5a53208b3e5625d19111ae4
   languageName: node
   linkType: hard
 
@@ -10833,6 +10833,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eea-website-frontend@workspace:."
   dependencies:
+    "@eeacms/volto-call-to-action-block": 3.0.1
     "@eeacms/volto-datahub": 1.0.10
     "@eeacms/volto-eea-design-system": 1.0.0-alpha.12
     "@eeacms/volto-eea-kitkat": 10.6.0
