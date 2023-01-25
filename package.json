@@ -160,7 +160,7 @@
     "@eeacms/volto-datahub": "1.0.10",
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.12",
     "@eeacms/volto-eea-kitkat": "10.6.0",
-    "@eeacms/volto-eea-website-policy": "1.2.1",
+    "@eeacms/volto-eea-website-policy": "1.2.2",
     "@eeacms/volto-eea-website-theme": "1.6.1",
     "@eeacms/volto-globalsearch": "1.0.7",
     "@eeacms/volto-redmine-helpdesk": "0.1.2",
