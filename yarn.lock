@@ -1989,10 +1989,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-redmine-helpdesk@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@eeacms/volto-redmine-helpdesk@npm:0.1.1"
-  checksum: e1ed2934da0d60d883a8b6a169f09ce4b8bd32d6413794fbaa12a0c69c5f0495aec531a053bc906a7eadbc588210f325c67dd0a6c4ffe32f08d9bcc9dae222d1
+"@eeacms/volto-redmine-helpdesk@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@eeacms/volto-redmine-helpdesk@npm:0.1.2"
+  checksum: 512c7eda61f7b3cba8b0630253d4a06ee565dc19a06931159b23ed69327684a3eddd506291ab7a89edd0d2757246a1c9ca4110e3ecbf60d662b84838e49cfb85
   languageName: node
   linkType: hard
 
@@ -10839,7 +10839,7 @@ __metadata:
     "@eeacms/volto-eea-website-policy": 1.2.1
     "@eeacms/volto-eea-website-theme": 1.6.1
     "@eeacms/volto-globalsearch": 1.0.7
-    "@eeacms/volto-redmine-helpdesk": 0.1.1
+    "@eeacms/volto-redmine-helpdesk": 0.1.2
     "@eeacms/volto-searchlib": 0.4.17
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
