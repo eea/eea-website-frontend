@@ -164,7 +164,7 @@
     "@eeacms/volto-eea-kitkat": "10.6.0",
     "@eeacms/volto-eea-website-policy": "1.2.2",
     "@eeacms/volto-eea-website-theme": "1.6.2",
-    "@eeacms/volto-globalsearch": "1.0.7",
+    "@eeacms/volto-globalsearch": "1.0.8",
     "@eeacms/volto-redmine-helpdesk": "0.1.4",
     "@eeacms/volto-searchlib": "0.4.17",
     "@eeacms/volto-workflow-progress": "3.0.1",
