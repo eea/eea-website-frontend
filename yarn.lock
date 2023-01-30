@@ -1845,16 +1845,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.0.0-alpha.13":
-  version: 1.0.0-alpha.13
-  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-alpha.13"
+"@eeacms/volto-eea-design-system@npm:1.0.0-alpha.13.1":
+  version: 1.0.0-alpha.13.1
+  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-alpha.13.1"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     react-countup: ^6.3.0
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: f32aebbf9333bca3b196cace12dab84fc276eb7dc4722b03130e3b827427046061dde16f6c4265b59255e718101db6c0b1451e93300c42786c3314f9ff10793f
+  checksum: 9ba5d287c34b246d28b458b1da43b9d0db5ecb3aa712cf2bb90056172db5eea5fde2502af2e80dd3aad738636b90837ebb3ec04faf08b95cccbb915ce24c0824
   languageName: node
   linkType: hard
 
@@ -1908,13 +1908,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.6.2"
+"@eeacms/volto-eea-website-theme@npm:1.6.3":
+  version: 1.6.3
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.6.3"
   dependencies:
     "@eeacms/volto-eea-design-system": ^1.0.0-alpha.12
     volto-subsites: "*"
-  checksum: eb96faec60fac681b129b2d68740afb18d06b0f8771aef41287442f79af0d8fa0ce3256d811e5a0bf31938eb6e98c2936d3ea68324e04ac7ccabee98e0bd39fd
+  checksum: 2717bce082c1cd5fb4ac4051a7f5935863b83ea6e7198e9dd684064feaf2daf39d32181c020c85745efe8fc9db1e97d7be06987e7b1277265850498636d89675
   languageName: node
   linkType: hard
 
@@ -10812,10 +10812,10 @@ __metadata:
   resolution: "eea-website-frontend@workspace:."
   dependencies:
     "@eeacms/volto-datahub": 1.0.10
-    "@eeacms/volto-eea-design-system": 1.0.0-alpha.13
+    "@eeacms/volto-eea-design-system": 1.0.0-alpha.13.1
     "@eeacms/volto-eea-kitkat": 10.6.1
     "@eeacms/volto-eea-website-policy": 1.2.2
-    "@eeacms/volto-eea-website-theme": 1.6.2
+    "@eeacms/volto-eea-website-theme": 1.6.3
     "@eeacms/volto-globalsearch": 1.0.8
     "@eeacms/volto-redmine-helpdesk": 0.1.4
     "@eeacms/volto-searchlib": 0.4.17
