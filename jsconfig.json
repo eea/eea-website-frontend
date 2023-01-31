@@ -129,6 +129,9 @@
             ],
             "@eeacms/volto-redmine-helpdesk": [
                 "addons/volto-redmine-helpdesk/src"
+            ],
+            "@eeacms/volto-anchors": [
+                "addons/volto-anchors/src"
             ]
         },
         "baseUrl": "src"
