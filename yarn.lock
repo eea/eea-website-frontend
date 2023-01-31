@@ -1754,6 +1754,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-anchors@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@eeacms/volto-anchors@npm:0.1.1"
+  checksum: 79eadcadb4bde5fc45682dc4344897597350036dd51ecbd3880ca1258ff2e033300c97b02e77fb83dc9d9f1087c58e1ed604527f369ce34f4dd769a786b8494b
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-banner@npm:3.0.1":
   version: 3.0.1
   resolution: "@eeacms/volto-banner@npm:3.0.1"
@@ -10811,6 +10818,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eea-website-frontend@workspace:."
   dependencies:
+    "@eeacms/volto-anchors": 0.1.1
     "@eeacms/volto-datahub": 1.0.10
     "@eeacms/volto-eea-design-system": 1.0.0-alpha.14
     "@eeacms/volto-eea-kitkat": 10.6.1
