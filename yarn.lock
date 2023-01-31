@@ -1754,6 +1754,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-anchors@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@eeacms/volto-anchors@npm:0.1.1"
+  checksum: 79eadcadb4bde5fc45682dc4344897597350036dd51ecbd3880ca1258ff2e033300c97b02e77fb83dc9d9f1087c58e1ed604527f369ce34f4dd769a786b8494b
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-banner@npm:3.0.1":
   version: 3.0.1
   resolution: "@eeacms/volto-banner@npm:3.0.1"
@@ -1908,13 +1915,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.6.3":
-  version: 1.6.3
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.6.3"
+"@eeacms/volto-eea-website-theme@npm:1.6.4":
+  version: 1.6.4
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.6.4"
   dependencies:
     "@eeacms/volto-eea-design-system": ^1.0.0-alpha.12
     volto-subsites: "*"
-  checksum: 2717bce082c1cd5fb4ac4051a7f5935863b83ea6e7198e9dd684064feaf2daf39d32181c020c85745efe8fc9db1e97d7be06987e7b1277265850498636d89675
+  checksum: b8d07c3c2b28b58f7c5730935b3f471a13b0d8b35a41003b8ca7bc53773771891154a03c812207f9f0696f2007566ccd5beb9db69395e1f6be3e5b77e1104711
   languageName: node
   linkType: hard
 
@@ -1989,10 +1996,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-redmine-helpdesk@npm:0.1.5":
-  version: 0.1.5
-  resolution: "@eeacms/volto-redmine-helpdesk@npm:0.1.5"
-  checksum: baea103f15406a1427eca883b3c225003025a7da7d15ef35998b0ee1fb3cd2153c4800a612c8fe60fad35f3debc9e6dd2742c24f3b7b055cb85ce47c75accc33
+"@eeacms/volto-redmine-helpdesk@npm:0.1.7":
+  version: 0.1.7
+  resolution: "@eeacms/volto-redmine-helpdesk@npm:0.1.7"
+  checksum: e738dbd9be5903376b346526275a2074214a36277b38f025f281c1b724d0b69cf90a34d0bebd05feafbcb0e37c3b5cff8aab55426e4782a243e1c891bcf1b51c
   languageName: node
   linkType: hard
 
@@ -10811,13 +10818,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eea-website-frontend@workspace:."
   dependencies:
+    "@eeacms/volto-anchors": 0.1.1
     "@eeacms/volto-datahub": 1.0.10
     "@eeacms/volto-eea-design-system": 1.0.0-alpha.14
     "@eeacms/volto-eea-kitkat": 10.6.1
     "@eeacms/volto-eea-website-policy": 1.2.2
-    "@eeacms/volto-eea-website-theme": 1.6.3
+    "@eeacms/volto-eea-website-theme": 1.6.4
     "@eeacms/volto-globalsearch": 1.0.8
-    "@eeacms/volto-redmine-helpdesk": 0.1.5
+    "@eeacms/volto-redmine-helpdesk": 0.1.7
     "@eeacms/volto-searchlib": 0.4.17
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1

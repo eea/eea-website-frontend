@@ -340,5 +340,13 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-anchors": {
+    "url": "https://github.com/eea/volto-anchors.git",
+    "https": "https://github.com/eea/volto-anchors.git",
+    "package": "@eeacms/volto-anchors",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }
