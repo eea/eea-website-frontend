@@ -2204,6 +2204,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-widget-theme-picker@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "@eeacms/volto-widget-theme-picker@npm:1.0.2"
+  checksum: 7c97c2345df420459d10a462f173a2a64edc52c8c3032e5c7899bb7a85c97ffee861155ae88eb511b48942b1751db0f9f3c5f83fe4f640b4f5510c7e9b09d4f7
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-widget-toggle@npm:3.0.1":
   version: 3.0.1
   resolution: "@eeacms/volto-widget-toggle@npm:3.0.1"
@@ -3229,9 +3236,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.9.0":
-  version: 16.9.0
-  resolution: "@plone/volto@npm:16.9.0"
+"@plone/volto@npm:16.10.0":
+  version: 16.10.0
+  resolution: "@plone/volto@npm:16.10.0"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -3411,7 +3418,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: a09830980c4dbc9aceacba3c0636598a867289d79996f9236b4096eaa24f2522780c9777fe6b37358e666752bfddb0afffde15af3e604dcc8382cf24d71d4381
+  checksum: 12f400b4e85d347ed6806c565f16c406fc9183412d12df385bbd66795188eee38b992d7a40431e27b2259561ce18973d38988a6b3c90de1ee1a23e04ec020e3d
   languageName: node
   linkType: hard
 
@@ -10871,10 +10878,11 @@ __metadata:
     "@eeacms/volto-globalsearch": 1.0.8
     "@eeacms/volto-redmine-helpdesk": 0.1.7
     "@eeacms/volto-searchlib": 0.4.18
+    "@eeacms/volto-widget-theme-picker": ^1.0.1
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
-    "@plone/volto": 16.9.0
+    "@plone/volto": 16.10.0
     "@storybook/addon-actions": ^6.3.0
     "@storybook/addon-controls": 6.3.0
     "@storybook/addon-essentials": ^6.3.0
