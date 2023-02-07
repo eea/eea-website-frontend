@@ -130,6 +130,9 @@
             "@eeacms/volto-redmine-helpdesk": [
                 "addons/volto-redmine-helpdesk/src"
             ],
+            "@eeacms/volto-widget-theme-picker": [
+                "addons/volto-widget-theme-picker/src"
+            ],
             "@eeacms/volto-anchors": [
                 "addons/volto-anchors/src"
             ]
