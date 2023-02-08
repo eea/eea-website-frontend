@@ -1798,14 +1798,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:*, @eeacms/volto-block-style@npm:5.0.0":
-  version: 5.0.0
-  resolution: "@eeacms/volto-block-style@npm:5.0.0"
+"@eeacms/volto-block-style@npm:5.0.1":
+  version: 5.0.1
+  resolution: "@eeacms/volto-block-style@npm:5.0.1"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
-  checksum: d097449012971b9854de30667c6b6b956ae11f332545ca74171001b02943a3c3d7091fe12c20ac47ad377aa4bb5351c061f40687626b4b530e67406c7010583d
+  checksum: 3b58140cb919fc15e3237bae15bdc247eb3f18850a0aa809fc762a103f85c1aa4b124200a1ec35912809292edc0fda87125369df785d43d91c04bc7364099a70
   languageName: node
   linkType: hard
 
@@ -10834,6 +10834,7 @@ __metadata:
   resolution: "eea-website-frontend@workspace:."
   dependencies:
     "@eeacms/volto-anchors": 0.1.4
+    "@eeacms/volto-block-style": 5.0.1
     "@eeacms/volto-datahub": 1.0.11
     "@eeacms/volto-eea-design-system": 1.0.0-alpha.15
     "@eeacms/volto-eea-kitkat": 11.0.0
