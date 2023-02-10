@@ -4,7 +4,6 @@
  */
 
 import { matchPath } from 'react-router';
-import { intersection, isArray } from 'lodash';
 import { App } from '@plone/volto/components';
 import { defaultRoutes } from '@plone/volto/routes';
 import config from '@plone/volto/registry';
@@ -15,18 +14,21 @@ import config from '@plone/volto/registry';
  * @returns {array} Routes.
  */
 
-//TODO: try to use matchPath
 const filterRoutes = (route) => {
   const { purgeRoutes } = config.settings;
-  if (purgeRoutes?.length) {
-    if (isArray(route.path)) {
-      if (intersection(route.path, purgeRoutes).length) {
-        return false;
-      } else return true;
-    } else return !purgeRoutes.includes(route.path);
+  if (purgeRoutes.length) {
+    const matched = purgeRoutes.some((item) => {
+      const matchedPath = matchPath(item, {
+        path: route.path,
+        exact: true,
+        strict: true,
+      });
+      console.log(matchedPath);
+      return matchedPath?.path === item;
+    });
+    return matched ? false : true;
   } else return true;
 };
-
 const routes = [
   {
     path: '/',
