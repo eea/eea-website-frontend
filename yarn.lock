@@ -2121,7 +2121,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-policy@1.2.2, @eeacms/volto-eea-website-policy@workspace:src/addons/volto-eea-website-policy":
+"@eeacms/volto-eea-website-policy@npm:1.2.2":
+  version: 1.2.2
+  resolution: "@eeacms/volto-eea-website-policy@npm:1.2.2"
+  checksum: d59755c1a3752caa98995158a1aba9a23c043a767641f62f3a9793c5128b739119e952e7570c72787a183afcbcdb65c63688f5c42505b7c35a929d66db6989c9
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-website-policy@workspace:src/addons/volto-eea-website-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-policy@workspace:src/addons/volto-eea-website-policy"
   dependencies:
@@ -2147,7 +2154,7 @@ __metadata:
   resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
   dependencies:
     "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-eea-design-system": ^1.0.0-alpha.12
+    "@eeacms/volto-eea-design-system": ^1.0.0-alpha.11
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
     md5: ^2.3.0
@@ -2482,11 +2489,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-tabs-block@3.0.1, @eeacms/volto-tabs-block@workspace:src/addons/volto-tabs-block":
+"@eeacms/volto-tabs-block@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-tabs-block@npm:3.0.1"
+  dependencies:
+    "@eeacms/volto-block-style": "*"
+    react-responsive-tabs: 4.4.3
+    react-slick: ^0.24.0
+    slick-carousel: ^1.8.1
+  checksum: 9195e032ee54f6f4e8db086e77fa6e6818b2ef6be3e4f5d2f0a77cb606cbb692b46cec4e4225433d5b6bd980c7087fa32fb15be210e8a12b5ae93d3ad9eeb677
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-tabs-block@workspace:src/addons/volto-tabs-block":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-tabs-block@workspace:src/addons/volto-tabs-block"
   dependencies:
     "@cypress/code-coverage": ^3.10.0
+    "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
@@ -11443,7 +11463,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eea-website-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-anchors": "*"
     "@eeacms/volto-datahub": 1.0.10
     "@eeacms/volto-eea-design-system": 1.0.0-alpha.13
     "@eeacms/volto-eea-kitkat": 10.6.1
