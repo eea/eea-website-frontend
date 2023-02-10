@@ -164,7 +164,7 @@
     "@eeacms/volto-eea-website-theme": "1.8.1",
     "@eeacms/volto-globalsearch": "1.0.10",
     "@eeacms/volto-redmine-helpdesk": "0.1.9",
-    "@eeacms/volto-searchlib": "0.4.21",
+    "@eeacms/volto-searchlib": "0.4.22",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.10.0",
