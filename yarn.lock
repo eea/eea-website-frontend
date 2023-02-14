@@ -1923,13 +1923,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.8.1":
-  version: 1.8.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.8.1"
+"@eeacms/volto-eea-website-theme@npm:1.8.2":
+  version: 1.8.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.8.2"
   dependencies:
     "@eeacms/volto-eea-design-system": ^1.0.0-alpha.15
     volto-subsites: "*"
-  checksum: 87ca3315b1eeb8ec3332e868636ceeb9df0cdb79b7462b08f746faaa0e2e08d3515a3b3711f36fa8153532b9721c8a74adf7b1cc0317323a9cc1dd331a8c27a9
+  checksum: 3fab15b261d8f2ad088c073d04430d1119f16d50480817955566b85bee787645fe6fd5c55c224f7792135bf034b30d339a4150f82c69591364b575f191a2af10
   languageName: node
   linkType: hard
 
@@ -10893,7 +10893,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.0.0-beta.2
     "@eeacms/volto-eea-kitkat": 12.0.0
     "@eeacms/volto-eea-website-policy": 1.3.1
-    "@eeacms/volto-eea-website-theme": 1.8.1
+    "@eeacms/volto-eea-website-theme": 1.8.2
     "@eeacms/volto-globalsearch": 1.0.11
     "@eeacms/volto-redmine-helpdesk": 0.1.9
     "@eeacms/volto-searchlib": 0.4.24
