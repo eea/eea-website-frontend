@@ -23,8 +23,8 @@ const filterRoutes = (route) => {
         exact: true,
         strict: true,
       });
-      console.log(matchedPath);
-      return matchedPath?.path === item;
+      // replace () from multilingual routes. see: https://github.com/plone/volto/blob/0c5361725c3a70f2cd60c9144d8859ed107ae335/src/routes.js#L65
+      return matchedPath?.path?.replace(/["'()]/g, '') === item;
     });
     return matched ? false : true;
   } else return true;
