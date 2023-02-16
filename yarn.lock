@@ -2224,28 +2224,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-theme-picker@workspace:src/addons/volto-widget-theme-picker":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-widget-theme-picker@workspace:src/addons/volto-widget-theme-picker"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    cypress-fail-fast: ^5.0.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
-
-"@eeacms/volto-widget-toggle@3.0.1, @eeacms/volto-widget-toggle@workspace:src/addons/volto-widget-toggle":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-widget-toggle@workspace:src/addons/volto-widget-toggle"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
+"@eeacms/volto-widget-theme-picker@npm:*, @eeacms/volto-widget-theme-picker@npm:1.0.3, @eeacms/volto-widget-theme-picker@npm:^1.0.1":
+  version: 1.0.3
+  resolution: "@eeacms/volto-widget-theme-picker@npm:1.0.3"
+  checksum: 1da7d83904e2118aa94cf13f15a5d3d8a9026ef243bf7b47084a17b8dda59c89cfb4cc7890db6a2ec123a728fa4ea30cecf29cf046568045d15de2d4f574cd28
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-widget-toggle@npm:3.0.1":
   version: 3.0.1

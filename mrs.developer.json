@@ -340,5 +340,21 @@
     "branch": "develop",
     "develop": true,
     "path": "src"
+  },
+  "volto-anchors": {
+    "url": "https://github.com/eea/volto-anchors.git",
+    "https": "https://github.com/eea/volto-anchors.git",
+    "package": "@eeacms/volto-anchors",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
+  "volto-widget-theme-picker": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-widget-theme-picker.git",
+    "https": "https://github.com/eea/volto-widget-theme-picker.git",
+    "package": "@eeacms/volto-widget-theme-picker",
+    "path": "src",
+    "branch": "develop"
   }
 }
