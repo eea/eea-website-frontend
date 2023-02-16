@@ -1602,6 +1602,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/regjsgen@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@babel/regjsgen@npm:0.8.0"
+  checksum: 89c338fee774770e5a487382170711014d49a68eb281e74f2b5eac88f38300a4ad545516a7786a8dd5702e9cf009c94c2f582d200f077ac5decd74c56b973730
+  languageName: node
+  linkType: hard
+
 "@babel/runtime-corejs3@npm:^7.12.1":
   version: 7.21.0
   resolution: "@babel/runtime-corejs3@npm:7.21.0"
@@ -1760,27 +1767,18 @@ __metadata:
   linkType: hard
 
 "@cypress/webpack-preprocessor@npm:^5.11.0":
-  version: 5.16.3
-  resolution: "@cypress/webpack-preprocessor@npm:5.16.3"
+  version: 5.17.0
+  resolution: "@cypress/webpack-preprocessor@npm:5.17.0"
   dependencies:
-    "@babel/core": ^7.0.1
-    "@babel/generator": ^7.17.9
-    "@babel/parser": ^7.13.0
-    "@babel/traverse": ^7.17.9
     bluebird: 3.7.1
     debug: ^4.3.4
-    fs-extra: ^10.1.0
-    loader-utils: ^2.0.0
     lodash: ^4.17.20
-    md5: 2.3.0
-    source-map: ^0.6.1
-    webpack-virtual-modules: ^0.4.4
   peerDependencies:
     "@babel/core": ^7.0.1
     "@babel/preset-env": ^7.0.0
     babel-loader: ^8.0.2 || ^9
     webpack: ^4 || ^5
-  checksum: e37325059b62c2614247029fd5ae8bbd7c2f12fc0a3408864cdb4406d29460963350f4cd6c43c9e9529a5ef3143ddda957e36687357868adf7e43c7a246d29fd
+  checksum: 44ecf11564f5498a15289f21f27f9e89feb19e9da3701f909ef85ba650e26c5430f4e8f6f5fdfc521cb82117b4ca6642cc35e7916fb836eab1bc8209ef8e656c
   languageName: node
   linkType: hard
 
@@ -14999,9 +14997,9 @@ __metadata:
   linkType: hard
 
 "intl-locales-supported@npm:^1.8.4":
-  version: 1.8.12
-  resolution: "intl-locales-supported@npm:1.8.12"
-  checksum: f2e3a0ce256eaaf44135ecb0085ac070d6d784fc61ab3e12c89edbdde4ec100c20459e77cd1a8eb62ad77a88a613cb6d9042483acfa58cb2f9290f4312ec951a
+  version: 1.8.11
+  resolution: "intl-locales-supported@npm:1.8.11"
+  checksum: 8c9a6b1a40c861493454453b9b6d1c3aa0365da02be1a7ce650328db47811753ebaf532301323d089b13268f0e752a73bc85a073554a8017b6d121734d037ac4
   languageName: node
   linkType: hard
 
@@ -17789,7 +17787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"md5@npm:2.3.0, md5@npm:^2.3.0":
+"md5@npm:^2.3.0":
   version: 2.3.0
   resolution: "md5@npm:2.3.0"
   dependencies:
@@ -20951,11 +20949,11 @@ __metadata:
   linkType: hard
 
 "qs@npm:~6.10.3":
-  version: 6.10.5
-  resolution: "qs@npm:6.10.5"
+  version: 6.10.4
+  resolution: "qs@npm:6.10.4"
   dependencies:
     side-channel: ^1.0.4
-  checksum: b3873189a11bcf48445864b3ba66f7a76db0d9d874955d197779f561addfa604884f7b107971526ce1eca02c99bf7d1e47f28a3e7e6e29204d798fb279164226
+  checksum: 31e4fedd759d01eae52dde6692abab175f9af3e639993c5caaa513a2a3607b34d8058d3ae52ceeccf37c3025f22ed5e90e9ddd6c2537e19c0562ddd10dc5b1eb
   languageName: node
   linkType: hard
 
@@ -26878,13 +26876,6 @@ __metadata:
   dependencies:
     debug: ^3.0.0
   checksum: 38706eb5ffd7a5120a731c2d35d4de5714cb16dcc87076276d7b130e3221d2665f5c30696bfde5edfddc6b7ae40d772096a0019202260a9d4e19df43b7cf9c95
-  languageName: node
-  linkType: hard
-
-"webpack-virtual-modules@npm:^0.4.4":
-  version: 0.4.6
-  resolution: "webpack-virtual-modules@npm:0.4.6"
-  checksum: cb056ba8c50b35436ae43149554b051b80065b0cf79f2d528ca692ddf344a422ac71c415adb9da83dc3acc6e7e58f518388cc1cd11cb4fa29dc04f2c4494afe3
   languageName: node
   linkType: hard
 
