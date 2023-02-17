@@ -167,7 +167,7 @@
     "@eeacms/volto-searchlib": "0.4.25",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
-    "@plone/volto": "16.10.0",
+    "@plone/volto": "16.11.0",
     "volto-subsites": "4.0.0"
   },
   "devDependencies": {
