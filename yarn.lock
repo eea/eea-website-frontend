@@ -1970,8 +1970,30 @@ __metadata:
   version: 12.0.2
   resolution: "@eeacms/volto-eea-kitkat@npm:12.0.2"
   dependencies:
+<<<<<<< HEAD
     "@eeacms/volto-accordion-block": 7.0.0
     "@eeacms/volto-anchors": 0.1.4
+=======
+    "@cypress/code-coverage": ^3.10.0
+    "@eeacms/volto-corsproxy": "*"
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
+    react-countup: ^6.3.0
+    react-lazy-load-image-component: 1.5.6
+    react-slick: ^0.28.1
+    remixicon: 2.5.0
+    slick-carousel: ^1.8.1
+  languageName: unknown
+  linkType: soft
+
+"@eeacms/volto-eea-kitkat@10.6.1, @eeacms/volto-eea-kitkat@workspace:src/addons/volto-eea-kitkat":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-eea-kitkat@workspace:src/addons/volto-eea-kitkat"
+  dependencies:
+    "@cypress/code-coverage": ^3.10.0
+    "@eeacms/volto-accordion-block": 6.0.0
+>>>>>>> update razzle
     "@eeacms/volto-banner": 3.0.1
     "@eeacms/volto-block-divider": 6.0.0
     "@eeacms/volto-block-image-cards": 1.0.2
@@ -2023,6 +2045,12 @@ __metadata:
   resolution: "@eeacms/volto-eea-website-theme@npm:1.9.1"
   dependencies:
     "@eeacms/volto-eea-design-system": ^1.0.0-alpha.15
+<<<<<<< HEAD
+=======
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
+>>>>>>> update razzle
     volto-subsites: "*"
   checksum: eb56a2ae0db818ea3a0e6c871c054ed622ccc11a794a60117a19b4894096d8de171360aaad5223fe2ad5ab57b2a9b89ddfe6eb2ac5614c0eb06b9f309527c7bd
   languageName: node
@@ -21786,7 +21814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-lazy-load-image-component@npm:^1.4.0":
+"react-lazy-load-image-component@npm:1.5.6, react-lazy-load-image-component@npm:^1.4.0":
   version: 1.5.6
   resolution: "react-lazy-load-image-component@npm:1.5.6"
   dependencies:
