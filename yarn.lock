@@ -1977,6 +1977,7 @@ __metadata:
     babel-plugin-transform-class-properties: ^6.24.1
     md5: ^2.3.0
     react-countup: ^6.3.0
+    react-lazy-load-image-component: 1.5.6
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
@@ -2060,7 +2061,6 @@ __metadata:
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
     md5: ^2.3.0
-    postcss-less: 6.0.0
     volto-subsites: "*"
   languageName: unknown
   linkType: soft
@@ -21674,7 +21674,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-lazy-load-image-component@npm:^1.4.0":
+"react-lazy-load-image-component@npm:1.5.6, react-lazy-load-image-component@npm:^1.4.0":
   version: 1.5.6
   resolution: "react-lazy-load-image-component@npm:1.5.6"
   dependencies:
