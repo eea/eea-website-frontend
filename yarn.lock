@@ -3203,9 +3203,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.11.0":
-  version: 16.11.0
-  resolution: "@plone/volto@npm:16.11.0"
+"@plone/volto@npm:16.12.0":
+  version: 16.12.0
+  resolution: "@plone/volto@npm:16.12.0"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -3387,7 +3387,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: 87c6cf348854fb12333be4206e57e0c21ee95222d47564381bc34e5aa99351c84b8965be5443a20c809f5be22695b73505a4eb5964bb4af717eff7129dd02edf
+  checksum: 73f4b754407bf3c19ea9034f4d7df02fd968f49218983b88ca7b1ad4160df982a7907aaf9c01b8ace0975c74790c69eb04eda6b234b69031a3e6cce9829b6d21
   languageName: node
   linkType: hard
 
@@ -10912,7 +10912,7 @@ __metadata:
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
-    "@plone/volto": 16.11.0
+    "@plone/volto": 16.12.0
     "@storybook/addon-actions": ^6.3.0
     "@storybook/addon-controls": 6.3.0
     "@storybook/addon-essentials": ^6.3.0
