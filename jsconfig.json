@@ -135,6 +135,9 @@
             ],
             "@eeacms/volto-anchors": [
                 "addons/volto-anchors/src"
+            ],
+            "@eeacms/volto-nextcloud-video-block": [
+                "addons/volto-nextcloud-video-block/src"
             ]
         },
         "baseUrl": "src"
