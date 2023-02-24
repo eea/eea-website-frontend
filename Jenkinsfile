@@ -7,7 +7,7 @@ pipeline {
     template = "templates/eea-website-frontend"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = 'www.eea.europa.eu/en'
+    SONARQUBE_TAG = 'www.eea.europa.eu-en'
     SONARQUBE_TAG_DEMO = 'demo-www.eea.europa.eu'
   }
 
