@@ -2302,16 +2302,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-object-widget@*, @eeacms/volto-object-widget@5.0.1, @eeacms/volto-object-widget@workspace:src/addons/volto-object-widget":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-object-widget@workspace:src/addons/volto-object-widget"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
+"@eeacms/volto-nextcloud-video-block@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@eeacms/volto-nextcloud-video-block@npm:0.1.0"
+  checksum: e2a19f4b10110313c02d5f11f38eeec4c96eee35448fd67c0efb5da07615622eb3cc9b6bd96221288ac3270433abe903390a9ca4f7d226ee812bcd977d188616
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:5.0.1":
+  version: 5.0.1
+  resolution: "@eeacms/volto-object-widget@npm:5.0.1"
+  checksum: 52756531a02db9eb4b290582a0807d0cac97a303d1db993d9ed9f4cd1aec2ef3afcb00e57757990a47bd5b4e12bb7dbede2beda0fb97b8941090bb2e4a428955
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-quote-block@1.0.1, @eeacms/volto-quote-block@workspace:src/addons/volto-quote-block":
   version: 0.0.0-use.local
@@ -11672,6 +11675,7 @@ __metadata:
     "@eeacms/volto-eea-website-policy": 1.4.0
     "@eeacms/volto-eea-website-theme": 1.9.1
     "@eeacms/volto-globalsearch": 1.0.11
+    "@eeacms/volto-nextcloud-video-block": 0.1.0
     "@eeacms/volto-redmine-helpdesk": 0.1.9
     "@eeacms/volto-searchlib": 0.4.25
     "@eeacms/volto-workflow-progress": 3.0.1

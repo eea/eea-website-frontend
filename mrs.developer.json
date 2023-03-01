@@ -356,5 +356,13 @@
     "package": "@eeacms/volto-widget-theme-picker",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-nextcloud-video-block": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-nextcloud-video-block.git",
+    "https": "https://github.com/eea/volto-nextcloud-video-block.git",
+    "package": "@eeacms/volto-nextcloud-video-block",
+    "path": "src",
+    "branch": "develop"
   }
 }
