@@ -1811,10 +1811,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-anchors@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@eeacms/volto-anchors@npm:0.1.4"
-  checksum: b3112886f6de30ef0ff45b5c70c17d94e7258c1ef6ab4a452adcf056fcbd1a595575f3584784adcfd3b8161b54776d059954497f3575fc6132ce8077a9634adf
+"@eeacms/volto-anchors@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@eeacms/volto-anchors@npm:0.1.5"
+  dependencies:
+    github-slugger: 1.4.0
+  checksum: e9eb03c731ffc1efe973328557e79692c7542386a1bf86a7e866a8af1305bacff2cf1aebd0deffe06cad95e64208a0a37b6d7b13849b6af5e0bc258b74883db0
   languageName: node
   linkType: hard
 
@@ -2033,29 +2035,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-corsproxy": "*"
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    md5: ^2.3.0
-    react-countup: ^6.3.0
-    react-lazy-load-image-component: 1.5.6
-    react-slick: ^0.28.1
-    remixicon: 2.5.0
-    slick-carousel: ^1.8.1
-  languageName: unknown
-  linkType: soft
-
-"@eeacms/volto-eea-kitkat@npm:12.0.2":
-  version: 12.0.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:12.0.2"
+"@eeacms/volto-eea-kitkat@npm:12.0.3":
+  version: 12.0.3
+  resolution: "@eeacms/volto-eea-kitkat@npm:12.0.3"
   dependencies:
     "@eeacms/volto-accordion-block": 7.0.0
-    "@eeacms/volto-anchors": 0.1.4
+    "@eeacms/volto-anchors": 0.1.5
     "@eeacms/volto-banner": 3.0.1
     "@eeacms/volto-block-divider": 6.0.0
     "@eeacms/volto-block-image-cards": 1.0.2
@@ -2091,7 +2076,7 @@ __metadata:
     "@eeacms/volto-widgets-view": 4.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: 684f874febe212192ae6db7614059e1e95871b8427b7774ffbc2d842fbdce6d08b3d793ab944b21e7ccd55ea1b61187c5d2badcd1f4797012c51de297fc1e8cf
+  checksum: 09bfd0d0031b3b34141e427938ce56c979b550c8600d57721c9fd811e6097148bb8545b91bcfeba2a036fa6b3779d4bcb371b2d1fd4456c3366aee4b9f1f01cd
   languageName: node
   linkType: hard
 
@@ -11666,7 +11651,7 @@ __metadata:
   dependencies:
     "@eeacms/volto-datahub": 1.0.13
     "@eeacms/volto-eea-design-system": 1.0.0-beta.4
-    "@eeacms/volto-eea-kitkat": 12.0.2
+    "@eeacms/volto-eea-kitkat": 12.0.3
     "@eeacms/volto-eea-website-policy": 1.4.0
     "@eeacms/volto-eea-website-theme": 1.9.1
     "@eeacms/volto-globalsearch": 1.0.11
@@ -13896,13 +13881,11 @@ __metadata:
   version: 0.0.0
   resolution: "github-from-package@npm:0.0.0"
   checksum: 14e448192a35c1e42efee94c9d01a10f42fe790375891a24b25261246ce9336ab9df5d274585aedd4568f7922246c2a78b8a8cd2571bfe99c693a9718e7dd0e3
-  languageName: node
-  linkType: hard
-
-"github-slugger@npm:^1.0.0":
-  version: 1.5.0
-  resolution: "github-slugger@npm:1.5.0"
-  checksum: c70988224578b3bdaa25df65973ffc8c24594a77a28550c3636e495e49d17aef5cdb04c04fa3f1744babef98c61eecc6a43299a13ea7f3cc33d680bf9053ffbe
+  
+"github-slugger@npm:1.4.0":
+  version: 1.4.0
+  resolution: "github-slugger@npm:1.4.0"
+  checksum: 4f52e7a21f5c6a4c5328f01fe4fe13ae8881fea78bfe31f9e72c4038f97e3e70d52fb85aa7633a52c501dc2486874474d9abd22aa61cbe9b113099a495551c6b
   languageName: node
   linkType: hard
 
