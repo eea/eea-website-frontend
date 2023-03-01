@@ -160,9 +160,9 @@
   "dependencies": {
     "@eeacms/volto-datahub": "1.0.13",
     "@eeacms/volto-eea-design-system": "1.0.0-beta.3",
-    "@eeacms/volto-eea-kitkat": "12.0.1",
+    "@eeacms/volto-eea-kitkat": "12.0.2",
     "@eeacms/volto-eea-website-policy": "1.4.0",
-    "@eeacms/volto-eea-website-theme": "1.9.0",
+    "@eeacms/volto-eea-website-theme": "1.9.1",
     "@eeacms/volto-globalsearch": "1.0.11",
     "@eeacms/volto-nextcloud-video-block": "0.1.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.9",
