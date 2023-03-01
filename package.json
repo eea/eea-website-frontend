@@ -166,7 +166,7 @@
     "@eeacms/volto-globalsearch": "1.0.12",
     "@eeacms/volto-nextcloud-video-block": "0.2.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.9",
-    "@eeacms/volto-searchlib": "0.4.26",
+    "@eeacms/volto-searchlib": "0.4.27",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.12.0",
