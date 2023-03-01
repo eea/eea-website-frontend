@@ -163,7 +163,7 @@
     "@eeacms/volto-eea-kitkat": "12.0.3",
     "@eeacms/volto-eea-website-policy": "1.4.0",
     "@eeacms/volto-eea-website-theme": "1.9.1",
-    "@eeacms/volto-globalsearch": "1.0.11",
+    "@eeacms/volto-globalsearch": "1.0.12",
     "@eeacms/volto-nextcloud-video-block": "0.1.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.9",
     "@eeacms/volto-searchlib": "0.4.26",
