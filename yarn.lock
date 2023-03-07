@@ -1868,16 +1868,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.0.0-beta.4":
-  version: 1.0.0-beta.4
-  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-beta.4"
+"@eeacms/volto-eea-design-system@npm:1.0.0-beta.5":
+  version: 1.0.0-beta.5
+  resolution: "@eeacms/volto-eea-design-system@npm:1.0.0-beta.5"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     react-countup: ^6.3.0
+    react-lazy-load-image-component: 1.5.6
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: fcac2a1a2fa5f34d7270fba6d65919de7c942fc0ca961a6920090ffb8f35f1d5fb460537229f96b0f8adcd25f17b3e3afddb5985c53f2e9059c7dc780ab6c533
+  checksum: 687fe983bed66afb93676f24512fe71de2e1fb64fb6f78c7cbabf2a90d995ab3a8fa6157a30d7c5ced70225d3b59065af60981b6091e8e5c15b02586b946727f
   languageName: node
   linkType: hard
 
@@ -1943,17 +1944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:*":
-  version: 1.0.12
-  resolution: "@eeacms/volto-globalsearch@npm:1.0.12"
-  dependencies:
-    "@eeacms/volto-listing-block": "*"
-    "@eeacms/volto-searchlib": "*"
-  checksum: 5b0268702619abe1b6773fde21a5fb2eda6ce999090a9bcbc6eaa1ffeacf4868e348d0fc70dec3460e9070ffa0087c472b7eb23fa715134d95b2db3b8a0203d2
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-globalsearch@npm:1.0.13":
+"@eeacms/volto-globalsearch@npm:*, @eeacms/volto-globalsearch@npm:1.0.13":
   version: 1.0.13
   resolution: "@eeacms/volto-globalsearch@npm:1.0.13"
   dependencies:
@@ -2047,51 +2038,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:*":
-  version: 0.4.27
-  resolution: "@eeacms/volto-searchlib@npm:0.4.27"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    "@elastic/react-search-ui": ^1.9.0
-    "@elastic/react-search-ui-views": ^1.9.0
-    "@elastic/search-ui": ^1.9.0
-    "@visx/group": ^1.7.0
-    "@visx/responsive": ^1.10.1
-    "@visx/scale": ^1.11.1
-    "@visx/shape": ^1.12.0
-    "@visx/tooltip": ^1.7.2
-    classnames: ^2.2.6
-    csv-stringify: ^5.6.5
-    d3-array: ^2.12.1
-    d3-scale: ^3.3.0
-    deep-equal: ^2.0.5
-    downshift: ^3.4.8
-    elasticsearch: 16.7.3
-    fast-deep-equal: ^3.1.3
-    http-proxy-middleware: ^2.0.1
-    jotai: ^1.6.0
-    lodash: 4.17.21
-    lodash.clonedeep: ^4.5.0
-    lodash.isfunction: ^3.0.9
-    lodash.uniq: ^4.5.0
-    luxon: ^1.22.0
-    node-fetch: ^2.6.1
-    re-resizable: ^6.9.0
-    react-compound-slider: ^3.4.0
-    react-masonry-component: 6.3.0
-    react-motion: ^0.5.2
-    react-speech-recognition: ^3.8.2
-    react-toastify: 5.4.1
-    redux: 4.1.0
-    semantic-ui-react: 2.0.3
-    superagent: 3.8.2
-    svg-loader: 0.0.2
-    use-deep-compare-effect: 1.8.1
-  checksum: 2d6d49ce30643a0a201265a93fcf30a301491caf8c7ba6e65dc9761e4ec1aa62872919381b45720e7a9cf907a31bf5bdb132399df08a3da9d7a32a20d454425f
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-searchlib@npm:0.4.28":
+"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:0.4.28":
   version: 0.4.28
   resolution: "@eeacms/volto-searchlib@npm:0.4.28"
   dependencies:
@@ -11065,7 +11012,7 @@ __metadata:
   resolution: "eea-website-frontend@workspace:."
   dependencies:
     "@eeacms/volto-datahub": 1.0.16
-    "@eeacms/volto-eea-design-system": 1.0.0-beta.4
+    "@eeacms/volto-eea-design-system": 1.0.0-beta.5
     "@eeacms/volto-eea-kitkat": 12.0.3
     "@eeacms/volto-eea-website-policy": 1.4.0
     "@eeacms/volto-eea-website-theme": 1.9.2
@@ -21309,7 +21256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-lazy-load-image-component@npm:^1.4.0":
+"react-lazy-load-image-component@npm:1.5.6, react-lazy-load-image-component@npm:^1.4.0":
   version: 1.5.6
   resolution: "react-lazy-load-image-component@npm:1.5.6"
   dependencies:
