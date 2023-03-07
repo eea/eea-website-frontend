@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    RANCHER_STACKID = "1st2402"
+    RANCHER_STACKID = "1st2568"
     RANCHER_ENVID = "1a140884"
     GIT_NAME = "eea-website-frontend"
     registry = "eeacms/eea-website-frontend"
