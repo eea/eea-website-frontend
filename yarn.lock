@@ -1933,13 +1933,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.9.1":
-  version: 1.9.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.9.1"
+"@eeacms/volto-eea-website-theme@npm:1.9.2":
+  version: 1.9.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.9.2"
   dependencies:
     "@eeacms/volto-eea-design-system": ^1.0.0-alpha.15
     volto-subsites: "*"
-  checksum: eb56a2ae0db818ea3a0e6c871c054ed622ccc11a794a60117a19b4894096d8de171360aaad5223fe2ad5ab57b2a9b89ddfe6eb2ac5614c0eb06b9f309527c7bd
+  checksum: bb7f7dd67381fbc155fb6976285ceba082c905447c2bf56d4cea960164932984dcbc3c9ee110ef01850cfc79e50dc3e049c29358039611032fa1ea7693b14579
   languageName: node
   linkType: hard
 
@@ -11068,7 +11068,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.0.0-beta.4
     "@eeacms/volto-eea-kitkat": 12.0.3
     "@eeacms/volto-eea-website-policy": 1.4.0
-    "@eeacms/volto-eea-website-theme": 1.9.1
+    "@eeacms/volto-eea-website-theme": 1.9.2
     "@eeacms/volto-globalsearch": 1.0.13
     "@eeacms/volto-nextcloud-video-block": 0.2.0
     "@eeacms/volto-redmine-helpdesk": 0.1.9
