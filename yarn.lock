@@ -1944,13 +1944,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:*, @eeacms/volto-globalsearch@npm:1.0.13":
+"@eeacms/volto-globalsearch@npm:*":
   version: 1.0.13
   resolution: "@eeacms/volto-globalsearch@npm:1.0.13"
   dependencies:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
   checksum: 163de7ba57c5ca3c6d9e74e1ee053aa8ec83df9b6ae892b8b1730629d38846e282d4454a3dafad236ecac8ce7d119133cdbbdc9276e43b535a0c56f2f52c0227
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-globalsearch@npm:1.0.14":
+  version: 1.0.14
+  resolution: "@eeacms/volto-globalsearch@npm:1.0.14"
+  dependencies:
+    "@eeacms/volto-listing-block": "*"
+    "@eeacms/volto-searchlib": "*"
+  checksum: 901f1d9d555d33c5276e137e21b77ba5d059764afc9cdc92066441205476f0966280d215b7637110be598de31347a58a3444f981234f191749a092848c361cbc
   languageName: node
   linkType: hard
 
@@ -11016,7 +11026,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 12.1.0
     "@eeacms/volto-eea-website-policy": 1.4.0
     "@eeacms/volto-eea-website-theme": 1.9.3
-    "@eeacms/volto-globalsearch": 1.0.13
+    "@eeacms/volto-globalsearch": 1.0.14
     "@eeacms/volto-nextcloud-video-block": 0.2.0
     "@eeacms/volto-redmine-helpdesk": 0.1.9
     "@eeacms/volto-searchlib": 0.4.28
