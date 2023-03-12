@@ -154,15 +154,12 @@
   "engines": {
     "node": "^12 || ^14 || ^16"
   },
-  "resolutions": {
-    "@eeacms/volto-eea-design-system": "1.0.1"
-  },
   "dependencies": {
     "@eeacms/volto-datahub": "1.0.17",
     "@eeacms/volto-eea-design-system": "1.0.1",
     "@eeacms/volto-eea-kitkat": "13.0.0",
     "@eeacms/volto-eea-website-policy": "1.4.0",
-    "@eeacms/volto-eea-website-theme": "1.10.0",
+    "@eeacms/volto-eea-website-theme": "1.11.0",
     "@eeacms/volto-globalsearch": "1.0.14",
     "@eeacms/volto-nextcloud-video-block": "0.2.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.10",
