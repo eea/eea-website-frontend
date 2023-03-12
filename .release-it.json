@@ -1,0 +1,19 @@
+{
+  "git": {
+    "commitMessage": "Release ${version}",
+    "requireBranch": "develop",
+    "requireCleanWorkingDir": false,
+    "git.requireCommits": true
+  },
+  "github": {
+    "release": true,
+    "releaseName": "${version}",
+    "releaseNotes": "npx auto-changelog --stdout --sort-commits date-desc --commit-limit false -u --template https://raw.githubusercontent.com/eea/eea.docker.gitflow/master/src/release.hbs --ignore-commit-pattern 'Automated release [0-9\\.]\\+ \\|Add Sonarqube tag using .* addons list\\|\\[[jJ][eE][nN][kK][iI][nN][sS]\\|[yY][aA][rR][nN]'"
+  },
+  "npm": {
+    "publish": false
+  },
+  "hooks": {
+    "after:bump": "npx auto-changelog --sort-commits date-desc  --commit-limit false -p --template https://raw.githubusercontent.com/eea/eea.docker.gitflow/master/src/eea.hbs --ignore-commit-pattern 'Automated release [0-9\\.]\\+ \\|Add Sonarqube tag using .* addons list\\|\\[[jJ][eE][nN][kK][iI][nN][sS]\\|[yY][aA][rR][nN]'"
+  }
+}
