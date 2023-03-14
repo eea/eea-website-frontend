@@ -1868,21 +1868,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:*":
-  version: 1.0.1
-  resolution: "@eeacms/volto-eea-design-system@npm:1.0.1"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    "@fontsource/roboto": 4.5.8
-    react-countup: ^6.3.0
-    react-lazy-load-image-component: 1.5.6
-    react-slick: ^0.28.1
-    remixicon: 2.5.0
-    slick-carousel: ^1.8.1
-  checksum: 643d3786125b02e4d0dc78f36b6944c336e3974a0505a65412f85e9399c77f73a3b43890518c3edde632a22cde88758227b92b198f03dc81bb9c1a5ff5b5fccf
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-eea-design-system@npm:1.0.2":
   version: 1.0.2
   resolution: "@eeacms/volto-eea-design-system@npm:1.0.2"
@@ -1957,16 +1942,6 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     volto-subsites: "*"
   checksum: 062bf459252e1b66aab2184cb2a0b759a505b2346bcc9d5e65d129c8a468c7a811d315bfd78f7f1fdcd933614401409f9743923529a92676c6b9ebe50c544695
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-globalsearch@npm:*":
-  version: 1.0.14
-  resolution: "@eeacms/volto-globalsearch@npm:1.0.14"
-  dependencies:
-    "@eeacms/volto-listing-block": "*"
-    "@eeacms/volto-searchlib": "*"
-  checksum: 901f1d9d555d33c5276e137e21b77ba5d059764afc9cdc92066441205476f0966280d215b7637110be598de31347a58a3444f981234f191749a092848c361cbc
   languageName: node
   linkType: hard
 
@@ -2061,50 +2036,6 @@ __metadata:
   version: 1.0.1
   resolution: "@eeacms/volto-resize-helper@npm:1.0.1"
   checksum: 05d322d28501d28f891318b0c84893937522a25ddf54a487faafb8e944682c76aae364a08d3c9363582990d3c5b39a338406c1833107798bf499d0db500d9951
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-searchlib@npm:*":
-  version: 0.4.29
-  resolution: "@eeacms/volto-searchlib@npm:0.4.29"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    "@elastic/react-search-ui": ^1.9.0
-    "@elastic/react-search-ui-views": ^1.9.0
-    "@elastic/search-ui": ^1.9.0
-    "@visx/group": ^1.7.0
-    "@visx/responsive": ^1.10.1
-    "@visx/scale": ^1.11.1
-    "@visx/shape": ^1.12.0
-    "@visx/tooltip": ^1.7.2
-    classnames: ^2.2.6
-    csv-stringify: ^5.6.5
-    d3-array: ^2.12.1
-    d3-scale: ^3.3.0
-    deep-equal: ^2.0.5
-    downshift: ^3.4.8
-    elasticsearch: 16.7.3
-    fast-deep-equal: ^3.1.3
-    http-proxy-middleware: ^2.0.1
-    jotai: ^1.6.0
-    lodash: 4.17.21
-    lodash.clonedeep: ^4.5.0
-    lodash.isfunction: ^3.0.9
-    lodash.uniq: ^4.5.0
-    luxon: ^1.22.0
-    node-fetch: ^2.6.1
-    re-resizable: ^6.9.0
-    react-compound-slider: ^3.4.0
-    react-masonry-component: 6.3.0
-    react-motion: ^0.5.2
-    react-speech-recognition: ^3.8.2
-    react-toastify: 5.4.1
-    redux: 4.1.0
-    semantic-ui-react: 2.0.3
-    superagent: 3.8.2
-    svg-loader: 0.0.2
-    use-deep-compare-effect: 1.8.1
-  checksum: e97563342948581138df18bcd3d511113540c34857ea0193dbfc29d0eff6af25771c7c6668ff0d6c87cd5f72bea7d9d8b0b228dbae51e5dd8705a366bbe6d551
   languageName: node
   linkType: hard
 
@@ -26094,7 +26025,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"volto-subsites@npm:*, volto-subsites@npm:4.0.0":
+"volto-subsites@npm:4.0.0":
   version: 4.0.0
   resolution: "volto-subsites@npm:4.0.0"
   peerDependencies:
