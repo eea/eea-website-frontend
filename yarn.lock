@@ -1844,13 +1844,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datahub@npm:1.0.18":
-  version: 1.0.18
-  resolution: "@eeacms/volto-datahub@npm:1.0.18"
+"@eeacms/volto-datahub@npm:1.0.19":
+  version: 1.0.19
+  resolution: "@eeacms/volto-datahub@npm:1.0.19"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-listing-block": "*"
-  checksum: 103d19aa831c795b22fc134e6bd4c671cf2b80a7adcaba30b449e6e551580b49067dfa0c22457e6895c65547002888b6a4c69b0e027dcaf68315f58e530aab49
+  checksum: d39d9c03a0e0ed695d271e5c57ebeeb3c1e48100f61be5ce123c1815acd2c71054b54da753b55ca9c6c733be122cd9e2a7421a90c3c6ebf62d7b38a9f4a18608
   languageName: node
   linkType: hard
 
@@ -11063,7 +11063,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eea-website-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-datahub": 1.0.18
+    "@eeacms/volto-datahub": 1.0.19
     "@eeacms/volto-eea-design-system": 1.0.1
     "@eeacms/volto-eea-kitkat": 13.0.0
     "@eeacms/volto-eea-website-policy": 1.4.0
