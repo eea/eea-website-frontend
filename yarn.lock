@@ -2039,7 +2039,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:0.4.29":
+"@eeacms/volto-searchlib@npm:*":
   version: 0.4.29
   resolution: "@eeacms/volto-searchlib@npm:0.4.29"
   dependencies:
@@ -2080,6 +2080,50 @@ __metadata:
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
   checksum: e97563342948581138df18bcd3d511113540c34857ea0193dbfc29d0eff6af25771c7c6668ff0d6c87cd5f72bea7d9d8b0b228dbae51e5dd8705a366bbe6d551
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-searchlib@npm:0.4.30":
+  version: 0.4.30
+  resolution: "@eeacms/volto-searchlib@npm:0.4.30"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+    "@elastic/react-search-ui": ^1.9.0
+    "@elastic/react-search-ui-views": ^1.9.0
+    "@elastic/search-ui": ^1.9.0
+    "@visx/group": ^1.7.0
+    "@visx/responsive": ^1.10.1
+    "@visx/scale": ^1.11.1
+    "@visx/shape": ^1.12.0
+    "@visx/tooltip": ^1.7.2
+    classnames: ^2.2.6
+    csv-stringify: ^5.6.5
+    d3-array: ^2.12.1
+    d3-scale: ^3.3.0
+    deep-equal: ^2.0.5
+    downshift: ^3.4.8
+    elasticsearch: 16.7.3
+    fast-deep-equal: ^3.1.3
+    http-proxy-middleware: ^2.0.1
+    jotai: ^1.6.0
+    lodash: 4.17.21
+    lodash.clonedeep: ^4.5.0
+    lodash.isfunction: ^3.0.9
+    lodash.uniq: ^4.5.0
+    luxon: ^1.22.0
+    node-fetch: ^2.6.1
+    re-resizable: ^6.9.0
+    react-compound-slider: ^3.4.0
+    react-masonry-component: 6.3.0
+    react-motion: ^0.5.2
+    react-speech-recognition: ^3.8.2
+    react-toastify: 5.4.1
+    redux: 4.1.0
+    semantic-ui-react: 2.0.3
+    superagent: 3.8.2
+    svg-loader: 0.0.2
+    use-deep-compare-effect: 1.8.1
+  checksum: 3a7aabeda334551d2ce3938080e8130191608564d6711d6017f405d23045062e4365160a15c2d37fd311849fd997dcbc300e46766ff88c5370da61209c3d32fb
   languageName: node
   linkType: hard
 
@@ -11027,7 +11071,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 1.0.14
     "@eeacms/volto-nextcloud-video-block": 0.2.0
     "@eeacms/volto-redmine-helpdesk": 0.1.10
-    "@eeacms/volto-searchlib": 0.4.29
+    "@eeacms/volto-searchlib": 0.4.30
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
