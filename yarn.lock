@@ -2002,10 +2002,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-nextcloud-video-block@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@eeacms/volto-nextcloud-video-block@npm:0.2.0"
-  checksum: 2f4008ed35d2261044d37076f1ed627a6b798704ea67d9bff3adcb45859dbafb615057d8e46039514a51a1a77e189627df58273c28f2238df3f55dea822aff8f
+"@eeacms/volto-nextcloud-video-block@npm:0.3.0":
+  version: 0.3.0
+  resolution: "@eeacms/volto-nextcloud-video-block@npm:0.3.0"
+  checksum: 598ad37636e15624caac20cb9a7b997709b40e0ec044a1dbddfb998b49220faea73625216f6413edd852b630e20fbbcb77d9d8e80056159ece60e0b222f94977
   languageName: node
   linkType: hard
 
@@ -11025,7 +11025,7 @@ __metadata:
     "@eeacms/volto-eea-website-policy": 1.4.0
     "@eeacms/volto-eea-website-theme": 1.11.2
     "@eeacms/volto-globalsearch": 1.0.15
-    "@eeacms/volto-nextcloud-video-block": 0.2.0
+    "@eeacms/volto-nextcloud-video-block": 0.3.0
     "@eeacms/volto-redmine-helpdesk": 0.1.10
     "@eeacms/volto-searchlib": 0.4.33
     "@eeacms/volto-workflow-progress": 3.0.1
