@@ -55,7 +55,6 @@
     "@eeacms/volto-datahub",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
-
     "@eeacms/volto-eea-website-policy",
     "volto-subsites"
   ],
