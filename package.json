@@ -46,6 +46,7 @@
   ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-plotlycharts",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-redmine-helpdesk",
     "@eeacms/volto-nextcloud-video-block",
@@ -54,6 +55,7 @@
     "@eeacms/volto-datahub",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
+
     "@eeacms/volto-eea-website-policy",
     "volto-subsites"
   ],
@@ -173,6 +175,7 @@
     "@eeacms/volto-eea-design-system": "1.0.2",
     "@eeacms/volto-eea-kitkat": "13.0.0",
     "@eeacms/volto-eea-website-policy": "1.4.0",
+    "@eeacms/volto-plotlycharts": "5.0.8",
     "@eeacms/volto-eea-website-theme": "1.11.2",
     "@eeacms/volto-globalsearch": "1.0.15",
     "@eeacms/volto-nextcloud-video-block": "0.3.0",
