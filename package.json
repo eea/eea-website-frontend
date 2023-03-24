@@ -163,7 +163,7 @@
     "@eeacms/volto-globalsearch": "1.0.15",
     "@eeacms/volto-nextcloud-video-block": "0.3.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
-    "@eeacms/volto-searchlib": "0.4.33",
+    "@eeacms/volto-searchlib": "0.5.0",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "volto-subsites": "4.0.0"
@@ -177,7 +177,7 @@
     "@eeacms/volto-globalsearch": "1.0.15",
     "@eeacms/volto-nextcloud-video-block": "0.3.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
-    "@eeacms/volto-searchlib": "0.4.33",
+    "@eeacms/volto-searchlib": "0.5.0",
     "@eeacms/volto-workflow-progress": "3.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.18.0",

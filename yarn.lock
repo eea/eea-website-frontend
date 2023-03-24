@@ -2040,9 +2040,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:0.4.33":
-  version: 0.4.33
-  resolution: "@eeacms/volto-searchlib@npm:0.4.33"
+"@eeacms/volto-searchlib@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@eeacms/volto-searchlib@npm:0.5.0"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": ^1.9.0
@@ -2080,7 +2080,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: b4fbdbd24f7a33d8a5f8994a8e985a9ebf7216e9b18645c897f99291e5fbf46c35dded169007ae93ba61eae55c9cba62eb96d3ec4d88a6feeb3fe719e9460fd7
+  checksum: e324e8664a0a0e0422214acafb4560de40285fb656d96a0de811cf638acf3a5e587069cf5cb41c1d53b915f25f82781567a6bee6ea0c1a15d7d3f497c9033e0e
   languageName: node
   linkType: hard
 
@@ -11038,7 +11038,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 1.0.15
     "@eeacms/volto-nextcloud-video-block": 0.3.0
     "@eeacms/volto-redmine-helpdesk": 0.1.11
-    "@eeacms/volto-searchlib": 0.4.33
+    "@eeacms/volto-searchlib": 0.5.0
     "@eeacms/volto-workflow-progress": 3.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
