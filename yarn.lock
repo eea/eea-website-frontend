@@ -2003,13 +2003,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-nextcloud-video-block@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@eeacms/volto-nextcloud-video-block@npm:0.3.0"
-  checksum: 598ad37636e15624caac20cb9a7b997709b40e0ec044a1dbddfb998b49220faea73625216f6413edd852b630e20fbbcb77d9d8e80056159ece60e0b222f94977
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:5.0.1":
   version: 5.0.1
   resolution: "@eeacms/volto-object-widget@npm:5.0.1"
@@ -2211,10 +2204,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-workflow-progress@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-workflow-progress@npm:3.0.1"
-  checksum: d03e26dd58ec3501fa1025d63ff927e7fd3fe80ce824a3808f8a00f8eb6a248d3afbe77da4cd7367ec777cfb762ca3df5fa3bff52ac4761a0c01903e40c317a1
+"@eeacms/volto-workflow-progress@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@eeacms/volto-workflow-progress@npm:3.1.0"
+  checksum: 0ab56d116ad05ba9dd87755d68bd910bdd720bb7ae0e8a948615ff7cf99ac0b3079521c99709aa7f4706940d0ced746bead22054579529725202f02eb6008a16
   languageName: node
   linkType: hard
 
@@ -11036,10 +11029,9 @@ __metadata:
     "@eeacms/volto-eea-website-policy": 1.5.0
     "@eeacms/volto-eea-website-theme": 1.12.0
     "@eeacms/volto-globalsearch": 1.0.15
-    "@eeacms/volto-nextcloud-video-block": 0.3.0
     "@eeacms/volto-redmine-helpdesk": 0.1.11
     "@eeacms/volto-searchlib": 0.5.0
-    "@eeacms/volto-workflow-progress": 3.0.1
+    "@eeacms/volto-workflow-progress": 3.1.0
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.18.0
