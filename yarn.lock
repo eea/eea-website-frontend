@@ -1811,18 +1811,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:*":
-  version: 5.1.0
-  resolution: "@eeacms/volto-block-style@npm:5.1.0"
-  dependencies:
-    "@eeacms/volto-resize-helper": "*"
-    "@eeacms/volto-widget-theme-picker": "*"
-    react-color: ~2.18.1
-  checksum: 90b555b00c7ad51bab736eb6fda5d299e6b60927f87f05dbc0417c4309ae3cad914b35bff43864f0e631cfbb7508b7daa86f784e0b03b63e9516e1293f200bd1
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-style@npm:5.2.0":
+"@eeacms/volto-block-style@npm:*, @eeacms/volto-block-style@npm:5.2.0":
   version: 5.2.0
   resolution: "@eeacms/volto-block-style@npm:5.2.0"
   dependencies:
@@ -2047,14 +2036,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-resize-helper@npm:*":
-  version: 1.2.0
-  resolution: "@eeacms/volto-resize-helper@npm:1.2.0"
-  checksum: 86611eb7970e09da302d701b119eb1cd4ccfb80c2e7161b21d586400b2e4789f7917f3384d29ed0538c3e76735c325bdd99a8a4727ab7b81d27fc5bcc9b5aa72
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-resize-helper@npm:1.3.0":
+"@eeacms/volto-resize-helper@npm:*, @eeacms/volto-resize-helper@npm:1.3.0":
   version: 1.3.0
   resolution: "@eeacms/volto-resize-helper@npm:1.3.0"
   checksum: 51d2dbf50371dff6970512ecea03af96121b3b409a4f14b6f64eb8c7b36961b6b90e85bee59720b87346fa8ccaa1919b8d3d51db975f5f479070444a17de96a8
@@ -2534,19 +2516,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@floating-ui/core@npm:^1.2.4":
-  version: 1.2.5
-  resolution: "@floating-ui/core@npm:1.2.5"
-  checksum: 6cda151bb098e0dbd5ac0db141715e00879bf08b21553a8895232ccf429d774e30019295b5a6d2da19dd927a34540fb49b55d926b82820e6002eac7b97405f76
+"@floating-ui/core@npm:^1.2.6":
+  version: 1.2.6
+  resolution: "@floating-ui/core@npm:1.2.6"
+  checksum: e4aa96c435277f1720d4bc939e17a79b1e1eebd589c20b622d3c646a5273590ff889b8c6e126f7be61873cf8c4d7db7d418895986ea19b8b0d0530de32504c3a
   languageName: node
   linkType: hard
 
 "@floating-ui/dom@npm:^1.0.1":
-  version: 1.2.5
-  resolution: "@floating-ui/dom@npm:1.2.5"
+  version: 1.2.6
+  resolution: "@floating-ui/dom@npm:1.2.6"
   dependencies:
-    "@floating-ui/core": ^1.2.4
-  checksum: a21c272a36c7cd7d337eaed82c1f8a81ccc5003d04cefa07591dc7fbb0a24d57a2c097b410593b5416145a68ac10a7a7a745c3cc4f8196268fa002364d28804b
+    "@floating-ui/core": ^1.2.6
+  checksum: 2226c6c244b96ae75ab14cc35bb119c8d7b83a85e2ff04e9d9800cffdb17faf4a7cf82db741dd045242ced56e31c8a08e33c8c512c972309a934d83b1f410441
   languageName: node
   linkType: hard
 
