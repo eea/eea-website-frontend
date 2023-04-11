@@ -161,7 +161,7 @@
     "@eeacms/volto-eea-website-theme": "1.14.0",
     "@eeacms/volto-globalsearch": "1.0.15",
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
-    "@eeacms/volto-searchlib": "0.5.1",
+    "@eeacms/volto-searchlib": "0.5.2",
     "@eeacms/volto-workflow-progress": "3.1.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "volto-subsites": "4.0.0"
@@ -174,7 +174,7 @@
     "@eeacms/volto-eea-website-theme": "1.14.0",
     "@eeacms/volto-globalsearch": "1.0.15",
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
-    "@eeacms/volto-searchlib": "0.5.1",
+    "@eeacms/volto-searchlib": "0.5.2",
     "@eeacms/volto-workflow-progress": "3.1.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.19.0",
