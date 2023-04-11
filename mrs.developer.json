@@ -334,7 +334,7 @@
     "path": "src"
   },
   "volto-redmine-helpdesk": {
-    "url": "https://github.com/eea/volto-redmine-helpdesk.git",
+    "url": "git@github.com:eea/volto-redmine-helpdesk.git",
     "https": "https://github.com/eea/volto-redmine-helpdesk.git",
     "package": "@eeacms/volto-redmine-helpdesk",
     "branch": "develop",
@@ -342,7 +342,7 @@
     "path": "src"
   },
   "volto-anchors": {
-    "url": "https://github.com/eea/volto-anchors.git",
+    "url": "git@github.com:eea/volto-anchors.git",
     "https": "https://github.com/eea/volto-anchors.git",
     "package": "@eeacms/volto-anchors",
     "branch": "develop",
@@ -360,7 +360,7 @@
   "volto-nextcloud-video-block": {
     "develop": true,
     "url": "git@github.com:eea/volto-nextcloud-video-block.git",
-    "https": "git@github.com:eea/volto-nextcloud-video-block.git",
+    "https": "https://github.com/eea/volto-nextcloud-video-block.git",
     "package": "@eeacms/volto-nextcloud-video-block",
     "path": "src",
     "branch": "develop"
