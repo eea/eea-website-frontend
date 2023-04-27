@@ -163,7 +163,6 @@
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
     "@eeacms/volto-searchlib": "0.5.3",
     "@eeacms/volto-workflow-progress": "3.1.0",
-    "@kitconcept/volto-blocks-grid": "5.1.1",
     "volto-subsites": "4.0.0"
   },
   "dependencies": {
@@ -176,7 +175,6 @@
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
     "@eeacms/volto-searchlib": "0.5.3",
     "@eeacms/volto-workflow-progress": "3.1.0",
-    "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.20.4",
     "volto-subsites": "4.0.0"
   },
