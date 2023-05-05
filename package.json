@@ -46,6 +46,7 @@
   ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-plotlycharts",
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-redmine-helpdesk",
     "@eeacms/volto-searchlib",
@@ -172,6 +173,7 @@
     "@eeacms/volto-eea-kitkat": "15.3.0",
     "@eeacms/volto-eea-website-policy": "1.5.0",
     "@eeacms/volto-eea-website-theme": "1.14.0",
+    "@eeacms/volto-plotlycharts": "5.0.8",
     "@eeacms/volto-globalsearch": "1.0.15",
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
     "@eeacms/volto-searchlib": "0.5.3",
