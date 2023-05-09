@@ -138,6 +138,12 @@
             ],
             "@eeacms/volto-nextcloud-video-block": [
                 "addons/volto-nextcloud-video-block/src"
+            ],
+            "@eeacms/volto-editing-progress": [
+                "addons/volto-editing-progress/src"
+            ],
+            "@eeacms/volto-block-data-figure": [
+                "addons/volto-block-data-figure/src"
             ]
         },
         "baseUrl": "src"

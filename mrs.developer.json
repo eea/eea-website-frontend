@@ -119,6 +119,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-block-data-figure": {
+    "url": "git@github.com:eea/volto-block-data-figure.git",
+    "https": "https://github.com/eea/volto-block-data-figure.git",
+    "package": "@eeacms/volto-block-data-figure",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-block-divider": {
     "url": "git@github.com:eea/volto-block-divider.git",
     "https": "https://github.com/eea/volto-block-divider.git",
@@ -323,6 +331,13 @@
     "url": "git@github.com:eea/volto-workflow-progress.git",
     "https": "https://github.com/eea/volto-workflow-progress.git",
     "package": "@eeacms/volto-workflow-progress",
+    "branch": "develop",
+    "path": "src"
+  },
+  "volto-editing-progress": {
+    "url": "git@github.com:eea/volto-editing-progress.git",
+    "https": "https://github.com/eea/volto-editing-progress.git",
+    "package": "@eeacms/volto-editing-progress",
     "branch": "develop",
     "path": "src"
   },
