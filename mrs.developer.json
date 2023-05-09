@@ -380,5 +380,13 @@
     "package": "@eeacms/volto-nextcloud-video-block",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-forest-policy": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-forest-policy.git",
+    "https": "https://github.com/eea/volto-forest-policy.git",
+    "package": "@eeacms/volto-forest-policy",
+    "path": "src",
+    "branch": "develop"
   }
 }

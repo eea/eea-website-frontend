@@ -138,6 +138,9 @@
             ],
             "@eeacms/volto-nextcloud-video-block": [
                 "addons/volto-nextcloud-video-block/src"
+            ],
+            "@eeacms/volto-forest-policy": [
+                "addons/volto-forest-policy/src"
             ]
         },
         "baseUrl": "src"
