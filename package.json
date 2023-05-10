@@ -174,7 +174,7 @@
     "@eeacms/volto-eea-website-policy": "1.5.0",
     "@eeacms/volto-eea-website-theme": "1.14.0",
     "@eeacms/volto-globalsearch": "1.0.15",
-    "@eeacms/volto-plotlycharts": "5.0.8",
+    "@eeacms/volto-plotlycharts": "6.0.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.11",
     "@eeacms/volto-searchlib": "0.5.3",
     "@eeacms/volto-workflow-progress": "3.1.0",
