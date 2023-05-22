@@ -169,7 +169,8 @@
     "@eeacms/volto-searchlib": "0.5.3",
     "@eeacms/volto-workflow-progress": "3.1.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
-    "volto-subsites": "4.0.0"
+    "volto-subsites": "4.0.0",
+    "react-countup/countup.js": "2.5.0"
   },
   "dependencies": {
     "@eeacms/volto-datablocks": "5.0.0",
