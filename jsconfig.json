@@ -138,6 +138,15 @@
             ],
             "@eeacms/volto-nextcloud-video-block": [
                 "addons/volto-nextcloud-video-block/src"
+            ],
+            "@eeacms/volto-embed": [
+                "addons/volto-embed/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
             ]
         },
         "baseUrl": "src"
