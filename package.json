@@ -170,7 +170,8 @@
     "@eeacms/volto-workflow-progress": "3.1.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "volto-subsites": "4.0.0",
-    "react-countup/countup.js": "2.5.0"
+    "react-countup/countup.js": "2.5.0",
+    "d3-array": "^2.12.1"
   },
   "dependencies": {
     "@eeacms/volto-datablocks": "5.0.0",
