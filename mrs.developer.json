@@ -215,6 +215,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-embed": {
+    "url": "git@github.com:eea/volto-embed.git",
+    "https": "https://github.com/eea/volto-embed.git",
+    "package": "@eeacms/volto-embed",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-eea-design-system": {
     "url": "git@github.com:eea/volto-eea-design-system.git",
     "https": "https://github.com/eea/volto-eea-design-system.git",
@@ -371,6 +379,22 @@
     "package": "@eeacms/volto-widget-theme-picker",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-datablocks": {
+    "url": "git@github.com:eea/volto-datablocks.git",
+    "https": "https://github.com/eea/volto-datablocks.git",
+    "package": "@eeacms/volto-datablocks",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
+  "volto-plotlycharts": {
+    "url": "git@github.com:eea/volto-plotlycharts.git",
+    "https": "https://github.com/eea/volto-plotlycharts.git",
+    "package": "@eeacms/volto-plotlycharts",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   },
   "volto-nextcloud-video-block": {
     "develop": true,

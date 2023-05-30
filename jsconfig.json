@@ -144,6 +144,15 @@
             ],
             "@eeacms/volto-block-data-figure": [
                 "addons/volto-block-data-figure/src"
+            ],
+            "@eeacms/volto-embed": [
+                "addons/volto-embed/src"
+            ],
+            "@eeacms/volto-datablocks": [
+                "addons/volto-datablocks/src"
+            ],
+            "@eeacms/volto-plotlycharts": [
+                "addons/volto-plotlycharts/src"
             ]
         },
         "baseUrl": "src"
