@@ -10,9 +10,6 @@
             "@eeacms/volto-corsproxy": [
                 "addons/volto-corsproxy/src"
             ],
-            "@eeacms/volto-depiction": [
-                "addons/volto-depiction/src"
-            ],
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/src"
             ],
