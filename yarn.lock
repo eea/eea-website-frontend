@@ -1971,13 +1971,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.15.0":
-  version: 1.15.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.15.0"
+"@eeacms/volto-eea-website-theme@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.16.0"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     volto-subsites: "*"
-  checksum: 45cceb59d745c1afa5bb308995cdf8b015b518170821fa9ca24f0a9069a481fe3110e3f142591dfe27b0d35ee1b054573ce2dad20db73a010fbbeb95f8afee17
+  checksum: bda2934474a5291932f7dc14e182617ec8b70dad02c5bd779f5c1a3296b7de3254ef09d8b689568800f0954a70fb9d6ff0963cd7516ede35364485999ddea6de
   languageName: node
   linkType: hard
 
@@ -3094,12 +3094,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kitconcept/volto-blocks-grid@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@kitconcept/volto-blocks-grid@npm:7.0.2"
+"@kitconcept/volto-blocks-grid@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@kitconcept/volto-blocks-grid@npm:5.1.1"
   peerDependencies:
-    "@plone/volto": ">=16.0.0"
-  checksum: e375acef67861b780748ac12e1786b9dc1bfd10e603c089678ed6bf318c380ef5f48d921525b12b9cde89f97daea4f7933de9dfc7d8661b517287c39f9d5b1c2
+    "@plone/volto": ">=12.14.0"
+  checksum: b3ba6917c028a96598b20f10fff079f67beb987a5365c871ada9bf4fcab4bbff4ad9b6d3f27cf8b21e805b50bb9cdd9336d3c2deb0e8aa4e2df4b2f73cc70dd5
   languageName: node
   linkType: hard
 
@@ -12511,14 +12511,13 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.12.1
     "@eeacms/volto-eea-kitkat": 15.5.1
     "@eeacms/volto-eea-website-policy": 1.6.1
-    "@eeacms/volto-eea-website-theme": 1.15.0
+    "@eeacms/volto-eea-website-theme": 1.16.0
     "@eeacms/volto-embed": 5.0.3
     "@eeacms/volto-globalsearch": 1.0.15
     "@eeacms/volto-plotlycharts": 6.1.1
     "@eeacms/volto-redmine-helpdesk": 0.1.11
     "@eeacms/volto-searchlib": 0.5.6
     "@eeacms/volto-workflow-progress": 3.1.0
-    "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.20.8
     "@storybook/addon-actions": ^6.3.0
