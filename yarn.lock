@@ -2103,44 +2103,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-theme@npm:1.14.1":
-  version: 1.14.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.14.1"
+"@eeacms/volto-eea-website-theme@npm:1.16.0":
+  version: 1.16.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.16.0"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     volto-subsites: "*"
-  checksum: e1d4fd4b40c5d0c6909bb5e0eaad098730034270535db4c42f3355eaeac0b7e8a3e43511c10467ae88a4f6ff35d3f21b74a29af95bd6c21358125be72c77d6eb
+  checksum: bda2934474a5291932f7dc14e182617ec8b70dad02c5bd779f5c1a3296b7de3254ef09d8b689568800f0954a70fb9d6ff0963cd7516ede35364485999ddea6de
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
-  dependencies:
-    "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-eea-design-system": "*"
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    md5: ^2.3.0
-    postcss-less: 6.0.0
-    volto-subsites: "*"
-  languageName: unknown
-  linkType: soft
-
-"@eeacms/volto-embed@npm:5.0.2":
-  version: 5.0.2
-  resolution: "@eeacms/volto-embed@npm:5.0.2"
+"@eeacms/volto-embed@npm:5.0.3":
+  version: 5.0.3
+  resolution: "@eeacms/volto-embed@npm:5.0.3"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
     react-visibility-sensor: 5.1.1
-  checksum: 78ff6ac01c69843806f0854e352ccf724f4548027d4c29f98da9d87fcb8df33195df2cc2d4aee69576285461b3938a30fbfe3628442bc4a7dba8841d44ed4272
+  checksum: 89356f157c2dc1f2bb71dd2437c9d25b542d74fefbb5214b24a4dc413b20a6bf808d7f00bd26822e1beea21b2939fa46a56078b2c690dd5ec04edac55925281b
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@workspace:src/addons/volto-embed":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-embed@workspace:src/addons/volto-embed"
+"@eeacms/volto-globalsearch@npm:1.0.16":
+  version: 1.0.16
+  resolution: "@eeacms/volto-globalsearch@npm:1.0.16"
   dependencies:
     "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-corsproxy": "*"
@@ -2159,11 +2145,9 @@ __metadata:
     "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
-    "@plone/scripts": "*"
-    babel-plugin-transform-class-properties: ^6.24.1
-    md5: ^2.3.0
-  languageName: unknown
-  linkType: soft
+  checksum: 9ae602c1b7627905cde8172a033926e1479668f7300977529c7163611f4058192aeca87777fab4eefcf8e4cf8daeed5471fc323132877a0f8c00eebe052b69eb
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-group-block@*, @eeacms/volto-group-block@6.1.1, @eeacms/volto-group-block@workspace:src/addons/volto-group-block":
   version: 0.0.0-use.local
@@ -2252,20 +2236,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-plotlycharts@npm:6.0.4":
-  version: 6.0.4
-  resolution: "@eeacms/volto-plotlycharts@npm:6.0.4"
+"@eeacms/volto-plotlycharts@npm:6.2.1":
+  version: 6.2.1
+  resolution: "@eeacms/volto-plotlycharts@npm:6.2.1"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
     plotly.js: ^2.9.0
     react-chart-editor: 0.45.0
-    react-colorscales: 0.7.3
+    react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-inspector: 5.1.1
     react-json-editor-ajrm: 2.5.13
     react-plotly.js: 2.5.1
-  checksum: 05642c6ada846d6dca7adeb4b9460b7116ba86cad3cd845eb0b761c441018a59d14a6a850c008ee249d76f289d5bd9adc4a72fbbbbed1f58a9fc5071b2b6660c
+  checksum: 12e7581985d94bba53271ddae460d474899cad63b62ed2cb62309d36604ca331d79367e8c13c1f9d17123cc5fbeee097de9b43828dd001915a8a9fe6694191dd
   languageName: node
   linkType: hard
 
@@ -2332,9 +2316,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-searchlib@npm:0.5.3":
-  version: 0.5.3
-  resolution: "@eeacms/volto-searchlib@npm:0.5.3"
+"@eeacms/volto-searchlib@npm:0.5.6":
+  version: 0.5.6
+  resolution: "@eeacms/volto-searchlib@npm:0.5.6"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": ^1.9.0
@@ -2372,7 +2356,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 8a1959e6b1db5497b972a8f4e90d92b01824b88bc39ca43753006a43d408e93754a4f08155550ec760b43b05f1c82939be57bcf4076e5c28b2b68ed6aed66ee4
+  checksum: 3379eab75622a0c3ce403e21417fbbb2f1f6d1f024c6c45822ae16f2b142c81d0fa6fa40576cc35ea291895ddb7e3868c4c4ff55a7adc047946772193355923b
   languageName: node
   linkType: hard
 
@@ -4073,9 +4057,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.20.6":
-  version: 16.20.6
-  resolution: "@plone/volto@npm:16.20.6"
+"@plone/volto@npm:16.20.8":
+  version: 16.20.8
+  resolution: "@plone/volto@npm:16.20.8"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -4257,7 +4241,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: 1f165d80fec995ad38eb12ce69d4e12d0f6bbf854ddd5037b63848e9219a8f07d2dc34567d6f3f1d7fa9228a9f87224ff2ca7747237017c4ebc79f9d8e942eed
+  checksum: 1ec266653107d844b92cf0546080c90198b11cf02d7c0c1f20723981dcbac11954fdf2abe56010a69df5067aa2f74afa428b79ddd86c8dd4bd1df0acf337f640
   languageName: node
   linkType: hard
 
@@ -13550,16 +13534,15 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.12.1
     "@eeacms/volto-eea-kitkat": 15.5.1
     "@eeacms/volto-eea-website-policy": 1.6.1
-    "@eeacms/volto-eea-website-theme": 1.14.1
-    "@eeacms/volto-embed": 5.0.2
-    "@eeacms/volto-globalsearch": 1.0.15
-    "@eeacms/volto-plotlycharts": 6.0.4
+    "@eeacms/volto-eea-website-theme": 1.16.0
+    "@eeacms/volto-embed": 5.0.3
+    "@eeacms/volto-globalsearch": 1.0.16
+    "@eeacms/volto-plotlycharts": 6.2.1
     "@eeacms/volto-redmine-helpdesk": 0.1.11
-    "@eeacms/volto-searchlib": 0.5.3
+    "@eeacms/volto-searchlib": 0.5.6
     "@eeacms/volto-workflow-progress": 3.1.0
-    "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone/scripts": ^2.1.2
-    "@plone/volto": 16.20.6
+    "@plone/volto": 16.20.8
     "@storybook/addon-actions": ^6.3.0
     "@storybook/addon-controls": 6.3.0
     "@storybook/addon-essentials": ^6.3.0
@@ -25839,9 +25822,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-colorscales@github:eea/react-colorscales#1.0.1":
-  version: 0.7.3
-  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=c9e32bfee905ea57a7319f5257a48d86a26652a1"
+"react-colorscales@github:eea/react-colorscales#1.0.2":
+  version: 1.0.2
+  resolution: "react-colorscales@https://github.com/eea/react-colorscales.git#commit=4da806e9a53be8c9567c913853f70aab561c90ea"
   dependencies:
     chroma-js: ^1.3.4
     rc-slider: ^8.4.0
@@ -25849,7 +25832,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: 1a19681f6809a4bf26ef88c1efea614c4c902beba4a5681ea3f3e7829b5f17fc75776ed6c51bf3be3b663eb5f6ffaf0d98a13da41a6866886c1a78395ab68dc6
+  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
   languageName: node
   linkType: hard
 
