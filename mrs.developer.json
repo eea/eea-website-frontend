@@ -23,14 +23,6 @@
     "develop": true,
     "path": "src"
   },
-  "volto-depiction": {
-    "url": "git@github.com:eea/volto-depiction.git",
-    "https": "https://github.com/eea/volto-depiction.git",
-    "package": "@eeacms/volto-depiction",
-    "branch": "develop",
-    "develop": true,
-    "path": "src"
-  },
   "volto-taxonomy": {
     "url": "git@github.com:eea/volto-taxonomy.git",
     "https": "https://github.com/eea/volto-taxonomy.git",
