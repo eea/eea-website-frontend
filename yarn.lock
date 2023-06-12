@@ -2451,10 +2451,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-workflow-progress@npm:3.1.0":
-  version: 3.1.0
-  resolution: "@eeacms/volto-workflow-progress@npm:3.1.0"
-  checksum: 0ab56d116ad05ba9dd87755d68bd910bdd720bb7ae0e8a948615ff7cf99ac0b3079521c99709aa7f4706940d0ced746bead22054579529725202f02eb6008a16
+"@eeacms/volto-workflow-progress@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@eeacms/volto-workflow-progress@npm:3.1.1"
+  checksum: 56acb82ec8ee5da8d434bd7f7df675d0917ba5d830e3025f56f02ec83a3fd550324fb03cc72798878a5611a88595fd45fa7ec07d3b4082b181012c4dccc90354
   languageName: node
   linkType: hard
 
@@ -12657,7 +12657,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 6.2.1
     "@eeacms/volto-redmine-helpdesk": 0.1.11
     "@eeacms/volto-searchlib": 0.5.7
-    "@eeacms/volto-workflow-progress": 3.1.0
+    "@eeacms/volto-workflow-progress": 3.1.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.20.8
     "@storybook/addon-actions": ^6.3.0
