@@ -65,7 +65,7 @@ patches:
 
 .PHONY: release
 release: ## Show release candidates
-	./scripts/release.py
+	./scripts/release.py -v
 
 .PHONY: update
 update: ## git pull all src/addons
