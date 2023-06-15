@@ -144,6 +144,12 @@
             ],
             "@eeacms/volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-eea-map": [
+                "addons/volto-eea-map/src"
+            ],
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
             ]
         },
         "baseUrl": "src"
