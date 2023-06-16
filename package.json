@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
