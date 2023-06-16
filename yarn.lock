@@ -2246,23 +2246,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-map@npm:0.1.35":
-  version: 0.1.35
-  resolution: "@eeacms/volto-eea-map@npm:0.1.35"
-  dependencies:
-    "@eeacms/volto-embed": "*"
-    "@eeacms/volto-object-widget": "*"
-    "@plone/scripts": "*"
-    esri-loader: 3.6.0
-    lodash: 4.17.21
-    razzle-plugin-scss: 4.2.18
-    react-color: ~2.19.3
-    react-querybuilder: 4.2.3
-  checksum: ddc776b60242db321757852ad81e8af8209951a8cb68f8970adb58a5e2dec48aebf49951b8ca58183222e0ffeb9572c074cd0a08facdf861be6204a8bd083790
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-map@workspace:src/addons/volto-eea-map":
+"@eeacms/volto-eea-map@1.0.0, @eeacms/volto-eea-map@workspace:src/addons/volto-eea-map":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-map@workspace:src/addons/volto-eea-map"
   dependencies:
@@ -2432,7 +2416,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-plotlycharts@6.2.2, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
+"@eeacms/volto-plotlycharts@npm:6.3.0":
+  version: 6.3.0
+  resolution: "@eeacms/volto-plotlycharts@npm:6.3.0"
+  dependencies:
+    "@eeacms/volto-datablocks": "*"
+    "@eeacms/volto-matomo": "*"
+    "@plone/scripts": "*"
+    plotly.js: ^2.9.0
+    react-chart-editor: 0.45.0
+    react-colorscales: "github:eea/react-colorscales#1.0.2"
+    react-inspector: 5.1.1
+    react-json-editor-ajrm: 2.5.13
+    react-plotly.js: 2.5.1
+  checksum: a85b4c1425a0306f3e556f4c6785403a1dc6c73c4c7e910a6472050383b4cecfa5e9862b82fe1f971e289eb6c86651456638562e5cc69b2c65fb3bbe8c9ace2e
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts"
   dependencies:
@@ -13282,12 +13283,12 @@ __metadata:
     "@eeacms/volto-datahub": 1.0.24
     "@eeacms/volto-eea-design-system": 1.13.2
     "@eeacms/volto-eea-kitkat": 16.0.0
-    "@eeacms/volto-eea-map": 0.1.35
+    "@eeacms/volto-eea-map": 1.0.0
     "@eeacms/volto-eea-website-policy": 1.6.3
     "@eeacms/volto-eea-website-theme": 1.17.2
     "@eeacms/volto-embed": 5.0.4
     "@eeacms/volto-globalsearch": 1.0.17
-    "@eeacms/volto-plotlycharts": 6.2.2
+    "@eeacms/volto-plotlycharts": 6.3.0
     "@eeacms/volto-redmine-helpdesk": 0.1.12
     "@eeacms/volto-searchlib": 0.5.7
     "@eeacms/volto-tableau": 4.1.0
