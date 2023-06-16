@@ -115,7 +115,7 @@
     "url": "git@github.com:eea/volto-block-data-figure.git",
     "https": "https://github.com/eea/volto-block-data-figure.git",
     "package": "@eeacms/volto-block-data-figure",
-    "branch": "ims-migration",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
