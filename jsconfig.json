@@ -16,9 +16,6 @@
             "@eeacms/volto-object-widget": [
                 "addons/volto-object-widget/src"
             ],
-            "@eeacms/volto-widgets-view": [
-                "addons/volto-widgets-view/src"
-            ],
             "@eeacms/volto-widget-toggle": [
                 "addons/volto-widget-toggle/src"
             ],
