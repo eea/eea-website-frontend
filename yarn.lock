@@ -2274,20 +2274,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:6.3.0":
-  version: 6.3.0
-  resolution: "@eeacms/volto-plotlycharts@npm:6.3.0"
+"@eeacms/volto-plotlycharts@npm:6.4.0":
+  version: 6.4.0
+  resolution: "@eeacms/volto-plotlycharts@npm:6.4.0"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
-    plotly.js: ^2.9.0
-    react-chart-editor: 0.45.0
+    plotly.js: ^2.24.2
+    react-chart-editor: latest
     react-colorscales: "github:eea/react-colorscales#1.0.2"
-    react-inspector: 5.1.1
-    react-json-editor-ajrm: 2.5.13
-    react-plotly.js: 2.5.1
-  checksum: a85b4c1425a0306f3e556f4c6785403a1dc6c73c4c7e910a6472050383b4cecfa5e9862b82fe1f971e289eb6c86651456638562e5cc69b2c65fb3bbe8c9ace2e
+    react-inspector: 6.0.2
+    react-json-editor-ajrm: 2.5.14
+    react-plotly.js: 2.6.0
+  checksum: bf99fc33cf216658bd63fca3adf2ff81109e6442653cd5607bc6efbc4a7bf245fb6e0426118be52ff474f54a81650f08e6d6572924649d16dfbbebf33c940524
   languageName: node
   linkType: hard
 
@@ -12780,7 +12780,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.18.1
     "@eeacms/volto-embed": 5.0.4
     "@eeacms/volto-globalsearch": 1.0.17
-    "@eeacms/volto-plotlycharts": 6.3.0
+    "@eeacms/volto-plotlycharts": 6.4.0
     "@eeacms/volto-redmine-helpdesk": 0.1.13
     "@eeacms/volto-searchlib": 0.5.7
     "@eeacms/volto-tableau": 4.1.0
@@ -22691,7 +22691,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"plotly.js@npm:^2.9.0":
+"plotly.js@npm:^2.24.2":
   version: 2.24.2
   resolution: "plotly.js@npm:2.24.2"
   dependencies:
@@ -23740,7 +23740,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.x, prop-types@npm:^15.0.0, prop-types@npm:^15.5.0, prop-types@npm:^15.5.10, prop-types@npm:^15.5.4, prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.5.9, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types@npm:15.x, prop-types@npm:^15.0.0, prop-types@npm:^15.5.0, prop-types@npm:^15.5.10, prop-types@npm:^15.5.4, prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.5.9, prop-types@npm:^15.6.0, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -24406,7 +24406,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-chart-editor@npm:0.45.0":
+"react-chart-editor@npm:latest":
   version: 0.45.0
   resolution: "react-chart-editor@npm:0.45.0"
   dependencies:
@@ -24888,7 +24888,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-inspector@npm:5.1.1, react-inspector@npm:^5.1.0":
+"react-inspector@npm:6.0.2":
+  version: 6.0.2
+  resolution: "react-inspector@npm:6.0.2"
+  peerDependencies:
+    react: ^16.8.4 || ^17.0.0 || ^18.0.0
+  checksum: dab7a7daf570c283fdc5d4e07ee8941ee8670af698ab5a27a704602b248e29ab911b117310d64c30a4af93931b2d6ee2a729369e3f5ab7f02df4651692e195a5
+  languageName: node
+  linkType: hard
+
+"react-inspector@npm:^5.1.0":
   version: 5.1.1
   resolution: "react-inspector@npm:5.1.1"
   dependencies:
@@ -24976,15 +24985,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-json-editor-ajrm@npm:2.5.13":
-  version: 2.5.13
-  resolution: "react-json-editor-ajrm@npm:2.5.13"
+"react-json-editor-ajrm@npm:2.5.14":
+  version: 2.5.14
+  resolution: "react-json-editor-ajrm@npm:2.5.14"
   dependencies:
     "@babel/runtime": ^7.0.0-rc.0
   peerDependencies:
     react: ">=16.2.0"
     react-dom: ">=16.2.0"
-  checksum: 44fa7557a5b35b96cebfa639083817c9a4fa775e58347daf8a331bf83b15ba64ee5634ea07fdef889b007bd6df9aa878ec007d1e1a1dad8249299abdee302ca5
+  checksum: d1c1fb89cde2a78d284fa40d2b3476bf19e82b62d33292b1b811e9cb7c6b33945917a362e6cb7c17be457899073e00c1ed13e909feff2c8920d2550d65e3280d
   languageName: node
   linkType: hard
 
@@ -25097,6 +25106,18 @@ __metadata:
     plotly.js: ">1.34.0"
     react: ">0.13.0"
   checksum: 9d0a06fd692bb2f649aa8c86af68b9b917610980bfb7bb76e6a93f8f35e07416bd73cb9740a8630eb7e38da1ae11a7ac5871063fcff6741fba0f80953ff77608
+  languageName: node
+  linkType: hard
+
+"react-plotly.js@npm:2.6.0":
+  version: 2.6.0
+  resolution: "react-plotly.js@npm:2.6.0"
+  dependencies:
+    prop-types: ^15.8.1
+  peerDependencies:
+    plotly.js: ">1.34.0"
+    react: ">0.13.0"
+  checksum: e826a3c94ec831c9d8fd92fa73aeece35d8ac04e0828d8362b28139d5b2923b83530356fb39c690debce20c47ba5d0a809f458a8c741d94edf88211e4ea4439f
   languageName: node
   linkType: hard
 
