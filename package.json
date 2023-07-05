@@ -177,7 +177,6 @@
     "@eeacms/volto-block-data-figure": "5.0.0",
     "@eeacms/volto-editing-progress": "0.2.1",
     "volto-subsites": "4.0.0",
-    "react-countup/countup.js": "2.5.0",
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
     "d3-array": "^2.12.1"
   },
