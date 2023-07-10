@@ -111,6 +111,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-block-data-figure": {
+    "url": "git@github.com:eea/volto-block-data-figure.git",
+    "https": "https://github.com/eea/volto-block-data-figure.git",
+    "package": "@eeacms/volto-block-data-figure",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-block-divider": {
     "url": "git@github.com:eea/volto-block-divider.git",
     "https": "https://github.com/eea/volto-block-divider.git",
@@ -326,6 +334,13 @@
     "branch": "develop",
     "path": "src"
   },
+  "volto-editing-progress": {
+    "url": "git@github.com:eea/volto-editing-progress.git",
+    "https": "https://github.com/eea/volto-editing-progress.git",
+    "package": "@eeacms/volto-editing-progress",
+    "branch": "develop",
+    "path": "src"
+  },
   "volto-sentry": {
     "url": "git@github.com:collective/volto-sentry.git",
     "https": "https://github.com/collective/volto-sentry.git",
@@ -369,6 +384,22 @@
     "url": "git@github.com:eea/volto-plotlycharts.git",
     "https": "https://github.com/eea/volto-plotlycharts.git",
     "package": "@eeacms/volto-plotlycharts",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
+  "volto-eea-map": {
+    "url": "git@github.com:eea/volto-eea-map.git",
+    "https": "https://github.com/eea/volto-eea-map.git",
+    "package": "@eeacms/volto-eea-map",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
+  "volto-tableau": {
+    "url": "git@github.com:eea/volto-tableau.git",
+    "https": "https://github.com/eea/volto-tableau.git",
+    "package": "@eeacms/volto-tableau",
     "branch": "develop",
     "develop": true,
     "path": "src"

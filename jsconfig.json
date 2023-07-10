@@ -136,6 +136,12 @@
             "@eeacms/volto-nextcloud-video-block": [
                 "addons/volto-nextcloud-video-block/src"
             ],
+            "@eeacms/volto-editing-progress": [
+                "addons/volto-editing-progress/src"
+            ],
+            "@eeacms/volto-block-data-figure": [
+                "addons/volto-block-data-figure/src"
+            ],
             "@eeacms/volto-embed": [
                 "addons/volto-embed/src"
             ],
@@ -144,6 +150,12 @@
             ],
             "@eeacms/volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
+            ],
+            "@eeacms/volto-eea-map": [
+                "addons/volto-eea-map/src"
+            ],
+            "@eeacms/volto-tableau": [
+                "addons/volto-tableau/src"
             ]
         },
         "baseUrl": "src"

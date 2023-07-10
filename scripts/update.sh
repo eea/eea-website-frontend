@@ -1,8 +1,8 @@
 #!/bin/bash
 DEPENDENCIES=$(jq -r '.dependencies|keys[]' package.json)
 for dependency in $DEPENDENCIES; do
-    yarn add "$dependency"
+    echo "| $dependency"
+    yarn add "$dependency" > /dev/null 2>&1
     version=$(jq -r ".dependencies[\"$dependency\"]" package.json)
-    git add package.json yarn.lock
-    git commit -m "Release $dependency $version"
+    echo "|- $version"
 done
