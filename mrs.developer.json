@@ -39,14 +39,6 @@
     "develop": true,
     "path": "src"
   },
-  "volto-widgets-view": {
-    "url": "git@github.com:eea/volto-widgets-view.git",
-    "https": "https://github.com/eea/volto-widgets-view.git",
-    "package": "@eeacms/volto-widgets-view",
-    "branch": "develop",
-    "develop": true,
-    "path": "src"
-  },
   "volto-widget-toggle": {
     "url": "git@github.com:eea/volto-widget-toggle.git",
     "https": "https://github.com/eea/volto-widget-toggle.git",
