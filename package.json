@@ -174,7 +174,7 @@
     "@eeacms/volto-redmine-helpdesk": "0.1.13",
     "@eeacms/volto-searchlib": "0.5.8",
     "@eeacms/volto-workflow-progress": "3.1.1",
-    "@eeacms/volto-block-data-figure": "5.0.0",
+    "@eeacms/volto-block-data-figure": "5.0.1",
     "@eeacms/volto-editing-progress": "0.2.1",
     "volto-subsites": "4.0.0",
     "react-countup/countup.js": "2.5.0",
@@ -182,7 +182,7 @@
     "d3-array": "^2.12.1"
   },
   "dependencies": {
-    "@eeacms/volto-block-data-figure": "5.0.0",
+    "@eeacms/volto-block-data-figure": "5.0.1",
     "@eeacms/volto-datablocks": "5.0.2",
     "@eeacms/volto-datahub": "1.0.24",
     "@eeacms/volto-editing-progress": "0.2.1",
