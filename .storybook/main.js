@@ -98,6 +98,8 @@ module.exports = {
     config.module.rules.unshift(SVGLOADER);
     const fileLoader = config.module.rules.find(fileLoaderFinder);
     fileLoader.exclude = [/\.(config|variables|overrides)$/, /icons\/.*\.svg$/];
+    // add vtt and .pro to file loader
+    fileLoader.test = /\.(svg|ico|jpg|jpeg|png|apng|gif|eot|otf|webp|ttf|woff|woff2|cur|ani|pdf|vtt|pro)(\?.*)?$/;
 
     config.plugins.unshift(
       new webpack.DefinePlugin({
