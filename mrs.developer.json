@@ -403,5 +403,13 @@
     "package": "@eeacms/volto-nextcloud-video-block",
     "path": "src",
     "branch": "develop"
+  },
+  "countup": {
+    "develop": true,
+    "url": "git@github.com:eea/countup.git",
+    "https": "https://github.com/eea/countup.git",
+    "package": "@eeacms/countup",
+    "path": "src",
+    "branch": "develop"
   }
 }
