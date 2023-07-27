@@ -154,6 +154,9 @@
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ],
+            "@eeacms/volto-citation": [
+                "addons/volto-citation/src"
+            ],
             "@eeacms/countup": [
                 "addons/countup/src"
             ]
