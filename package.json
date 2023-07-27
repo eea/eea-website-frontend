@@ -184,6 +184,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-data-figure": "5.0.1",
+    "@eeacms/volto-citation": "0.1.2",
     "@eeacms/volto-datablocks": "6.0.0",
     "@eeacms/volto-datahub": "1.0.24",
     "@eeacms/volto-editing-progress": "0.2.2",
@@ -199,7 +200,6 @@
     "@eeacms/volto-searchlib": "0.6.0",
     "@eeacms/volto-tableau": "5.0.0",
     "@eeacms/volto-workflow-progress": "3.1.1",
-    "@eeacms/volto-citation": "0.1.2",
     "@plone/volto": "16.22.0",
     "volto-subsites": "4.0.0"
   },
