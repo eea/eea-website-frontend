@@ -153,6 +153,9 @@
             ],
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
+            ],
+            "@eeacms/countup": [
+                "addons/countup/src"
             ]
         },
         "baseUrl": "src"
