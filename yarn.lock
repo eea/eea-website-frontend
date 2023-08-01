@@ -2179,12 +2179,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@npm:1.7.2":
-  version: 1.7.2
-  resolution: "@eeacms/volto-eea-website-policy@npm:1.7.2"
+"@eeacms/volto-eea-website-policy@npm:1.7.3":
+  version: 1.7.3
+  resolution: "@eeacms/volto-eea-website-policy@npm:1.7.3"
   dependencies:
     "@eeacms/volto-widget-dataprovenance": "*"
-  checksum: 84d69467e73ea5c78ced0140d5c303adb189a586f42f371eb02d0e5fc88a98e73d7abcb3d8f4b48459c66358ac6848cc84d6f17600df58e2ecf49f771fb8c616
+  checksum: b6c2b6d627bb4ec63a4303ad85c378ba2ebdb759adebe1df40bc66c0c414947a891b896c701b67d6b1aad3f35f70d07254294d6356e2b98b03947f6a700805d0
   languageName: node
   linkType: hard
 
@@ -12762,7 +12762,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.15.0
     "@eeacms/volto-eea-kitkat": 17.0.0
     "@eeacms/volto-eea-map": 2.0.0
-    "@eeacms/volto-eea-website-policy": 1.7.2
+    "@eeacms/volto-eea-website-policy": 1.7.3
     "@eeacms/volto-eea-website-theme": 1.18.1
     "@eeacms/volto-embed": 6.0.0
     "@eeacms/volto-globalsearch": 1.0.19
