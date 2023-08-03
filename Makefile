@@ -48,12 +48,16 @@ develop: ## Runs missdev in the local project (mrs.developer.json should be pres
 	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
 
 .PHONY: install
-install:	## Frontend: Install project and add-ons
+install:	## Frontend - Install project and add-ons
 	yarn install
 
 .PHONY: start
-start:		## Frontend: Start
+start:		## Frontend - Start
 	yarn start
+
+.PHONY: relstorage
+relstorage:		## Frontend - Start w/ RelStorage Plone Backend
+	RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www yarn start
 
 .PHONY: omelette
 omelette: ## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)
