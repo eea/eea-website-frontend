@@ -404,6 +404,14 @@
     "path": "src",
     "branch": "develop"
   },
+  "volto-citation": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-citation.git",
+    "https": "https://github.com/eea/volto-citation.git",
+    "package": "@eeacms/volto-citation",
+    "path": "src",
+    "branch": "develop"
+  },
   "countup": {
     "develop": true,
     "url": "git@github.com:eea/countup.git",
