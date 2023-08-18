@@ -7,6 +7,10 @@
 #
 #     http://localhost:3000
 #
+# Test add-ons:
+#
+#    make test src/addons/volto-accordion-block
+#
 ##############################################################################
 # SETUP MAKE
 #
@@ -91,7 +95,11 @@ status: ## Check src/addons for changes
 pull: ## Run git pull on all src/addons
 	./scripts/pull.sh
 
+.PHONY: test
+test: 			## Run Jest tests for Volto add-on
+	RAZZLE_JEST_CONFIG=$(filter-out $@,$(MAKECMDGOALS))/jest-addon.config.js yarn test $(filter-out $@,$(MAKECMDGOALS))
+
 .PHONY: help
 help:		## Show this help.
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
-	head -n 10 Makefile
+	head -n 14 Makefile
