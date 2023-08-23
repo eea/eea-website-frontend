@@ -2062,21 +2062,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:*":
+"@eeacms/volto-accordion-block@npm:*, @eeacms/volto-accordion-block@npm:10.1.1":
   version: 10.1.1
   resolution: "@eeacms/volto-accordion-block@npm:10.1.1"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
   checksum: 91dce97feebe014e6fac360195dbb196b1d9ccc5d2abd2aa0a328a6a4fdb9082c2bf36c1736b717e68c31694ca6802e6920b708041fb677fc238c943a5ddcfef
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-accordion-block@npm:10.1.0":
-  version: 10.1.0
-  resolution: "@eeacms/volto-accordion-block@npm:10.1.0"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-  checksum: ff2a63ab9e5ba34b868fcf9df23fcf131a4b8800816d695d4f2efaf3ff2e8786791d7c010c52dea9393a9dd4705f08640eeda1654273d8527341941f21a7f796
   languageName: node
   linkType: hard
 
@@ -2242,12 +2233,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:18.0.2":
-  version: 18.0.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:18.0.2"
+"@eeacms/volto-eea-kitkat@npm:18.0.3":
+  version: 18.0.3
+  resolution: "@eeacms/volto-eea-kitkat@npm:18.0.3"
   dependencies:
     "@eeacms/countup": 2.0.4
-    "@eeacms/volto-accordion-block": 10.1.0
+    "@eeacms/volto-accordion-block": 10.1.1
     "@eeacms/volto-anchors": 0.4.0
     "@eeacms/volto-banner": 3.1.3
     "@eeacms/volto-block-divider": 6.1.2
@@ -2283,13 +2274,13 @@ __metadata:
     "@eeacms/volto-widget-toggle": 3.1.2
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: f60051665514d04c59ec1dedcb4add0ebd343e541a4c0a6ffbc5c099c6c41ba6fd0bcc292ce417aceb10caf1977da5cdb7d37f6e9708424d53e9b31c446d7667
+  checksum: c8095f6d73e98aa319adcf23455814b563bd87d3e35d713d85a9fa0fe4ef5e77c60713ee530f19e7fe09819b35d80e9ab6b95875e6bc0cb3028932b6160f1337
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@eeacms/volto-eea-map@npm:2.0.3"
+"@eeacms/volto-eea-map@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@eeacms/volto-eea-map@npm:2.0.5"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
@@ -2299,7 +2290,7 @@ __metadata:
     razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 4.2.3
-  checksum: fb70b620c9be11680d6f5a097b67fa3de043a9b1dee4381d8d652c4638a9f98a2d39a2d4da0b8d330e023cef53a1d950e0820501b04335c52d16d66ff53379f3
+  checksum: d0aa49354416138d1e34fd9d49681dce619909fdc6ad303cf180149ac058c19acecc25cad02ccf8ce63f7bded8ebdfa2ea04f88c7ec72031bac3b646aae40869
   languageName: node
   linkType: hard
 
@@ -12914,8 +12905,8 @@ __metadata:
     "@eeacms/volto-datahub": 1.0.26
     "@eeacms/volto-editing-progress": 0.2.2
     "@eeacms/volto-eea-design-system": 1.16.0
-    "@eeacms/volto-eea-kitkat": 18.0.2
-    "@eeacms/volto-eea-map": 2.0.3
+    "@eeacms/volto-eea-kitkat": 18.0.3
+    "@eeacms/volto-eea-map": 2.0.5
     "@eeacms/volto-eea-website-policy": 1.8.0
     "@eeacms/volto-eea-website-theme": 1.19.0
     "@eeacms/volto-embed": 6.0.0
