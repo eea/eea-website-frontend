@@ -121,7 +121,7 @@ class Github(object):
         ch = logging.StreamHandler()
         ch.setLevel(logging.DEBUG)
         formatter = logging.Formatter(
-            "%(asctime)s - %(lineno)3d - %(levelname)7s - %(message)s"
+            "%(message)s"
         )
         fh.setFormatter(formatter)
         ch.setFormatter(formatter)
@@ -144,15 +144,19 @@ class Github(object):
                 pulls = json.loads(conn.read())
                 for pull in pulls:
                     self.status = 1
+                    updated_at = datetime.strptime(
+                        pull.get("updated_at", ""), "%Y-%m-%dT%H:%M:%SZ"
+                    )
                     self.logger.warning(
-                        "%s - %s - %s - %s",
-                        pull.get("user").get("login"),
+                        "%s \t %s \t %s \t %s \t %s",
+                        updated_at.strftime("%d %b %Y"),
                         name,
-                        pull.get("title", "-"),
                         pull.get("html_url", "-"),
+                        pull.get("user").get("login"),
+                        pull.get("title", "-"),
                     )
         except urllib.error.HTTPError as err:
-            self.logger.warning("%s - %s", str(err), url)
+            self.logger.warning("%s \t %s", str(err), url)
 
         url = repo.get("url", "") + "/forks"
         try:
@@ -165,7 +169,7 @@ class Github(object):
                         self.check_pulls(fork)
                         break
         except urllib.error.HTTPError as err:
-            self.logger.warning("%s - %s", str(err), url)
+            self.logger.warning("%s \t %s", str(err), url)
 
     def check_repo(self, repo):
         """Sync repo"""
