@@ -419,5 +419,13 @@
     "package": "@eeacms/countup",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-toolbar-actions": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-toolbar-actions.git",
+    "https": "https://github.com/eea/volto-toolbar-actions.git",
+    "package": "@eeacms/volto-toolbar-actions",
+    "path": "src",
+    "branch": "develop"
   }
 }
