@@ -2589,6 +2589,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-toolbar-actions@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@eeacms/volto-toolbar-actions@npm:0.2.1"
+  checksum: 8e30f15b60374ca1c12e8f5d2e1ff826e26ce6e67f41b2c46112be4ec143da95a0b8f09ec401f915965afcd58be19daa28bbdea47ed5149ceb8c17b33068906c
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-widget-dataprovenance@npm:*, @eeacms/volto-widget-dataprovenance@npm:0.4.0":
   version: 0.4.0
   resolution: "@eeacms/volto-widget-dataprovenance@npm:0.4.0"
@@ -12943,6 +12950,7 @@ __metadata:
     "@eeacms/volto-redmine-helpdesk": 0.1.14
     "@eeacms/volto-searchlib": 0.6.4
     "@eeacms/volto-tableau": 5.0.0
+    "@eeacms/volto-toolbar-actions": 0.2.1
     "@eeacms/volto-workflow-progress": 3.1.1
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.24.0
