@@ -159,6 +159,9 @@
             ],
             "@eeacms/countup": [
                 "addons/countup/src"
+            ],
+            "@eeacms/volto-toolbar-actions": [
+                "addons/volto-toolbar-actions/src"
             ]
         },
         "baseUrl": "src"
