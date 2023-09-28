@@ -2692,10 +2692,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-workflow-progress@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@eeacms/volto-workflow-progress@npm:4.0.0"
-  checksum: f6711fdf34df8be21b6bf1a263f2b355e6913329c63836324c5212323434a3bc37a3f9e342e0db870b0d327e6a768b314018b279a081f5a016a17e70148bbb52
+"@eeacms/volto-workflow-progress@npm:4.1.0":
+  version: 4.1.0
+  resolution: "@eeacms/volto-workflow-progress@npm:4.1.0"
+  checksum: f1869ccd17616ac8f2a26ae0a1270bfaba0e8b40aaad916c5cbf442d6a14a4b23cca24a18077d71ab196172696de2359d43f78b0dc352738ba7979e9b7c32031
   languageName: node
   linkType: hard
 
@@ -12675,7 +12675,7 @@ __metadata:
     "@eeacms/volto-searchlib": 0.6.5
     "@eeacms/volto-tableau": 5.0.0
     "@eeacms/volto-toolbar-actions": 1.0.0
-    "@eeacms/volto-workflow-progress": 4.0.0
+    "@eeacms/volto-workflow-progress": 4.1.0
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.24.0
     "@storybook/addon-actions": ^6.3.0
