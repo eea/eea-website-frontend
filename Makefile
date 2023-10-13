@@ -57,11 +57,7 @@ install:		## Install project and add-ons
 
 .PHONY: husky
 husky:			## Install husky git hooks in src/addons/*
-	for i in src/addons/*; do
-		if [ -d $$i/.husky ]; then
-			(cd $$i && printf "$$i - " && yarn husky install)
-		fi
-	done
+	./scripts/husky.sh
 
 .PHONY: start
 start:			## Start frontend
