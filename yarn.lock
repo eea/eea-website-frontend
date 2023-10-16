@@ -2415,10 +2415,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-redmine-helpdesk@npm:0.1.14":
-  version: 0.1.14
-  resolution: "@eeacms/volto-redmine-helpdesk@npm:0.1.14"
-  checksum: 29f36a7e09e126d3d63898cf15bcd984de23648de26a2dbe8d3136d108fad71bce9fb84cf71d545ba5edd5fbc8295fe1270400939f34038895f18dd63dc2206b
+"@eeacms/volto-redmine-helpdesk@npm:0.1.15":
+  version: 0.1.15
+  resolution: "@eeacms/volto-redmine-helpdesk@npm:0.1.15"
+  checksum: 7774dfdd5a367f232478d344b809e25f4832e51774f7b37ca9053a0b4cfdececfbb468b355c17d5970ef196faaa24dc3b6dd97b8faecbe9a8f09d9ef8df39357
   languageName: node
   linkType: hard
 
@@ -12576,7 +12576,7 @@ __metadata:
     "@eeacms/volto-embed": 6.0.1
     "@eeacms/volto-globalsearch": 1.0.21
     "@eeacms/volto-plotlycharts": 7.0.5
-    "@eeacms/volto-redmine-helpdesk": 0.1.14
+    "@eeacms/volto-redmine-helpdesk": 0.1.15
     "@eeacms/volto-searchlib": 0.6.6
     "@eeacms/volto-tableau": 5.0.1
     "@eeacms/volto-toolbar-actions": 1.0.1
