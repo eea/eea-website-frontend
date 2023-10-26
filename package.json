@@ -175,7 +175,7 @@
     "@eeacms/volto-searchlib": "0.6.7",
     "@eeacms/volto-toolbar-actions": "1.0.3",
     "@eeacms/volto-workflow-progress": "4.1.1",
-    "@eeacms/volto-block-data-figure": "6.0.4",
+    "@eeacms/volto-block-data-figure": "6.0.5",
     "@eeacms/volto-editing-progress": "0.3.0",
     "@eeacms/volto-citation": "0.1.4",
     "volto-subsites": "4.0.0",
@@ -183,7 +183,7 @@
     "d3-array": "^2.12.1"
   },
   "dependencies": {
-    "@eeacms/volto-block-data-figure": "6.0.4",
+    "@eeacms/volto-block-data-figure": "6.0.5",
     "@eeacms/volto-citation": "0.1.4",
     "@eeacms/volto-datablocks": "6.1.4",
     "@eeacms/volto-datahub": "1.0.32",
