@@ -198,7 +198,7 @@
     "@eeacms/volto-plotlycharts": "7.1.0",
     "@eeacms/volto-redmine-helpdesk": "0.1.15",
     "@eeacms/volto-searchlib": "0.6.7",
-    "@eeacms/volto-tableau": "6.0.0",
+    "@eeacms/volto-tableau": "6.0.1",
     "@eeacms/volto-toolbar-actions": "1.0.3",
     "@eeacms/volto-workflow-progress": "4.1.1",
     "@plone/volto": "16.26.0",
