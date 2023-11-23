@@ -162,7 +162,7 @@
   },
   "resolutions": {
     "@eeacms/volto-embed": "8.0.0",
-    "@eeacms/volto-datablocks": "6.1.5",
+    "@eeacms/volto-datablocks": "6.1.6",
     "@eeacms/volto-datahub": "1.0.32",
     "@eeacms/volto-eea-design-system": "1.21.1",
     "@eeacms/volto-eea-kitkat": "20.0.2",
@@ -185,7 +185,7 @@
   "dependencies": {
     "@eeacms/volto-block-data-figure": "6.0.5",
     "@eeacms/volto-citation": "0.1.4",
-    "@eeacms/volto-datablocks": "6.1.5",
+    "@eeacms/volto-datablocks": "6.1.6",
     "@eeacms/volto-datahub": "1.0.32",
     "@eeacms/volto-editing-progress": "0.3.0",
     "@eeacms/volto-eea-design-system": "1.21.1",
