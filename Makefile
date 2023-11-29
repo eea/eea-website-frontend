@@ -67,6 +67,10 @@ start:			## Start frontend
 relstorage:		## Start frontend w/ RelStorage Plone Backend
 	RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www yarn start
 
+.PHONY: staging
+staging:		## Start frontend w/ Staging Plone Backend
+	RAZZLE_DEV_PROXY_API_PATH=http://10.110.30.48:59707/www yarn start
+
 .PHONY: omelette
 omelette: 		## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)
 	if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi
