@@ -33,13 +33,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.22.13, @babel/code-frame@npm:^7.23.4":
-  version: 7.23.4
-  resolution: "@babel/code-frame@npm:7.23.4"
+"@babel/code-frame@npm:^7.22.13, @babel/code-frame@npm:^7.23.5":
+  version: 7.23.5
+  resolution: "@babel/code-frame@npm:7.23.5"
   dependencies:
     "@babel/highlight": ^7.23.4
     chalk: ^2.4.2
-  checksum: 29999d08c3dbd803f3c296dae7f4f40af1f9e381d6bbc76e5a75327c4b8b023bcb2e209843d292f5d71c3b5c845df1da959d415ed862d6a68e0ad6c5c9622d37
+  checksum: d90981fdf56a2824a9b14d19a4c0e8db93633fd488c772624b4e83e0ceac6039a27cd298a247c3214faa952bf803ba23696172ae7e7235f3b97f43ba278c569a
   languageName: node
   linkType: hard
 
@@ -108,15 +108,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.23.4":
-  version: 7.23.4
-  resolution: "@babel/generator@npm:7.23.4"
+"@babel/generator@npm:^7.23.5":
+  version: 7.23.5
+  resolution: "@babel/generator@npm:7.23.5"
   dependencies:
-    "@babel/types": ^7.23.4
+    "@babel/types": ^7.23.5
     "@jridgewell/gen-mapping": ^0.3.2
     "@jridgewell/trace-mapping": ^0.3.17
     jsesc: ^2.5.1
-  checksum: 7403717002584eaeb58559f4d0de19b79e924ef2735711278f7cb5206d081428bf3960578566d6fa4102b7b30800d44f70acffea5ecef83f0cb62361c2a23062
+  checksum: 845ddda7cf38a3edf4be221cc8a439dee9ea6031355146a1a74047aa8007bc030305b27d8c68ec9e311722c910610bde38c0e13a9ce55225251e7cb7e7f3edc8
   languageName: node
   linkType: hard
 
@@ -514,12 +514,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.22.15, @babel/parser@npm:^7.23.4":
-  version: 7.23.4
-  resolution: "@babel/parser@npm:7.23.4"
+"@babel/parser@npm:^7.22.15, @babel/parser@npm:^7.23.5":
+  version: 7.23.5
+  resolution: "@babel/parser@npm:7.23.5"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 1d90e17d966085b8ea12f357ffcc76568969364481254f0ae3e7ed579e9421d31c7fd3876ccb3b215a5b2ada48251b0c2d0f21ba225ee194f0e18295b49085f2
+  checksum: ea763629310f71580c4a3ea9d3705195b7ba994ada2cc98f9a584ebfdacf54e92b2735d351672824c2c2b03c7f19206899f4d95650d85ce514a822b19a8734c7
   languageName: node
   linkType: hard
 
@@ -1730,11 +1730,11 @@ __metadata:
   linkType: hard
 
 "@babel/runtime@npm:^7.0.0-rc.0":
-  version: 7.23.4
-  resolution: "@babel/runtime@npm:7.23.4"
+  version: 7.23.5
+  resolution: "@babel/runtime@npm:7.23.5"
   dependencies:
     regenerator-runtime: ^0.14.0
-  checksum: 8eb6a6b2367f7d60e7f7dd83f477cc2e2fdb169e5460694d7614ce5c730e83324bcf29251b70940068e757ad1ee56ff8073a372260d90cad55f18a825caf97cd
+  checksum: 164d9802424f06908e62d29b8fd3a87db55accf82f46f964ac481dcead11ff7df8391e3696e5fa91a8ca10ea8845bf650acd730fa88cf13f8026cd8d5eec6936
   languageName: node
   linkType: hard
 
@@ -1779,20 +1779,20 @@ __metadata:
   linkType: hard
 
 "@babel/traverse@npm:^7.4.5":
-  version: 7.23.4
-  resolution: "@babel/traverse@npm:7.23.4"
+  version: 7.23.5
+  resolution: "@babel/traverse@npm:7.23.5"
   dependencies:
-    "@babel/code-frame": ^7.23.4
-    "@babel/generator": ^7.23.4
+    "@babel/code-frame": ^7.23.5
+    "@babel/generator": ^7.23.5
     "@babel/helper-environment-visitor": ^7.22.20
     "@babel/helper-function-name": ^7.23.0
     "@babel/helper-hoist-variables": ^7.22.5
     "@babel/helper-split-export-declaration": ^7.22.6
-    "@babel/parser": ^7.23.4
-    "@babel/types": ^7.23.4
+    "@babel/parser": ^7.23.5
+    "@babel/types": ^7.23.5
     debug: ^4.1.0
     globals: ^11.1.0
-  checksum: e8c9cd92cfd6fec9cf3969604edea5a58c2d55275b88b9de06f0d94de43b64b04d57168554b617159d62c840a8700e6d4c7954d2e6ed69cfb918202ac01561e9
+  checksum: 0558b05360850c3ad6384e85bd55092126a8d5f93e29a8e227dd58fa1f9e1a4c25fd337c07c7ae509f0983e7a2b1e761ffdcfaa77a1e1bedbc867058e1de5a7d
   languageName: node
   linkType: hard
 
@@ -1818,14 +1818,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.22.15, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.4":
-  version: 7.23.4
-  resolution: "@babel/types@npm:7.23.4"
+"@babel/types@npm:^7.22.15, @babel/types@npm:^7.22.5, @babel/types@npm:^7.23.0, @babel/types@npm:^7.23.5":
+  version: 7.23.5
+  resolution: "@babel/types@npm:7.23.5"
   dependencies:
     "@babel/helper-string-parser": ^7.23.4
     "@babel/helper-validator-identifier": ^7.22.20
     to-fast-properties: ^2.0.0
-  checksum: 8a1ab20da663d202b1c090fdef4b157d3c7d8cb1cf60ea548f887d7b674935371409804d6cba52f870c22ced7685fcb41b0578d3edde720990de00cbb328da54
+  checksum: 3d21774480a459ef13b41c2e32700d927af649e04b70c5d164814d8e04ab584af66a93330602c2925e1a6925c2b829cc153418a613a4e7d79d011be1f29ad4b2
   languageName: node
   linkType: hard
 
@@ -2225,9 +2225,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.22.0":
-  version: 1.22.0
-  resolution: "@eeacms/volto-eea-design-system@npm:1.22.0"
+"@eeacms/volto-eea-design-system@npm:1.22.2":
+  version: 1.22.2
+  resolution: "@eeacms/volto-eea-design-system@npm:1.22.2"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2236,13 +2236,13 @@ __metadata:
     react-slick: ^0.28.1
     remixicon: 2.5.0
     slick-carousel: ^1.8.1
-  checksum: d377e28a4e9b87eabc25e43670087ceb581c941ea72cc547eafecab9beb00b40300c93730bef0157be5ee191284f2038feb43feed5055052dac5f509e80005e8
+  checksum: 982a94e56b35689e045a9e90b05a04650ffce7ca85e34d6a4a3786a4c259e77765552feef0e13d687c22ef12bb0488d7f615e04fc8a5f71f8c4c7fb2a4773311
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:20.1.0":
-  version: 20.1.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:20.1.0"
+"@eeacms/volto-eea-kitkat@npm:21.0.0":
+  version: 21.0.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:21.0.0"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 10.4.4
@@ -2257,11 +2257,11 @@ __metadata:
     "@eeacms/volto-description-block": 1.2.4
     "@eeacms/volto-group-block": 6.3.5
     "@eeacms/volto-hero-block": 5.4.6
-    "@eeacms/volto-listing-block": 6.2.0
+    "@eeacms/volto-listing-block": 7.0.0
     "@eeacms/volto-matomo": 4.2.1
     "@eeacms/volto-metadata-block": 6.0.5
     "@eeacms/volto-nextcloud-video-block": 0.4.8
-    "@eeacms/volto-object-widget": 5.1.5
+    "@eeacms/volto-object-widget": 5.2.0
     "@eeacms/volto-quote-block": 1.2.3
     "@eeacms/volto-resize-helper": 1.3.4
     "@eeacms/volto-sentry-rancher-config": 4.0.0
@@ -2270,7 +2270,7 @@ __metadata:
     "@eeacms/volto-slate-metadata-mentions": 7.0.2
     "@eeacms/volto-slate-zotero": 5.2.5
     "@eeacms/volto-statistic-block": 4.0.2
-    "@eeacms/volto-tabs-block": 7.0.2
+    "@eeacms/volto-tabs-block": 7.0.3
     "@eeacms/volto-tags-block": 1.2.4
     "@eeacms/volto-taxonomy": 4.1.1
     "@eeacms/volto-timeline-block": 1.1.5
@@ -2281,13 +2281,13 @@ __metadata:
     "@eeacms/volto-widget-toggle": 3.1.4
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 24cd75850abf8efe92595ed96b1af47c98607757c73451ed349d7b1aa3fbb114e63767d6c4e77df22f9783bbaa577bd4d34e4f572bf705b2dcd0abc9a92fed70
+  checksum: 34ced6eb488364c7c0f92b99efead2485d912a2eb616c5958f3cee003a0b249fb0c05f75b04eb896e5db37b303ecd95358a96acd8fd8de1683b3700cfc3b37b9
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@eeacms/volto-eea-map@npm:3.0.1"
+"@eeacms/volto-eea-map@npm:3.0.3":
+  version: 3.0.3
+  resolution: "@eeacms/volto-eea-map@npm:3.0.3"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
@@ -2297,7 +2297,7 @@ __metadata:
     razzle-plugin-scss: 4.2.18
     react-color: ~2.19.3
     react-querybuilder: 4.2.3
-  checksum: 930f2c90c5d1bcf8fff43372439251ac0b38b9b8adac62668fd816c754b047b8be073ea545f277363c1b4659dfb9edf98eb04e85a3d23c411acdd40889b3b069
+  checksum: 9ffa758301a4d08ae3caac3caa618cdb43da8038d3e945a8b68403c05bbe86347c32d57568502e143984fda7a063763ea4984dfa592618e68ec7e495aded49ce
   languageName: node
   linkType: hard
 
@@ -2322,13 +2322,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@eeacms/volto-embed@npm:9.0.1"
+"@eeacms/volto-embed@npm:9.0.2":
+  version: 9.0.2
+  resolution: "@eeacms/volto-embed@npm:9.0.2"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-datablocks": "*"
-  checksum: bb22bf1b24bdaa6e84436ec122bedd77c5af5b58a3cf4a10c8c33fbb96b20e34bc65d87c4b8f7d658c58a8edcea109653ed2895fe37738baf32f00282958d557
+  checksum: 9dc5a2be62eacff66383dc7dc545b7909560135b4cde407b4231eec3fb0a3bc57e9dede19ade3564aa8cb7a40ba3a4cbbca946cab7e04ff60bc7758753fdb420
   languageName: node
   linkType: hard
 
@@ -2359,15 +2359,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:6.2.0":
-  version: 6.2.0
-  resolution: "@eeacms/volto-listing-block@npm:6.2.0"
+"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:7.0.0":
+  version: 7.0.0
+  resolution: "@eeacms/volto-listing-block@npm:7.0.0"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: b725deda1aa3e8a0ec82d4037bfc7a9fa88fe5849294f9765c44d1f28083d9871e6de0c8446942b4004d5fe71d374e12d8bd180657db118b0bff2d8f0a0eaf89
+  checksum: 2d271c8bd5aa861eda8bf5f6dbe21bd9f5662bc793094e5637f68235b5ee323157f5724f8abcb5098c370046190e6b49070a9a2e97498c35139bec84f815d166
   languageName: node
   linkType: hard
 
@@ -2398,18 +2398,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:5.1.5":
-  version: 5.1.5
-  resolution: "@eeacms/volto-object-widget@npm:5.1.5"
+"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:5.2.0":
+  version: 5.2.0
+  resolution: "@eeacms/volto-object-widget@npm:5.2.0"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
-  checksum: c1e9217fe5924a97b184898e4626691b6b6f3e9f3489941b37f72ec0406adfef3c98c0d893c8a026c103f16f4a9109b5bffb394ff21ac43fe0f312dc15965a47
+  checksum: 3b9687e85d6c3f1802585b911fe43dea86e784ba49ad6e6fc19291163a248bf96d421456d3c3c4e0f2691c9c5bffc393be0776bae2e363e61d42e6dd69469453
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:8.1.2":
-  version: 8.1.2
-  resolution: "@eeacms/volto-plotlycharts@npm:8.1.2"
+"@eeacms/volto-plotlycharts@npm:8.1.3":
+  version: 8.1.3
+  resolution: "@eeacms/volto-plotlycharts@npm:8.1.3"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2420,7 +2420,7 @@ __metadata:
     react-inspector: 6.0.2
     react-json-editor-ajrm: 2.5.14
     react-plotly.js: 2.6.0
-  checksum: f9f9ef375869596dbec9e87b32fad260ee5f50183735dd825863e7e27b72317cbb471c2cafd5d61a33af6bc51c8c9c8b52b57029eb0981b9afc1da6d70de988c
+  checksum: 1eac14871521696ca2f285bf575b3a6b6574fa0c1d5f0e1c8004a3a3f0de249ebbdd89866cd35e44a256e16397a6e10b4706b817e7e65f70d44122e067dcb7d6
   languageName: node
   linkType: hard
 
@@ -2537,27 +2537,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:7.0.1":
-  version: 7.0.1
-  resolution: "@eeacms/volto-tableau@npm:7.0.1"
+"@eeacms/volto-tableau@npm:7.0.3":
+  version: 7.0.3
+  resolution: "@eeacms/volto-tableau@npm:7.0.3"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: b355206e199873885f0dd1dc2342677bcf550010ba223398fe2b952acbfb7b00ff9b78df9c052350e11c674c4127aa5012e59c73b64f5c28c5a9f5177915d4eb
+  checksum: 891b59cc96da8a1e73f301d6a4b45bf4c2660b0675958d0f1042f9725c83b0e6b9eac598a7016225c539b890eec46bf8985d4d838f9d5d4e4e669121b7f38858
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@eeacms/volto-tabs-block@npm:7.0.2"
+"@eeacms/volto-tabs-block@npm:7.0.3":
+  version: 7.0.3
+  resolution: "@eeacms/volto-tabs-block@npm:7.0.3"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: df8270521db039bb6e342c38081fe6ad6f5b4d438f1c6795eadd0149a99f3c0e1a36ce9f710253a02a8c78f1cf67e35e4abda316b8d63bf8bacb74abc9964bac
+  checksum: 6dd54b62fbafb3c9172d3bd8429f91accdf669f07a2db353dc2658e3510edbac2f64302b81c90f477c3e32a7ef79eb1e34abe48db951099826140752abc7c051
   languageName: node
   linkType: hard
 
@@ -3556,13 +3556,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@juggle/resize-observer@npm:^3.4.0":
-  version: 3.4.0
-  resolution: "@juggle/resize-observer@npm:3.4.0"
-  checksum: 2505028c05cc2e17639fcad06218b1c4b60f932a4ebb4b41ab546ef8c157031ae377e3f560903801f6d01706dbefd4943b6c4704bf19ed86dfa1c62f1473a570
-  languageName: node
-  linkType: hard
-
 "@kitconcept/volto-blocks-grid@npm:7.0.2":
   version: 7.0.2
   resolution: "@kitconcept/volto-blocks-grid@npm:7.0.2"
@@ -3908,9 +3901,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:16.27.0":
-  version: 16.27.0
-  resolution: "@plone/volto@npm:16.27.0"
+"@plone/volto@npm:16.26.0":
+  version: 16.26.0
+  resolution: "@plone/volto@npm:16.26.0"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-proposal-export-default-from": 7.18.9
@@ -4068,9 +4061,9 @@ __metadata:
     semantic-ui-react: 2.0.3
     semver: 5.6.0
     serialize-javascript: 3.1.0
-    slate: 0.100.0
-    slate-hyperscript: 0.100.0
-    slate-react: 0.98.4
+    slate: 0.84.0
+    slate-hyperscript: 0.81.3
+    slate-react: 0.83.2
     start-server-and-test: 1.14.0
     style-loader: 2
     stylelint: 14.0.1
@@ -4092,7 +4085,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: f3d5983a6b6be91545ac110669580cc0d99d59b09f484365642b4b58a5cb8fedefd790c876e66f506ba4152a1c39f8b872be930303a5a1217769f0067f2064f5
+  checksum: 2950156fb3ff72e1bbe71ddadd59dc05a831dc56632eae5824128a4bcb1df2ee06f9b5f2bc89343d74174682816ef9c621146030cde36e8cd27293a61269a179
   languageName: node
   linkType: hard
 
@@ -12703,21 +12696,21 @@ __metadata:
     "@eeacms/volto-datablocks": 6.1.6
     "@eeacms/volto-datahub": 1.0.32
     "@eeacms/volto-editing-progress": 0.3.0
-    "@eeacms/volto-eea-design-system": 1.22.0
-    "@eeacms/volto-eea-kitkat": 20.1.0
-    "@eeacms/volto-eea-map": 3.0.1
+    "@eeacms/volto-eea-design-system": 1.22.2
+    "@eeacms/volto-eea-kitkat": 21.0.0
+    "@eeacms/volto-eea-map": 3.0.3
     "@eeacms/volto-eea-website-policy": 1.11.0
     "@eeacms/volto-eea-website-theme": 1.24.1
-    "@eeacms/volto-embed": 9.0.1
+    "@eeacms/volto-embed": 9.0.2
     "@eeacms/volto-globalsearch": 1.0.21
-    "@eeacms/volto-plotlycharts": 8.1.2
+    "@eeacms/volto-plotlycharts": 8.1.3
     "@eeacms/volto-redmine-helpdesk": 0.1.15
     "@eeacms/volto-searchlib": 0.6.7
-    "@eeacms/volto-tableau": 7.0.1
+    "@eeacms/volto-tableau": 7.0.3
     "@eeacms/volto-toolbar-actions": 1.0.3
     "@eeacms/volto-workflow-progress": 4.1.1
     "@plone/scripts": ^2.1.5
-    "@plone/volto": 16.27.0
+    "@plone/volto": 16.26.0
     "@storybook/addon-actions": ^6.3.0
     "@storybook/addon-controls": 6.3.0
     "@storybook/addon-essentials": ^6.3.0
@@ -16521,17 +16514,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immer@npm:^10.0.3":
-  version: 10.0.3
-  resolution: "immer@npm:10.0.3"
-  checksum: 76acabe6f40e752028313762ba477a5d901e57b669f3b8fb406b87b9bb9b14e663a6fbbf5a6d1ab323737dd38f4b2494a4e28002045b88948da8dbf482309f28
-  languageName: node
-  linkType: hard
-
 "immer@npm:^9.0.6":
-  version: 9.0.21
-  resolution: "immer@npm:9.0.21"
-  checksum: 70e3c274165995352f6936695f0ef4723c52c92c92dd0e9afdfe008175af39fa28e76aafb3a2ca9d57d1fb8f796efc4dd1e1cc36f18d33fa5b74f3dfb0375432
+  version: 9.0.17
+  resolution: "immer@npm:9.0.17"
+  checksum: 046d562b74f050632d2861042dbcad49a5e86ffe5bb9b8bff6e699b1c7d8478019d9a3be61e72117cecc29826d2caa4fa927a7e10262381144dd33c735b9531c
   languageName: node
   linkType: hard
 
@@ -26664,22 +26650,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-hyperscript@npm:0.100.0":
-  version: 0.100.0
-  resolution: "slate-hyperscript@npm:0.100.0"
+"slate-hyperscript@npm:0.81.3":
+  version: 0.81.3
+  resolution: "slate-hyperscript@npm:0.81.3"
   dependencies:
     is-plain-object: ^5.0.0
   peerDependencies:
     slate: ">=0.65.3"
-  checksum: 25c88fea4b9c6a8a57b2b6d5b1151190af815e84ebed76f43cc3c13b4831f26f55196a2a85a832692f3b6c9937aa9e75ee5db92fa603522c3ebdeecc692ff908
+  checksum: cc3ba04d14e20c66eee5e5b0ca2d60fe92c0d38caf9b412153453d42f32d90bce61d57e3a00b2a4c30a7b15408bf8b14132871fd3c00f75de6ca4b49387637fe
   languageName: node
   linkType: hard
 
-"slate-react@npm:0.98.4":
-  version: 0.98.4
-  resolution: "slate-react@npm:0.98.4"
+"slate-react@npm:0.83.2":
+  version: 0.83.2
+  resolution: "slate-react@npm:0.83.2"
   dependencies:
-    "@juggle/resize-observer": ^3.4.0
     "@types/is-hotkey": ^0.1.1
     "@types/lodash": ^4.14.149
     direction: ^1.0.3
@@ -26692,18 +26677,18 @@ __metadata:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
     slate: ">=0.65.3"
-  checksum: d47c01e92595870585879fd0a6fcbda7825e5ea3a4a22eca6704a2b6b91a2db4fb45c9f0ba6be648dceb5fca71211163c2fb0901614754feb448da583fee584c
+  checksum: 0c18b9dfeab9d0e3baf5b22efb2df3216be326da886bdddab5ccce3d5291cc44229664f582a86936ba51d61efcdb80d13f75dbe5fe4b903f27b3bf5baa6fff48
   languageName: node
   linkType: hard
 
-"slate@npm:0.100.0":
-  version: 0.100.0
-  resolution: "slate@npm:0.100.0"
+"slate@npm:0.84.0":
+  version: 0.84.0
+  resolution: "slate@npm:0.84.0"
   dependencies:
-    immer: ^10.0.3
+    immer: ^9.0.6
     is-plain-object: ^5.0.0
     tiny-warning: ^1.0.3
-  checksum: 2e12f46e5147c4d000995769041d51fa18735d28b4c734d43c48931daf01c164e820631e54ec355fc4d5d09f9fff6687782412d01f6841b6078c753fd61e60e4
+  checksum: d74de16a40571b2513dbd96efee8fe891909357a7011131f8fae738a0eace5b3c7c2da1c0ebfb1ffe66c8c933507ca618772fb607fbc9e44aa5158d3d874c5a2
   languageName: node
   linkType: hard
 
