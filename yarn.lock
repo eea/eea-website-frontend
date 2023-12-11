@@ -2069,16 +2069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:*":
-  version: 10.4.4
-  resolution: "@eeacms/volto-accordion-block@npm:10.4.4"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-  checksum: 5ed998c9ec94cc5fadd5dc20d0209e6952a4a36301d3a56a588f0eb64fbc36c41465a3b4eb9626e442ca933fd860052ed65742491b5d6401df20b95151146990
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-accordion-block@npm:10.4.5":
+"@eeacms/volto-accordion-block@npm:*, @eeacms/volto-accordion-block@npm:10.4.5":
   version: 10.4.5
   resolution: "@eeacms/volto-accordion-block@npm:10.4.5"
   dependencies:
@@ -2142,18 +2133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:*":
-  version: 5.2.6
-  resolution: "@eeacms/volto-block-style@npm:5.2.6"
-  dependencies:
-    "@eeacms/volto-resize-helper": "*"
-    "@eeacms/volto-widget-theme-picker": "*"
-    react-color: ~2.18.1
-  checksum: b29f77e64238a09a179e51303a696187513e4042679037759f7ba2c6f899723697312355cadc8accd906b3a192744e9d5788ac4841ddc73f4645c11452ad94f0
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-style@npm:6.0.0":
+"@eeacms/volto-block-style@npm:*, @eeacms/volto-block-style@npm:6.0.0":
   version: 6.0.0
   resolution: "@eeacms/volto-block-style@npm:6.0.0"
   dependencies:
@@ -2418,16 +2398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:*":
-  version: 5.2.0
-  resolution: "@eeacms/volto-object-widget@npm:5.2.0"
-  dependencies:
-    "@eeacms/volto-resize-helper": "*"
-  checksum: 3b9687e85d6c3f1802585b911fe43dea86e784ba49ad6e6fc19291163a248bf96d421456d3c3c4e0f2691c9c5bffc393be0776bae2e363e61d42e6dd69469453
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-object-widget@npm:6.0.0":
+"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:6.0.0":
   version: 6.0.0
   resolution: "@eeacms/volto-object-widget@npm:6.0.0"
   dependencies:
@@ -2627,17 +2598,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-geolocation@npm:*":
-  version: 5.1.6
-  resolution: "@eeacms/volto-widget-geolocation@npm:5.1.6"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    i18n-iso-countries: 6.2.1
-  checksum: 0d557fe6557bd309494e6fedbcae6e0be10e75bba5ef1a48b3fec6b16bf77fa1d33538823abd44a38d56dcbe7d7995d9fc13b46c13ac10c56abfe8f5e8245217
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-widget-geolocation@npm:5.1.7":
+"@eeacms/volto-widget-geolocation@npm:*, @eeacms/volto-widget-geolocation@npm:5.1.7":
   version: 5.1.7
   resolution: "@eeacms/volto-widget-geolocation@npm:5.1.7"
   dependencies:
@@ -3105,11 +3066,11 @@ __metadata:
   linkType: hard
 
 "@floating-ui/core@npm:^1.4.2":
-  version: 1.5.1
-  resolution: "@floating-ui/core@npm:1.5.1"
+  version: 1.5.2
+  resolution: "@floating-ui/core@npm:1.5.2"
   dependencies:
     "@floating-ui/utils": ^0.1.3
-  checksum: 5737b56bfa813220d14908d5bc26ddb7dc3b1563acc99b855b2be1d417da0b4a4051c27d477b1edceda7aa6e3c4bc28a786c80a408c2b9bcc27cce6add8d31c2
+  checksum: e22de0a5e8a703fe14d9cfb72aeb67c0056c4ae6aa241539934ecb2af56448534b434a7587ecb5de154c21c3c73e44c19249b05c6b67a58eae7861188c8e69ac
   languageName: node
   linkType: hard
 
@@ -6484,11 +6445,11 @@ __metadata:
   linkType: hard
 
 "@types/react-transition-group@npm:^4.4.0":
-  version: 4.4.9
-  resolution: "@types/react-transition-group@npm:4.4.9"
+  version: 4.4.10
+  resolution: "@types/react-transition-group@npm:4.4.10"
   dependencies:
     "@types/react": "*"
-  checksum: be9e256e53919a7cf3b4a075f6d01c0a2dd3a67911dd28276aa6158be4beade4ca5327cbf1f096c28b413e04989f069122319b02e5a09c280d903a0accea9ead
+  checksum: fe2ea11f70251e9f79f368e198c18fd469b1d4f1e1d44e4365845b44e15974b0ec925100036f449b023b0ca3480a82725c5f0a73040e282ad32ec7b0def9b57c
   languageName: node
   linkType: hard
 
@@ -10447,9 +10408,9 @@ __metadata:
   linkType: hard
 
 "core-js@npm:^3.6.4":
-  version: 3.33.3
-  resolution: "core-js@npm:3.33.3"
-  checksum: 070b9c696f5a9b22bab0208daf9fcdffbc3b4f4c89ed2be512b7d99d4be363accfbb26fa6eec7261055d89e8ea0a5bcfccad5923fe43f1f2eafca9f568cc5596
+  version: 3.34.0
+  resolution: "core-js@npm:3.34.0"
+  checksum: 26b0d103716b33fc660ee8737da7bc9475fbc655f93bbf1360ab692966449d18f2fc393805095937283db9f919ca2aa5c88d86d16f2846217983ad7da707e31e
   languageName: node
   linkType: hard
 
