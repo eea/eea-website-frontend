@@ -62,6 +62,7 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-eea-website-policy",
+    "@plone-collective/volto-authomatic",
     "@eeacms/volto-citation",
     "volto-subsites"
   ],
@@ -202,6 +203,7 @@
     "@eeacms/volto-tableau": "7.1.0",
     "@eeacms/volto-toolbar-actions": "1.0.3",
     "@eeacms/volto-workflow-progress": "4.1.1",
+    "@plone-collective/volto-authomatic": "2.0.0",
     "@plone/volto": "16.26.0",
     "volto-subsites": "4.0.0"
   },
