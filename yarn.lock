@@ -2247,9 +2247,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:21.2.1":
-  version: 21.2.1
-  resolution: "@eeacms/volto-eea-kitkat@npm:21.2.1"
+"@eeacms/volto-eea-kitkat@npm:21.2.2":
+  version: 21.2.2
+  resolution: "@eeacms/volto-eea-kitkat@npm:21.2.2"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 10.4.6
@@ -2272,7 +2272,7 @@ __metadata:
     "@eeacms/volto-quote-block": 1.2.3
     "@eeacms/volto-resize-helper": 1.3.4
     "@eeacms/volto-sentry-rancher-config": 4.0.0
-    "@eeacms/volto-slate-footnote": 6.2.1
+    "@eeacms/volto-slate-footnote": 6.2.2
     "@eeacms/volto-slate-label": 0.5.9
     "@eeacms/volto-slate-metadata-mentions": 7.0.3
     "@eeacms/volto-slate-zotero": 5.2.6
@@ -2288,7 +2288,7 @@ __metadata:
     "@eeacms/volto-widget-toggle": 3.1.4
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 1a101601239d0da1422c480375a5256c232dec2fcc751903bbfd946b451d307818e89db203618faa0986907597d0138ec729b5da748b0afd6b2a516a0a69770a
+  checksum: 00e7d82e0e296ca1e07a82cc8f66923feff4d16e35812dc6b18862541b766916f61b3e6ec5cb30f9ff979db9061f7e91cc0e434c01d41d68469761ad65190796
   languageName: node
   linkType: hard
 
@@ -2504,10 +2504,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:*, @eeacms/volto-slate-footnote@npm:6.2.1":
-  version: 6.2.1
-  resolution: "@eeacms/volto-slate-footnote@npm:6.2.1"
-  checksum: 41d0c111a933a34117ae09e92c116221bab38ce3e5c66f4ee6bf26665b02e6c6e7711822e8abebe3ea1f5ee1d93cf63161518b2b30089558adff2823759c7bbb
+"@eeacms/volto-slate-footnote@npm:*, @eeacms/volto-slate-footnote@npm:6.2.2":
+  version: 6.2.2
+  resolution: "@eeacms/volto-slate-footnote@npm:6.2.2"
+  checksum: dbae690b841f309c7d87ab2a01ae8bf46fa09ebfdf8e015058b9b3acc793c5b3508c9241888e271591c3fd16833cc512d229ed5b81f10c8a318ac79b6d772042
   languageName: node
   linkType: hard
 
@@ -4219,89 +4219,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/cli-darwin@npm:1.77.2":
-  version: 1.77.2
-  resolution: "@sentry/cli-darwin@npm:1.77.2"
-  conditions: os=darwin
-  languageName: node
-  linkType: hard
-
-"@sentry/cli-linux-arm64@npm:1.77.2":
-  version: 1.77.2
-  resolution: "@sentry/cli-linux-arm64@npm:1.77.2"
-  conditions: (os=linux | os=freebsd) & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@sentry/cli-linux-arm@npm:1.77.2":
-  version: 1.77.2
-  resolution: "@sentry/cli-linux-arm@npm:1.77.2"
-  conditions: (os=linux | os=freebsd) & cpu=arm
-  languageName: node
-  linkType: hard
-
-"@sentry/cli-linux-i686@npm:1.77.2":
-  version: 1.77.2
-  resolution: "@sentry/cli-linux-i686@npm:1.77.2"
-  conditions: (os=linux | os=freebsd) & (cpu=x86 | cpu=ia32)
-  languageName: node
-  linkType: hard
-
-"@sentry/cli-linux-x64@npm:1.77.2":
-  version: 1.77.2
-  resolution: "@sentry/cli-linux-x64@npm:1.77.2"
-  conditions: (os=linux | os=freebsd) & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@sentry/cli-win32-i686@npm:1.77.2":
-  version: 1.77.2
-  resolution: "@sentry/cli-win32-i686@npm:1.77.2"
-  conditions: os=win32 & (cpu=x86 | cpu=ia32)
-  languageName: node
-  linkType: hard
-
-"@sentry/cli-win32-x64@npm:1.77.2":
-  version: 1.77.2
-  resolution: "@sentry/cli-win32-x64@npm:1.77.2"
-  conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
 "@sentry/cli@npm:^1.74.4":
-  version: 1.77.2
-  resolution: "@sentry/cli@npm:1.77.2"
+  version: 1.77.3
+  resolution: "@sentry/cli@npm:1.77.3"
   dependencies:
-    "@sentry/cli-darwin": 1.77.2
-    "@sentry/cli-linux-arm": 1.77.2
-    "@sentry/cli-linux-arm64": 1.77.2
-    "@sentry/cli-linux-i686": 1.77.2
-    "@sentry/cli-linux-x64": 1.77.2
-    "@sentry/cli-win32-i686": 1.77.2
-    "@sentry/cli-win32-x64": 1.77.2
     https-proxy-agent: ^5.0.0
+    mkdirp: ^0.5.5
     node-fetch: ^2.6.7
     progress: ^2.0.3
     proxy-from-env: ^1.1.0
     which: ^2.0.2
-  dependenciesMeta:
-    "@sentry/cli-darwin":
-      optional: true
-    "@sentry/cli-linux-arm":
-      optional: true
-    "@sentry/cli-linux-arm64":
-      optional: true
-    "@sentry/cli-linux-i686":
-      optional: true
-    "@sentry/cli-linux-x64":
-      optional: true
-    "@sentry/cli-win32-i686":
-      optional: true
-    "@sentry/cli-win32-x64":
-      optional: true
   bin:
     sentry-cli: bin/sentry-cli
-  checksum: abba1d2e469b60693419c4e3bcd671974d94d6dc0d50305d52ec6afb91086cf7ebb208f601a70add5696115c0dc4547c90b764a0c8502fd5168022ccf077aa3b
+  checksum: 193a144c5b449d5c0ea709d7c5678da3f1daa15f31aefa7de40197ed1152fef7c2a0abe168ce2447f1cc2f6eed6fdbcdaa5f20dc4502f8987d656d3e5e87fe99
   languageName: node
   linkType: hard
 
@@ -10412,10 +10342,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.0.4, core-js@npm:^3.6.4, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:^3.0.4, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
   version: 3.35.0
   resolution: "core-js@npm:3.35.0"
   checksum: 25c224aca3df012b98f08f13ccbd8171ef5852acd33fd5e58e106d27f5f0c97de2fdbc520f0b4364d26253caf2deb3e5d265310f57d2a66ae6cc922850e649f0
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.6.4":
+  version: 3.35.1
+  resolution: "core-js@npm:3.35.1"
+  checksum: e246af6b634be3763ffe3ce6ac4601b4dc5b928006fb6c95e5d08ecd82a2413bf36f00ffe178b89c9a8e94000288933a78a9881b2c9498e6cf312b031013b952
   languageName: node
   linkType: hard
 
@@ -12746,7 +12683,7 @@ __metadata:
     "@eeacms/volto-datahub": 1.0.32
     "@eeacms/volto-editing-progress": 0.3.0
     "@eeacms/volto-eea-design-system": 1.22.6
-    "@eeacms/volto-eea-kitkat": 21.2.1
+    "@eeacms/volto-eea-kitkat": 21.2.2
     "@eeacms/volto-eea-map": 3.3.0
     "@eeacms/volto-eea-website-policy": 1.12.1
     "@eeacms/volto-eea-website-theme": 1.27.1
@@ -20230,7 +20167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mkdirp@npm:^0.5.0, mkdirp@npm:^0.5.1, mkdirp@npm:^0.5.3, mkdirp@npm:^0.5.6, mkdirp@npm:~0.5.1":
+"mkdirp@npm:^0.5.0, mkdirp@npm:^0.5.1, mkdirp@npm:^0.5.3, mkdirp@npm:^0.5.5, mkdirp@npm:^0.5.6, mkdirp@npm:~0.5.1":
   version: 0.5.6
   resolution: "mkdirp@npm:0.5.6"
   dependencies:
