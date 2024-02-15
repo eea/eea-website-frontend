@@ -17,6 +17,10 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
  && corepack enable
 
 USER node
+
+ARG MAX_OLD_SPACE_SIZE=8192
+ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
+
 RUN yarn \
  && yarn build \
  && rm -rf /home/node/.cache \
