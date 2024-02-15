@@ -162,6 +162,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "resolutions": {
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@eeacms/volto-embed": "9.1.1",
     "@eeacms/volto-datablocks": "6.3.2",
     "@eeacms/volto-datahub": "1.0.32",
@@ -203,6 +204,7 @@
     "@eeacms/volto-tableau": "7.2.1",
     "@eeacms/volto-toolbar-actions": "1.0.3",
     "@eeacms/volto-workflow-progress": "4.1.1",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "16.30.2",
     "volto-subsites": "4.0.0"
   },
