@@ -202,7 +202,7 @@
     "@eeacms/volto-tableau": "7.2.1",
     "@eeacms/volto-toolbar-actions": "1.0.3",
     "@eeacms/volto-workflow-progress": "4.1.1",
-    "@plone/volto": "16.30.2",
+    "@plone/volto": "16.30.3",
     "volto-subsites": "4.0.0"
   },
   "devDependencies": {
