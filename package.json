@@ -188,7 +188,8 @@
     "volto-subsites": "4.0.0",
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
     "d3-array": "^2.12.1",
-    "react-error-overlay": "6.0.9"
+    "react-error-overlay": "6.0.9",
+    "eslint-plugin-jsx-a11y": "^6.8.0"
   },
   "dependencies": {
     "@eeacms/volto-block-data-figure": "7.1.0",
