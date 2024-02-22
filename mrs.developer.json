@@ -292,7 +292,7 @@
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
-    "branch": "volto-17",
+    "branch": "develop",
     "path": "src"
   },
   "volto-datahub": {
@@ -301,7 +301,7 @@
     "https": "https://github.com/eea/volto-datahub.git",
     "package": "@eeacms/volto-datahub",
     "path": "src",
-    "branch": "volto-17"
+    "branch": "develop"
   },
   "volto-globalsearch": {
     "develop": true,
