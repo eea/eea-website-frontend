@@ -166,15 +166,16 @@
         },
         "baseUrl": "src"
     },
-
-  "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "build",
-    "public",
-    "coverage",
-    "src/**/*.test.{js,jsx,ts,tsx}",
-    "src/**/*.spec.{js,jsx,ts,tsx}",
-    "src/**/*.stories.{js,jsx,ts,tsx}"
-  ]
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "public",
+        "coverage",
+        "src/**/*.test.{js,jsx,ts,tsx}",
+        "src/**/*.spec.{js,jsx,ts,tsx}",
+        "src/**/*.stories.{js,jsx,ts,tsx}"
+    ]
 }
