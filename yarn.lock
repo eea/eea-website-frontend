@@ -2563,19 +2563,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-theme@npm:1.28.1":
-  version: 1.28.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.28.1"
-  dependencies:
-    "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-group-block": "*"
-    volto-subsites: "*"
-  checksum: f1ed65b356746838b8b1c6b0db4a8d049ead4d87c7351930ae91d765c43c605ecbbc0a500d96f9512e7941eb93237672f8e4fb72a669a8f00feb39b06daef638
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
+"@eeacms/volto-eea-website-theme@1.28.1, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
   dependencies:
