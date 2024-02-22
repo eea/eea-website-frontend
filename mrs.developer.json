@@ -219,7 +219,7 @@
     "url": "git@github.com:eea/volto-eea-website-theme.git",
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
-    "branch": "develop",
+    "branch": "volto-17",
     "develop": true,
     "path": "src"
   },
@@ -292,7 +292,7 @@
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
-    "branch": "develop",
+    "branch": "volto-17",
     "path": "src"
   },
   "volto-datahub": {
@@ -301,7 +301,7 @@
     "https": "https://github.com/eea/volto-datahub.git",
     "package": "@eeacms/volto-datahub",
     "path": "src",
-    "branch": "develop"
+    "branch": "volto-17"
   },
   "volto-globalsearch": {
     "develop": true,
