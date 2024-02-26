@@ -164,7 +164,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "^12 || ^14 || ^16"
+    "node": "^16 || ^18 || ^20"
   },
   "resolutions": {
     "@eeacms/volto-embed": "9.1.1",
