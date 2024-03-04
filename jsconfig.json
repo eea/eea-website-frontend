@@ -1,7 +1,11 @@
 {
     "compilerOptions": {
         "target": "ESNext",
-        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
         "module": "commonjs",
         "allowJs": true,
         "skipLibCheck": true,
@@ -177,8 +181,13 @@
             "@eeacms/volto-toolbar-actions": [
                 "addons/volto-toolbar-actions/src"
             ],
-            "@plone/volto/*": ["../node_modules/@plone/volto/src/*", "../node_modules/@plone/volto/types/*"],
-            "@root/*": ["."]
+            "@plone/volto/*": [
+                "../node_modules/@plone/volto/src/*",
+                "../node_modules/@plone/volto/types/*"
+            ],
+            "@root/*": [
+                "."
+            ]
         },
         "baseUrl": "src"
     },
