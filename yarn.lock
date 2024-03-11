@@ -3698,6 +3698,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@plone-collective/volto-authomatic@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
+  peerDependencies:
+    "@plone/volto": ">=13.8.0"
+  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
+  languageName: node
+  linkType: hard
+
 "@plone-collective/volto-sentry@npm:0.3.1":
   version: 0.3.1
   resolution: "@plone-collective/volto-sentry@npm:0.3.1"
@@ -12709,6 +12718,7 @@ __metadata:
     "@eeacms/volto-tableau": 7.2.1
     "@eeacms/volto-toolbar-actions": 1.0.3
     "@eeacms/volto-workflow-progress": 4.1.1
+    "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^2.1.5
     "@plone/volto": 16.31.3
     "@storybook/addon-actions": ^6.3.0
@@ -23765,7 +23775,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
+  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
   languageName: node
   linkType: hard
 
