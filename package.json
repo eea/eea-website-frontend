@@ -48,7 +48,6 @@
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-editing-progress",
     "@eeacms/volto-workflow-progress",
-    "@eeacms/volto-toolbar-actions",
     "@eeacms/volto-embed",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-plotlycharts",
@@ -174,7 +173,6 @@
     "@eeacms/volto-redmine-helpdesk": "0.2.0",
     "@eeacms/volto-searchlib": "0.8.0",
     "@eeacms/volto-tableau": "7.2.1",
-    "@eeacms/volto-toolbar-actions": "1.0.3",
     "@eeacms/volto-workflow-progress": "4.1.1",
     "@eeacms/volto-block-data-figure": "7.1.0",
     "@eeacms/volto-editing-progress": "0.4.0",
@@ -200,7 +198,6 @@
     "@eeacms/volto-redmine-helpdesk": "0.2.0",
     "@eeacms/volto-searchlib": "0.8.0",
     "@eeacms/volto-tableau": "7.2.1",
-    "@eeacms/volto-toolbar-actions": "1.0.3",
     "@eeacms/volto-workflow-progress": "4.1.1",
     "@plone/volto": "16.31.3",
     "volto-subsites": "4.0.0"
