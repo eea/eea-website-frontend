@@ -181,6 +181,9 @@
             "@eeacms/volto-toolbar-actions": [
                 "addons/volto-toolbar-actions/src"
             ],
+            "@eeacms/volto-controlpanel": [
+                "addons/volto-controlpanel/src"
+            ],
             "@plone/volto/*": [
                 "../node_modules/@plone/volto/src/*",
                 "../node_modules/@plone/volto/types/*"

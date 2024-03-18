@@ -427,5 +427,13 @@
     "package": "@eeacms/volto-toolbar-actions",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-controlpanel": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-controlpanel.git",
+    "https": "https://github.com/eea/volto-controlpanel.git",
+    "package": "@eeacms/volto-controlpanel",
+    "path": "src",
+    "branch": "develop"
   }
 }
