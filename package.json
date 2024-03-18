@@ -207,7 +207,7 @@
     "@eeacms/volto-searchlib": "0.9.0",
     "@eeacms/volto-tableau": "7.2.1",
     "@eeacms/volto-workflow-progress": "4.1.1",
-    "@plone/volto": "17.13.0",
+    "@plone/volto": "17.15.5",
     "volto-subsites": "4.0.0"
   },
   "devDependencies": {
