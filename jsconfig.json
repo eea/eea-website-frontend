@@ -162,6 +162,9 @@
             ],
             "@eeacms/volto-toolbar-actions": [
                 "addons/volto-toolbar-actions/src"
+            ],
+            "@eeacms/volto-controlpanel": [
+                "addons/volto-controlpanel/src"
             ]
         },
         "baseUrl": "src"
