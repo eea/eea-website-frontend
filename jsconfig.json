@@ -19,6 +19,13 @@
         "noEmit": true,
         "jsx": "react-jsx",
         "paths": {
+            "@plone/volto/*": [
+                "../node_modules/@plone/volto/src/*",
+                "../node_modules/@plone/volto/types/*"
+            ],
+            "@root/*": [
+                "."
+            ],
             "@eeacms/volto-matomo": [
                 "addons/volto-matomo/src"
             ],
@@ -58,6 +65,9 @@
             "@eeacms/volto-accordion-block": [
                 "addons/volto-accordion-block/src"
             ],
+            "@eeacms/volto-block-data-figure": [
+                "addons/volto-block-data-figure/src"
+            ],
             "@eeacms/volto-block-divider": [
                 "addons/volto-block-divider/src"
             ],
@@ -90,6 +100,9 @@
             ],
             "@eeacms/volto-eea-kitkat": [
                 "addons/volto-eea-kitkat/src"
+            ],
+            "@eeacms/volto-embed": [
+                "addons/volto-embed/src"
             ],
             "@eeacms/volto-eea-design-system": [
                 "addons/volto-eea-design-system/src"
@@ -136,29 +149,20 @@
             "@eeacms/volto-workflow-progress": [
                 "addons/volto-workflow-progress/src"
             ],
+            "@eeacms/volto-editing-progress": [
+                "addons/volto-editing-progress/src"
+            ],
             "@plone-collective/volto-sentry": [
                 "addons/volto-sentry/src"
             ],
             "@eeacms/volto-redmine-helpdesk": [
                 "addons/volto-redmine-helpdesk/src"
             ],
-            "@eeacms/volto-widget-theme-picker": [
-                "addons/volto-widget-theme-picker/src"
-            ],
             "@eeacms/volto-anchors": [
                 "addons/volto-anchors/src"
             ],
-            "@eeacms/volto-nextcloud-video-block": [
-                "addons/volto-nextcloud-video-block/src"
-            ],
-            "@eeacms/volto-editing-progress": [
-                "addons/volto-editing-progress/src"
-            ],
-            "@eeacms/volto-block-data-figure": [
-                "addons/volto-block-data-figure/src"
-            ],
-            "@eeacms/volto-embed": [
-                "addons/volto-embed/src"
+            "@eeacms/volto-widget-theme-picker": [
+                "addons/volto-widget-theme-picker/src"
             ],
             "@eeacms/volto-datablocks": [
                 "addons/volto-datablocks/src"
@@ -172,6 +176,9 @@
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ],
+            "@eeacms/volto-nextcloud-video-block": [
+                "addons/volto-nextcloud-video-block/src"
+            ],
             "@eeacms/volto-citation": [
                 "addons/volto-citation/src"
             ],
@@ -183,13 +190,6 @@
             ],
             "@eeacms/volto-controlpanel": [
                 "addons/volto-controlpanel/src"
-            ],
-            "@plone/volto/*": [
-                "../node_modules/@plone/volto/src/*",
-                "../node_modules/@plone/volto/types/*"
-            ],
-            "@root/*": [
-                "."
             ]
         },
         "baseUrl": "src"
