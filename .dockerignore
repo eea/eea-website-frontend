@@ -21,5 +21,6 @@ omelette
 bootstrap
 cypress*.json
 docker-compose.yml
+Dockerfile
 Jenkinsfile
 start_.sh
