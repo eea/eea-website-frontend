@@ -21,13 +21,13 @@ USER node
 ARG MAX_OLD_SPACE_SIZE=8192
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
-RUN make develop \
- && yarn \
- && yarn build \
- && rm -rf /home/node/.cache \
- && rm -rf /home/node/.yarn \
- && rm -rf /home/node/.npm \
- && rm -rf /app/.yarn/cache
+RUN make develop
+RUN yarn
+RUN yarn build
+RUN rm -rf /home/node/.cache
+RUN rm -rf /home/node/.yarn
+RUN rm -rf /home/node/.npm
+RUN rm -rf /app/.yarn/cache
 USER root
 
 EXPOSE 3000 3001
