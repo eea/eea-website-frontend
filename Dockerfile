@@ -18,7 +18,7 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
 
 USER node
 
-ARG MAX_OLD_SPACE_SIZE=8192
+ARG MAX_OLD_SPACE_SIZE=16384
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
 RUN make develop
