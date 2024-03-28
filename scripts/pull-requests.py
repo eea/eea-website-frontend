@@ -202,7 +202,7 @@ class Github(object):
                 repo_url = "https://api.github.com/repos/eea/{name}".format(
                     name=repo_name
                 )
-                if "@collective/" in path:
+                if "collective/" in path:
                     repo_name = path.replace("@plone-collective/", "").strip()
                     repo_full_name = "collective/{name}".format(name=repo_name)
                     repo_url = "https://api.github.com/repos/collective/{name}".format(
