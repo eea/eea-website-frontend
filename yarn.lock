@@ -2620,7 +2620,6 @@ __metadata:
     "@eeacms/volto-widget-temporal-coverage": 5.2.0
     "@eeacms/volto-widget-theme-picker": 1.1.5
     "@eeacms/volto-widget-toggle": 3.1.4
-    "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.1
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
@@ -4264,15 +4263,6 @@ __metadata:
   version: 3.4.0
   resolution: "@juggle/resize-observer@npm:3.4.0"
   checksum: 2505028c05cc2e17639fcad06218b1c4b60f932a4ebb4b41ab546ef8c157031ae377e3f560903801f6d01706dbefd4943b6c4704bf19ed86dfa1c62f1473a570
-  languageName: node
-  linkType: hard
-
-"@kitconcept/volto-blocks-grid@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@kitconcept/volto-blocks-grid@npm:7.0.2"
-  peerDependencies:
-    "@plone/volto": ">=16.0.0"
-  checksum: e375acef67861b780748ac12e1786b9dc1bfd10e603c089678ed6bf318c380ef5f48d921525b12b9cde89f97daea4f7933de9dfc7d8661b517287c39f9d5b1c2
   languageName: node
   linkType: hard
 
