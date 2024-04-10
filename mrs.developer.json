@@ -435,5 +435,13 @@
     "package": "@eeacms/volto-controlpanel",
     "path": "src",
     "branch": "volto-17"
+  },
+  "volto-block-data-table": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-block-data-table.git",
+    "https": "https://github.com/eea/volto-block-data-table.git",
+    "package": "@eeacms/volto-block-data-table",
+    "path": "src",
+    "branch": "develop"
   }
 }

@@ -190,6 +190,9 @@
             ],
             "@eeacms/volto-controlpanel": [
                 "addons/volto-controlpanel/src"
+            ],
+            "@eeacms/volto-block-data-table": [
+                "addons/volto-block-data-table/src"
             ]
         },
         "baseUrl": "src"
