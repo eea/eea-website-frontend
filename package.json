@@ -163,7 +163,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "^16 || ^18 || ^20"
+    "node": "^18 || ^20"
   },
   "resolutions": {
     "@eeacms/volto-embed": "9.1.1",
