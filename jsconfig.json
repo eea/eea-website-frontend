@@ -193,6 +193,9 @@
             ],
             "@eeacms/volto-block-data-table": [
                 "addons/volto-block-data-table/src"
+            ],
+            "@eeacms/volto-block-toc": [
+                "addons/volto-block-toc/src"
             ]
         },
         "baseUrl": "src"
