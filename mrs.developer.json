@@ -443,5 +443,13 @@
     "package": "@eeacms/volto-block-data-table",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-block-toc": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-block-toc.git",
+    "https": "https://github.com/eea/volto-block-toc.git",
+    "package": "@eeacms/volto-block-toc",
+    "path": "src",
+    "branch": "develop"
   }
 }
