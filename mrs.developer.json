@@ -227,7 +227,7 @@
     "url": "git@github.com:eea/volto-eea-website-policy.git",
     "https": "https://github.com/eea/volto-eea-website-policy.git",
     "package": "@eeacms/volto-eea-website-policy",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
