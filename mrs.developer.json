@@ -195,7 +195,7 @@
     "url": "git@github.com:eea/volto-eea-kitkat.git",
     "https": "https://github.com/eea/volto-eea-kitkat.git",
     "package": "@eeacms/volto-eea-kitkat",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
