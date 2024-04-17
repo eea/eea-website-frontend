@@ -259,7 +259,7 @@
     "url": "git@github.com:eea/volto-slate-label.git",
     "https": "https://github.com/eea/volto-slate-label.git",
     "package": "@eeacms/volto-slate-label",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
