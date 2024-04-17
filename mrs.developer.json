@@ -410,7 +410,7 @@
     "https": "https://github.com/eea/volto-citation.git",
     "package": "@eeacms/volto-citation",
     "path": "src",
-    "branch": "volto-17"
+    "branch": "develop"
   },
   "countup": {
     "develop": true,
@@ -426,7 +426,7 @@
     "https": "https://github.com/eea/volto-toolbar-actions.git",
     "package": "@eeacms/volto-toolbar-actions",
     "path": "src",
-    "branch": "volto-17"
+    "branch": "develop"
   },
   "volto-controlpanel": {
     "develop": true,
@@ -434,7 +434,7 @@
     "https": "https://github.com/eea/volto-controlpanel.git",
     "package": "@eeacms/volto-controlpanel",
     "path": "src",
-    "branch": "volto-17"
+    "branch": "develop"
   },
   "volto-block-data-table": {
     "develop": true,
