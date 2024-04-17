@@ -43,7 +43,7 @@
     "url": "git@github.com:eea/volto-widget-toggle.git",
     "https": "https://github.com/eea/volto-widget-toggle.git",
     "package": "@eeacms/volto-widget-toggle",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -51,7 +51,7 @@
     "url": "git@github.com:eea/volto-widget-dataprovenance.git",
     "https": "https://github.com/eea/volto-widget-dataprovenance.git",
     "package": "@eeacms/volto-widget-dataprovenance",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -107,7 +107,7 @@
     "url": "git@github.com:eea/volto-block-data-figure.git",
     "https": "https://github.com/eea/volto-block-data-figure.git",
     "package": "@eeacms/volto-block-data-figure",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
