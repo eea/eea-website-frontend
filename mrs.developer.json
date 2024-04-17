@@ -3,7 +3,7 @@
     "url": "git@github.com:eea/volto-matomo.git",
     "https": "https://github.com/eea/volto-matomo.git",
     "package": "@eeacms/volto-matomo",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -11,7 +11,7 @@
     "url": "git@github.com:eea/volto-sentry-rancher-config.git",
     "https": "https://github.com/eea/volto-sentry-rancher-config.git",
     "package": "@eeacms/volto-sentry-rancher-config",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -19,7 +19,7 @@
     "url": "git@github.com:eea/volto-corsproxy.git",
     "https": "https://github.com/eea/volto-corsproxy.git",
     "package": "@eeacms/volto-corsproxy",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
