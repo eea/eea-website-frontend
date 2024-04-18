@@ -75,7 +75,7 @@
     "url": "git@github.com:eea/volto-slate-metadata-mentions.git",
     "https": "https://github.com/eea/volto-slate-metadata-mentions.git",
     "package": "@eeacms/volto-slate-metadata-mentions",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -235,7 +235,7 @@
     "url": "git@github.com:eea/volto-quote-block.git",
     "https": "https://github.com/eea/volto-quote-block.git",
     "package": "@eeacms/volto-quote-block",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
