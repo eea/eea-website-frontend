@@ -163,7 +163,7 @@
     "url": "git@github.com:eea/volto-block-image-cards.git",
     "https": "https://github.com/eea/volto-block-image-cards.git",
     "package": "@eeacms/volto-block-image-cards",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
