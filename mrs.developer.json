@@ -91,7 +91,7 @@
     "url": "git@github.com:eea/volto-slate-zotero.git",
     "https": "https://github.com/eea/volto-slate-zotero.git",
     "package": "@eeacms/volto-slate-zotero",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -301,7 +301,7 @@
     "https": "https://github.com/eea/volto-datahub.git",
     "package": "@eeacms/volto-datahub",
     "path": "src",
-    "branch": "volto-17"
+    "branch": "develop"
   },
   "volto-globalsearch": {
     "develop": true,
@@ -309,7 +309,7 @@
     "https": "https://github.com/eea/volto-globalsearch.git",
     "package": "@eeacms/volto-globalsearch",
     "path": "src",
-    "branch": "volto-17"
+    "branch": "develop"
   },
   "volto-hero-block": {
     "url": "git@github.com:eea/volto-hero-block.git",
@@ -344,7 +344,7 @@
     "url": "git@github.com:eea/volto-redmine-helpdesk.git",
     "https": "https://github.com/eea/volto-redmine-helpdesk.git",
     "package": "@eeacms/volto-redmine-helpdesk",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
