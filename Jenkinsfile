@@ -166,7 +166,10 @@ pipeline {
 
     stage('Build & Push ( on tag )') {
       when {
-        buildingTag()
+        anyOf {
+          buildingTag()
+          branch 'volto-17'
+        }
       }
       steps{
         node(label: 'docker-host') {

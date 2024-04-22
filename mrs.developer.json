@@ -357,12 +357,12 @@
     "path": "src"
   },
   "volto-widget-theme-picker": {
-    "develop": true,
     "url": "git@github.com:eea/volto-widget-theme-picker.git",
     "https": "https://github.com/eea/volto-widget-theme-picker.git",
     "package": "@eeacms/volto-widget-theme-picker",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   },
   "volto-datablocks": {
     "url": "git@github.com:eea/volto-datablocks.git",
