@@ -2326,12 +2326,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-editing-progress@npm:0.4.0":
-  version: 0.4.0
-  resolution: "@eeacms/volto-editing-progress@npm:0.4.0"
+"@eeacms/volto-editing-progress@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-editing-progress@npm:1.0.0"
   dependencies:
     "@eeacms/volto-workflow-progress": "*"
-  checksum: 5d42341eef5ac4607849dbfc48ec71aa971533fd5dfe13b170b1f9ad41b897ba90ba6e9c1c843ae68435d0d7f844369b70df8e8f7315ddb9b83714597c9502c3
+  checksum: d2e181a59b96c384d02ae3a36881c47aa498e7f2df4797ef17bd5f67c1aadf5b5e5da036c0ffbcf7471fd7af934a50e4c6181d1485e8a69696c26f302075d32f
   languageName: node
   linkType: hard
 
@@ -13572,7 +13572,7 @@ __metadata:
     "@eeacms/volto-citation": 1.0.0
     "@eeacms/volto-datablocks": 6.4.1
     "@eeacms/volto-datahub": 2.0.0
-    "@eeacms/volto-editing-progress": 0.4.0
+    "@eeacms/volto-editing-progress": 1.0.0
     "@eeacms/volto-eea-design-system": 1.23.6
     "@eeacms/volto-eea-kitkat": 24.0.1
     "@eeacms/volto-eea-map": 3.3.1
