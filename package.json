@@ -178,7 +178,7 @@
     "@eeacms/volto-plotlycharts": "10.0.0",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "1.0.0",
-    "@eeacms/volto-tableau": "7.2.1",
+    "@eeacms/volto-tableau": "8.0.0",
     "@eeacms/volto-workflow-progress": "4.1.1",
     "@eeacms/volto-block-data-figure": "8.0.0",
     "@eeacms/volto-editing-progress": "1.0.0",
@@ -205,7 +205,7 @@
     "@eeacms/volto-plotlycharts": "10.0.0",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "1.0.0",
-    "@eeacms/volto-tableau": "7.2.1",
+    "@eeacms/volto-tableau": "8.0.0",
     "@eeacms/volto-workflow-progress": "4.1.1",
     "@plone/volto": "17.15.5",
     "volto-subsites": "4.0.0"
