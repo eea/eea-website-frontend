@@ -123,7 +123,7 @@
     "url": "git@github.com:eea/volto-listing-block.git",
     "https": "https://github.com/eea/volto-listing-block.git",
     "package": "@eeacms/volto-listing-block",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -219,7 +219,7 @@
     "url": "git@github.com:eea/volto-eea-website-theme.git",
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
-    "branch": "volto-17",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },

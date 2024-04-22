@@ -21,8 +21,7 @@ USER node
 ARG MAX_OLD_SPACE_SIZE=16384
 ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
 
-RUN make develop \
-  && yarn \
+RUN yarn \
   && yarn build \
   && rm -rf /home/node/.cache \
   && rm -rf /home/node/.yarn \
