@@ -2565,7 +2565,7 @@ __metadata:
     "@eeacms/volto-description-block": 2.0.0
     "@eeacms/volto-group-block": 7.0.0
     "@eeacms/volto-hero-block": 7.0.0
-    "@eeacms/volto-listing-block": 8.0.0
+    "@eeacms/volto-listing-block": 8.0.1
     "@eeacms/volto-matomo": 5.0.0
     "@eeacms/volto-metadata-block": 7.0.0
     "@eeacms/volto-nextcloud-video-block": 1.0.0
@@ -2721,7 +2721,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-listing-block@*, @eeacms/volto-listing-block@8.0.0, @eeacms/volto-listing-block@workspace:src/addons/volto-listing-block":
+"@eeacms/volto-listing-block@*, @eeacms/volto-listing-block@8.0.1, @eeacms/volto-listing-block@workspace:src/addons/volto-listing-block":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-listing-block@workspace:src/addons/volto-listing-block"
   dependencies:
@@ -4575,9 +4575,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:17.15.5":
-  version: 17.15.5
-  resolution: "@plone/volto@npm:17.15.5"
+"@plone/volto@npm:17.15.6":
+  version: 17.15.6
+  resolution: "@plone/volto@npm:17.15.6"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/eslint-parser": 7.22.15
@@ -4756,7 +4756,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: a5353807c2444d68c097295895185859d9787cfd678f05d4e796cc060883a0ffa7555ff32a4d0a3d86ee5036e414d6996205b814d86369c2cfa3e743ac97f60e
+  checksum: eb736519830d077e77938c73e7dd75441365347e6d7682c054afa09bb29af534604fcc1ddb0663a4369dc22e509f7d415a8f97cbf11af5525d2ac250685b259a
   languageName: node
   linkType: hard
 
@@ -14736,7 +14736,7 @@ __metadata:
     "@eeacms/volto-tableau": 8.0.0
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone/scripts": ^3.3.2
-    "@plone/volto": 17.15.5
+    "@plone/volto": 17.15.6
     "@storybook/addon-actions": ^6.3.0
     "@storybook/addon-controls": 6.3.0
     "@storybook/addon-essentials": ^6.3.0
