@@ -2524,7 +2524,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-design-system@1.23.6, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
+"@eeacms/volto-eea-design-system@1.23.7, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system"
   dependencies:
@@ -2534,6 +2534,7 @@ __metadata:
     "@fontsource/roboto": 4.5.8
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     husky: ^8.0.3
     lint-staged: ^14.0.1
     md5: ^2.3.0
@@ -2579,7 +2580,7 @@ __metadata:
     "@eeacms/volto-slate-zotero": 6.0.0
     "@eeacms/volto-statistic-block": 5.0.0
     "@eeacms/volto-tabs-block": 8.0.0
-    "@eeacms/volto-tags-block": 2.0.0
+    "@eeacms/volto-tags-block": 3.0.0
     "@eeacms/volto-taxonomy": 5.0.0
     "@eeacms/volto-timeline-block": 2.0.0
     "@eeacms/volto-toolbar-actions": 2.0.0
@@ -2654,6 +2655,23 @@ __metadata:
     md5: ^2.3.0
     postcss-less: 6.0.0
     volto-subsites: "*"
+  languageName: unknown
+  linkType: soft
+
+"@eeacms/volto-embed-static-content@0.2.0, @eeacms/volto-embed-static-content@workspace:src/addons/volto-embed-static-content":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-embed-static-content@workspace:src/addons/volto-embed-static-content"
+  dependencies:
+    "@cypress/code-coverage": ^3.10.0
+    "@eeacms/volto-embed": "*"
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
+    cypress-fail-fast: ^5.0.1
+    dotenv: ^16.3.2
+    husky: ^8.0.3
+    lint-staged: ^14.0.1
+    md5: ^2.3.0
   languageName: unknown
   linkType: soft
 
@@ -2800,7 +2818,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-plotlycharts@10.0.0, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
+"@eeacms/volto-plotlycharts@10.0.1, @eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-plotlycharts@workspace:src/addons/volto-plotlycharts"
   dependencies:
@@ -2809,6 +2827,7 @@ __metadata:
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     dotenv: ^16.3.2
     husky: ^8.0.3
     jsoneditor: 10.0.0
@@ -3002,16 +3021,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-tableau@8.0.0, @eeacms/volto-tableau@workspace:src/addons/volto-tableau":
+"@eeacms/volto-tableau@8.0.1, @eeacms/volto-tableau@workspace:src/addons/volto-tableau":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-tableau@workspace:src/addons/volto-tableau"
   dependencies:
-    "@cypress/code-coverage": ^3.9.5
+    "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     dotenv: ^16.3.2
     husky: ^8.0.3
     lint-staged: ^14.0.1
@@ -3038,7 +3058,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-tags-block@2.0.0, @eeacms/volto-tags-block@workspace:src/addons/volto-tags-block":
+"@eeacms/volto-tags-block@3.0.0, @eeacms/volto-tags-block@workspace:src/addons/volto-tags-block":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-tags-block@workspace:src/addons/volto-tags-block"
   dependencies:
@@ -14723,17 +14743,18 @@ __metadata:
     "@eeacms/volto-datablocks": 7.0.0
     "@eeacms/volto-datahub": 2.0.0
     "@eeacms/volto-editing-progress": 1.0.0
-    "@eeacms/volto-eea-design-system": 1.23.6
+    "@eeacms/volto-eea-design-system": 1.23.7
     "@eeacms/volto-eea-kitkat": 25.0.0
     "@eeacms/volto-eea-map": 4.0.0
     "@eeacms/volto-eea-website-policy": 2.0.0
     "@eeacms/volto-eea-website-theme": 1.33.2
     "@eeacms/volto-embed": 10.0.0
+    "@eeacms/volto-embed-static-content": 0.2.0
     "@eeacms/volto-globalsearch": 2.0.0
-    "@eeacms/volto-plotlycharts": 10.0.0
+    "@eeacms/volto-plotlycharts": 10.0.1
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 1.0.0
-    "@eeacms/volto-tableau": 8.0.0
+    "@eeacms/volto-tableau": 8.0.1
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.15.6

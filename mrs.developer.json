@@ -451,5 +451,13 @@
     "package": "@eeacms/volto-block-toc",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-embed-static-content": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-embed-static-content.git",
+    "https": "https://github.com/eea/volto-embed-static-content.git",
+    "package": "@eeacms/volto-embed-static-content",
+    "path": "src",
+    "branch": "develop"
   }
 }

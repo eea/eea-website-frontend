@@ -196,6 +196,9 @@
             ],
             "@eeacms/volto-block-toc": [
                 "addons/volto-block-toc/src"
+            ],
+            "@eeacms/volto-embed-static-content": [
+                "addons/volto-embed-static-content/src"
             ]
         },
         "baseUrl": "src"
