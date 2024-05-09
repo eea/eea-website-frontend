@@ -63,6 +63,7 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-eea-website-policy",
+    "@plone-collective/volto-authomatic",
     "@eeacms/volto-citation",
     "volto-subsites"
   ],
@@ -185,6 +186,7 @@
     "@eeacms/volto-block-data-figure": "8.0.0",
     "@eeacms/volto-editing-progress": "1.0.0",
     "@eeacms/volto-citation": "1.0.0",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "volto-subsites": "4.0.0",
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
     "d3-array": "^2.12.1",
@@ -210,6 +212,7 @@
     "@eeacms/volto-searchlib": "1.0.0",
     "@eeacms/volto-tableau": "8.0.1",
     "@eeacms/volto-workflow-progress": "5.0.0",
+    "@plone-collective/volto-authomatic": "2.0.1",
     "@plone/volto": "17.15.6",
     "volto-subsites": "4.0.0"
   },
