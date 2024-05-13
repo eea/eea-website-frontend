@@ -357,12 +357,12 @@
     "path": "src"
   },
   "volto-widget-theme-picker": {
-    "develop": true,
     "url": "git@github.com:eea/volto-widget-theme-picker.git",
     "https": "https://github.com/eea/volto-widget-theme-picker.git",
     "package": "@eeacms/volto-widget-theme-picker",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   },
   "volto-datablocks": {
     "url": "git@github.com:eea/volto-datablocks.git",
@@ -441,6 +441,22 @@
     "url": "git@github.com:eea/volto-block-data-table.git",
     "https": "https://github.com/eea/volto-block-data-table.git",
     "package": "@eeacms/volto-block-data-table",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-block-toc": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-block-toc.git",
+    "https": "https://github.com/eea/volto-block-toc.git",
+    "package": "@eeacms/volto-block-toc",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-embed-static-content": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-embed-static-content.git",
+    "https": "https://github.com/eea/volto-embed-static-content.git",
+    "package": "@eeacms/volto-embed-static-content",
     "path": "src",
     "branch": "develop"
   }

@@ -7,7 +7,7 @@ import subprocess
 import argparse
 import urllib.request
 
-VOLTO = "https://raw.githubusercontent.com/plone/volto/16.x.x/package.json"
+VOLTO = "https://raw.githubusercontent.com/plone/volto/17.x.x/package.json"
 KITKAT = "https://raw.githubusercontent.com/eea/volto-eea-kitkat/develop/package.json"
 
 def main(verbose, skip):
