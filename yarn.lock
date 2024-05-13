@@ -2762,15 +2762,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@elastic/search-ui@npm:1.21.4, @elastic/search-ui@npm:^1.9.0":
-  version: 1.21.4
-  resolution: "@elastic/search-ui@npm:1.21.4"
+"@elastic/search-ui@npm:1.21.2":
+  version: 1.21.2
+  resolution: "@elastic/search-ui@npm:1.21.2"
   dependencies:
     date-fns: ^1.30.1
     deep-equal: ^1.0.1
     history: ^4.9.0
     qs: ^6.7.0
-  checksum: 830c4dbd6dbe793f00c497ea18b1b3d117885f3ae1d1d346e6613729cb46ada7c56e5eba890346787d3ac1f36fcaab9732ca688d3150a302aa37deb22259118e
+  checksum: 945b6133ca4b4f464b4454ef7143903b3779659d66e9d4a98d8d06777d064e6a085a1152634cd7307bbb127b40b10d118b6d5470c58f0575a7a714df70594a07
   languageName: node
   linkType: hard
 
