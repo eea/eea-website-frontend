@@ -2453,7 +2453,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-datablocks@7.0.0, @eeacms/volto-datablocks@workspace:src/addons/volto-datablocks":
+"@eeacms/volto-datablocks@7.0.2, @eeacms/volto-datablocks@workspace:src/addons/volto-datablocks":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-datablocks@workspace:src/addons/volto-datablocks"
   dependencies:
@@ -2464,6 +2464,7 @@ __metadata:
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     cypress-fail-fast: ^5.0.1
     d3: 7.1.1
     date-fns: 2.28.0
@@ -2524,7 +2525,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-design-system@1.23.7, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
+"@eeacms/volto-eea-design-system@1.23.8, @eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-design-system@workspace:src/addons/volto-eea-design-system"
   dependencies:
@@ -2538,6 +2539,7 @@ __metadata:
     husky: ^8.0.3
     lint-staged: ^14.0.1
     md5: ^2.3.0
+    postcss-less: 6.0.0
     react-lazy-load-image-component: 1.5.6
     react-slick: ^0.30.1
     remixicon: 3.6.0
@@ -2623,14 +2625,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-policy@2.0.0, @eeacms/volto-eea-website-policy@workspace:src/addons/volto-eea-website-policy":
+"@eeacms/volto-eea-website-policy@2.1.0, @eeacms/volto-eea-website-policy@workspace:src/addons/volto-eea-website-policy":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-policy@workspace:src/addons/volto-eea-website-policy"
   dependencies:
     "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-widget-dataprovenance": "*"
+    "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     dotenv: ^16.3.2
     husky: ^8.0.3
     lint-staged: ^14.0.1
@@ -2638,7 +2642,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-theme@1.33.2, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
+"@eeacms/volto-eea-website-theme@2.0.0, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
   dependencies:
@@ -4552,6 +4556,15 @@ __metadata:
   version: 0.1.1
   resolution: "@pkgr/core@npm:0.1.1"
   checksum: 6f25fd2e3008f259c77207ac9915b02f1628420403b2630c92a07ff963129238c9262afc9e84344c7a23b5cc1f3965e2cd17e3798219f5fd78a63d144d3cceba
+  languageName: node
+  linkType: hard
+
+"@plone-collective/volto-authomatic@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
+  peerDependencies:
+    "@plone/volto": ">=13.8.0"
+  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
   languageName: node
   linkType: hard
 
@@ -14740,14 +14753,14 @@ __metadata:
   dependencies:
     "@eeacms/volto-block-data-figure": 8.0.0
     "@eeacms/volto-citation": 1.0.0
-    "@eeacms/volto-datablocks": 7.0.0
+    "@eeacms/volto-datablocks": 7.0.2
     "@eeacms/volto-datahub": 2.0.0
     "@eeacms/volto-editing-progress": 1.0.0
-    "@eeacms/volto-eea-design-system": 1.23.7
+    "@eeacms/volto-eea-design-system": 1.23.8
     "@eeacms/volto-eea-kitkat": 25.0.0
     "@eeacms/volto-eea-map": 4.0.0
-    "@eeacms/volto-eea-website-policy": 2.0.0
-    "@eeacms/volto-eea-website-theme": 1.33.2
+    "@eeacms/volto-eea-website-policy": 2.1.0
+    "@eeacms/volto-eea-website-theme": 2.0.0
     "@eeacms/volto-embed": 10.0.0
     "@eeacms/volto-embed-static-content": 0.2.0
     "@eeacms/volto-globalsearch": 2.0.0
@@ -14756,6 +14769,7 @@ __metadata:
     "@eeacms/volto-searchlib": 1.0.0
     "@eeacms/volto-tableau": 8.0.1
     "@eeacms/volto-workflow-progress": 5.0.0
+    "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.15.6
     "@storybook/addon-actions": ^6.3.0
