@@ -2291,6 +2291,7 @@ __metadata:
     "@eeacms/volto-datablocks": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     cypress-fail-fast: ^5.0.1
     dotenv: ^16.3.2
     husky: ^8.0.3
@@ -2594,6 +2595,7 @@ __metadata:
     "@plone-collective/volto-sentry": 0.3.1
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     cypress-fail-fast: ^5.0.1
     dotenv: ^16.3.2
     husky: ^8.0.3
