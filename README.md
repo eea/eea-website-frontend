@@ -18,12 +18,12 @@ Trainings on how to create your own website using Plone 6 is available as part o
         source ~/.bash_profile
         nvm version
 
-1. Install latest `NodeJS 16.x`:
+1. Install latest `NodeJS 18.x`:
 
-        nvm install 16
-        nvm use 16
+        nvm install 18
+        nvm use 18
         node -v
-        v16.16.2
+        v18.19.1
 
 1. Install `yarn`
 
