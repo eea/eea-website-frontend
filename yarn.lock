@@ -2448,9 +2448,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-datablocks@7.0.4, @eeacms/volto-datablocks@workspace:src/addons/volto-datablocks":
-  version: 0.0.0-use.local
-  resolution: "@eeacms/volto-datablocks@workspace:src/addons/volto-datablocks"
+"@eeacms/volto-datablocks@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@eeacms/volto-datablocks@npm:7.0.5"
   dependencies:
     "@cypress/code-coverage": ^3.10.0
     "@eeacms/countup": "*"
@@ -2472,8 +2472,9 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
-  languageName: unknown
-  linkType: soft
+  checksum: 3ab05d21803e58b487f6ebbe0d5967046dff6ae07be89bb45734e6f0e282d9c6279c3d6853a29d215006d3312b8bf2db6b27d949ce7036dd2e3682bac01faf9e
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-datahub@2.0.0, @eeacms/volto-datahub@workspace:src/addons/volto-datahub":
   version: 0.0.0-use.local
@@ -14755,7 +14756,7 @@ __metadata:
   dependencies:
     "@eeacms/volto-block-data-figure": 8.0.0
     "@eeacms/volto-citation": 1.0.0
-    "@eeacms/volto-datablocks": 7.0.4
+    "@eeacms/volto-datablocks": 7.0.5
     "@eeacms/volto-datahub": 2.0.0
     "@eeacms/volto-editing-progress": 1.0.0
     "@eeacms/volto-eea-design-system": 1.23.8
