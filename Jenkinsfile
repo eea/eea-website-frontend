@@ -129,6 +129,8 @@ pipeline {
         node(label: 'docker') {
           script {
             checkout scm
+            env.NODEJS_HOME = "${tool 'NodeJS'}"
+            env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
             sh "yarn install"
             sh "yarn build"
             sh "yarn bundlewatch"
