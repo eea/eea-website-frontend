@@ -136,6 +136,7 @@ pipeline {
             sh "yarn"
             sh "git status"
             sh "git diff"
+            sh "yarn develop"
             sh "yarn build"
             sh "yarn bundlewatch"
           }
