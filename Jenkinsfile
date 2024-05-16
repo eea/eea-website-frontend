@@ -132,11 +132,13 @@ pipeline {
             env.NODEJS_HOME = "${tool 'NodeJS'}"
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
             sh "hostname"
-      
+            sh "export YARN_ENABLE_IMMUTABLE_INSTALLS=false"
             sh "yarn config"
-       
-            sh "yarn --no-immutable"
+            sh "yarn"
+            sh "git status"
+            sh "git diff"
             sh "yarn install"
+            sh "mkdir -p src/addons"
             sh "yarn build"
             sh "diff yarn.lock yarn.lock2"
             sh "yarn bundlewatch"
