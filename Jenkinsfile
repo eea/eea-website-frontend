@@ -131,6 +131,11 @@ pipeline {
             checkout scm
             env.NODEJS_HOME = "${tool 'NodeJS'}"
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+            sh "npm -v"
+            sh "nodejs -v"
+            sh "env"
+            sh "git status"
+            sh "yarn"
             sh "yarn install"
             sh "yarn build"
             sh "yarn bundlewatch"
