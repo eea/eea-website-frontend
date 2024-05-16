@@ -132,7 +132,7 @@ pipeline {
             env.NODEJS_HOME = "${tool 'NodeJS'}"
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
             sh "hostname"
-            sh "export YARN_ENABLE_IMMUTABLE_INSTALLS=false"
+            sh "yarn config set enableImmutableInstalls false"
             sh "yarn config"
             sh "yarn"
             sh "git status"
