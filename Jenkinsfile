@@ -132,10 +132,10 @@ pipeline {
             env.NODEJS_HOME = "${tool 'NodeJS'}"
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
             sh "hostname"
-            sh "mv yarn.lock yarn.lock2"
+      
             sh "yarn config"
-            sh "cat .yarnrc.yml"
-            sh "yarn"
+       
+            sh "yarn --no-immutable"
             sh "yarn install"
             sh "yarn build"
             sh "diff yarn.lock yarn.lock2"
