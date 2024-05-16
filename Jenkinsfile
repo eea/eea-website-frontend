@@ -120,8 +120,22 @@ pipeline {
 
 
     //   }
-    // }
-
+      // }
+    stage('Bundlewatch') {
+      when {
+        branch '262122_bundle_optimization'
+      }
+      steps {
+        node(label: 'docker') {
+          script {
+            checkout scm
+            sh "yarn install"
+            sh "yarn build"
+            sh "yarn bundlewatch"
+          }
+        }
+      }
+    }
 
     stage('Pull Request') {
       when {
