@@ -2411,12 +2411,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed-static-content@npm:0.2.1":
-  version: 0.2.1
-  resolution: "@eeacms/volto-embed-static-content@npm:0.2.1"
+"@eeacms/volto-embed-static-content@npm:0.2.2":
+  version: 0.2.2
+  resolution: "@eeacms/volto-embed-static-content@npm:0.2.2"
   dependencies:
     "@eeacms/volto-embed": "*"
-  checksum: e1ac5ed23e0356c3b48f1b559b4622904639716aac3f180be95a7d86b4bcd42c1ae88ffdaa1d4a6357be04a7d430f0552239753a3eed156b9a01575e568e9994
+  checksum: 11d2b91ce92452712abe25ef0cb45a3657737a47e12798d90cbcc1e99c158df7f827c0803f17f199c54931b65429a9214cea1e068511984b65aa767b8d7e2fa6
   languageName: node
   linkType: hard
 
@@ -13548,7 +13548,7 @@ __metadata:
     "@eeacms/volto-eea-website-policy": 2.1.0
     "@eeacms/volto-eea-website-theme": 2.0.1
     "@eeacms/volto-embed": 10.0.0
-    "@eeacms/volto-embed-static-content": 0.2.1
+    "@eeacms/volto-embed-static-content": 0.2.2
     "@eeacms/volto-globalsearch": 2.0.0
     "@eeacms/volto-plotlycharts": 10.0.2
     "@eeacms/volto-redmine-helpdesk": 1.0.0
