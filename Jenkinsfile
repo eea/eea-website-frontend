@@ -125,6 +125,7 @@ pipeline {
       when {
         branch '262122_bundle_optimization'
       }
+      node(label: 'dockertest') {
       steps {
         node(label: 'docker') {
           script {
@@ -143,7 +144,7 @@ pipeline {
           }
         }
       }
-    }
+    }}
 
     stage('Pull Request') {
       when {
