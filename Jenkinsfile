@@ -136,9 +136,9 @@ pipeline {
             sh "yarn"
             sh "git status"
             sh "git diff"
-            sh "yarn develop"
+            sh "make develop"
             sh "yarn install"
-            sh "yarn build"
+            sh "make build"
             sh "yarn bundlewatch"
           }
         }
