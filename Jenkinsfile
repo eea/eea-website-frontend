@@ -125,9 +125,8 @@ pipeline {
       when {
         branch '262122_bundle_optimization'
       }
-      node(label: 'dockertest') {
       steps {
-        node(label: 'docker') {
+        node(label: 'dockertest') {
           script {
             checkout scm
             env.NODEJS_HOME = "${tool 'NodeJS'}"
@@ -144,7 +143,7 @@ pipeline {
           }
         }
       }
-    }}
+    }
 
     stage('Pull Request') {
       when {
