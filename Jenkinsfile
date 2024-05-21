@@ -131,6 +131,7 @@ pipeline {
             checkout scm
             env.NODEJS_HOME = "${tool 'NodeJS'}"
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+            env.CI=false
             sh "hostname"
             sh "yarn config"
             sh "yarn"
