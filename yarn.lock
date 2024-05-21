@@ -2230,13 +2230,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-citation@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@eeacms/volto-citation@npm:1.0.0"
+"@eeacms/volto-citation@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@eeacms/volto-citation@npm:1.1.0"
   dependencies:
     "@citation-js/plugin-ris": ^0.6.8
     citation-js: ^0.6.8
-  checksum: 09fc4c98a6fb9f0a43dfd077fe7aca8a4e5ef43f7b0263581765e42954dbbe04ae3988b45f4ca323912f6a07ef1083d646dd45b1749c14d3ebc3a81acfed047e
+  checksum: 62332f4f043056cba97883c6c5b33880978d6084b0bdae6f8236b8d915d7d1066abe79dc8e35e9752a0e45a9c8916821f1a7655428a9cedf59705dcda2488de1
   languageName: node
   linkType: hard
 
@@ -13538,7 +13538,7 @@ __metadata:
   resolution: "eea-website-frontend@workspace:."
   dependencies:
     "@eeacms/volto-block-data-figure": 8.0.0
-    "@eeacms/volto-citation": 1.0.0
+    "@eeacms/volto-citation": 1.1.0
     "@eeacms/volto-datablocks": 7.0.6
     "@eeacms/volto-datahub": 2.0.0
     "@eeacms/volto-editing-progress": 1.0.0

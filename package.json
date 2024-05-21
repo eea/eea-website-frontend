@@ -186,7 +186,7 @@
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@eeacms/volto-block-data-figure": "8.0.0",
     "@eeacms/volto-editing-progress": "1.0.0",
-    "@eeacms/volto-citation": "1.0.0",
+    "@eeacms/volto-citation": "1.1.0",
     "@plone-collective/volto-authomatic": "2.0.1",
     "volto-subsites": "4.0.0",
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
@@ -196,7 +196,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-data-figure": "8.0.0",
-    "@eeacms/volto-citation": "1.0.0",
+    "@eeacms/volto-citation": "1.1.0",
     "@eeacms/volto-datablocks": "7.0.6",
     "@eeacms/volto-datahub": "2.0.0",
     "@eeacms/volto-editing-progress": "1.0.0",
