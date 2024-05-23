@@ -53,11 +53,11 @@ develop:    	## Runs missdev in the local project (mrs.developer.json should be 
 
 .PHONY: install
 install:		## Install project and add-ons
-	yarn install
+	NODE_OPTIONS="--max-old-space-size=16384" yarn install
 
 .PHONY: build
 build:			## Build frontend
-	NODE_OPTIONS="--max-old-space-size=8192" yarn build
+	NODE_OPTIONS="--max-old-space-size=16384" yarn build
 
 .PHONY: husky
 husky:			## Install husky git hooks in src/addons/*
@@ -65,15 +65,15 @@ husky:			## Install husky git hooks in src/addons/*
 
 .PHONY: start
 start:			## Start frontend
-	yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" yarn start
 
 .PHONY: relstorage
 relstorage:		## Start frontend w/ RelStorage Plone Backend
-	RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www yarn start
 
 .PHONY: staging
 staging:		## Start frontend w/ Staging Plone Backend
-	RAZZLE_DEV_PROXY_API_PATH=http://10.110.30.119:59707/www yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_DEV_PROXY_API_PATH=http://10.110.30.119:59707/www yarn start
 
 .PHONY: omelette
 omelette: 		## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)

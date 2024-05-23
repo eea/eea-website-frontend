@@ -120,8 +120,27 @@ pipeline {
 
 
     //   }
-    // }
-
+      // }
+    stage('Bundlewatch') {
+      when {
+        branch '262122_bundle_optimization'
+      }
+      steps {
+        node(label: 'docker-big-jobs') {
+          script {
+            checkout scm
+            env.NODEJS_HOME = "${tool 'NodeJS'}"
+            env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
+            env.CI=false
+            sh "yarn"
+            sh "make develop"
+            sh "make install"
+            sh "make build"
+            sh "yarn bundlewatch"
+          }
+        }
+      }
+    }
 
     stage('Pull Request') {
       when {
@@ -172,7 +191,7 @@ pipeline {
         }
       }
       steps{
-        node(label: 'docker-host') {
+        node(label: 'docker-big-jobs') {
           script {
             checkout scm
             if (env.BRANCH_NAME == 'master') {
