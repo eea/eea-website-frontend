@@ -2457,19 +2457,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*":
-  version: 8.0.2
-  resolution: "@eeacms/volto-listing-block@npm:8.0.2"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-    react-resize-detector: 7.1.2
-    react-slick: ^0.30.1
-    slick-carousel: 1.8.1
-  checksum: 7aeb283377f494e8c43dc71349f61765e758b5ede89579179d5893121433a0cd221a6d892f19b401739e324f0ee4df39a11c9f88e671b71a249403fe6e30fe70
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-listing-block@npm:8.0.3":
+"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:8.0.3":
   version: 8.0.3
   resolution: "@eeacms/volto-listing-block@npm:8.0.3"
   dependencies:
@@ -7837,9 +7825,9 @@ __metadata:
   linkType: hard
 
 "ace-builds@npm:^1.32.2":
-  version: 1.33.3
-  resolution: "ace-builds@npm:1.33.3"
-  checksum: fda0dbef56beed18da2330cf1c332314346debf61eca1c8c5d3402c849d7612b494e8032067488b5c734274f1903eb62191b359a1fd87d1adcfb098eab9a9ce3
+  version: 1.34.0
+  resolution: "ace-builds@npm:1.34.0"
+  checksum: f96efaa0c1b4fdc7906491d8be6401a40e799117ce4ad3e42ac17d29955e8dcd38460bca17e124ab2bfb69c1178e03ae6da18c7a5bb864287700f012e9a80c4b
   languageName: node
   linkType: hard
 
@@ -24375,8 +24363,8 @@ __metadata:
   linkType: hard
 
 "rc-pagination@npm:^4.0.4":
-  version: 4.0.4
-  resolution: "rc-pagination@npm:4.0.4"
+  version: 4.1.0
+  resolution: "rc-pagination@npm:4.1.0"
   dependencies:
     "@babel/runtime": ^7.10.1
     classnames: ^2.3.2
@@ -24384,7 +24372,7 @@ __metadata:
   peerDependencies:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
-  checksum: 2ff6f2dd6ad0b855d1e747d09534f2efe9a124af4ff4cd5d5550a6cae9392879c06f471d4ee29d2a72c2c416f89dac6e43a7788650db5b8e54001affba2b172c
+  checksum: a558e9a19424f1094cb120be4c23b4999870adbeaa70cd4b87fdafc0c2da3e93b30e2a095198db5635da35d0b85df1de974c0e0d0dbae38775a8fd73a654e771
   languageName: node
   linkType: hard
 
@@ -24616,7 +24604,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
+  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
   languageName: node
   linkType: hard
 
