@@ -6,6 +6,7 @@
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
+    "analyze": "BUNDLE_ANALYZE=true razzle build --noninteractive",
     "build": "razzle build --noninteractive",
     "lint": "./node_modules/eslint/bin/eslint.js --max-warnings=0 'src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "./node_modules/eslint/bin/eslint.js --fix 'src/**/*.{js,jsx,ts,tsx}'",
@@ -67,6 +68,26 @@
     "@eeacms/volto-citation",
     "volto-subsites"
   ],
+  "bundlewatch": {
+    "files": [
+      {
+        "path": "build/public/static/js/*.js",
+        "maxSize": "700kB"
+      },
+      {
+        "path": "build/public/static/js/react-plotly*.js",
+        "maxSize": "1.1MB"
+      },
+      {
+        "path": "build/public/static/js/404*.js",
+        "maxSize": "1.1MB"
+      },
+      {
+        "path": "build/public/static/js/client*.js",
+        "maxSize": "1.4MB"
+      }
+    ]
+  },
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -189,6 +210,8 @@
     "@eeacms/volto-citation": "1.1.0",
     "@plone-collective/volto-authomatic": "2.0.1",
     "volto-subsites": "4.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
     "d3-array": "^2.12.1",
     "react-error-overlay": "6.0.9",
@@ -229,6 +252,7 @@
     "@typescript-eslint/eslint-plugin": "6.7.0",
     "@typescript-eslint/parser": "6.7.0",
     "brotli-webpack-plugin": "1.1.0",
+    "bundlewatch": "0.3.3",
     "compression-webpack-plugin": "10.0.0",
     "eslint-plugin-prettier": "3.1.3",
     "jest-junit": "8.0.0",
