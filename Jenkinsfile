@@ -123,7 +123,7 @@ pipeline {
       // }
     stage('Bundlewatch') {
       when {
-        branch '262122_bundle_optimization'
+        branch 'develop'
       }
       steps {
         node(label: 'docker-big-jobs') {
