@@ -2152,15 +2152,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-figure@npm:8.0.3":
-  version: 8.0.3
-  resolution: "@eeacms/volto-block-data-figure@npm:8.0.3"
+"@eeacms/volto-block-data-figure@npm:8.1.0":
+  version: 8.1.0
+  resolution: "@eeacms/volto-block-data-figure@npm:8.1.0"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@eeacms/volto-widget-geolocation": "*"
     "@eeacms/volto-widget-temporal-coverage": "*"
-  checksum: 5e3f26f6da43b9440742be68de459e75b69b2dcfed3c8149fc916e0e7aabb8e449598dba0cee81fa8c0ccb31b871548e42450f01622a0babb6b7025815f5e05e
+  checksum: 79066a0a80d6248bea0cb3ab231d3de4a675ab4c93b2ed5be002d31170ec0bba69739387d1bb82e0fabf43b5a14febdfb5548b4563f320552ccd6d9bbcaaa3fc
   languageName: node
   linkType: hard
 
@@ -13573,7 +13573,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eea-website-frontend@workspace:."
   dependencies:
-    "@eeacms/volto-block-data-figure": 8.0.3
+    "@eeacms/volto-block-data-figure": 8.1.0
     "@eeacms/volto-citation": 1.1.0
     "@eeacms/volto-datablocks": 7.0.6
     "@eeacms/volto-datahub": 2.0.0
