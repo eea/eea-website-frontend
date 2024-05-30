@@ -1,0 +1,26 @@
+diff --git a/lib/esm/index.js b/lib/esm/index.js
+index c5f092c88dc31247a08e153bf055191a000d14c0..c061acc88180baf5d72384e756900d34c7a5aa45 100644
+--- a/lib/esm/index.js
++++ b/lib/esm/index.js
+@@ -27,7 +27,7 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
+ function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+ 
+ import React, { Component, createRef } from 'react';
+-import ResizeDetector from 'react-resize-detector/build/withPolyfill';
++import ResizeDetector from 'react-resize-detector';
+ import cs from 'classnames';
+ import throttle from 'lodash.throttle';
+ import PropTypes from 'prop-types';
+diff --git a/lib/index.js b/lib/index.js
+index 8a4453e2693ec91faebb93c95ec9d94a37efe7bb..f6e7900229ebc97d31ceb41f11ec1aa9610d3d56 100644
+--- a/lib/index.js
++++ b/lib/index.js
+@@ -9,7 +9,7 @@ exports["default"] = void 0;
+ 
+ var _react = _interopRequireWildcard(require("react"));
+ 
+-var _withPolyfill = _interopRequireDefault(require("react-resize-detector/build/withPolyfill"));
++var _withPolyfill = _interopRequireDefault(require("react-resize-detector"));
+ 
+ var _classnames = _interopRequireDefault(require("classnames"));
+ 
