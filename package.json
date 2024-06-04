@@ -190,7 +190,7 @@
   },
   "resolutions": {
     "@elastic/search-ui": "1.21.2",
-    "@eeacms/volto-embed": "10.0.0",
+    "@eeacms/volto-embed": "10.0.1",
     "@eeacms/volto-embed-static-content": "0.2.4",
     "@eeacms/volto-datablocks": "7.0.6",
     "@eeacms/volto-datahub": "2.0.0",
@@ -228,7 +228,7 @@
     "@eeacms/volto-eea-map": "4.0.0",
     "@eeacms/volto-eea-website-policy": "2.1.1",
     "@eeacms/volto-eea-website-theme": "2.1.1",
-    "@eeacms/volto-embed": "10.0.0",
+    "@eeacms/volto-embed": "10.0.1",
     "@eeacms/volto-embed-static-content": "0.2.4",
     "@eeacms/volto-globalsearch": "2.0.0",
     "@eeacms/volto-plotlycharts": "10.0.3",
