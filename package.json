@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -72,7 +72,31 @@
     "files": [
       {
         "path": "build/public/static/js/*.js",
-        "maxSize": "700kB"
+        "maxSize": "50kB"
+      },
+      {
+        "path": "build/public/static/js/ChartEditor*.js",
+        "maxSize": "530kB"
+      },
+      {
+        "path": "build/public/static/js/d3*.js",
+        "maxSize": "103kB"
+      },
+      {
+        "path": "build/public/static/js/draft-js*.js",
+        "maxSize": "120kB"
+      },
+      {
+        "path": "build/public/static/js/jsoneditor*.js",
+        "maxSize": "270kB"
+      },
+      {
+        "path": "build/public/static/js/react-sortable*.js",
+        "maxSize": "70kB"
+      },
+      {
+        "path": "build/public/static/js/citation*.js",
+        "maxSize": "370kB"
       },
       {
         "path": "build/public/static/js/react-plotly*.js",
@@ -84,7 +108,7 @@
       },
       {
         "path": "build/public/static/js/client*.js",
-        "maxSize": "1.4MB"
+        "maxSize": "1.2MB"
       }
     ]
   },
@@ -190,22 +214,22 @@
   },
   "resolutions": {
     "@elastic/search-ui": "1.21.2",
-    "@eeacms/volto-embed": "10.0.0",
-    "@eeacms/volto-embed-static-content": "0.2.3",
-    "@eeacms/volto-datablocks": "7.0.6",
+    "@eeacms/volto-embed": "10.0.2",
+    "@eeacms/volto-embed-static-content": "0.2.4",
+    "@eeacms/volto-datablocks": "7.1.0",
     "@eeacms/volto-datahub": "2.0.0",
-    "@eeacms/volto-eea-design-system": "1.31.0",
-    "@eeacms/volto-eea-kitkat": "25.0.3",
-    "@eeacms/volto-eea-map": "4.0.0",
-    "@eeacms/volto-eea-website-policy": "2.1.0",
-    "@eeacms/volto-eea-website-theme": "2.1.0",
+    "@eeacms/volto-eea-design-system": "1.31.1",
+    "@eeacms/volto-eea-kitkat": "25.1.0",
+    "@eeacms/volto-eea-map": "4.1.0",
+    "@eeacms/volto-eea-website-policy": "2.1.1",
+    "@eeacms/volto-eea-website-theme": "2.1.1",
     "@eeacms/volto-globalsearch": "2.0.0",
     "@eeacms/volto-plotlycharts": "10.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
-    "@eeacms/volto-searchlib": "1.0.0",
+    "@eeacms/volto-searchlib": "2.0.0",
     "@eeacms/volto-tableau": "8.0.2",
     "@eeacms/volto-workflow-progress": "5.0.0",
-    "@eeacms/volto-block-data-figure": "8.0.3",
+    "@eeacms/volto-block-data-figure": "8.1.1",
     "@eeacms/volto-editing-progress": "1.0.0",
     "@eeacms/volto-citation": "1.1.0",
     "@plone-collective/volto-authomatic": "2.0.1",
@@ -218,22 +242,22 @@
     "eslint-plugin-jsx-a11y": "6.7.1"
   },
   "dependencies": {
-    "@eeacms/volto-block-data-figure": "8.0.3",
+    "@eeacms/volto-block-data-figure": "8.1.1",
     "@eeacms/volto-citation": "1.1.0",
-    "@eeacms/volto-datablocks": "7.0.6",
+    "@eeacms/volto-datablocks": "7.1.0",
     "@eeacms/volto-datahub": "2.0.0",
     "@eeacms/volto-editing-progress": "1.0.0",
-    "@eeacms/volto-eea-design-system": "1.31.0",
-    "@eeacms/volto-eea-kitkat": "25.0.3",
-    "@eeacms/volto-eea-map": "4.0.0",
-    "@eeacms/volto-eea-website-policy": "2.1.0",
-    "@eeacms/volto-eea-website-theme": "2.1.0",
-    "@eeacms/volto-embed": "10.0.0",
-    "@eeacms/volto-embed-static-content": "0.2.3",
+    "@eeacms/volto-eea-design-system": "1.31.1",
+    "@eeacms/volto-eea-kitkat": "25.1.0",
+    "@eeacms/volto-eea-map": "4.1.0",
+    "@eeacms/volto-eea-website-policy": "2.1.1",
+    "@eeacms/volto-eea-website-theme": "2.1.1",
+    "@eeacms/volto-embed": "10.0.2",
+    "@eeacms/volto-embed-static-content": "0.2.4",
     "@eeacms/volto-globalsearch": "2.0.0",
     "@eeacms/volto-plotlycharts": "10.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
-    "@eeacms/volto-searchlib": "1.0.0",
+    "@eeacms/volto-searchlib": "2.0.0",
     "@eeacms/volto-tableau": "8.0.2",
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
