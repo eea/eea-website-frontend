@@ -2715,12 +2715,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-searchlib@npm:2.0.0"
+"@eeacms/volto-searchlib@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-searchlib@npm:2.0.1"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": ^1.9.0
+    "@elastic/react-search-ui-views": 1.20.2
     "@elastic/search-ui": 1.19.0
     "@visx/group": ^1.7.0
     "@visx/responsive": ^1.10.1
@@ -2754,7 +2755,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 484257d4479a107097dfca7a12ad08508fd2c917497872a54591c971e502bd7d231f27fab0455902cfa344cea6728511b569be5c7c715802f064edabe3d3eda4
+  checksum: 6adc88f8a480e762f160564129c70a8a2a9650ed96d3f9375d56674449e3ac5e042e8c7a7815703659903f5b8f3e1c95d844c1c5af02e6c4b2a0f864fb8951c9
   languageName: node
   linkType: hard
 
@@ -2902,6 +2903,21 @@ __metadata:
   version: 5.0.0
   resolution: "@eeacms/volto-workflow-progress@npm:5.0.0"
   checksum: 9acc7368c6a846d0f9a69297b6c45a1292980263f8c92990d5faae3ac8fdd8a7ea8193b62b353cc34bb8fe554f7158978cf5bd72337e0a9c7ffa66f281c2eddf
+  languageName: node
+  linkType: hard
+
+"@elastic/react-search-ui-views@npm:1.20.2":
+  version: 1.20.2
+  resolution: "@elastic/react-search-ui-views@npm:1.20.2"
+  dependencies:
+    "@elastic/search-ui": 1.20.2
+    downshift: ^3.2.10
+    rc-pagination: ^1.20.1
+    react-select: ^5.0.0
+  peerDependencies:
+    react: ">= 16.8.0 <= 18"
+    react-dom: ">= 16.8.0 <= 18"
+  checksum: d8f451ce7a931e32e2806fab561d1d0dfbd7dadb6343ed84abaecde221041412b04d6267dd01fee047c8112ad33d37141489408f5253d803a00982d4e5c3dba0
   languageName: node
   linkType: hard
 
@@ -13794,7 +13810,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 2.0.0
     "@eeacms/volto-plotlycharts": 10.0.3
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 2.0.0
+    "@eeacms/volto-searchlib": 2.0.1
     "@eeacms/volto-tableau": 8.0.2
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone-collective/volto-authomatic": 2.0.1
@@ -24525,6 +24541,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rc-pagination@npm:^1.20.1":
+  version: 1.21.1
+  resolution: "rc-pagination@npm:1.21.1"
+  dependencies:
+    babel-runtime: 6.x
+    classnames: ^2.2.6
+    prop-types: ^15.5.7
+    react-lifecycles-compat: ^3.0.4
+  checksum: 5772fff7a6cc580deeec8db5b83302acc7bbc0d167f641e42e7b02b50efcc0957540ee9c017e6d6f67607d5f83cf2b2d3541f4831f9963701236315d9dfc876d
+  languageName: node
+  linkType: hard
+
 "rc-pagination@npm:^4.0.4":
   version: 4.1.0
   resolution: "rc-pagination@npm:4.1.0"
@@ -24767,7 +24795,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
+  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
   languageName: node
   linkType: hard
 
