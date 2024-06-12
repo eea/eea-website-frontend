@@ -1923,7 +1923,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.10.1, @babel/runtime@npm:^7.4.5":
+"@babel/runtime@npm:^7.4.5":
   version: 7.24.7
   resolution: "@babel/runtime@npm:7.24.7"
   dependencies:
@@ -2715,14 +2715,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-searchlib@npm:2.0.1"
+"@eeacms/volto-searchlib@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@eeacms/volto-searchlib@npm:2.0.2"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-    "@elastic/react-search-ui": ^1.9.0
+    "@elastic/react-search-ui": 1.20.2
     "@elastic/react-search-ui-views": 1.20.2
-    "@elastic/search-ui": 1.19.0
+    "@elastic/search-ui": 1.20.2
     "@visx/group": ^1.7.0
     "@visx/responsive": ^1.10.1
     "@visx/scale": ^1.11.1
@@ -2755,7 +2755,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 6adc88f8a480e762f160564129c70a8a2a9650ed96d3f9375d56674449e3ac5e042e8c7a7815703659903f5b8f3e1c95d844c1c5af02e6c4b2a0f864fb8951c9
+  checksum: 34c4c171a49e178506ce9d207669ee2779fcba05c49900c682f5ae22cf1ca9e358409df17ecf727df2d1cc9e16a14a165df86100a0f3c08a953c593256ec90cf
   languageName: node
   linkType: hard
 
@@ -2921,31 +2921,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@elastic/react-search-ui-views@npm:1.21.5":
-  version: 1.21.5
-  resolution: "@elastic/react-search-ui-views@npm:1.21.5"
+"@elastic/react-search-ui@npm:1.20.2":
+  version: 1.20.2
+  resolution: "@elastic/react-search-ui@npm:1.20.2"
   dependencies:
-    "@elastic/search-ui": 1.21.5
-    downshift: ^3.2.10
-    rc-pagination: ^4.0.4
-    react-select: ^5.0.0
+    "@elastic/react-search-ui-views": 1.20.2
+    "@elastic/search-ui": 1.20.2
   peerDependencies:
-    react: ">= 16.8.0 < 19"
-    react-dom: ">= 16.8.0 < 19"
-  checksum: cb0d79b54c352ad0d55e035294eddb5da9107d95ad6a75cb3848c2f4acec00b058afb9f2f9d5e249eb138aef71886c03649a927a50af9d6ac8dfa64aa82e6c0e
-  languageName: node
-  linkType: hard
-
-"@elastic/react-search-ui@npm:^1.9.0":
-  version: 1.21.5
-  resolution: "@elastic/react-search-ui@npm:1.21.5"
-  dependencies:
-    "@elastic/react-search-ui-views": 1.21.5
-    "@elastic/search-ui": 1.21.5
-  peerDependencies:
-    react: ">= 16.8.0 < 19"
-    react-dom: ">= 16.8.0 < 19"
-  checksum: 5a97b74556bd2801015ec3e918b014c55485a5f2efb403367b8c78448fdf35e3be1dae18801f9a29937cb20dc8a49d696554fdbba381d5b3dfa77700cfdd5961
+    react: ">= 16.8.0 <= 18"
+    react-dom: ">= 16.8.0 <= 18"
+  checksum: dcf0f80174c6d397afca0bc039f4fecfa4d6d7aa1d1101fe7e8c2bcbe476cac922ce2eb59dedc7e52291a67f65bc0209bdb4babf89d36f536a7117946ebbef2d
   languageName: node
   linkType: hard
 
@@ -13810,7 +13795,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 2.0.0
     "@eeacms/volto-plotlycharts": 10.0.3
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 2.0.1
+    "@eeacms/volto-searchlib": 2.0.2
     "@eeacms/volto-tableau": 8.0.2
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone-collective/volto-authomatic": 2.0.1
@@ -24553,20 +24538,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rc-pagination@npm:^4.0.4":
-  version: 4.1.0
-  resolution: "rc-pagination@npm:4.1.0"
-  dependencies:
-    "@babel/runtime": ^7.10.1
-    classnames: ^2.3.2
-    rc-util: ^5.38.0
-  peerDependencies:
-    react: ">=16.9.0"
-    react-dom: ">=16.9.0"
-  checksum: a558e9a19424f1094cb120be4c23b4999870adbeaa70cd4b87fdafc0c2da3e93b30e2a095198db5635da35d0b85df1de974c0e0d0dbae38775a8fd73a654e771
-  languageName: node
-  linkType: hard
-
 "rc-slider@npm:^8.4.0":
   version: 8.7.1
   resolution: "rc-slider@npm:8.7.1"
@@ -24633,19 +24604,6 @@ __metadata:
     react-lifecycles-compat: ^3.0.4
     shallowequal: ^1.1.0
   checksum: f87d321ad2088171eef990f179fe8b34db648cd5ad37439de381093891189e429ad8c791077205c56de9e26e37749fb3f4ecfceba8c35f983f540650c7ed4fb0
-  languageName: node
-  linkType: hard
-
-"rc-util@npm:^5.38.0":
-  version: 5.41.0
-  resolution: "rc-util@npm:5.41.0"
-  dependencies:
-    "@babel/runtime": ^7.18.3
-    react-is: ^18.2.0
-  peerDependencies:
-    react: ">=16.9.0"
-    react-dom: ">=16.9.0"
-  checksum: 656eaf77964dc46f4e2ad9e68a1cd068ac8a939061c65a3b318416fb84f4e95af81225d73758d0604252627c46c511bc6e6f87bc577d605c665847ee998d68bd
   languageName: node
   linkType: hard
 
@@ -25219,7 +25177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^18.0.0, react-is@npm:^18.2.0":
+"react-is@npm:^16.12.0 || ^17.0.0 || ^18.0.0, react-is@npm:^18.0.0":
   version: 18.3.1
   resolution: "react-is@npm:18.3.1"
   checksum: e20fe84c86ff172fc8d898251b7cc2c43645d108bf96d0b8edf39b98f9a2cae97b40520ee7ed8ee0085ccc94736c4886294456033304151c3f94978cec03df21
