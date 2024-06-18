@@ -68,50 +68,6 @@
     "@eeacms/volto-citation",
     "volto-subsites"
   ],
-  "bundlewatch": {
-    "files": [
-      {
-        "path": "build/public/static/js/*.js",
-        "maxSize": "50kB"
-      },
-      {
-        "path": "build/public/static/js/ChartEditor*.js",
-        "maxSize": "530kB"
-      },
-      {
-        "path": "build/public/static/js/d3*.js",
-        "maxSize": "103kB"
-      },
-      {
-        "path": "build/public/static/js/draft-js*.js",
-        "maxSize": "120kB"
-      },
-      {
-        "path": "build/public/static/js/jsoneditor*.js",
-        "maxSize": "270kB"
-      },
-      {
-        "path": "build/public/static/js/react-sortable*.js",
-        "maxSize": "70kB"
-      },
-      {
-        "path": "build/public/static/js/citation*.js",
-        "maxSize": "370kB"
-      },
-      {
-        "path": "build/public/static/js/react-plotly*.js",
-        "maxSize": "1.1MB"
-      },
-      {
-        "path": "build/public/static/js/404*.js",
-        "maxSize": "1.1MB"
-      },
-      {
-        "path": "build/public/static/js/client*.js",
-        "maxSize": "1.2MB"
-      }
-    ]
-  },
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
