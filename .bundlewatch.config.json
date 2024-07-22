@@ -5,6 +5,10 @@
         "maxSize": "50kB"
       },
       {
+        "path": "build/public/static/js/sanitize-*.js",
+        "maxSize": "85kB"
+      },
+      {
         "path": "build/public/static/js/ChartEditor*.js",
         "maxSize": "530kB"
       },
