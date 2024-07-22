@@ -219,7 +219,7 @@
     "@eeacms/volto-tableau": "8.0.3",
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@plone/volto": "17.18.1",
+    "@plone/volto": "17.18.2",
     "volto-subsites": "4.0.0"
   },
   "devDependencies": {
