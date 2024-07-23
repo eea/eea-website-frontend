@@ -2641,14 +2641,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:8.0.4":
-  version: 8.0.4
-  resolution: "@eeacms/volto-tableau@npm:8.0.4"
+"@eeacms/volto-tableau@npm:8.0.5":
+  version: 8.0.5
+  resolution: "@eeacms/volto-tableau@npm:8.0.5"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: 63a009c55d8d3fb59da7c8fa31b55e55b88c0e203075c5e5ce1f32bfb4f31c94de303da585c7f54773e5febffd830d81bfcb70367620f27f328fa87cad7e884a
+  checksum: e442a7b430b650b1d32ace805eb32dc71f4e7c4c67f255d1c556de7507ef2d027a1acacd5be7c8aa5044f2a553b7565d0132d73fe96aca97fdeeeae2fc96c741
   languageName: node
   linkType: hard
 
@@ -13768,7 +13768,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 10.0.4
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.0.2
-    "@eeacms/volto-tableau": 8.0.4
+    "@eeacms/volto-tableau": 8.0.5
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
@@ -24748,7 +24748,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
+  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
   languageName: node
   linkType: hard
 
