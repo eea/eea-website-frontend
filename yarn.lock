@@ -2846,15 +2846,15 @@ __metadata:
   linkType: hard
 
 "@emotion/cache@npm:^11.13.0":
-  version: 11.13.0
-  resolution: "@emotion/cache@npm:11.13.0"
+  version: 11.13.1
+  resolution: "@emotion/cache@npm:11.13.1"
   dependencies:
     "@emotion/memoize": ^0.9.0
     "@emotion/sheet": ^1.4.0
     "@emotion/utils": ^1.4.0
     "@emotion/weak-memoize": ^0.4.0
     stylis: 4.2.0
-  checksum: 65364171c8fb19435d238dee80a372674fc78d0747314a6051220f695276e1fe2132793f270f3a6a982592166d2a689244e780512aca1fb1fc0e0c7cbf53e69c
+  checksum: 94b161786a03a08a1e30257478fad9a9be1ac8585ddca0c6410d7411fd474fc8b0d6d1167d7d15bdb012d1fd8a1220ac2bbc79501ad9b292b83c17da0874d7de
   languageName: node
   linkType: hard
 
@@ -7956,9 +7956,9 @@ __metadata:
   linkType: hard
 
 "ace-builds@npm:^1.32.2":
-  version: 1.35.3
-  resolution: "ace-builds@npm:1.35.3"
-  checksum: c518224ed39c84c8da8e2c746d7e94227d1e65ae01d8a19c2e52098e74f5a36f68b37179c240e969f188755660ec93ce4a56fd45321ed87b52411a77967c9a46
+  version: 1.35.4
+  resolution: "ace-builds@npm:1.35.4"
+  checksum: ba2f6c5fefec7ecded6e25713e0ac0b23c2509be9fbe56be2322c95431ac37bf9e1dae5bed869ab76bbfe64912424e0ccf5d5582b81fb8d227818c06a79553f7
   languageName: node
   linkType: hard
 
@@ -24748,7 +24748,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
+  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
   languageName: node
   linkType: hard
 
