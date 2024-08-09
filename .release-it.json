@@ -7,6 +7,7 @@
   },
   "github": {
     "release": true,
+    "skipChecks": true,
     "releaseName": "${version}",
     "releaseNotes": "npx auto-changelog --stdout --sort-commits date-desc --commit-limit false -u --template https://raw.githubusercontent.com/eea/eea.docker.gitflow/master/src/release.hbs --ignore-commit-pattern 'Automated release [0-9\\.]\\+ \\|Add Sonarqube tag using .* addons list\\|\\[[jJ][eE][nN][kK][iI][nN][sS]\\|[yY][aA][rR][nN]'"
   },
