@@ -2236,6 +2236,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-toc@npm:*":
+  version: 6.0.0
+  resolution: "@eeacms/volto-block-toc@npm:6.0.0"
+  dependencies:
+    github-slugger: 1.4.0
+    smoothscroll-polyfill: ^0.4.4
+  checksum: 3045e1bea6830fe7a06d044ecada06b3da36d2afe3597b6e2bbd7f4b7beb23f181afe1a1db97c4b692fca5245b03fd320ccb828846458da481a6d46f94a6a811
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-block-toc@npm:5.0.2":
   version: 5.0.2
   resolution: "@eeacms/volto-block-toc@npm:5.0.2"
@@ -2416,13 +2426,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@npm:2.1.1":
-  version: 2.1.1
-  resolution: "@eeacms/volto-eea-website-policy@npm:2.1.1"
+"@eeacms/volto-eea-website-policy@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@eeacms/volto-eea-website-policy@npm:2.2.0"
   dependencies:
+    "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@plone-collective/volto-authomatic": "*"
-  checksum: e690154983dc97ef131407b7f439e0cd5650af3035b81fcbfc359854dfc6ed956db53ba17803662933853b5fe47de6a9b7999af8cb321b1467745bda4444f774
+  checksum: 22ddd1d9c5b7adbc7a2bef9c760d45197227404dbf9279b636ce923860275e9fda9c5dd1759b26fd4e895ec3b4c07eb1024784238efa86330d9ae1bc231f0f68
   languageName: node
   linkType: hard
 
@@ -14093,7 +14104,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.32.0
     "@eeacms/volto-eea-kitkat": 25.2.0
     "@eeacms/volto-eea-map": 5.0.3
-    "@eeacms/volto-eea-website-policy": 2.1.1
+    "@eeacms/volto-eea-website-policy": 2.2.0
     "@eeacms/volto-eea-website-theme": 2.2.0
     "@eeacms/volto-embed": 10.0.3
     "@eeacms/volto-embed-static-content": 0.2.4
