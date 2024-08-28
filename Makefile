@@ -59,6 +59,10 @@ install:		## Install project and add-ons
 build:			## Build frontend
 	NODE_OPTIONS="--max-old-space-size=16384" yarn build
 
+.PHONY: bundlewatch
+bundlewatch:
+	yarn bundlewatch --config .bundlewatch.config.json
+
 .PHONY: husky
 husky:			## Install husky git hooks in src/addons/*
 	./scripts/husky.sh
