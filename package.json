@@ -185,7 +185,7 @@
     "@eeacms/volto-searchlib": "2.0.3",
     "@eeacms/volto-tableau": "8.0.6",
     "@eeacms/volto-workflow-progress": "5.0.0",
-    "@eeacms/volto-block-data-figure": "8.1.2",
+    "@eeacms/volto-block-data-figure": "8.1.3",
     "@eeacms/volto-editing-progress": "1.0.0",
     "@eeacms/volto-citation": "1.1.0",
     "@plone-collective/volto-authomatic": "2.0.1",
@@ -199,7 +199,7 @@
     "eslint-plugin-jsx-a11y": "6.7.1"
   },
   "dependencies": {
-    "@eeacms/volto-block-data-figure": "8.1.2",
+    "@eeacms/volto-block-data-figure": "8.1.3",
     "@eeacms/volto-citation": "1.1.0",
     "@eeacms/volto-datablocks": "7.2.2",
     "@eeacms/volto-datahub": "2.0.1",
