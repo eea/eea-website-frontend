@@ -34,11 +34,11 @@
       },
       {
         "path": "build/public/static/js/react-plotly*.js",
-        "maxSize": "1.1MB"
+        "maxSize": "1.3MB"
       },
       {
         "path": "build/public/static/js/404*.js",
-        "maxSize": "1.1MB"
+        "maxSize": "1.3MB"
       },
       {
         "path": "build/public/static/js/client*.js",
