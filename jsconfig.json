@@ -199,6 +199,9 @@
             ],
             "@eeacms/volto-embed-static-content": [
                 "addons/volto-embed-static-content/src"
+            ],
+            "@eeacms/volto-chatbot": [
+                "addons/volto-chatbot/src"
             ]
         },
         "baseUrl": "src"

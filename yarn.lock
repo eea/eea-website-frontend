@@ -2348,9 +2348,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.2.2":
-  version: 7.2.2
-  resolution: "@eeacms/volto-datablocks@npm:7.2.2"
+"@eeacms/volto-datablocks@npm:7.2.3":
+  version: 7.2.3
+  resolution: "@eeacms/volto-datablocks@npm:7.2.3"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2363,7 +2363,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: 72d98b5bd54c60256505e70f5a7a2ec2588c5f35205aba1e432e779da97cf621517e2760ddfd57fba899d683349750253492f4bc438b3c87bc1d2c9184a7a9cf
+  checksum: b71fbc60fd8c5a2fcc73e7968aea340b5162b67f26f315f9aec519ff0b56e47b676c71c6350e0fbb79184e5d033ffe501b684c73596085f5a9a2fcd21767ae1b
   languageName: node
   linkType: hard
 
@@ -2593,19 +2593,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:10.0.7":
-  version: 10.0.7
-  resolution: "@eeacms/volto-plotlycharts@npm:10.0.7"
+"@eeacms/volto-plotlycharts@npm:10.0.8":
+  version: 10.0.8
+  resolution: "@eeacms/volto-plotlycharts@npm:10.0.8"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
     jsoneditor: 10.1.0
-    plotly.js: ^2.28.0
+    plotly.js: ^2.35.2
     react-chart-editor: 0.46.1
     react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-plotly.js: 2.6.0
-  checksum: ca3eb32b564e5c5d5dfab67318b4c6caefdf372da2048b48e0eeef0ff449a221c6140db2206312e78dae56530ac10fdd1e037aeb5c9b682638190f21a9fb9bd6
+  checksum: edacf8603b74d0db895dd3cc434950dd05781ecb38b7029fec71f5ea10b7f6e5078367a00aaec719442a923bb93ab49ac94817ed11a2cd8efd782b742ea6cb00
   languageName: node
   linkType: hard
 
@@ -14326,7 +14326,7 @@ __metadata:
   dependencies:
     "@eeacms/volto-block-data-figure": 8.1.3
     "@eeacms/volto-citation": 1.1.0
-    "@eeacms/volto-datablocks": 7.2.2
+    "@eeacms/volto-datablocks": 7.2.3
     "@eeacms/volto-datahub": 2.0.1
     "@eeacms/volto-description-block": 2.2.1
     "@eeacms/volto-editing-progress": 1.0.0
@@ -14338,7 +14338,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.0
     "@eeacms/volto-embed-static-content": 0.3.1
     "@eeacms/volto-globalsearch": 2.0.0
-    "@eeacms/volto-plotlycharts": 10.0.7
+    "@eeacms/volto-plotlycharts": 10.0.8
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.0.3
     "@eeacms/volto-tableau": 8.1.0
@@ -23680,7 +23680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"plotly.js@npm:^2.28.0":
+"plotly.js@npm:^2.35.2":
   version: 2.35.2
   resolution: "plotly.js@npm:2.35.2"
   dependencies:
@@ -25472,7 +25472,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
+  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
   languageName: node
   linkType: hard
 
