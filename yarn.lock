@@ -2367,9 +2367,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.2.3":
-  version: 7.2.3
-  resolution: "@eeacms/volto-datablocks@npm:7.2.3"
+"@eeacms/volto-datablocks@npm:7.2.4":
+  version: 7.2.4
+  resolution: "@eeacms/volto-datablocks@npm:7.2.4"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -2382,7 +2382,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.12.1
-  checksum: b71fbc60fd8c5a2fcc73e7968aea340b5162b67f26f315f9aec519ff0b56e47b676c71c6350e0fbb79184e5d033ffe501b684c73596085f5a9a2fcd21767ae1b
+  checksum: 20d91859e1108faf68dfadeab6efc5e716c0f3c3443433209e95840f2630314c7b84898e3f496b60835313d2646510608346ba9d22b1a556d26d5541864690b2
   languageName: node
   linkType: hard
 
@@ -14462,7 +14462,7 @@ __metadata:
   dependencies:
     "@eeacms/volto-block-data-figure": 8.1.3
     "@eeacms/volto-citation": 1.1.0
-    "@eeacms/volto-datablocks": 7.2.3
+    "@eeacms/volto-datablocks": 7.2.4
     "@eeacms/volto-datahub": 2.0.1
     "@eeacms/volto-description-block": 2.2.1
     "@eeacms/volto-editing-progress": 1.0.0
