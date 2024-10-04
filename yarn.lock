@@ -2429,9 +2429,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:25.4.2":
-  version: 25.4.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:25.4.2"
+"@eeacms/volto-eea-kitkat@npm:25.4.4":
+  version: 25.4.4
+  resolution: "@eeacms/volto-eea-kitkat@npm:25.4.4"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 11.0.2
@@ -2474,7 +2474,7 @@ __metadata:
     "@eeacms/volto-widget-theme-picker": 2.0.0
     "@eeacms/volto-widget-toggle": 4.0.0
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 44465bb9c3bfe8f31fbe39d15055ba0a14a7df0199978e17d5aee544b7b0393ebd5705e1bc8ad7feca0644c157b74b1a5a38302fca7d92698dbb55d3fdf9b0d7
+  checksum: a8e86633eea06b5148a80bc1d9e98cbc0e70f713c3cc8c7533e1ff56803fae0c736ce2611df6ccee0347bee82e6716ee4c81962f7561997caaa135248093be38
   languageName: node
   linkType: hard
 
@@ -14467,7 +14467,7 @@ __metadata:
     "@eeacms/volto-description-block": 2.2.1
     "@eeacms/volto-editing-progress": 1.0.0
     "@eeacms/volto-eea-design-system": 1.33.1
-    "@eeacms/volto-eea-kitkat": 25.4.2
+    "@eeacms/volto-eea-kitkat": 25.4.4
     "@eeacms/volto-eea-map": 5.0.5
     "@eeacms/volto-eea-website-policy": 2.2.3
     "@eeacms/volto-eea-website-theme": 2.3.0
@@ -26292,7 +26292,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
+  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
   languageName: node
   linkType: hard
 
