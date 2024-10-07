@@ -1,12 +1,11 @@
-let URL = "https://staging.eea.europa.eu";
-const LOGIN_ROUTE = "/fallback_login"; //login 
-const USERNAME = "";
-const multiLingual = true;
-const PASSWORD = "";
-const contentTypes = ['Map (interactive)', 'Dashboard', 'Chart (interactive)', 'Map (simple)']
-
 describe('Upgrade content', () => {
 
+    let URL = Cypress.config('baseUrl');
+    const USERNAME = Cypress.env('username');
+    const PASSWORD = Cypress.env('password');
+    const multiLingual = Cypress.env('multiLingual');
+    const contentTypes = Cypress.env('contentTypes');
+    const LOGIN_ROUTE = Cypress.env('loginRoute')
     Cypress.on('uncaught:exception', (err, runnable) => {
 
         if (err.message.includes('404') || err.message.includes('Not Found')) {
