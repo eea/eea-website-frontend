@@ -82,7 +82,7 @@ describe('Upgrade content', () => {
                     cy.visit(editUrl);
                     cy.intercept('*').as('allRequestsInPage');
                     cy.wait('@allRequestsInPage');
-                    cy.wait(3000);
+                    cy.wait(5000);
                     if (contentTypes === "Map (simple)")
                         cy.wait(15000)
                     cy.get('#toolbar-save').click({ force: true });
