@@ -2,6 +2,10 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
+  numTestsKeptInMemory: 1,
+
+  // Activează gestionarea experimentală a memoriei
+  experimentalMemoryManagement: true,
   e2e: {
     baseUrl: process.env.CYPRESS_URL,
     env: {
