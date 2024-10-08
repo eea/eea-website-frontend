@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -213,13 +213,13 @@
     "@eeacms/volto-embed": "10.1.0",
     "@eeacms/volto-embed-static-content": "0.3.1",
     "@eeacms/volto-globalsearch": "2.0.0",
-    "@eeacms/volto-plotlycharts": "10.0.9",
+    "@eeacms/volto-plotlycharts": "10.0.10",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.0.3",
     "@eeacms/volto-tableau": "8.1.0",
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
-    "@plone/volto": "17.18.2",
+    "@plone/volto": "17.19.0",
     "volto-subsites": "4.0.0"
   },
   "devDependencies": {
