@@ -8,14 +8,12 @@ describe('Upgrade content', () => {
     const LOGIN_ROUTE = Cypress.env('loginRoute');
     let shouldWaitAndRetry = false;
 
-    // Ignoră anumite erori
     Cypress.on('uncaught:exception', (err, runnable) => {
         return false;
     });
 
-    // Funcția pentru așteptare și retry
     const checkAndSave = () => {
-        // Verificăm dacă este necesar retry-ul pe baza flag-ului "shouldWaitAndRetry"
+        
 
         cy.wrap(null).then(() => {
             cy.log("Checking if retry is needed...", shouldWaitAndRetry);
@@ -24,17 +22,15 @@ describe('Upgrade content', () => {
                 if ($body.find('#toolbar-save').length === 0) {
                     cy.log("Edit button not found, save successful!");
 
-                    shouldWaitAndRetry = false; // Dacă butonul de editare nu mai este, salvarea a reușit
+                    shouldWaitAndRetry = false; 
 
                 } else {
                     cy.log("Edit button still present, retrying...");
                     if (shouldWaitAndRetry) {
                         cy.log("Retrying save in 5 seconds...");
-
-                        cy.get('#toolbar-save').click({ force: true }); // Încearcă să salvezi din nou
-                        cy.wait(5000); // Așteaptă câteva secunde înainte de a încerca din nou
-                        // După salvare, verificăm dacă opțiunea de edit a dispărut
-                        checkAndSave(); // Retry doar dacă este necesar
+                        cy.get('#toolbar-save').click({ force: true }); 
+                        cy.wait(5000); 
+                        checkAndSave(); 
                     } else {
                         cy.log("Content saved successfully, moving to the next link...");
                     }
@@ -49,16 +45,16 @@ describe('Upgrade content', () => {
         cy.intercept('*').as('allRequests');
 
         // Proces de login
-        cy.visit(URL + "/logout"); // Asigură-te că ești deconectat
+        cy.visit(URL + "/logout"); 
         cy.visit(URL + LOGIN_ROUTE);
 
         cy.get('#login').type(USERNAME);
         cy.get('#password').type(PASSWORD);
-        cy.get('#login-form-submit').click(); // Cypress va încerca automat dacă nu merge imediat
+        cy.get('#login-form-submit').click();
 
-        cy.wait(5000); // Așteaptă procesarea login-ului
+        cy.wait(5000); 
 
-        // Setează URL-ul corect dacă este multi-lingual
+   
         if (multiLingual) {
             URL += '/en';
         }
@@ -72,7 +68,6 @@ describe('Upgrade content', () => {
         cy.get('.querystring-widget').get('.fields').click();
         cy.get('.fields').contains('div', 'Type').click();
 
-        // Capturăm alertele cu cy.on și setăm flag-ul shouldWaitAndRetry dacă alerta conține "Wait"
         cy.on('window:alert', (alertText) => {
 
             if (alertText.includes('Wait')) {
@@ -82,8 +77,6 @@ describe('Upgrade content', () => {
                 shouldWaitAndRetry = false;
             }
         });
-
-        // Iterează peste tipurile de conținut și efectuează acțiuni secvențial
         contentTypes.forEach((contentTypeName) => {
             cy.get('.querystring-widget .fields .field')
                 .eq(2)
@@ -91,41 +84,33 @@ describe('Upgrade content', () => {
                 .then(($el) => {
                     const width = $el.width();
                     const height = $el.height();
-                    cy.wrap($el).click(width - 1, height - 1); // Click pe câmp în colțul din dreapta jos
+                    cy.wrap($el).click(width - 1, height - 1); 
                 });
-
             cy.get('.fields').contains('div', contentTypeName).click();
-            cy.wait(2000); // Mică pauză pentru UI
+            cy.wait(2000); 
         });
 
-        // Salvează conținutul și colectează linkurile
+    
         const hrefs = [];
         cy.get('#toolbar-save').click();
-        cy.wait(1000); // Așteaptă completarea acțiunii de salvare
+        cy.wait(1000); 
 
         cy.get('.listing-item a')
             .each(($el) => {
                 const href = $el.attr('href');
-                hrefs.push(href); // Colectează toate href-urile
+                hrefs.push(href); 
             })
             .then(() => {
                 cy.log('Toate href-urile: ', hrefs);
-
-                // Parcurge linkurile secvențial și efectuează modificări
                 hrefs.forEach((link) => {
                     const editUrl = URL + link + "/edit";
                     cy.visit(editUrl);
-
                     cy.intercept('*').as('allRequestsInPage');
                     cy.wait('@allRequestsInPage');
-                    cy.wait(5000); // Așteaptă încărcarea completă a paginii
-
-                    cy.get('#toolbar-save').click({ force: true }); // Încearcă să salvezi conținutul
-
-                    // Verificăm dacă este necesar retry la salvare pe baza alertelor
-                    checkAndSave(); // Încearcă să salvezi din nou dacă e necesar
-
-                    cy.wait(3000); // Pauză înainte de a trece la următorul link
+                    cy.wait(5000); 
+                    cy.get('#toolbar-save').click({ force: true }); 
+                    checkAndSave(); 
+                    cy.wait(3000); 
                 });
             });
     });
