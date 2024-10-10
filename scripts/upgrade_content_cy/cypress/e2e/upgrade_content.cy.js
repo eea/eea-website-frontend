@@ -110,16 +110,22 @@ describe('Upgrade content', () => {
                     const editUrl = URL + link + "/edit";
                     cy.visit(editUrl);
                     cy.wait(1000)
+                    cy.intercept('*').as('allRequestsInPage');
                     cy.scrollTo('bottom', { duration: 2000 });
+
+
                     cy.scrollTo('top', { duration: 2000 });
                     cy.wait(3000);
+
                     cy.scrollTo('bottom', { duration: 2000 });
                     cy.wait(2000);
-                    cy.intercept('*').as('allRequestsInPage');
-                    cy.wait('@allRequestsInPage');
-                    cy.get('#toolbar-save').click({ force: true });
 
+
+                    cy.wait('@allRequestsInPage');
+
+                    cy.get('#toolbar-save').click({ force: true });
                     checkAndSave();
+
                     cy.wait(3000);
                 });
             });
