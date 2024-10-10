@@ -111,7 +111,7 @@ describe('Upgrade content', () => {
                     cy.visit(editUrl);
                     cy.intercept('*').as('allRequestsInPage');
                     cy.wait('@allRequestsInPage');
-                    cy.wait(5000);
+                    cy.wait(10000);
                     cy.get('#toolbar-save').click({ force: true });
                     checkAndSave();
                     cy.wait(3000);
