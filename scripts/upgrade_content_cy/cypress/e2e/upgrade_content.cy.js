@@ -109,9 +109,11 @@ describe('Upgrade content', () => {
                 hrefs.forEach((link) => {
                     const editUrl = URL + link + "/edit";
                     cy.visit(editUrl);
+                    cy.wait(1000)
+                    cy.scrollTo('bottom');
                     cy.intercept('*').as('allRequestsInPage');
-                    cy.wait('@allRequestsInPage');
                     cy.wait(10000);
+                    cy.wait('@allRequestsInPage');
                     cy.get('#toolbar-save').click({ force: true });
                     checkAndSave();
                     cy.wait(3000);
