@@ -52,7 +52,7 @@ describe('Upgrade content', () => {
     cy.get('.documentFirstHeading').click().type('Upgrade Content');
     cy.get('.text-slate-editor-inner').last().click().type('/Search');
     cy.get('.item.search').click();
-    cy.get('.querystring-widget').get('.fields').click();
+    cy.get('#field-query-0-query').click();
     cy.get('.fields').contains('div', 'Type').click();
 
     cy.on('window:alert', (alertText) => {
@@ -95,7 +95,7 @@ describe('Upgrade content', () => {
     cy.get('.ui.fluid.card.u-card')
       .each(($el) => {
         const img = $el.find('img');
-        if (img.attr('src') === '/static/media/default-image.28e2db6d.svg') {
+        if (img.attr('src').includes('/static/media/default-image')) {
           const link = $el.find('a').attr('href');
           if (link && link.indexOf('sandbox') === -1 && link.indexOf('antimicrobial') === -1) {
             hrefs.push(link);
