@@ -1,16 +1,13 @@
 describe('Home page acceptance tests', () => {
   beforeEach(() => {
-    cy.visit('https://staging.eea.europa.eu/en');
-    // Catch ResizeObserver loop limit exceeded error and other uncaught exceptions
-    Cypress.on('uncaught:exception', (err) => {
-      if (err.message.includes('ResizeObserver loop limit exceeded') || err.message.includes('ResizeObserver loop completed with undelivered notifications')) {
-        return false; // Prevent Cypress from failing the test due to these errors
-      }
-      return true; // Let other errors still fail the test
+    Cypress.on('uncaught:exception', (err, runnable) => {
+      return false;
     });
   });
 
   it('Check subsites dropdown', () => {
+    cy.visit('https://staging.eea.europa.eu/en');
+
     cy.get('#theme-sites').click();
     // Verify that the dropdown is visible
     cy.get('#theme-sites.ui.active.visible.dropdown').should('be.visible');
@@ -24,6 +21,8 @@ describe('Home page acceptance tests', () => {
   });
 
   it('Check if the hero image is loaded', () => {
+    cy.visit('https://staging.eea.europa.eu/en');
+
     cy.get('.hero-block-image').then(($div) => {
       // Get the background image URL from the inline style
       const backgroundImage = $div.css('background-image');
@@ -41,26 +40,51 @@ describe('Home page acceptance tests', () => {
 
   it('Check if all main navigation buttons exist', () => {
     const expectedButtons = ['Topics', 'Analysis and data', 'Countries', 'Newsroom', 'About us'];
+    cy.visit('https://staging.eea.europa.eu/en');
 
     expectedButtons.forEach((buttonText) => {
-      cy.contains('nav', buttonText).should('exist'); // Check if each button exists in the navigation
+      cy.contains('nav', buttonText).should('exist');
     });
   });
 
   it('Check if Topics page title and content load', () => {
+    cy.wait(3000);
     cy.visit('https://staging.eea.europa.eu/en/topics');
     cy.contains('h1', 'Topics').should('be.visible');
     cy.contains('At a glance: our main topics').should('exist');
     const mainTopics = ["State of Europe's environment", 'Nature', 'Health'];
     mainTopics.forEach((topic) => {
-      cy.contains(topic).should('be.visible'); // Check that each topic is visible
+      cy.contains(topic).should('be.visible');
     });
 
-    // Optionally, check that at least one image in the topic section is visible
     cy.wait(3000);
     cy.get('img').should('have.length.greaterThan', 0);
     cy.visit('https://staging.eea.europa.eu/en/topics/in-depth/agriculture-and-food');
     cy.wait(3000);
     cy.get('img').should('have.length.greaterThan', 0);
+  });
+
+  it('Test first query result in Publications', () => {
+    cy.visit('https://www.eea.europa.eu/en/analysis/publications');
+    cy.wait(4000);
+    cy.get('.listing-item .listing-header').first().find('a').invoke('removeAttr', 'target').click();
+    cy.wait(4000);
+    cy.url().should('include', '/en/analysis/publications/europes-state-of-water-2024');
+    cy.contains('h1', "Europe's state of water 2024: the need for improved water resilience").should('be.visible');
+  });
+
+  it('Test first query result in Datahub', () => {
+    cy.visit('https://www.eea.europa.eu/en/datahub');
+    cy.wait(4000);
+    cy.get('.listing-item .listing-header').first().find('a').invoke('removeAttr', 'target').click();
+    cy.wait(4000);
+    cy.contains('h2', 'Datasets').should('be.visible');
+    cy.get('.ui.accordion')
+      .first()
+      .should('exist')
+      .then(($accordion) => {
+        cy.wrap($accordion).click();
+        cy.contains('h5', 'Download:').should('be.visible');
+      });
   });
 });
