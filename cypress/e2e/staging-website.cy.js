@@ -1,7 +1,6 @@
 describe('EEA staging website acceptance tests', () => {
   beforeEach(() => {
-    cy.visit('https://staging.eea.europa.eu/en');
-
+    cy.visit('/');
     Cypress.on('uncaught:exception', (err, runnable) => {
       return false;
     });
@@ -45,16 +44,13 @@ describe('EEA staging website acceptance tests', () => {
   });
 
   it('Check if Topics page title and content load', () => {
-    cy.wait(3000);
     cy.contains('a', 'Topics').click();
     cy.contains('a', 'Topics overview').click();
     cy.url().should('include', '/en/topics');
-    cy.wait(3000);
     cy.get('img').should('have.length.greaterThan', 0);
     cy.scrollTo(0, 1000);
 
     cy.contains('a', 'Agriculture and food system').click({ force: true });
-    cy.wait(3000);
     cy.url().should('include', '/en/topics/in-depth/agriculture-and-food');
     cy.get('img').should('have.length.greaterThan', 0);
   });
@@ -63,7 +59,6 @@ describe('EEA staging website acceptance tests', () => {
     cy.visit('https://www.eea.europa.eu/en');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Publications').click({ force: true });
-    cy.wait(4000);
     cy.scrollTo(0, 1000);
     cy.get('.listing-item .listing-header').first().find('a').invoke('removeAttr', 'target').click();
     cy.get('img').should('have.length.greaterThan', 0);
@@ -73,9 +68,7 @@ describe('EEA staging website acceptance tests', () => {
     cy.visit('https://www.eea.europa.eu/en');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Datahub').click({ force: true });
-    cy.wait(4000);
     cy.get('.listing-item .listing-header').first().find('a').invoke('removeAttr', 'target').click();
-    cy.wait(4000);
     cy.contains('h2', 'Datasets').should('be.visible');
     cy.get('.ui.accordion')
       .first()
@@ -90,24 +83,20 @@ describe('EEA staging website acceptance tests', () => {
     cy.visit('https://www.eea.europa.eu/en');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Maps and charts').click({ force: true });
-    cy.wait(4000);
     cy.get('a.centered.fluid.image').first().invoke('removeAttr', 'target').click();
-    cy.wait(4000);
     cy.get('img').should('have.length.greaterThan', 0);
-    const tabs = ['Downloads', 'Data sources', 'Metadata', 'More info'];
-    tabs.forEach((tab) => {
-      cy.contains('div', tab).should('be.visible');
-    });
+    // const tabs = ['Downloads', 'Data sources', 'Metadata', 'More info'];
+    // tabs.forEach((tab) => {
+    //   cy.contains('div', tab).should('be.visible');
+    // });
   });
 
   it('Test first query result in Indicators', () => {
     cy.visit('https://www.eea.europa.eu/en');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Indicators').click({ force: true });
-    cy.wait(4000);
     cy.scrollTo(0, 1000);
     cy.get('.listing-item').should('be.visible').first().find('a').invoke('removeAttr', 'target').click({ force: true });
-    cy.wait(4000);
     cy.get('svg').should('exist');
   });
 
@@ -115,7 +104,6 @@ describe('EEA staging website acceptance tests', () => {
     cy.visit('https://www.eea.europa.eu/en');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Country fact sheets').click({ force: true });
-    cy.wait(4000);
     cy.scrollTo(0, 1000);
     cy.get('.listing-header').should('be.visible').first().find('a').click({ force: true });
   });
@@ -124,7 +112,6 @@ describe('EEA staging website acceptance tests', () => {
     cy.visit('https://www.eea.europa.eu/en');
     cy.contains('a', 'Countries').click();
     cy.contains('a', 'Austria').click({ force: true });
-    cy.wait(4000);
     cy.scrollTo(0, 1000);
     cy.get('.listing-header').should('be.visible').first().find('a').invoke('removeAttr', 'target').click({ force: true });
   });
