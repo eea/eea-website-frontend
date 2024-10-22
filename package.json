@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "2.12.3",
+  "version": "2.13.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -52,6 +52,7 @@
     "@eeacms/volto-workflow-progress",
     "@eeacms/volto-embed",
     "@eeacms/volto-embed-static-content",
+    "@eeacms/volto-embed-content",
     "@eeacms/volto-datablocks",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-eea-map",
@@ -171,6 +172,7 @@
   "resolutions": {
     "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-embed": "10.1.1",
+    "@eeacms/volto-embed-content": "0.2.0",
     "@eeacms/volto-embed-static-content": "0.3.1",
     "@eeacms/volto-datablocks": "7.2.5",
     "@eeacms/volto-datahub": "2.0.1",
@@ -211,6 +213,7 @@
     "@eeacms/volto-eea-website-policy": "2.3.0",
     "@eeacms/volto-eea-website-theme": "3.0.0",
     "@eeacms/volto-embed": "10.1.1",
+    "@eeacms/volto-embed-content": "0.2.0",
     "@eeacms/volto-embed-static-content": "0.3.1",
     "@eeacms/volto-globalsearch": "2.0.1",
     "@eeacms/volto-plotlycharts": "10.0.10",
