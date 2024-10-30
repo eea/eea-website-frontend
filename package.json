@@ -172,7 +172,7 @@
   "resolutions": {
     "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-embed": "10.1.1",
-    "@eeacms/volto-embed-content": "0.2.0",
+    "@eeacms/volto-embed-content": "0.2.1",
     "@eeacms/volto-embed-static-content": "0.3.1",
     "@eeacms/volto-datablocks": "7.2.5",
     "@eeacms/volto-datahub": "2.0.1",
@@ -213,7 +213,7 @@
     "@eeacms/volto-eea-website-policy": "2.3.0",
     "@eeacms/volto-eea-website-theme": "3.0.0",
     "@eeacms/volto-embed": "10.1.1",
-    "@eeacms/volto-embed-content": "0.2.0",
+    "@eeacms/volto-embed-content": "0.2.1",
     "@eeacms/volto-embed-static-content": "0.3.1",
     "@eeacms/volto-globalsearch": "2.0.1",
     "@eeacms/volto-plotlycharts": "10.0.10",
