@@ -4820,9 +4820,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:17.20.0":
-  version: 17.20.0
-  resolution: "@plone/volto@npm:17.20.0"
+"@plone/volto@npm:17.20.1":
+  version: 17.20.1
+  resolution: "@plone/volto@npm:17.20.1"
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/eslint-parser": 7.22.15
@@ -5001,7 +5001,7 @@ __metadata:
     webpack-node-externals: 3.0.0
     xmlrpc: 1.3.2
     yarnhook: 0.5.1
-  checksum: c97bc62e364320d37067aaf8ad44a0ae2cc61fa695d3bcee1f163f63fdfda8cb58e0837b6ce53a8d6af3e19e3c7e995f1c2f1abc5e1e3f9bbb13b9eedccdbbfc
+  checksum: ed5cbd4a050859cbf0e68a8a4d9d2999235e18835a869ef55d131119531e008e1e5d17e6ce30fe47e2671c2427dc38ee42816928e75e1a2eb3af94e0fe7fd707
   languageName: node
   linkType: hard
 
@@ -15394,7 +15394,7 @@ __metadata:
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone/scripts": ^3.3.2
-    "@plone/volto": 17.20.0
+    "@plone/volto": 17.20.1
     "@storybook/addon-actions": ^6.3.0
     "@storybook/addon-controls": 6.3.0
     "@storybook/addon-essentials": ^6.3.0
@@ -27621,7 +27621,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
+  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
   languageName: node
   linkType: hard
 
