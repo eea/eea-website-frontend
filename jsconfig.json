@@ -203,6 +203,9 @@
             "@eeacms/volto-chatbot": [
                 "addons/volto-chatbot/src"
             ],
+            "@eeacms/volto-eea-versions": [
+                "addons/volto-eea-versions/src"
+            ],
             "@eeacms/volto-embed-content": [
                 "addons/volto-embed-content/src"
             ]
