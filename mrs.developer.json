@@ -191,6 +191,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-eea-versions": {
+    "url": "git@github.com:eea/volto-eea-versions.git",
+    "https": "https://github.com/eea/volto-eea-versions.git",
+    "package": "@eeacms/volto-eea-versions",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-eea-kitkat": {
     "url": "git@github.com:eea/volto-eea-kitkat.git",
     "https": "https://github.com/eea/volto-eea-kitkat.git",
