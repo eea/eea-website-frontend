@@ -2980,6 +2980,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-eea-versions@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-eea-versions@npm:1.0.0"
+  checksum: c9addac889f6c9a73060bcb92e167b0ca6715d219dbbe90978ae9b8949e9eb3ca65a824b592baeea3ffd0feaeb8a88b41ae14cde19b5fbabb9bcc85c0666a303
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-website-policy@npm:2.3.0":
   version: 2.3.0
   resolution: "@eeacms/volto-eea-website-policy@npm:2.3.0"
@@ -15409,6 +15416,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.36.1
     "@eeacms/volto-eea-kitkat": 26.4.0
     "@eeacms/volto-eea-map": 5.0.7
+    "@eeacms/volto-eea-versions": 1.0.0
     "@eeacms/volto-eea-website-policy": 2.3.0
     "@eeacms/volto-eea-website-theme": 3.5.0
     "@eeacms/volto-embed": 10.1.2
@@ -27649,7 +27657,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: ea65e61461d825cb35df1ca3e99a67d88cfdf50db7ec75eda5320b576b30ffc45ef04bb89d5708df56f73ce5803540e5b8ac8a42b04847077afb59f9071bdb6f
+  checksum: 03bd2571d0fecc1cd321c8c98555cb8032f55131d06e2e39bc3eaf8d7924b2a223e45f9baa3ccd9eb21dec474b0eb54d1fa29b4655e93099b229d5402461e75a
   languageName: node
   linkType: hard
 
