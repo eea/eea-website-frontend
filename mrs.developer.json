@@ -483,5 +483,13 @@
     "package": "@eeacms/volto-chatbot",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-flourish": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-flourish.git",
+    "https": "https://github.com/eea/volto-flourish.git",
+    "package": "@eeacms/volto-flourish",
+    "path": "src",
+    "branch": "develop"
   }
 }

@@ -208,6 +208,9 @@
             ],
             "@eeacms/volto-embed-content": [
                 "addons/volto-embed-content/src"
+            ],
+            "@eeacms/volto-flourish": [
+                "addons/volto-flourish/src"
             ]
         },
         "baseUrl": "src"
