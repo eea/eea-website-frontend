@@ -3022,12 +3022,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-flourish@npm:0.1.5":
-  version: 0.1.5
-  resolution: "@eeacms/volto-flourish@npm:0.1.5"
+"@eeacms/volto-flourish@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@eeacms/volto-flourish@npm:0.1.6"
   dependencies:
     "@eeacms/volto-embed": "*"
-  checksum: 459a534e666b6dd21dd50ab1701b3134a2cb3cf3c4b6b38f18012de0d41418b85a26590ce8047bdab18c94aa07b94e2a174bd405eaaa0c04755789f9dcc695e4
+  checksum: 5243cf80b710bb80a399e6fb7331972a065a5e9ed4b31f68df94cb8f3d207aa1c664a389324da036451efd866b4a37dfdef930cfa55fe9890d0e7772fc7b70b6
   languageName: node
   linkType: hard
 
@@ -15403,7 +15403,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-content": 0.2.1
     "@eeacms/volto-embed-static-content": 0.4.0
-    "@eeacms/volto-flourish": 0.1.5
+    "@eeacms/volto-flourish": 0.1.6
     "@eeacms/volto-globalsearch": 2.0.8
     "@eeacms/volto-plotlycharts": 11.0.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
