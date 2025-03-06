@@ -384,7 +384,7 @@
     "url": "git@github.com:eea/volto-plotlycharts.git",
     "https": "https://github.com/eea/volto-plotlycharts.git",
     "package": "@eeacms/volto-plotlycharts",
-    "branch": "develop",
+    "branch": "12.x.x",
     "develop": true,
     "path": "src"
   },
