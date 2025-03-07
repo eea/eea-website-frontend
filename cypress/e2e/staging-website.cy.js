@@ -1,6 +1,6 @@
 describe('EEA staging website acceptance tests', () => {
   beforeEach(() => {
-    cy.visit('/');
+    cy.visit('https://staging.eea.europa.eu/en');
     Cypress.on('uncaught:exception', (err, runnable) => {
       return false;
     });
