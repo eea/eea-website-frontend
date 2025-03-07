@@ -191,6 +191,14 @@
     "develop": true,
     "path": "src"
   },
+  "volto-eea-versions": {
+    "url": "git@github.com:eea/volto-eea-versions.git",
+    "https": "https://github.com/eea/volto-eea-versions.git",
+    "package": "@eeacms/volto-eea-versions",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
+  },
   "volto-eea-kitkat": {
     "url": "git@github.com:eea/volto-eea-kitkat.git",
     "https": "https://github.com/eea/volto-eea-kitkat.git",
@@ -460,11 +468,27 @@
     "path": "src",
     "branch": "develop"
   },
+  "volto-embed-content": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-embed-content.git",
+    "https": "https://github.com/eea/volto-embed-content.git",
+    "package": "@eeacms/volto-embed-content",
+    "path": "src",
+    "branch": "develop"
+  },
   "volto-chatbot": {
     "develop": true,
     "url": "git@github.com:eea/volto-chatbot.git",
     "https": "https://github.com/eea/volto-chatbot.git",
     "package": "@eeacms/volto-chatbot",
+    "path": "src",
+    "branch": "develop"
+  },
+  "volto-flourish": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-flourish.git",
+    "https": "https://github.com/eea/volto-flourish.git",
+    "package": "@eeacms/volto-flourish",
     "path": "src",
     "branch": "develop"
   }
