@@ -4519,7 +4519,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-listing-block@*, @eeacms/volto-listing-block@workspace:src/addons/volto-listing-block":
+"@eeacms/volto-listing-block@github:eea/volto-listing-block#279420_viz_charts":
+  version: 8.1.1
+  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=a8ae10f73053197e9548856973e45ccef9b50ef3"
+  dependencies:
+    "@eeacms/volto-widget-theme-picker": "*"
+    react-resize-detector: 7.1.2
+    react-slick: ^0.30.1
+    slick-carousel: 1.8.1
+  checksum: 588c53bbe0b5c95b390cbe804894357f8e1b0131854bba54823c7070017a7a2303066b65d103940bad80e7ac015783578e5c4e4bb8bb243382ddc9c0d4cac5c9
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-listing-block@workspace:src/addons/volto-listing-block":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-listing-block@workspace:src/addons/volto-listing-block"
   dependencies:
@@ -4536,18 +4548,6 @@ __metadata:
     slick-carousel: 1.8.1
   languageName: unknown
   linkType: soft
-
-"@eeacms/volto-listing-block@npm:8.1.2":
-  version: 8.1.2
-  resolution: "@eeacms/volto-listing-block@npm:8.1.2"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-    react-resize-detector: 7.1.2
-    react-slick: ^0.30.1
-    slick-carousel: 1.8.1
-  checksum: a85c152463b08cc60b431e8c76950a15fea985bf41775071b870c23219d244eb5c3d38cb8b5f4593bffd6a58ce5937eb852896caab3c0dabbcedb1b8db4e6492
-  languageName: node
-  linkType: hard
 
 "@eeacms/volto-matomo@*, @eeacms/volto-matomo@5.0.0, @eeacms/volto-matomo@workspace:src/addons/volto-matomo":
   version: 0.0.0-use.local
@@ -18072,6 +18072,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-flourish": 0.1.6
     "@eeacms/volto-globalsearch": 2.0.9
+    "@eeacms/volto-listing-block": "github:eea/volto-listing-block#279420_viz_charts"
     "@eeacms/volto-metadata-block": "github:eea/volto-metadata-block#develop"
     "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#12.x.x"
     "@eeacms/volto-redmine-helpdesk": 1.0.0
