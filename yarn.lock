@@ -4344,7 +4344,20 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-theme@3.5.4, @eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#fix-plotly-history":
+  version: 3.5.4
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=febc80753c319954a7f2fc4d99b4877fa2a90c49"
+  dependencies:
+    "@eeacms/volto-block-style": "*"
+    "@eeacms/volto-block-toc": "*"
+    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-group-block": "*"
+    volto-subsites: "*"
+  checksum: 29ba5bbc3cc54e9d04248b8738fdfe54c43f0901ae2fdd264326c3d44f531d00a94533553b605ae8e839359a5d8322069089cede0a6c5f05cc40581ac3ab2f0b
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-website-theme@workspace:src/addons/volto-eea-website-theme"
   dependencies:
@@ -4622,7 +4635,7 @@ __metadata:
 
 "@eeacms/volto-plotlycharts@github:eea/volto-plotlycharts#12.x.x":
   version: 12.0.0
-  resolution: "@eeacms/volto-plotlycharts@https://github.com/eea/volto-plotlycharts.git#commit=d1b800ac90b394114cae114ce5bfa6b8f7d2fa36"
+  resolution: "@eeacms/volto-plotlycharts@https://github.com/eea/volto-plotlycharts.git#commit=d710218a692ab971a33ccc4b75b9b48963e88871"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-embed": "*"
@@ -4633,7 +4646,7 @@ __metadata:
     react-chart-editor: "github:eea/react-chart-editor#0.46.2"
     react-colorscales: "github:eea/react-colorscales#2.0.2"
     react-plotly.js: 2.6.0
-  checksum: ce1418d1492eb9aa1b6c9b08b3eb7afdf8af0a1ad44128c1e39ff58e5026f4d2854a6e5945af66b80ad779a1b37c0947aacf7a7ce2f1ba29c072a35364452d9a
+  checksum: a98e14dfe08cbaba4672ae385a55214be48cf08c475c88e67e71dbe4343193b348cc7e80112343c099b4c3135f46ac6f2aceb820b012df84fc7edd89da8a5fae
   languageName: node
   linkType: hard
 
@@ -18066,7 +18079,7 @@ __metadata:
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-versions": 1.0.1
     "@eeacms/volto-eea-website-policy": 2.4.0
-    "@eeacms/volto-eea-website-theme": 3.5.4
+    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#fix-plotly-history"
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-content": "github:eea/volto-embed-content#develop"
     "@eeacms/volto-embed-static-content": 0.5.1
