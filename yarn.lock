@@ -2664,18 +2664,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/countup@npm:*":
-  version: 2.0.6
-  resolution: "@eeacms/countup@npm:2.0.6"
-  dependencies:
-    use-elapsed-time: 3.0.2
-  peerDependencies:
-    react: ">=16.8.0"
-  checksum: 62c8f241f02123c0d98aaf675e37f551e58603ff73f5fb184ffa02735f455eddc6ff15b6d23ba2babb078c07860247176613f0f32d15b52965550ec5dfa5829d
-  languageName: node
-  linkType: hard
-
-"@eeacms/countup@npm:2.0.7":
+"@eeacms/countup@npm:*, @eeacms/countup@npm:2.0.7":
   version: 2.0.7
   resolution: "@eeacms/countup@npm:2.0.7"
   dependencies:
