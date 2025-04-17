@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "2.25.3-beta.1",
+  "version": "2.25.3-beta.2",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -67,6 +67,7 @@
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-eea-website-policy",
     "@plone-collective/volto-authomatic",
+    "@plone-collective/volto-rss-provider",
     "@eeacms/volto-citation",
     "@eeacms/volto-flourish",
     "volto-subsites"
@@ -231,6 +232,7 @@
     "@eeacms/volto-tableau": "8.1.4",
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
+    "@plone-collective/volto-rss-provider": "1.0.1",
     "@plone/volto": "17.21.0",
     "react-chart-editor": "github:eea/react-chart-editor#0.46.2",
     "volto-subsites": "4.0.0"
