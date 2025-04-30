@@ -4695,7 +4695,7 @@ __metadata:
 
 "@eeacms/volto-plotlycharts@github:eea/volto-plotlycharts#12.x.x":
   version: 12.0.0
-  resolution: "@eeacms/volto-plotlycharts@https://github.com/eea/volto-plotlycharts.git#commit=b88469a52dacd16c21da68f9841617bc46896550"
+  resolution: "@eeacms/volto-plotlycharts@https://github.com/eea/volto-plotlycharts.git#commit=7bbfe950566efb4d3fafb7367df622590b42dcc9"
   dependencies:
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-embed": "*"
@@ -4706,7 +4706,7 @@ __metadata:
     react-chart-editor: "github:eea/react-chart-editor#0.46.2"
     react-colorscales: "github:eea/react-colorscales#2.0.2"
     react-plotly.js: 2.6.0
-  checksum: 6c96b39651c9ba2052fe3f07e5883e6e1630faa9c7f5231a2ab805ca24abf11050b01769ea93a9773b5df808c0cf341a6633863a7f60cecaa9c63462fe674636
+  checksum: 4be586c9a0ed21e818569511ee85e2cda158cf3bf5c072ba72b7de3041bd8376b0938ed7f062689e9b818cd159c26b9ce73407a1724413d925b2d239cf5f7dbf
   languageName: node
   linkType: hard
 
