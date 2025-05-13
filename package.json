@@ -69,7 +69,8 @@
     "@plone-collective/volto-authomatic",
     "@eeacms/volto-citation",
     "@eeacms/volto-flourish",
-    "volto-subsites"
+    "volto-subsites",
+    "@plone-collective/volto-rss-provider"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -194,6 +195,7 @@
     "@eeacms/volto-editing-progress": "1.0.0",
     "@eeacms/volto-citation": "1.1.0",
     "@plone-collective/volto-authomatic": "2.0.1",
+    "@plone-collective/volto-rss-provider": "1.0.1",
     "@eeacms/volto-description-block": "2.2.3",
     "@eeacms/volto-flourish": "0.1.6",
     "volto-subsites": "4.0.0",
@@ -228,6 +230,7 @@
     "@eeacms/volto-tableau": "8.1.4",
     "@eeacms/volto-workflow-progress": "5.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
+    "@plone-collective/volto-rss-provider": "1.0.1",
     "@plone/volto": "17.21.0",
     "volto-subsites": "4.0.0"
   },
