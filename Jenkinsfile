@@ -202,13 +202,52 @@ pipeline {
             } else {
               tagName = "$BRANCH_NAME"
             }
-            try {
-              dockerImage = docker.build("$registry:$tagName", "--no-cache .")
-              docker.withRegistry( '', 'eeajenkins' ) {
-                dockerImage.push()
-              }
-            } finally {
-              sh "docker rmi $registry:$tagName"
+            // try {
+            //   dockerImage = docker.build("$registry:$tagName", "--no-cache .")
+            //   docker.withRegistry( '', 'eeajenkins' ) {
+            //     dockerImage.push()
+            //   }
+            // } finally {
+            //   sh "docker rmi $registry:$tagName"
+            // }
+            sh '''
+              # Fetch the latest buildx release version from GitHub API
+              LATEST_BUILDX_VERSION=$(curl -s https://api.github.com/repos/docker/buildx/releases/latest | grep '"tag_name":' | cut -d '"' -f4)
+              echo "Latest Buildx version: $LATEST_BUILDX_VERSION"
+
+              # Check if Buildx is installed
+              if docker buildx version > /dev/null 2>&1; then
+                INSTALLED_BUILDX_VERSION=$(docker buildx version | grep 'github.com/docker/buildx' | awk '{print $2}')
+                echo "Installed Buildx version: $INSTALLED_BUILDX_VERSION"
+
+                # Check if the installed version matches the latest version
+                if [ "$INSTALLED_BUILDX_VERSION" = "$LATEST_BUILDX_VERSION" ]; then
+                  echo "Docker Buildx is already up to date."
+                else
+                  echo "Docker Buildx is outdated. Updating to version $LATEST_BUILDX_VERSION..."
+                  mkdir -p ~/.docker/cli-plugins
+                  curl -SL https://github.com/docker/buildx/releases/download/$LATEST_BUILDX_VERSION/buildx-$LATEST_BUILDX_VERSION.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+                  chmod +x ~/.docker/cli-plugins/docker-buildx
+                  echo "Docker Buildx updated to version $LATEST_BUILDX_VERSION."
+                fi
+              else
+                echo "Docker Buildx not found. Installing version $LATEST_BUILDX_VERSION..."
+                mkdir -p ~/.docker/cli-plugins
+                curl -SL https://github.com/docker/buildx/releases/download/$LATEST_BUILDX_VERSION/buildx-$LATEST_BUILDX_VERSION.linux-amd64 -o ~/.docker/cli-plugins/docker-buildx
+                chmod +x ~/.docker/cli-plugins/docker-buildx
+                echo "Docker Buildx installed."
+              fi
+            '''
+            withCredentials([usernamePassword(credentialsId: 'eeajenkins', usernameVariable: 'DOCKER_USERNAME', passwordVariable: 'DOCKER_PASSWORD')]) {
+              def shellScript = """
+                echo "\$DOCKER_PASSWORD" | docker login -u "\$DOCKER_USERNAME" --password-stdin
+                docker buildx create --use
+                docker buildx build --platform linux/amd64,linux/arm64 \
+                  -t ${registry}:${tagName} \
+                  --push .
+                docker buildx rm
+                """
+              sh shellScript
             }
           }
         }
