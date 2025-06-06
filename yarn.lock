@@ -2945,9 +2945,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.36.6":
-  version: 1.36.6
-  resolution: "@eeacms/volto-eea-design-system@npm:1.36.6"
+"@eeacms/volto-eea-design-system@npm:1.37.0":
+  version: 1.37.0
+  resolution: "@eeacms/volto-eea-design-system@npm:1.37.0"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2956,7 +2956,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 51dec698221a291541b6933d1491bd59deba98a4c970407b0244cc3b7644906e8e33c5e1ade434250dba9711e8a653e7ba77c9e3781a6f5082c43c14fa8262a6
+  checksum: b4c8495db587123ee4de392000b577220fa932ca038b766642f110c9056fc18175dc511a305e7842aaafdbee19db4d7365bb77b28c38612698cbef76fc4fdf52
   languageName: node
   linkType: hard
 
@@ -3034,26 +3034,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@npm:2.4.0":
-  version: 2.4.0
-  resolution: "@eeacms/volto-eea-website-policy@npm:2.4.0"
+"@eeacms/volto-eea-website-policy@npm:2.5.0":
+  version: 2.5.0
+  resolution: "@eeacms/volto-eea-website-policy@npm:2.5.0"
   dependencies:
     "@eeacms/volto-widget-dataprovenance": "*"
     "@plone-collective/volto-authomatic": "*"
-  checksum: 8d551bc10440322d4124de2519e16cf4e2a3d983a44ca705f96919fa9e00edc46512913dea7a66dacecd4372a6129d5e259542bf2a4bcd42d351f5bf075a7165
+  checksum: b91e7057d3d8ce9ac0da171dae0b4505c7ff0e5479550fb377728cd5d84103e00cd6fc0ad18bc98e78758d0a86cef1a94fd22b6392ee8bf636cb9cac1ea9b01d
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:3.6.1":
-  version: 3.6.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.6.1"
+"@eeacms/volto-eea-website-theme@npm:3.7.0":
+  version: 3.7.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.7.0"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-block-toc": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 6cada5e6c9607fbd3eab7831f6119d79159b135d9473618fa28ec696892c6b1a57fedd2e1e6bd06eb5dec25cba0a9916be8f16c256a3d4b0bb89b30f9dabdd21
+  checksum: ffc9a59bf090a447468c3d604a483cbefb6ce0865b23a910fce8832ecf1c401ff5fbbb3a8f5dab367839345e871083fb70fb5b1091940cb6ea8aaedef2b25e69
   languageName: node
   linkType: hard
 
@@ -3174,19 +3174,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:12.0.3":
-  version: 12.0.3
-  resolution: "@eeacms/volto-plotlycharts@npm:12.0.3"
+"@eeacms/volto-plotlycharts@npm:12.0.5":
+  version: 12.0.5
+  resolution: "@eeacms/volto-plotlycharts@npm:12.0.5"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.2
     "@eeacms/volto-datablocks": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
     "@plone/scripts": "*"
+    handsontable: ^15.2.0
     jsoneditor: 10.2.0
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
-  checksum: 875b492e56f5008e4af255b3883cbe3518f1f2cb5de64cd9c2a70b9c8731ac974439f3925df0c37fbb1c9ded5374335e41d4b5af48ec1e2bddfa6ff32d53be8e
+  checksum: 7f3c050d9fc2ea5376a57ea25f77d2ece4c8964534ae82f73d565259d607cc5131172da6c74e9650e5c851ca1afb2577ba4977b7d25c623b7eaca3dc67b625c1
   languageName: node
   linkType: hard
 
@@ -15522,18 +15523,18 @@ __metadata:
     "@eeacms/volto-datahub": 2.0.1
     "@eeacms/volto-description-block": 2.2.3
     "@eeacms/volto-editing-progress": 1.0.0
-    "@eeacms/volto-eea-design-system": 1.36.6
+    "@eeacms/volto-eea-design-system": 1.37.0
     "@eeacms/volto-eea-kitkat": 27.1.1
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-versions": 1.0.1
-    "@eeacms/volto-eea-website-policy": 2.4.0
-    "@eeacms/volto-eea-website-theme": 3.6.1
+    "@eeacms/volto-eea-website-policy": 2.5.0
+    "@eeacms/volto-eea-website-theme": 3.7.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-content": 0.2.2
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-flourish": 0.1.6
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-plotlycharts": 12.0.3
+    "@eeacms/volto-plotlycharts": 12.0.5
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-tableau": 8.1.4
