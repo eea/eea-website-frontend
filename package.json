@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "2.32.0",
+  "version": "2.32.1",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -198,6 +198,7 @@
     "@plone-collective/volto-rss-provider": "1.0.1",
     "@eeacms/volto-description-block": "2.2.3",
     "@eeacms/volto-flourish": "0.1.6",
+    "@eeacms/volto-listing-block": "8.1.4",
     "volto-subsites": "4.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
