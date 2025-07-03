@@ -3126,18 +3126,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*":
-  version: 8.1.3
-  resolution: "@eeacms/volto-listing-block@npm:8.1.3"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-    react-resize-detector: 7.1.2
-    react-slick: ^0.30.1
-    slick-carousel: 1.8.1
-  checksum: 12dd2dbc0e9ed2b7320895574509ed683c1728c75759a0fcd165830f79b4200f122dd83d0ab2530dbbbd618e1d0f1f2c6b857532167b680a1e483c155d048969
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-listing-block@npm:8.1.4":
   version: 8.1.4
   resolution: "@eeacms/volto-listing-block@npm:8.1.4"
