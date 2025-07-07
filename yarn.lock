@@ -3126,15 +3126,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:8.1.4":
-  version: 8.1.4
-  resolution: "@eeacms/volto-listing-block@npm:8.1.4"
+"@eeacms/volto-listing-block@npm:8.1.5":
+  version: 8.1.5
+  resolution: "@eeacms/volto-listing-block@npm:8.1.5"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 14c3a49b5ca75347c98285ade98dc07674110394a1ff24e9504cdde7435743551a49123e5449e03fca965d9cb1f232dc286b05c39fc1d0b8989b0c24d12716d4
+  checksum: 390a0a67cab4868f8ad7fc9455d5e213e713bda5338a06c161f13512819b642dfa74f698c8cbcb41c15552c9ad3ec1883473cd6b15ea09286ebb9aadbbce97fb
   languageName: node
   linkType: hard
 
@@ -3174,9 +3174,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:12.0.6":
-  version: 12.0.6
-  resolution: "@eeacms/volto-plotlycharts@npm:12.0.6"
+"@eeacms/volto-plotlycharts@npm:12.0.7":
+  version: 12.0.7
+  resolution: "@eeacms/volto-plotlycharts@npm:12.0.7"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.2
     "@eeacms/volto-datablocks": "*"
@@ -3187,7 +3187,7 @@ __metadata:
     jsoneditor: 10.2.0
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
-  checksum: 2e02f6fdb4fd1454bfffd4bfeccab685c4fad5471b239047fc4b804c129292c3ba7bc633ac7e9623a1e7a828e37a1ec29e52c0bc7a52bb7cec8cb790e25ea762
+  checksum: 763680c88fe739afc1e2a7c90361a446d749dec68901dec520e3d1194811bd6cb9c7e6ae36a66f9f9e1423ab52ffe9632c6b7151baa9a4085636280d8b85f29e
   languageName: node
   linkType: hard
 
@@ -15534,7 +15534,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-flourish": 0.1.6
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-plotlycharts": 12.0.6
+    "@eeacms/volto-plotlycharts": 12.0.7
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-tableau": 8.1.4
