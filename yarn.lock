@@ -2817,17 +2817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*":
-  version: 6.2.0
-  resolution: "@eeacms/volto-block-toc@npm:6.2.0"
-  dependencies:
-    github-slugger: 1.4.0
-    smoothscroll-polyfill: ^0.4.4
-  checksum: b0082785308fc724f32cbc396607f1c73a5de9ad26150d80556cdb701e0e15e569e2dbb3e089c8140e33f06061718b07cab10243d489e7fad65a631cc5004d2d
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-toc@npm:7.0.0":
+"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:7.0.0":
   version: 7.0.0
   resolution: "@eeacms/volto-block-toc@npm:7.0.0"
   dependencies:
@@ -3266,14 +3256,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:*":
-  version: 7.2.3
-  resolution: "@eeacms/volto-slate-footnote@npm:7.2.3"
-  checksum: f3a85a6f3e85a1c682873f3e8241102635d3ba7c22153dc5d16047cf56113315966dd40a1a889bfdc16244ddbe1b23b82d8b89f9158aec9d4933aca6b948d3df
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-slate-footnote@npm:7.2.4":
+"@eeacms/volto-slate-footnote@npm:*, @eeacms/volto-slate-footnote@npm:7.2.4":
   version: 7.2.4
   resolution: "@eeacms/volto-slate-footnote@npm:7.2.4"
   checksum: 62b25f944390670763e0afa55dfcada341e062e254b21f513251764b2bde4d491a1aa6c8edcdcfaad43fc58d2cc5cd580e0ae1b0858a15b663ed73c2f0991b65
