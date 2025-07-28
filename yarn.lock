@@ -4598,12 +4598,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-flourish@github:eea/volto-flourish#9e5386df92cf67431ee3fa7e0633db5c4b161883":
+"@eeacms/volto-flourish@github:eea/volto-flourish#94e6a97d41be06ddb9750fbd5234f5803cc14d09":
   version: 0.1.6
-  resolution: "@eeacms/volto-flourish@https://github.com/eea/volto-flourish.git#commit=9e5386df92cf67431ee3fa7e0633db5c4b161883"
+  resolution: "@eeacms/volto-flourish@https://github.com/eea/volto-flourish.git#commit=94e6a97d41be06ddb9750fbd5234f5803cc14d09"
   dependencies:
     "@eeacms/volto-embed": "*"
-  checksum: 4e7ef4605b89fbbb64d2139371e033ef26d39c1cebe851052943988c8bba9592e98e2650bcb6c93b1981ff920cbf45e1dcbd50bc170bd41645d03fffb01be5b6
+  checksum: 7085ecbc356aaa2cbda8dc73b42165fb4f3cfa82de05cca10902b3fce95d63db78c0faac04c881c2ee16153dfb7f068718adabc103240b0dc2d7cf7742290913
   languageName: node
   linkType: hard
 
@@ -18871,7 +18871,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-content": 0.2.2
     "@eeacms/volto-embed-static-content": 0.5.1
-    "@eeacms/volto-flourish": "github:eea/volto-flourish#9e5386df92cf67431ee3fa7e0633db5c4b161883"
+    "@eeacms/volto-flourish": "github:eea/volto-flourish#94e6a97d41be06ddb9750fbd5234f5803cc14d09"
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-plotlycharts": 13.0.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
