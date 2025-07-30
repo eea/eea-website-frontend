@@ -2806,7 +2806,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:*, @eeacms/volto-block-style@npm:7.2.1":
+"@eeacms/volto-block-style@npm:7.2.1":
   version: 7.2.1
   resolution: "@eeacms/volto-block-style@npm:7.2.1"
   dependencies:
@@ -2817,7 +2817,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:7.0.0":
+"@eeacms/volto-block-toc@npm:7.0.0":
   version: 7.0.0
   resolution: "@eeacms/volto-block-toc@npm:7.0.0"
   dependencies:
@@ -3117,7 +3117,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:8.1.5":
+"@eeacms/volto-listing-block@npm:8.1.5":
   version: 8.1.5
   resolution: "@eeacms/volto-listing-block@npm:8.1.5"
   dependencies:
@@ -3156,7 +3156,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:7.0.0":
+"@eeacms/volto-object-widget@npm:7.0.0":
   version: 7.0.0
   resolution: "@eeacms/volto-object-widget@npm:7.0.0"
   dependencies:
