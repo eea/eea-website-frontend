@@ -4598,12 +4598,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-flourish@github:eea/volto-flourish#94e6a97d41be06ddb9750fbd5234f5803cc14d09":
+"@eeacms/volto-flourish@github:eea/volto-flourish#ae158129b00d93b04ba86092af83e522df3269d7":
   version: 0.1.6
-  resolution: "@eeacms/volto-flourish@https://github.com/eea/volto-flourish.git#commit=94e6a97d41be06ddb9750fbd5234f5803cc14d09"
+  resolution: "@eeacms/volto-flourish@https://github.com/eea/volto-flourish.git#commit=ae158129b00d93b04ba86092af83e522df3269d7"
   dependencies:
     "@eeacms/volto-embed": "*"
-  checksum: 7085ecbc356aaa2cbda8dc73b42165fb4f3cfa82de05cca10902b3fce95d63db78c0faac04c881c2ee16153dfb7f068718adabc103240b0dc2d7cf7742290913
+  checksum: e2b401e70f68d9603774b6bb0edbc8205577c85cd10820041862b269e6a74cc0f29276de5b6c5c879dee97674ae60c7983783d6dee0da974ea255e9035543501
   languageName: node
   linkType: hard
 
@@ -4745,9 +4745,11 @@ __metadata:
   resolution: "@eeacms/volto-newsletter-block@workspace:src/addons/volto-newsletter-block"
   dependencies:
     "@cypress/code-coverage": ^3.10.0
+    "@eeacms/volto-object-widget": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
     cypress-fail-fast: ^5.0.1
+    dotenv: ^16.3.2
     husky: ^8.0.3
     lint-staged: ^14.0.1
     md5: ^2.3.0
@@ -18871,7 +18873,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-content": 0.2.2
     "@eeacms/volto-embed-static-content": 0.5.1
-    "@eeacms/volto-flourish": "github:eea/volto-flourish#94e6a97d41be06ddb9750fbd5234f5803cc14d09"
+    "@eeacms/volto-flourish": "github:eea/volto-flourish#ae158129b00d93b04ba86092af83e522df3269d7"
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-plotlycharts": 13.0.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
