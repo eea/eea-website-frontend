@@ -3117,20 +3117,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*":
-  version: 9.0.0
-  resolution: "@eeacms/volto-listing-block@npm:9.0.0"
-  dependencies:
-    "@eeacms/volto-object-widget": "*"
-    "@eeacms/volto-widget-theme-picker": "*"
-    react-resize-detector: 7.1.2
-    react-slick: ^0.30.1
-    slick-carousel: 1.8.1
-  checksum: eabbea63deca0acf5b60efda60f205d73d6d22c24e9faf1ee672b91b296361aa589bfd2cfcf022f2a4aca98f72e33084c06dc214eb8ca406c8212f6f70407886
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-listing-block@npm:8.1.5":
+"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:8.1.5":
   version: 8.1.5
   resolution: "@eeacms/volto-listing-block@npm:8.1.5"
   dependencies:
@@ -15540,6 +15527,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-flourish": 0.1.6
     "@eeacms/volto-globalsearch": 2.1.2
+    "@eeacms/volto-listing-block": 8.1.5
     "@eeacms/volto-plotlycharts": 13.0.2
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.1.7
