@@ -3117,7 +3117,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:9.0.0":
+"@eeacms/volto-listing-block@npm:*":
   version: 9.0.0
   resolution: "@eeacms/volto-listing-block@npm:9.0.0"
   dependencies:
@@ -3127,6 +3127,18 @@ __metadata:
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
   checksum: eabbea63deca0acf5b60efda60f205d73d6d22c24e9faf1ee672b91b296361aa589bfd2cfcf022f2a4aca98f72e33084c06dc214eb8ca406c8212f6f70407886
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-listing-block@npm:8.1.5":
+  version: 8.1.5
+  resolution: "@eeacms/volto-listing-block@npm:8.1.5"
+  dependencies:
+    "@eeacms/volto-widget-theme-picker": "*"
+    react-resize-detector: 7.1.2
+    react-slick: ^0.30.1
+    slick-carousel: 1.8.1
+  checksum: 390a0a67cab4868f8ad7fc9455d5e213e713bda5338a06c161f13512819b642dfa74f698c8cbcb41c15552c9ad3ec1883473cd6b15ea09286ebb9aadbbce97fb
   languageName: node
   linkType: hard
 
@@ -3208,9 +3220,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:2.1.6":
-  version: 2.1.6
-  resolution: "@eeacms/volto-searchlib@npm:2.1.6"
+"@eeacms/volto-searchlib@npm:2.1.7":
+  version: 2.1.7
+  resolution: "@eeacms/volto-searchlib@npm:2.1.7"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@elastic/react-search-ui": 1.20.2
@@ -3248,7 +3260,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 56e787c4e72c1bed02756831bf3564dcd3d10ab03cdd91f03e222f21a9a5edebe753c64d116303e172fac156ce2187c7cd02c2f1c99f0e22e8746ecc3d790a7d
+  checksum: 1ef08293fe1439bd398764e3549d3da66c58d557e8acf8e202e8b6443a1c0ddb7c7adfb7949f269e813cb0b8216c332c9e41ed0a3061532ea7f2c6f5c0527e3f
   languageName: node
   linkType: hard
 
@@ -15530,7 +15542,7 @@ __metadata:
     "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-plotlycharts": 13.0.2
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 2.1.6
+    "@eeacms/volto-searchlib": 2.1.7
     "@eeacms/volto-tableau": 8.1.4
     "@eeacms/volto-workflow-progress": 5.0.0
     "@plone-collective/volto-authomatic": 2.0.1
