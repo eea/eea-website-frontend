@@ -175,7 +175,7 @@
   "resolutions": {
     "@eeacms/volto-object-widget": "7.0.0",
     "@eeacms/volto-block-style": "7.2.1",
-    "@eeacms/volto-listing-block": "8.1.5",
+    "@eeacms/volto-listing-block": "9.0.1",
     "@eeacms/volto-block-toc": "7.0.0",
     "@elastic/search-ui": "1.21.2",
     "@eeacms/volto-embed": "10.1.3",
