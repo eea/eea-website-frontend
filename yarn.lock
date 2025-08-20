@@ -2815,17 +2815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*":
-  version: 8.0.0
-  resolution: "@eeacms/volto-block-toc@npm:8.0.0"
-  dependencies:
-    github-slugger: 1.4.0
-    smoothscroll-polyfill: ^0.4.4
-  checksum: 09ecc99975d9fff634d397c0be8daf44a9e299582e17c7346e4a877d699b29b8efb5388688c1b7ee06b93233bc7798a1fbc49327f0b3b1cfe0bee55478d53a06
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-toc@npm:8.1.0":
+"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:8.1.0":
   version: 8.1.0
   resolution: "@eeacms/volto-block-toc@npm:8.1.0"
   dependencies:
@@ -3126,20 +3116,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*":
-  version: 9.0.1
-  resolution: "@eeacms/volto-listing-block@npm:9.0.1"
-  dependencies:
-    "@eeacms/volto-object-widget": "*"
-    "@eeacms/volto-widget-theme-picker": "*"
-    react-resize-detector: 7.1.2
-    react-slick: ^0.30.1
-    slick-carousel: 1.8.1
-  checksum: 11dd21c3d76d1a7867556f053fe462b0fe8d0c6d417a68d48af8eb7851294c3a95e5fcfa3df4b4674ea31d5fcff8d706f55605746580b7b677fb574dfcf90936
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-listing-block@npm:9.0.2":
+"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:9.0.2":
   version: 9.0.2
   resolution: "@eeacms/volto-listing-block@npm:9.0.2"
   dependencies:
