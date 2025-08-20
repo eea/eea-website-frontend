@@ -10,7 +10,11 @@
       },
       {
         "path": "build/public/static/js/PlotlyEditor*.js",
-        "maxSize": "1.4MB"
+        "maxSize": "2.1MB"
+      },
+      {
+        "path": "build/public/static/js/plotly-js-dist-plotly-with-meta*.js",
+        "maxSize": "1.38MB"
       },
       {
         "path": "build/public/static/js/d3*.js",
