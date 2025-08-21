@@ -13,6 +13,10 @@
         "maxSize": "2.1MB"
       },
       {
+        "path": "build/public/static/js/react-plotly*.js",
+        "maxSize": "1.3MB"
+      },
+      {
         "path": "build/public/static/js/plotly-js-dist-plotly-with-meta*.js",
         "maxSize": "1.38MB"
       },
