@@ -21,6 +21,10 @@
         "maxSize": "1.38MB"
       },
       {
+        "path": "build/public/static/js/plotly-js-dist-plotly-min*.js",
+        "maxSize": "1.3MB"
+      },
+      {
         "path": "build/public/static/js/d3*.js",
         "maxSize": "103kB"
       },
