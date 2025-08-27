@@ -211,6 +211,9 @@
             ],
             "@eeacms/volto-flourish": [
                 "addons/volto-flourish/src"
+            ],
+            "@eeacms/volto-design-tokens": [
+                "addons/volto-design-tokens/src"
             ]
         },
         "baseUrl": "src"
