@@ -214,6 +214,9 @@
             ],
             "@eeacms/volto-design-tokens": [
                 "addons/volto-design-tokens/src"
+            ],
+            "@plone-collective/volto-authomatic": [
+                "addons/volto-authomatic/packages/volto-authomatic/src"
             ]
         },
         "baseUrl": "src"
