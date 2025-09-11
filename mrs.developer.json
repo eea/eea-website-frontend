@@ -499,13 +499,5 @@
     "package": "@eeacms/volto-design-tokens",
     "path": "src",
     "branch": "develop"
-  },
-  "volto-authomatic": {
-    "develop": true,
-    "url": "git@github.com:collective/volto-authomatic.git",
-    "https": "https://github.com/collective/volto-authomatic.git",
-    "package": "@plone-collective/volto-authomatic",
-    "path": "packages/volto-authomatic/src",
-    "branch": "remove-local-storage-for-anonymous"
   }
 }
