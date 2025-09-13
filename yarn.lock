@@ -4270,12 +4270,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-authomatic@github:collective/volto-authomatic#remove-local-storage-for-anonymous":
+"@plone-collective/volto-authomatic@npm:2.0.1":
   version: 2.0.1
-  resolution: "@plone-collective/volto-authomatic@https://github.com/collective/volto-authomatic.git#commit=b08a4a3bb560e2cc7163c432f4007453fbca7abe"
+  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
   peerDependencies:
     "@plone/volto": ">=13.8.0"
-  checksum: 09b8c3acec94843fd7077f99604a6185f97762f5e90917b9c05547b35b4effe99d59acca3983585a332357efe2192a587657982783622f93bb6dc0d9a1b3997c
+  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
   languageName: node
   linkType: hard
 
@@ -14568,7 +14568,7 @@ __metadata:
     "@eeacms/volto-searchlib": 2.1.10
     "@eeacms/volto-tableau": 8.1.5
     "@eeacms/volto-workflow-progress": 5.0.1
-    "@plone-collective/volto-authomatic": "github:collective/volto-authomatic#remove-local-storage-for-anonymous"
+    "@plone-collective/volto-authomatic": 2.0.1
     "@plone-collective/volto-rss-provider": 1.0.1
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.22.1
