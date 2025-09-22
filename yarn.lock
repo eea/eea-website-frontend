@@ -2674,14 +2674,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:*":
-  version: 7.2.5
-  resolution: "@eeacms/volto-slate-footnote@npm:7.2.5"
-  checksum: cdd5226840fa258aee2d7caa3e367b35455d0a2a78fe0b9f5e463802a5febb99b70c265e2a6793886b33926be3ec7ac4076554510ae77eaef490d20028ace403
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-slate-footnote@npm:7.2.6":
+"@eeacms/volto-slate-footnote@npm:*, @eeacms/volto-slate-footnote@npm:7.2.6":
   version: 7.2.6
   resolution: "@eeacms/volto-slate-footnote@npm:7.2.6"
   checksum: 7bf284305e2a5b79afcc8d0e344145a537a87cb8017a0f751078fd6d045c05ef698527cff3d9dcf6f8b1b008184180c9ff1744b4deaccfd5386462fbb5c64910
