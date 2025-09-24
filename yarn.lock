@@ -2451,9 +2451,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:3.9.2":
-  version: 3.9.2
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.9.2"
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#289423-localstorage":
+  version: 3.9.1
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=4b7bf2c3fa01c676c9982d2395b0282f11b5e079"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2461,7 +2461,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: e7edb991cf41b97f64d110eeeb9b9a37ddf700dde753185b5f2127112aee1004766beef5ddf5b33fd3db54b099b20a570091a1142bf250601f0392d004f19bc0
+  checksum: 19ed26a7dd2fd0eae72eabd2dfe2ab6a5e89d65b417ca021dfacb09d0356da76765600c81438d3431a83f87fe476a12f1664ed871a5931b1d05630b4d9cad2dd
   languageName: node
   linkType: hard
 
@@ -4292,15 +4292,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:0.3.1":
+"@plone-collective/volto-sentry@github:collective/volto-sentry#enhance-ssr":
   version: 0.3.1
-  resolution: "@plone-collective/volto-sentry@npm:0.3.1"
+  resolution: "@plone-collective/volto-sentry@https://github.com/collective/volto-sentry.git#commit=07ea93756a39390bf41885dbb39501b8f7a98a9f"
   dependencies:
     "@sentry/browser": 7.15.0
     "@sentry/integrations": 7.15.0
     "@sentry/node": 7.15.0
     "@sentry/webpack-plugin": 1.19.1
-  checksum: cf3a1928608a8444cf09203037063d098da329e62bd2550ca36787f27a96ae8b03b1357943767f4e566f9e51d232ef59a533d8dc438bb6ffa7ce0bcb13b19aa1
+  checksum: 3dcaa8ca9908fd23649f53505d4709cda87d6505756fe7cfdc9d4eba1f4ad7af49ec679b9db3ec59ab71d1693dd52880535f3de50a579059a60280a7f5102e67
   languageName: node
   linkType: hard
 
@@ -14559,7 +14559,7 @@ __metadata:
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-versions": 1.0.1
     "@eeacms/volto-eea-website-policy": 2.6.0
-    "@eeacms/volto-eea-website-theme": 3.9.2
+    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#289423-localstorage"
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-content": 0.2.2
     "@eeacms/volto-embed-static-content": 0.5.1
@@ -14572,6 +14572,7 @@ __metadata:
     "@eeacms/volto-workflow-progress": 5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
     "@plone-collective/volto-rss-provider": 1.0.1
+    "@plone-collective/volto-sentry": "github:collective/volto-sentry#enhance-ssr"
     "@plone/scripts": ^3.3.2
     "@plone/volto": 17.22.1
     "@storybook/addon-actions": ^6.3.0
