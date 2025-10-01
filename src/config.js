@@ -12,7 +12,18 @@
 // [Internal] All the imports of modules required for the configuration *must* happen
 // here BEFORE the following line
 import '@plone/volto/config';
+import SSRCrash from './views/SSRCrash';
 
 export default function applyConfig(config) {
+  // Add SSR crash test route for Sentry testing
+  config.addonRoutes = [
+    ...(config.addonRoutes || []),
+    {
+      path: '/_crash-ssr',
+      component: SSRCrash,
+      exact: true,
+    },
+  ];
+  
   return config;
 }
