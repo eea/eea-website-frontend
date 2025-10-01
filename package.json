@@ -235,7 +235,7 @@
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone-collective/volto-rss-provider": "1.0.1",
     "@plone-collective/volto-sentry": "github:collective/volto-sentry#enhance-ssr",
-    "@plone/volto": "17.22.2",
+    "@plone/volto": "17.22.3",
     "volto-subsites": "4.0.0"
   },
   "devDependencies": {
