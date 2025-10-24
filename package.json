@@ -205,7 +205,17 @@
     "react-colorscales": "github:eea/react-colorscales#1.0.2",
     "d3-array": "^2.12.1",
     "react-error-overlay": "6.0.9",
-    "eslint-plugin-jsx-a11y": "6.7.1"
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "shell-quote": "1.7.3",
+    "request/form-data": "2.5.4",
+    "@plone/scripts/execa": "2.0.0",
+    "sane/execa": "2.0.0",
+    "react-dev-utils": "^12",
+    "webpack-bundle-analyzer": "4.9.1"
+  },
+  "resolutions-comments": {
+    "react-dev-utils": "Fixes the security vulnerabilities in packages used by react-dev-utils",
+    "@plone/scripts/execa": "Fixes the security vulnerability, see https://github.com/sindresorhus/execa/releases/tag/v2.0.0"
   },
   "dependencies": {
     "@eeacms/volto-block-data-figure": "8.2.1",
