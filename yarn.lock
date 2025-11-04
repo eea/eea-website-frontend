@@ -2315,10 +2315,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-design-tokens@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@eeacms/volto-design-tokens@npm:1.1.0"
-  checksum: c69ddaaeac7106fc4e32ab4b09481047d99336ec8d65e468923ec40967bc5c8da417c54a8fd77cbcccd35d9d19ec10fcf9470a0287a1d96f09b8d1553ac83131
+"@eeacms/volto-design-tokens@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@eeacms/volto-design-tokens@npm:1.1.1"
+  checksum: 0d4ad7d300868452d2446751556b069384d4b4ec36011c0aa8e7bebc7692a9216e8f834043fa716644a368d5d10ed99f4b0a78ec028f948aeb4a5e17547b9a41
   languageName: node
   linkType: hard
 
@@ -14516,7 +14516,7 @@ __metadata:
     "@eeacms/volto-datablocks": 7.3.3
     "@eeacms/volto-datahub": 2.0.5
     "@eeacms/volto-description-block": 2.2.3
-    "@eeacms/volto-design-tokens": 1.1.0
+    "@eeacms/volto-design-tokens": 1.1.1
     "@eeacms/volto-editing-progress": 1.0.0
     "@eeacms/volto-eea-design-system": 1.39.1
     "@eeacms/volto-eea-kitkat": 28.1.1
