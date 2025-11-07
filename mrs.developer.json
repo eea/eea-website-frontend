@@ -491,5 +491,13 @@
     "package": "@eeacms/volto-flourish",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-design-tokens": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-design-tokens.git",
+    "https": "https://github.com/eea/volto-design-tokens.git",
+    "package": "@eeacms/volto-design-tokens",
+    "path": "src",
+    "branch": "develop"
   }
 }

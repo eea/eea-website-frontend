@@ -1,7 +1,7 @@
 pipeline {
   environment {
-    RANCHER_STACKID = "1st2568"
-    RANCHER_ENVID = "1a140884"
+    RANCHER_STACKID = ""
+    RANCHER_ENVID = ""
     GIT_NAME = "eea-website-frontend"
     registry = "eeacms/eea-website-frontend"
     template = "templates/eea-website-frontend"
@@ -221,8 +221,8 @@ pipeline {
       }
       steps{
         node(label: 'docker') {
-          withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
-           sh '''docker pull eeacms/gitflow; docker run -i --rm --name="${BUILD_TAG}-release" -e GIT_TOKEN="${GITHUB_TOKEN}" -e RANCHER_CATALOG_PATH="${template}" -e DOCKER_IMAGEVERSION="${BRANCH_NAME}" -e DOCKER_IMAGENAME="${registry}" --entrypoint /add_rancher_catalog_entry.sh eeacms/gitflow'''
+          withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN'),  usernamePassword(credentialsId: 'jekinsdockerhub', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) {
+            sh '''docker pull eeacms/gitflow; docker run -i --rm --name="$BUILD_TAG-release"  -e GIT_BRANCH="$BRANCH_NAME" -e GIT_NAME="$GIT_NAME" -e DOCKERHUB_REPO="$registry" -e GIT_TOKEN="$GITHUB_TOKEN" -e DOCKERHUB_USER="$DOCKERHUB_USER" -e DOCKERHUB_PASS="$DOCKERHUB_PASS"  -e DEPENDENT_DOCKERFILE_URL="$DEPENDENT_DOCKERFILE_URL" -e RANCHER_CATALOG_PATHS="$template" -e GITFLOW_BEHAVIOR="RUN_ON_TAG" eeacms/gitflow'''
          }
         }
       }
@@ -231,6 +231,8 @@ pipeline {
     stage('Upgrade demo ( on tag )') {
       when {
         buildingTag()
+        not { expression { BUILD_TAG.toLowerCase().contains('beta') } }
+        not { expression { BUILD_TAG.toLowerCase().contains('alpha') } }
       }
       steps {
         node(label: 'docker') {

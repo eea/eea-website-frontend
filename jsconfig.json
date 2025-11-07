@@ -98,6 +98,9 @@
             "@eeacms/volto-block-style": [
                 "addons/volto-block-style/src"
             ],
+            "@eeacms/volto-eea-versions": [
+                "addons/volto-eea-versions/src"
+            ],
             "@eeacms/volto-eea-kitkat": [
                 "addons/volto-eea-kitkat/src"
             ],
@@ -200,17 +203,17 @@
             "@eeacms/volto-embed-static-content": [
                 "addons/volto-embed-static-content/src"
             ],
-            "@eeacms/volto-chatbot": [
-                "addons/volto-chatbot/src"
-            ],
-            "@eeacms/volto-eea-versions": [
-                "addons/volto-eea-versions/src"
-            ],
             "@eeacms/volto-embed-content": [
                 "addons/volto-embed-content/src"
             ],
+            "@eeacms/volto-chatbot": [
+                "addons/volto-chatbot/src"
+            ],
             "@eeacms/volto-flourish": [
                 "addons/volto-flourish/src"
+            ],
+            "@eeacms/volto-design-tokens": [
+                "addons/volto-design-tokens/src"
             ]
         },
         "baseUrl": "src"
