@@ -119,6 +119,26 @@ pull: 			## Run git pull on all src/addons
 test: 			## Run Jest tests for Volto add-on
 	RAZZLE_JEST_CONFIG=$(filter-out $@,$(MAKECMDGOALS))/jest-addon.config.js yarn test $(filter-out $@,$(MAKECMDGOALS))
 
+.PHONY: cypress
+cypress:		## Run Cypress acceptance tests (uses baseUrl from cypress.config.js)
+	yarn cypress:run
+
+.PHONY: cypress-open
+cypress-open:		## Open Cypress interactive test runner
+	yarn cypress:open
+
+.PHONY: cypress-staging
+cypress-staging:	## Run Cypress tests against staging
+	CYPRESS_BASE_URL=https://staging.eea.europa.eu/en yarn cypress:run
+
+.PHONY: cypress-production
+cypress-production:	## Run Cypress tests against production
+	CYPRESS_BASE_URL=https://www.eea.europa.eu/en yarn cypress:run
+
+.PHONY: cypress-local
+cypress-local:		## Run Cypress tests against localhost:3000
+	CYPRESS_BASE_URL=http://localhost:3000 yarn cypress:run
+
 .PHONY: help
 help:			## Show this help.
 	@echo -e "$$(grep -hE '^\S+:.*##' $(MAKEFILE_LIST) | sed -e 's/:.*##\s*/:/' -e 's/^\(.\+\):\(.*\)/\\x1b[36m\1\\x1b[m:\2/' | column -c2 -t -s :)"
