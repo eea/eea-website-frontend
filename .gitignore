@@ -67,6 +67,7 @@ selenium-screenshot-*.png
 /selenium/
 cypress/videos/
 cypress/screenshots
+cypress/downloads/
 
 # Local environment setup
 .env

@@ -70,6 +70,51 @@ Trainings on how to create your own website using Plone 6 is available as part o
 
 See [Plone 6 backend for EEA Main website](https://github.com/eea/eea-website-backend/tree/master/develop)
 
+## Testing
+
+### Acceptance tests
+
+The project uses [Cypress](https://www.cypress.io/) for acceptance testing. The tests are located in `cypress/e2e/` directory.
+
+#### Running tests
+
+You can run Cypress tests using either yarn scripts or Makefile commands:
+
+**Using Makefile (recommended):**
+
+```bash
+make cypress               # Run tests against default environment (staging)
+make cypress-open          # Open Cypress interactive UI
+make cypress-staging       # Run tests against staging
+make cypress-production    # Run tests against production
+make cypress-local         # Run tests against localhost:3000
+```
+
+**Using yarn:**
+
+```bash
+yarn cypress:run           # Run tests in headless mode
+yarn cypress:open          # Open Cypress interactive UI
+```
+
+**Running against a custom URL:**
+
+You can override the base URL by setting the `CYPRESS_BASE_URL` environment variable:
+
+```bash
+CYPRESS_BASE_URL=https://demo-www.eea.europa.eu/en yarn cypress:run
+```
+
+or using the `--config` flag:
+
+```bash
+yarn cypress:run --config baseUrl=https://demo-www.eea.europa.eu/en
+```
+
+#### Test configuration
+
+The Cypress configuration is located in `cypress.config.js`. By default, tests run against the staging environment (`https://staging.eea.europa.eu/en`).
+
 ## Release
   
 ### Automatic release using Jenkins

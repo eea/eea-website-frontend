@@ -1,7 +1,13 @@
-describe('EEA staging website acceptance tests', () => {
+describe('EEA website acceptance tests', () => {
   beforeEach(() => {
-    cy.visit('https://staging.eea.europa.eu/en');
+    cy.visit('/');
     Cypress.on('uncaught:exception', (err, runnable) => {
+      // Prevent Cypress from failing on uncaught exceptions
+      // This is useful for testing third-party integrations or legacy code
+      // that may throw non-critical errors
+      // Log the error for debugging purposes
+      console.error('Uncaught exception:', err.message);
+      // Return false to prevent the test from failing
       return false;
     });
   });
@@ -56,7 +62,7 @@ describe('EEA staging website acceptance tests', () => {
   });
 
   it('Test first query result in Publications', () => {
-    cy.visit('https://www.eea.europa.eu/en');
+    cy.visit('/');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Publications').click({ force: true });
     cy.scrollTo(0, 1000);
@@ -65,7 +71,7 @@ describe('EEA staging website acceptance tests', () => {
   });
 
   it('Test first query result in Datahub', () => {
-    cy.visit('https://www.eea.europa.eu/en');
+    cy.visit('/');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Datahub').click({ force: true });
     cy.get('.listing-item .listing-header').first().find('a').invoke('removeAttr', 'target').click();
@@ -80,7 +86,7 @@ describe('EEA staging website acceptance tests', () => {
   });
 
   it('Test first query result in Maps and Charts', () => {
-    cy.visit('https://www.eea.europa.eu/en');
+    cy.visit('/');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Maps and charts').click({ force: true });
     cy.get('a.centered.fluid.image').first().invoke('removeAttr', 'target').click();
@@ -92,7 +98,7 @@ describe('EEA staging website acceptance tests', () => {
   });
 
   it('Test first query result in Indicators', () => {
-    cy.visit('https://www.eea.europa.eu/en');
+    cy.visit('/');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Indicators').click({ force: true });
     cy.scrollTo(0, 1000);
@@ -101,7 +107,7 @@ describe('EEA staging website acceptance tests', () => {
   });
 
   it('Test first query result in Country fact sheets', () => {
-    cy.visit('https://www.eea.europa.eu/en');
+    cy.visit('/');
     cy.contains('a', 'Analysis and data').click();
     cy.contains('a', 'Country fact sheets').click({ force: true });
     cy.scrollTo(0, 1000);
@@ -109,7 +115,7 @@ describe('EEA staging website acceptance tests', () => {
   });
 
   it('Test first query result in Countries', () => {
-    cy.visit('https://www.eea.europa.eu/en');
+    cy.visit('/');
     cy.contains('a', 'Countries').click();
     cy.contains('a', 'Austria').click({ force: true });
     cy.scrollTo(0, 1000);
