@@ -237,7 +237,7 @@
     "@eeacms/volto-embed-static-content": "0.5.1",
     "@eeacms/volto-flourish": "0.1.6",
     "@eeacms/volto-globalsearch": "2.1.2",
-    "@eeacms/volto-plotlycharts": "13.3.4",
+    "@eeacms/volto-plotlycharts": "13.3.5",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.1.10",
     "@eeacms/volto-tableau": "8.1.5",
