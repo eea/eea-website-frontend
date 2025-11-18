@@ -3,6 +3,7 @@ logs
 *.log
 npm-debug.log*
 .DS_Store
+.claude
 
 coverage
 
@@ -75,6 +76,9 @@ cypress/downloads/
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Development workspace backups
+package.json.backup
 
 # generic
 data
