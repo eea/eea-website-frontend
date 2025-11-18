@@ -2470,9 +2470,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:3.14.0":
-  version: 3.14.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:3.14.0"
+"@eeacms/volto-eea-website-theme@npm:3.14.1":
+  version: 3.14.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.14.1"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2480,7 +2480,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 5f09f13f4b31b0713e4f95600bbb75d48ea0099bc81d5e0dd429cd734c2c77726ee2fb86b05f7b25a1fbbb6b83d2694a0838391db71bf9d7b0543060869c32f9
+  checksum: 6a3eb64074b706b719a8908244974b9d912a113a1f3f42fdbfaec2ededfc15b5c10898ea68a96d27b6abc4b00af439df6bb02db5f0131948b4841581168bd429
   languageName: node
   linkType: hard
 
@@ -2600,9 +2600,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:13.3.4":
-  version: 13.3.4
-  resolution: "@eeacms/volto-plotlycharts@npm:13.3.4"
+"@eeacms/volto-plotlycharts@npm:13.3.5":
+  version: 13.3.5
+  resolution: "@eeacms/volto-plotlycharts@npm:13.3.5"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
@@ -2615,7 +2615,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: e34b76c4e331ad0f34cc4f7cd027edb3b0ae2354ed8e80e6d6e8aca0cfc4c8e4a256192d347d7752c3dadecdbaee67c7d677c6dffa92b44b57e463b733d9ddec
+  checksum: c916fefd95504511e6af044c073164ff02d6f58cd1eaef5cf1cc1c3fc8b855dbc320a9597ea185471a8b7e09ae22addd31021bb6b7796f889f3850806b348b14
   languageName: node
   linkType: hard
 
@@ -14643,7 +14643,7 @@ __metadata:
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-versions": 1.0.1
     "@eeacms/volto-eea-website-policy": 2.6.0
-    "@eeacms/volto-eea-website-theme": 3.14.0
+    "@eeacms/volto-eea-website-theme": 3.14.1
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-content": 0.2.2
     "@eeacms/volto-embed-static-content": 0.5.1
