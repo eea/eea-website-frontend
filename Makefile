@@ -45,11 +45,15 @@ endif
 
 # Top-level targets
 .PHONY: all
-all: develop install husky
+all: develop husky
 
 .PHONY: develop
 develop:    	## Runs missdev in the local project (mrs.developer.json should be present)
 	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
+	@echo "$(MARK_COLOR)Applying workspace protocol for development...$(NO_COLOR)"
+	node scripts/apply-workspace-protocol.js
+	NODE_OPTIONS="--max-old-space-size=16384" yarn install
+	node scripts/restore-production-package.js
 
 .PHONY: install
 install:		## Install project and add-ons
