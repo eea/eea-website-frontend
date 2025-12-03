@@ -2712,7 +2712,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-block-data-table@1.2.0, @eeacms/volto-block-data-table@workspace:src/addons/volto-block-data-table":
+"@eeacms/volto-block-data-table@1.3.0, @eeacms/volto-block-data-table@workspace:src/addons/volto-block-data-table":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-block-data-table@workspace:src/addons/volto-block-data-table"
   dependencies:
@@ -3042,6 +3042,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@eeacms/volto-eea-design-system@eea/volto-eea-design-system#develop":
+  version: 1.40.0
+  resolution: "@eeacms/volto-eea-design-system@https://github.com/eea/volto-eea-design-system.git#commit=218ec5533a03bd3a4e4064ddb7aae9f473f85999"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-corsproxy": "*"
+    "@fontsource/roboto": 4.5.8
+    react-lazy-load-image-component: 1.5.6
+    react-slick: ^0.30.1
+    remixicon: 4.6.0
+    slick-carousel: ^1.8.1
+  checksum: aa405b789ea88179b60634d5d2b3a752dcbcd25bf6cbdc6392f8549c3dafa35614feacb54bda5b1c7ed251d5cdf162fe9640f02ba1e0be4dec79d397e2b67162
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-eea-kitkat@workspace:*, @eeacms/volto-eea-kitkat@workspace:src/addons/volto-eea-kitkat":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-eea-kitkat@workspace:src/addons/volto-eea-kitkat"
@@ -3051,7 +3066,7 @@ __metadata:
     "@eeacms/volto-accordion-block": 11.0.4
     "@eeacms/volto-anchors": 1.0.1
     "@eeacms/volto-banner": 4.0.2
-    "@eeacms/volto-block-data-table": 1.2.0
+    "@eeacms/volto-block-data-table": 1.3.0
     "@eeacms/volto-block-divider": 7.0.2
     "@eeacms/volto-block-image-cards": 3.0.0
     "@eeacms/volto-block-style": 8.0.0
@@ -3062,7 +3077,7 @@ __metadata:
     "@eeacms/volto-controlpanel": 1.0.2
     "@eeacms/volto-corsproxy": 4.0.0
     "@eeacms/volto-description-block": 2.2.3
-    "@eeacms/volto-group-block": 7.1.1
+    "@eeacms/volto-group-block": 8.1.0
     "@eeacms/volto-hero-block": 8.0.0
     "@eeacms/volto-listing-block": 9.1.0
     "@eeacms/volto-matomo": 6.0.1
@@ -3165,7 +3180,7 @@ __metadata:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-block-toc": "*"
-    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-eea-design-system": "eea/volto-eea-design-system#develop"
     "@eeacms/volto-group-block": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
@@ -3268,7 +3283,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-group-block@*, @eeacms/volto-group-block@7.1.1, @eeacms/volto-group-block@workspace:src/addons/volto-group-block":
+"@eeacms/volto-group-block@*, @eeacms/volto-group-block@8.1.0, @eeacms/volto-group-block@workspace:src/addons/volto-group-block":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-group-block@workspace:src/addons/volto-group-block"
   dependencies:
@@ -5999,15 +6014,15 @@ __metadata:
   linkType: hard
 
 "@plone/types@npm:*":
-  version: 1.5.0
-  resolution: "@plone/types@npm:1.5.0"
+  version: 1.5.1
+  resolution: "@plone/types@npm:1.5.1"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: cff31b01cb92f67560a029fa815f81069aa6922ea0fd393dc8864d81e5f31ca7df055d10effe84e780089f60b0b3ae9936c557f43aba496948b7b3e5564d9886
+  checksum: fcbb06deb16b902e00ee58b009d7538b8edfa95465945753972f9c246b33f874b4b2f8acf25f87d10b4e0f399b122758dd54e2918966d988c267dd52ecd987dc
   languageName: node
   linkType: hard
 
@@ -13395,9 +13410,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001754":
-  version: 1.0.30001757
-  resolution: "caniuse-lite@npm:1.0.30001757"
-  checksum: 84ce069d2457f2d2dc68ef9a23870962c89f2bc2a3a67b6b47a431842cfe74a27b8d156b05e5e36f320b501642ecbaf24526963b01468a8b64512ccb8267d135
+  version: 1.0.30001759
+  resolution: "caniuse-lite@npm:1.0.30001759"
+  checksum: db200cf52ab976df18aaf75415e4c407a989bd538ac195f8ddd0993f0e158cfe0d048c26c0161b0409ed754745ea82830abbcbecace4afef9f1ecc9a4c0a0a50
   languageName: node
   linkType: hard
 
@@ -17792,9 +17807,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.249":
-  version: 1.5.262
-  resolution: "electron-to-chromium@npm:1.5.262"
-  checksum: 1dd8d5890316972c204ca24d93653c06c6f0e428dffdfb9ab844afce6d0e3beb7cae7944ee81b2136f080e1a52e10f28e7486a33321c976772b45cd12825fa9c
+  version: 1.5.263
+  resolution: "electron-to-chromium@npm:1.5.263"
+  checksum: 0ebdb43b8c94bdbf5ef285dd2ae0bacc9e8c37173f20e053f4172118f4e6e26fb3967899d286e0f2a22e89a45b8a5a6c39598ac5439abdc3666dc46d4b0bc02b
   languageName: node
   linkType: hard
 
@@ -26396,9 +26411,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0, lru-cache@npm:^11.2.1":
-  version: 11.2.2
-  resolution: "lru-cache@npm:11.2.2"
-  checksum: 052b3d0b81a02dd017e8b6d82422bed273732c89c9c63762f538e0a75b7018247896b365c19d9392cc7de9c6a304cde3ac11eb7376f96a4885d0ab32b5c46d5b
+  version: 11.2.4
+  resolution: "lru-cache@npm:11.2.4"
+  checksum: cb8cf72b80a506593f51880bd5a765380d6d8eb82e99b2fbb2f22fe39e5f2f641d47a2509e74cc294617f32a4e90ae8f6214740fe00bc79a6178854f00419b24
   languageName: node
   linkType: hard
 
@@ -41560,11 +41575,11 @@ __metadata:
   linkType: hard
 
 "yaml@npm:^2.0.0, yaml@npm:^2.8.1":
-  version: 2.8.1
-  resolution: "yaml@npm:2.8.1"
+  version: 2.8.2
+  resolution: "yaml@npm:2.8.2"
   bin:
     yaml: bin.mjs
-  checksum: 35b46150d48bc1da2fd5b1521a48a4fa36d68deaabe496f3c3fa9646d5796b6b974f3930a02c4b5aee6c85c860d7d7f79009416724465e835f40b87898c36de4
+  checksum: 5ffd9f23bc7a450129cbd49dcf91418988f154ede10c83fd28ab293661ac2783c05da19a28d76a22cbd77828eae25d4bd7453f9a9fe2d287d085d72db46fd105
   languageName: node
   linkType: hard
 
