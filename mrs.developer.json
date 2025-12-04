@@ -499,5 +499,13 @@
     "package": "@eeacms/volto-design-tokens",
     "path": "src",
     "branch": "develop"
+  },
+  "volto-redirector": {
+    "develop": true,
+    "url": "git@github.com:eea/volto-redirector.git",
+    "https": "https://github.com/eea/volto-redirector.git",
+    "package": "@eeacms/volto-redirector",
+    "path": "src",
+    "branch": "develop"
   }
 }
