@@ -97,7 +97,7 @@ patches:
 
 .PHONY: release
 release: 		## Show release candidates
-	./scripts/release.py -v
+	python3 ./scripts/release.py -s chore -s sonar -v
 
 .PHONY: update
 update: 		## git pull all src/addons
