@@ -214,6 +214,9 @@
             ],
             "@eeacms/volto-design-tokens": [
                 "addons/volto-design-tokens/src"
+            ],
+            "@eeacms/volto-redirector": [
+                "addons/volto-redirector/src"
             ]
         },
         "baseUrl": "src"
