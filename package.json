@@ -201,7 +201,7 @@
     "@plone-collective/volto-rss-provider": "1.0.1",
     "@eeacms/volto-description-block": "2.2.3",
     "@eeacms/volto-flourish": "0.1.6",
-    "@eeacms/volto-chatbot": "1.0.2",
+    "@eeacms/volto-chatbot": "0.6.0",
     "volto-subsites": "4.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
