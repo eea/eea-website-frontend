@@ -2460,27 +2460,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@github:eea/volto-eea-website-policy#kill-plone-4":
-  version: 2.8.0
-  resolution: "@eeacms/volto-eea-website-policy@https://github.com/eea/volto-eea-website-policy.git#commit=28d82ebe910c90df01f222c7fe83d41dfa4858b9"
+"@eeacms/volto-eea-website-policy@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-eea-website-policy@npm:3.0.0"
   dependencies:
     "@eeacms/volto-widget-dataprovenance": "*"
     "@plone-collective/volto-authomatic": "*"
-  checksum: f7d83de12c5ea6047b472a4e45bef4a6e9b862c74165edbdb40805717ae34e14f05794e38b56b83c39622a85d078904adebebe8435f116a645742737b55e55be
+  checksum: ec36f65d3a802fc41a967059309409f2b92df753677e394b4120cc4c0611039379d71b314dddbea6c357e832e19f6da99e296daf35db6586042ed84e4181ab0e
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#kill-plone-4":
-  version: 3.16.0
-  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=cfe31a1cddc90327556c709630c3b661dc41e89b"
+"@eeacms/volto-eea-website-theme@npm:3.18.0":
+  version: 3.18.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.18.0"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-block-toc": "*"
-    "@eeacms/volto-eea-design-system": "eea/volto-eea-design-system#develop"
+    "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#develop"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 713b411068e355c78dde3d50788517cd23b450642863435b6b58a8af8d343c0ece0dd2b51c20e2b018e70e38d7f837e4aa6f5190b0acbc49ca31fc26b0f9e8a1
+  checksum: 1f81dcc9c15518a141b3bb0b6ed7f4579ad276ed27e30d22b5bd07c20f2b6067bc0b4c07254aeffe1a1ca6fc971d2dd27e213a013c7e6b0e2a4f8e3dbda47deb
   languageName: node
   linkType: hard
 
@@ -14637,8 +14637,8 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 30.1.0
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-versions": 1.0.1
-    "@eeacms/volto-eea-website-policy": "github:eea/volto-eea-website-policy#kill-plone-4"
-    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#kill-plone-4"
+    "@eeacms/volto-eea-website-policy": 3.0.0
+    "@eeacms/volto-eea-website-theme": 3.18.0
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-content": 0.2.2
     "@eeacms/volto-embed-static-content": 0.5.1
