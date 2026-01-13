@@ -227,7 +227,7 @@
     "url": "git@github.com:eea/volto-eea-website-theme.git",
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
-    "branch": "kill-plone-4",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },
@@ -235,7 +235,7 @@
     "url": "git@github.com:eea/volto-eea-website-policy.git",
     "https": "https://github.com/eea/volto-eea-website-policy.git",
     "package": "@eeacms/volto-eea-website-policy",
-    "branch": "kill-plone-4",
+    "branch": "develop",
     "develop": true,
     "path": "src"
   },

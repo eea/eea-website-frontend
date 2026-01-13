@@ -2262,13 +2262,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@eeacms/volto-chatbot@npm:1.0.1"
+"@eeacms/volto-chatbot@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@eeacms/volto-chatbot@npm:1.0.3"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
-    "@plone-collective/volto-sentry": 0.3.1
+    "@plone-collective/volto-sentry": "*"
     fast-json-patch: 3.1.1
     highlight.js: 11.10.0
     luxon: 3.5.0
@@ -2279,7 +2279,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: cde4eefca46d3abdc9d028414f29047e3d714d5f18a28686fa8791b4cd35850ca343f24d654f77693b23fd83aeaa4af1681c0b97b41e455818c8ffa4a27154a5
+  checksum: b5775024db81f5eaec51781a69203919baf3cf3bdcce3c79c01f9d37b387338cbf6ee4e23b2a9dabfb1c57160621c378a4b3fefc5c64a8aaeb2cdc224c84050f
   languageName: node
   linkType: hard
 
@@ -4318,7 +4318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:0.4.0":
+"@plone-collective/volto-sentry@npm:*, @plone-collective/volto-sentry@npm:0.4.0":
   version: 0.4.0
   resolution: "@plone-collective/volto-sentry@npm:0.4.0"
   dependencies:
