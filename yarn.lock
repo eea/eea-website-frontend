@@ -2159,12 +2159,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:*, @eeacms/volto-accordion-block@npm:11.0.4":
-  version: 11.0.4
-  resolution: "@eeacms/volto-accordion-block@npm:11.0.4"
+"@eeacms/volto-accordion-block@npm:12.0.0":
+  version: 12.0.0
+  resolution: "@eeacms/volto-accordion-block@npm:12.0.0"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
-  checksum: 8bfe1e68cc95bbb74b1c7ad8b2db5b7541b9c88948acea319d091a51a8bf73d62bb709a4706afff8fa7e1a4ed69fca4d712a79956204311c3b58f1ea44b8d91c
+  checksum: 6a0982bf9f38766f96c860b119f7656634f835a02500286b99f95d042f9a22f12f44fb5ea9e5537498486cb6829c3c3f242c6d962543a057e35a1afa1c7e3811
   languageName: node
   linkType: hard
 
@@ -2649,11 +2649,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-searchlib@npm:3.0.0"
+"@eeacms/volto-searchlib@npm:^2.1.10":
+  version: 2.1.10
+  resolution: "@eeacms/volto-searchlib@npm:2.1.10"
   dependencies:
-    "@eeacms/volto-chatbot": "*"
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
     "@elastic/react-search-ui": 1.20.2
@@ -2691,7 +2690,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 70b194db227fef6fd5b3499f0661e85c205c15a8aba1b9cf9cc34fe9df41967039bad0c0ab336294cd97f616f8e1abeb5a9de904712367230c3ff5b2a661d3c3
+  checksum: abeb43f15e02c3f7174a2024e6d93a3763b7b31ebfb1b6115fd27a40dba099f301c3bbe661fbd0c29a03174fd4476a65b133f2f752168765006e0061c7e43730
   languageName: node
   linkType: hard
 
@@ -14648,7 +14647,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-redirector": 0.3.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 3.0.0
+    "@eeacms/volto-searchlib": ^2.1.10
     "@eeacms/volto-tableau": 8.1.5
     "@eeacms/volto-workflow-progress": 5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
