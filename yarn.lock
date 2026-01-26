@@ -2262,9 +2262,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@eeacms/volto-chatbot@npm:1.0.7"
+"@eeacms/volto-chatbot@npm:1.0.8":
+  version: 1.0.8
+  resolution: "@eeacms/volto-chatbot@npm:1.0.8"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2279,7 +2279,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 922fc1e9e7d22a1cad190a66b27b42c5a9614477409010aa6f4fe37a9d4b2c5b99097a5b415a9046e22ea7b6a6bd2ec6e40e7b1d389e968f3a58806c69fd715c
+  checksum: f3cfbfefb4dfd3bad243bdebe455e6077009139ea2f88fbbdbe95862e157d99a5a14d6327067063216881b322514e6b8f8f0bc1c2e802f343abbda8328512676
   languageName: node
   linkType: hard
 
@@ -2526,13 +2526,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:2.1.2":
-  version: 2.1.2
-  resolution: "@eeacms/volto-globalsearch@npm:2.1.2"
+"@eeacms/volto-globalsearch@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-globalsearch@npm:3.0.0"
   dependencies:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
-  checksum: bb9604a7c0290605619fbd9e3b0dbf2f1bf8deb1ba244f3cbefce91bbbf1daf00735650df49fc0fc72d9d343af6ce9da349b0bb5e654bbc9ae61af6b45e3ae31
+  checksum: 54c8e2da3ed4b232d2debfac4effc3e819fde85cab26ba6ffaeb095b6bd66583c2556b216378b0e5900dc016a199fe8dbd68ad4c80a71fb7b7bd41d940c084df
   languageName: node
   linkType: hard
 
@@ -2649,9 +2649,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:3.0.0":
-  version: 3.0.0
-  resolution: "@eeacms/volto-searchlib@npm:3.0.0"
+"@eeacms/volto-searchlib@npm:3.0.1":
+  version: 3.0.1
+  resolution: "@eeacms/volto-searchlib@npm:3.0.1"
   dependencies:
     "@eeacms/volto-chatbot": "*"
     "@eeacms/volto-design-tokens": "*"
@@ -2691,7 +2691,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 70b194db227fef6fd5b3499f0661e85c205c15a8aba1b9cf9cc34fe9df41967039bad0c0ab336294cd97f616f8e1abeb5a9de904712367230c3ff5b2a661d3c3
+  checksum: ce3cff929c7be87a10a22b47e4a44d878c439461efd9b8a1c013bdba09e09fe7cd56c5df92fbcaa5fa8bc00cd8d9ab404175e21134adc8219e28bbe7c3f6fbd2
   languageName: node
   linkType: hard
 
@@ -14644,11 +14644,11 @@ __metadata:
     "@eeacms/volto-embed-content": 0.2.2
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-flourish": 0.1.6
-    "@eeacms/volto-globalsearch": 2.1.2
+    "@eeacms/volto-globalsearch": 3.0.0
     "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-redirector": 0.3.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 3.0.0
+    "@eeacms/volto-searchlib": 3.0.1
     "@eeacms/volto-tableau": 8.1.5
     "@eeacms/volto-workflow-progress": 5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
