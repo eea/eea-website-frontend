@@ -2371,7 +2371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:*, @eeacms/volto-eea-chatbot@npm:1.0.10":
+"@eeacms/volto-eea-chatbot@npm:*":
   version: 1.0.10
   resolution: "@eeacms/volto-eea-chatbot@npm:1.0.10"
   dependencies:
@@ -2389,6 +2389,27 @@ __metadata:
     remark-gfm: 3.0.1
     uuid: 10.0.0
   checksum: 23baae1a60677afd00fd8e13a82c7d54d94a16dfcca410325ffb053a21b681e7916ddc493914d327ff0874f65a56f3fdf01263f4a0990a53dad38c8dfc5d12df
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-chatbot@npm:1.0.11":
+  version: 1.0.11
+  resolution: "@eeacms/volto-eea-chatbot@npm:1.0.11"
+  dependencies:
+    "@eeacms/volto-matomo": "*"
+    "@microsoft/fetch-event-source": 2.0.1
+    "@plone-collective/volto-sentry": "*"
+    fast-json-patch: 3.1.1
+    highlight.js: 11.10.0
+    luxon: 3.5.0
+    marked: 13.0.3
+    node-fetch: 2.7.0
+    react-markdown: 8.0.7
+    react-textarea-autosize: ^8.5.3
+    rehype-prism-plus: 1.6.0
+    remark-gfm: 3.0.1
+    uuid: 10.0.0
+  checksum: a5dbd1281ba6ff120e288921b6c497d89a4670976133a2face9a7711053b0c6ae233d9d1c89f208cb5b120e8e70351e30272eb7d05d2d671dd17dfb55a5f9eee
   languageName: node
   linkType: hard
 
@@ -14655,7 +14676,7 @@ __metadata:
     "@eeacms/volto-description-block": 2.2.3
     "@eeacms/volto-design-tokens": 1.1.1
     "@eeacms/volto-editing-progress": 1.0.0
-    "@eeacms/volto-eea-chatbot": 1.0.10
+    "@eeacms/volto-eea-chatbot": 1.0.11
     "@eeacms/volto-eea-design-system": 1.40.2
     "@eeacms/volto-eea-kitkat": 30.1.0
     "@eeacms/volto-eea-map": 5.0.8
