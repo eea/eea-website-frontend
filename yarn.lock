@@ -2262,9 +2262,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:^0.6.1":
-  version: 0.6.1
-  resolution: "@eeacms/volto-chatbot@npm:0.6.1"
+"@eeacms/volto-chatbot@npm:1.0.8":
+  version: 1.0.8
+  resolution: "@eeacms/volto-chatbot@npm:1.0.8"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2279,7 +2279,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 78b9e0a41d02b731367bbf9f1673572419bef6432f8e2db2bb6c95a04d1f4dc70d896e85c75dbb0fccfa4bd6891c94bb03d7a933ac83efe5410f3538a7e0d168
+  checksum: f3cfbfefb4dfd3bad243bdebe455e6077009139ea2f88fbbdbe95862e157d99a5a14d6327067063216881b322514e6b8f8f0bc1c2e802f343abbda8328512676
   languageName: node
   linkType: hard
 
@@ -2371,9 +2371,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.40.2":
-  version: 1.40.2
-  resolution: "@eeacms/volto-eea-design-system@npm:1.40.2"
+"@eeacms/volto-eea-design-system@npm:1.40.3":
+  version: 1.40.3
+  resolution: "@eeacms/volto-eea-design-system@npm:1.40.3"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2382,7 +2382,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: d7d46c59fe57db6174cdfe1d4a56a920c4bede1db3526d57b73f2ecfdfa6351aa21f34e5c3d575e6a6c211c95db58577e8d0d81556f6bfe54aabba2e1c93eb2e
+  checksum: fd5c0849a1c5622c6ea90e0bbdbe31e049538f02515fa46b10853d8e944f949bd4c305fe0f06ca87f6a253112fc012e151eca4cbfbd38541bbd123a77366262c
   languageName: node
   linkType: hard
 
@@ -14640,7 +14640,7 @@ __metadata:
     "@eeacms/volto-description-block": 2.2.3
     "@eeacms/volto-design-tokens": 1.1.1
     "@eeacms/volto-editing-progress": 2.0.0
-    "@eeacms/volto-eea-design-system": 1.40.2
+    "@eeacms/volto-eea-design-system": 1.40.3
     "@eeacms/volto-eea-kitkat": 30.1.1
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-versions": 1.0.1
