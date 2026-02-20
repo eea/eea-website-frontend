@@ -217,6 +217,9 @@
             ],
             "@eeacms/volto-redirector": [
                 "addons/volto-redirector/src"
+            ],
+            "@eeacms/volto-eea-chatbot": [
+                "addons/volto-eea-chatbot/src"
             ]
         },
         "baseUrl": "src"
