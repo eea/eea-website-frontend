@@ -48,7 +48,6 @@
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-eea-chatbot",
     "@eeacms/volto-redirector",
     "@eeacms/volto-editing-progress",
     "@eeacms/volto-workflow-progress",
