@@ -14670,7 +14670,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-redirector": 0.3.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 3.0.1
+    "@eeacms/volto-searchlib": 3.0.3
     "@eeacms/volto-tableau": 8.1.5
     "@eeacms/volto-workflow-progress": 5.0.1
     "@plone-collective/volto-authomatic": 2.0.1
