@@ -97,3 +97,9 @@ src/addons/*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+
+packages/*
+!packages/volto-eea-website
+packages/volto-eea-website/node_modules
+jsconfig.json

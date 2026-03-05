@@ -1,36 +1,38 @@
-FROM node:20-bullseye-slim
+# syntax=docker/dockerfile:1
+ARG VOLTO_VERSION=latest
+FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
 
-COPY . /app/
-WORKDIR /app/
+COPY --chown=node packages/volto-project-title /app/packages/volto-project-title
+COPY --chown=node volto.config.js /app/
+COPY --chown=node package.json /app/package.json.temp
+COPY --chown=node mrs.developer.json /app/
+COPY --chown=node pnpm-workspace.yaml /app/
+COPY --chown=node pnpm-lock.yaml /app/pnpm-lock.yaml
 
-# Update apt packages
-RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
- && apt-get update \
- && apt-get install -y --no-install-recommends $runDeps \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists/* \
- && npm install -g mrs-developer \
- && cp jsconfig.json.prod jsconfig.json \
- && mkdir -p /app/src/addons \
- && rm -rf /app/src/addons/* \
- && find /app/ -not -user node -exec chown node {} \+ \
- && corepack enable
+RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
+    set -e
+    python3 -c "import json; orig_data = json.load(open('package.json.temp')); orig_deps = orig_data['dependencies']; data = json.load(open('package.json')); data['dependencies'].update(orig_deps); json.dump(data, open('package.json', 'w'), indent=2)"
+    rm package.json.temp
+    pnpm dlx mrs-developer missdev --no-config --fetch-https
+    pnpm install && pnpm build:deps
+    pnpm build
+    # This is necessary because the build is trying to recreate the node_modules folder
+    # by telling it to CI=1 it will just recreate them
+    CI=1 pnpm install --prod
+EOT
 
-USER node
+FROM plone/frontend-prod-config:${VOLTO_VERSION}
 
-ARG MAX_OLD_SPACE_SIZE=16384
-ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
+LABEL maintainer="Plone Foundation <collective@plone.org>" \
+      org.label-schema.name="project-title-frontend" \
+      org.label-schema.description="Project Title frontend image." \
+      org.label-schema.vendor="Plone Foundation"
 
-RUN yarn \
-  && yarn build \
-  && rm -rf /home/node/.cache \
-  && rm -rf /home/node/.yarn \
-  && rm -rf /home/node/.npm \
-  && rm -rf /app/.yarn/cache
+COPY --from=builder /app/ /app/
 
-USER root
-
-EXPOSE 3000 3001
-
-ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["yarn", "start:prod"]
+RUN <<EOT
+    set -e
+    CI=1 npm i -g corepack@latest && corepack enable pnpm
+    CI=1 corepack use pnpm@9.1.1
+    CI=1 corepack prepare pnpm@9.1.1 --activate
+EOT
