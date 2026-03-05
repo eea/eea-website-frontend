@@ -103,3 +103,4 @@ packages/*
 !packages/volto-eea-website
 packages/volto-eea-website/node_modules
 jsconfig.json
+/core
