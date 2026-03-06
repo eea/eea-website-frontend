@@ -201,7 +201,7 @@
     "@eeacms/volto-editing-progress": "2.0.0",
     "@eeacms/volto-citation": "1.1.0",
     "@eeacms/volto-chatbot": "0.6.4",
-    "@eeacms/volto-eea-chatbot": "1.0.12",
+    "@eeacms/volto-eea-chatbot": "1.0.13",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone-collective/volto-rss-provider": "1.0.1",
     "@eeacms/volto-description-block": "2.2.3",

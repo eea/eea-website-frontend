@@ -2371,9 +2371,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:1.0.12":
-  version: 1.0.12
-  resolution: "@eeacms/volto-eea-chatbot@npm:1.0.12"
+"@eeacms/volto-eea-chatbot@npm:1.0.13":
+  version: 1.0.13
+  resolution: "@eeacms/volto-eea-chatbot@npm:1.0.13"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2389,7 +2389,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: fef11ef570eb8da35845f5c349842c7a5a47c7c0827b42819ae2feaefa44ffa86de3889d3a8d2346b71e66aa45e1da3a29b56ff8262525bdc7b0438d1a3f2e7d
+  checksum: f61873fa94d11e7f8d78ab16a745b6598df79a3fd796e2f106732fc2d27e049c1d7b75a25865bed2860d58dd2c7629a6a6cf1328d20e3ae4d5c7cede18649f1b
   languageName: node
   linkType: hard
 
