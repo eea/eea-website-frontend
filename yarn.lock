@@ -2184,15 +2184,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-figure@npm:8.2.1":
-  version: 8.2.1
-  resolution: "@eeacms/volto-block-data-figure@npm:8.2.1"
+"@eeacms/volto-block-data-figure@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@eeacms/volto-block-data-figure@npm:9.0.0"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@eeacms/volto-widget-geolocation": "*"
     "@eeacms/volto-widget-temporal-coverage": "*"
-  checksum: 6c0f642ebee3eb9cc0fcbf61c11c040e63ada144274e0215121a9cfd5c72833dca85bdf67efccc347864e219fab867a4181da1169a52accfc7fbfc7b2a6356ca
+  checksum: 1273f19e5b9f54866ef856d556b73b29af451dfbe2cd62db1fdb77319a228080a64eaeb2622726bd52a7cf17d7966951c08cbbc1f75997979cf805bbbaa18f1d
   languageName: node
   linkType: hard
 
@@ -14670,7 +14670,7 @@ __metadata:
   resolution: "eea-website-frontend@workspace:."
   dependencies:
     "@cypress/code-coverage": ^3.10.0
-    "@eeacms/volto-block-data-figure": 8.2.1
+    "@eeacms/volto-block-data-figure": 9.0.0
     "@eeacms/volto-chatbot": 0.6.4
     "@eeacms/volto-citation": 1.1.0
     "@eeacms/volto-datablocks": 7.3.5

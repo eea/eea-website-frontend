@@ -197,7 +197,7 @@
     "@eeacms/volto-searchlib": "3.0.3",
     "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-workflow-progress": "5.0.1",
-    "@eeacms/volto-block-data-figure": "8.2.1",
+    "@eeacms/volto-block-data-figure": "9.0.0",
     "@eeacms/volto-editing-progress": "2.0.0",
     "@eeacms/volto-citation": "1.1.0",
     "@eeacms/volto-chatbot": "0.6.4",
@@ -226,7 +226,7 @@
     "@plone/scripts/execa": "Fixes the security vulnerability, see https://github.com/sindresorhus/execa/releases/tag/v2.0.0"
   },
   "dependencies": {
-    "@eeacms/volto-block-data-figure": "8.2.1",
+    "@eeacms/volto-block-data-figure": "9.0.0",
     "@eeacms/volto-chatbot": "0.6.4",
     "@eeacms/volto-citation": "1.1.0",
     "@eeacms/volto-datablocks": "7.3.5",
