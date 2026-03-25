@@ -199,7 +199,7 @@
     "@eeacms/volto-workflow-progress": "5.0.1",
     "@eeacms/volto-block-data-figure": "9.0.0",
     "@eeacms/volto-editing-progress": "2.0.0",
-    "@eeacms/volto-citation": "1.1.0",
+    "@eeacms/volto-citation": "2.0.0",
     "@eeacms/volto-chatbot": "0.6.4",
     "@eeacms/volto-eea-chatbot": "2.0.0",
     "@plone-collective/volto-authomatic": "2.0.1",
@@ -228,7 +228,7 @@
   "dependencies": {
     "@eeacms/volto-block-data-figure": "9.0.0",
     "@eeacms/volto-chatbot": "0.6.4",
-    "@eeacms/volto-citation": "1.1.0",
+    "@eeacms/volto-citation": "2.0.0",
     "@eeacms/volto-datablocks": "7.3.5",
     "@eeacms/volto-datahub": "2.0.5",
     "@eeacms/volto-description-block": "2.2.3",
