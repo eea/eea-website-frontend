@@ -2549,12 +2549,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-flourish@npm:0.1.6":
-  version: 0.1.6
-  resolution: "@eeacms/volto-flourish@npm:0.1.6"
+"@eeacms/volto-flourish@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-flourish@npm:1.0.0"
   dependencies:
     "@eeacms/volto-embed": "*"
-  checksum: 5243cf80b710bb80a399e6fb7331972a065a5e9ed4b31f68df94cb8f3d207aa1c664a389324da036451efd866b4a37dfdef930cfa55fe9890d0e7772fc7b70b6
+  checksum: 83d7cf473a7cd457762be7bc159b451372e7a7154157a1127ce4fb9df5c7519851a997d8cb3f392a8a866eced39b7d6e2cb5b139727e2ec0a41f0a97de44aaf9
   languageName: node
   linkType: hard
 
@@ -14688,7 +14688,7 @@ __metadata:
     "@eeacms/volto-embed": 11.0.0
     "@eeacms/volto-embed-content": 1.0.0
     "@eeacms/volto-embed-static-content": 1.0.0
-    "@eeacms/volto-flourish": 0.1.6
+    "@eeacms/volto-flourish": 1.0.0
     "@eeacms/volto-globalsearch": 3.0.0
     "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-redirector": 0.3.0
