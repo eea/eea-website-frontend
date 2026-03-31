@@ -2358,10 +2358,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-description-block@npm:2.2.3":
-  version: 2.2.3
-  resolution: "@eeacms/volto-description-block@npm:2.2.3"
-  checksum: 5765d9bc5f21f4120404d011162129e81b8003ac8c8dd0a6fe09c8e23d2279ece5b3abee0038dbdbf094ee8f3f84447d410401636c5cd24a0c4fcd46d9c93277
+"@eeacms/volto-description-block@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-description-block@npm:3.0.0"
+  checksum: 4f82e5a83f37f33e23c84554643b9445d55a719b062ce30d72f632f2c35aa31456860ed05b548f4015a470d1f0de54c0080a05517a5be2ee4dd2aed169f1139c
   languageName: node
   linkType: hard
 
@@ -14674,7 +14674,7 @@ __metadata:
     "@eeacms/volto-citation": 2.0.0
     "@eeacms/volto-datablocks": 8.0.0
     "@eeacms/volto-datahub": 3.0.0
-    "@eeacms/volto-description-block": 2.2.3
+    "@eeacms/volto-description-block": 3.0.0
     "@eeacms/volto-design-tokens": 2.0.0
     "@eeacms/volto-editing-progress": 3.0.0
     "@eeacms/volto-eea-chatbot": 2.0.0
