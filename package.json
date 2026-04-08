@@ -200,7 +200,7 @@
     "@eeacms/volto-block-data-figure": "9.0.1",
     "@eeacms/volto-editing-progress": "3.0.0",
     "@eeacms/volto-citation": "2.0.0",
-    "@eeacms/volto-chatbot": "2.0.0",
+    "@eeacms/volto-chatbot": "2.0.1",
     "@eeacms/volto-eea-chatbot": "2.0.1",
     "@plone-collective/volto-authomatic": "2.0.1",
     "@plone-collective/volto-rss-provider": "1.0.1",
@@ -227,7 +227,7 @@
   },
   "dependencies": {
     "@eeacms/volto-block-data-figure": "9.0.1",
-    "@eeacms/volto-chatbot": "2.0.0",
+    "@eeacms/volto-chatbot": "2.0.1",
     "@eeacms/volto-citation": "2.0.0",
     "@eeacms/volto-datablocks": "8.0.1",
     "@eeacms/volto-datahub": "3.0.0",

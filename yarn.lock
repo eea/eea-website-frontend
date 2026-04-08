@@ -2273,9 +2273,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-chatbot@npm:2.0.0"
+"@eeacms/volto-chatbot@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-chatbot@npm:2.0.1"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2290,7 +2290,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: ae6e3d53bb89dc2c95cab5f914e1a8b62638953bf1ad47040decee344284dccd824518357a11c3b4ca19f72ad78568dcec4dc18191e0fe59e17c497010ed4dfe
+  checksum: a296ad5f737ec754006291a1198c1f20f02d92b059cea0b08ee6c10fae7936fc67d57a7dda8a26c3b9dbf67c89e0d3c84c8e3852ee71b859ac4157abf7602d66
   languageName: node
   linkType: hard
 
@@ -14670,7 +14670,7 @@ __metadata:
   dependencies:
     "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-block-data-figure": 9.0.1
-    "@eeacms/volto-chatbot": 2.0.0
+    "@eeacms/volto-chatbot": 2.0.1
     "@eeacms/volto-citation": 2.0.0
     "@eeacms/volto-datablocks": 8.0.1
     "@eeacms/volto-datahub": 3.0.0
