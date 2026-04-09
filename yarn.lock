@@ -2680,9 +2680,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@eeacms/volto-searchlib@npm:4.0.0"
+"@eeacms/volto-searchlib@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@eeacms/volto-searchlib@npm:4.0.1"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-eea-chatbot": "*"
@@ -2722,7 +2722,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: ce86cad31b8ed95c5e5ec5e2afb806b46f89c7943fc850d712e7dc86b09f5db2b894c13ea2bff038e9fb1560fbc5b31b11c92992f15dc3490fc53917703c1ea3
+  checksum: 7e6b39e3e1c41160f513b96717ba8c2a7d063d09ea17159f5636fb960f5da7ca20f61e3e7e25b85087e330f2379bc3b604835ac79ba76a4b5c3d633848cf93cf
   languageName: node
   linkType: hard
 
@@ -14692,7 +14692,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 14.0.1
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.1
-    "@eeacms/volto-searchlib": 4.0.0
+    "@eeacms/volto-searchlib": 4.0.1
     "@eeacms/volto-tableau": 9.0.0
     "@eeacms/volto-workflow-progress": 6.0.0
     "@plone-collective/volto-authomatic": 2.0.1
