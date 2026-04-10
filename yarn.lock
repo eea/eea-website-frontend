@@ -2859,16 +2859,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:4.0.1":
-  version: 4.0.1
-  resolution: "@eeacms/volto-searchlib@npm:4.0.1"
+"@eeacms/volto-searchlib@npm:4.0.2":
+  version: 4.0.2
+  resolution: "@eeacms/volto-searchlib@npm:4.0.2"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-eea-chatbot": "*"
     "@eeacms/volto-matomo": "*"
-    "@elastic/react-search-ui": 1.20.2
-    "@elastic/react-search-ui-views": 1.20.2
-    "@elastic/search-ui": 1.20.2
+    "@elastic/react-search-ui": 1.21.2
+    "@elastic/react-search-ui-views": 1.21.2
+    "@elastic/search-ui": 1.21.2
     "@visx/group": ^1.7.0
     "@visx/responsive": ^1.10.1
     "@visx/scale": ^1.11.1
@@ -2901,7 +2901,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 7e6b39e3e1c41160f513b96717ba8c2a7d063d09ea17159f5636fb960f5da7ca20f61e3e7e25b85087e330f2379bc3b604835ac79ba76a4b5c3d633848cf93cf
+  checksum: 680a7fbf2c64ef815f478973fbedf0aaed03ff23d83017e2bc235e2c3d3aa3729fc896d4e7a0c5e36b12b771e133341f0deef21f368b5b88dd597645a34035a3
   languageName: node
   linkType: hard
 
@@ -14256,7 +14256,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 14.0.1
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.1
-    "@eeacms/volto-searchlib": 4.0.1
+    "@eeacms/volto-searchlib": 4.0.2
     "@eeacms/volto-tableau": 9.0.1
     "@eeacms/volto-workflow-progress": 6.0.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
