@@ -21,12 +21,12 @@ if (configFile) {
     voltoPath = `./${jsConfig.baseUrl}/${pathsConfig['@plone/volto'][0]}`;
 }
 
-module.exports = require(`${voltoPath}/razzle.config`);
+const voltoRazzle = require(`${voltoPath}/razzle.config`);
 
 module.exports = {
-  ...module.exports,
+  ...voltoRazzle,
   plugins: [
-    ...module.exports.plugins,
+    ...voltoRazzle.plugins,
     new CompressionPlugin({
       //gzip plugin
       filename: '[path].gz[query]',
@@ -43,4 +43,17 @@ module.exports = {
       minRatio: 0.8,
     }),
   ],
+  modifyWebpackConfig: (opts) => {
+    const config = voltoRazzle.modifyWebpackConfig(opts);
+    // Suppress handsontable's bundled moment locale warnings — handsontable's
+    // package.json exports field blocks those locale paths, causing webpack to
+    // warn about every locale it tries to dynamically require.
+    config.plugins.push(
+      new opts.webpackObject.IgnorePlugin({
+        resourceRegExp: /locale/,
+        contextRegExp: /handsontable[/\\]node_modules[/\\]moment/,
+      }),
+    );
+    return config;
+  },
 };
