@@ -2374,15 +2374,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-figure@npm:9.0.1":
-  version: 9.0.1
-  resolution: "@eeacms/volto-block-data-figure@npm:9.0.1"
+"@eeacms/volto-block-data-figure@npm:9.0.2":
+  version: 9.0.2
+  resolution: "@eeacms/volto-block-data-figure@npm:9.0.2"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@eeacms/volto-widget-geolocation": "*"
     "@eeacms/volto-widget-temporal-coverage": "*"
-  checksum: 15c92b31c414f6b8c166600f844f59a3a3884d123b538c2c05891470cb0e1a2d139a450db96b07564229d748b57f34d95e46292aa874fba78c23e86fdbfe594d
+  checksum: fd95695044173638dc4bee6443a3ca105ade456de6bde4365dfe0ffb6a1c62a996e32b3977064249177414ecc5a10616b70c160c0644a9e9a2c0dff78833a048
   languageName: node
   linkType: hard
 
@@ -14211,7 +14211,7 @@ __metadata:
     "@dnd-kit/core": 6.0.8
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
-    "@eeacms/volto-block-data-figure": 9.0.1
+    "@eeacms/volto-block-data-figure": 9.0.2
     "@eeacms/volto-chatbot": 2.0.2
     "@eeacms/volto-citation": 2.0.1
     "@eeacms/volto-datablocks": 8.0.2
