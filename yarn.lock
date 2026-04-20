@@ -2887,14 +2887,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:*":
-  version: 8.0.0
-  resolution: "@eeacms/volto-object-widget@npm:8.0.0"
-  checksum: 9a8bd7ef8bf4ea78c2fb549b200ed86b7d08bf3991bbfcc9c3439c5b3bedd335733b8e07ba0e62f1da4d9db452d65e0c0e72e3f7b0e36a06a7374d0dea2f2f6a
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-object-widget@npm:9.1.0":
+"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:9.1.0":
   version: 9.1.0
   resolution: "@eeacms/volto-object-widget@npm:9.1.0"
   dependencies:
