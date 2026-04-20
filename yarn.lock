@@ -2349,16 +2349,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:*":
-  version: 13.0.1
-  resolution: "@eeacms/volto-accordion-block@npm:13.0.1"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-  checksum: 895bb90e6a411cb1022c2dd5f2c2a24245de8e2ec5e0aa9dfaf739bb653a05a6863090115098152b8fedc696a4ede4f52f8458a0375f37aa3a8010e140a51fbd
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-accordion-block@npm:13.0.2":
+"@eeacms/volto-accordion-block@npm:*, @eeacms/volto-accordion-block@npm:13.0.2":
   version: 13.0.2
   resolution: "@eeacms/volto-accordion-block@npm:13.0.2"
   dependencies:
@@ -2755,14 +2746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-group-block@npm:*":
-  version: 10.0.1
-  resolution: "@eeacms/volto-group-block@npm:10.0.1"
-  checksum: a48f0772e3276f2e8c2462458ab1abf145008bebc1575bd1affe0e8f05fb8d4ed251a1362f77bbdb1d3be14d16c2afe4a57694174874e6b8300059ce471da1c6
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-group-block@npm:10.0.2":
+"@eeacms/volto-group-block@npm:*, @eeacms/volto-group-block@npm:10.0.2":
   version: 10.0.2
   resolution: "@eeacms/volto-group-block@npm:10.0.2"
   checksum: b2c8db5d4a44512bbdf5a55e86c42b6618be221fb274140554dbe6690e10b11df18423537d6a1cf1e5c38b5102dad74683b41fd1a3c111307e7d558897029b2f
@@ -2819,14 +2803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:*":
-  version: 9.0.1
-  resolution: "@eeacms/volto-object-widget@npm:9.0.1"
-  checksum: 49febb916b64d77d9984ad52b49254723caca3acf3c2c129df94e677095a2d275862b9294362db3044f8a1645b559ba92d7a570491aff9eed4713b28a89ddb26
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-object-widget@npm:9.1.0":
+"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:9.1.0":
   version: 9.1.0
   resolution: "@eeacms/volto-object-widget@npm:9.1.0"
   dependencies:
@@ -2835,9 +2812,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:14.0.1":
-  version: 14.0.1
-  resolution: "@eeacms/volto-plotlycharts@npm:14.0.1"
+"@eeacms/volto-plotlycharts@npm:14.0.2":
+  version: 14.0.2
+  resolution: "@eeacms/volto-plotlycharts@npm:14.0.2"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
@@ -2850,7 +2827,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: 1b25ca2f80ad0fb5ba207e9c6b3062123858c7d14e7efad23b7f890d2a52d38fa08c28f83b19cd3d90075ea20ec38fcbff702b570932794b6c1737ba37f1b91c
+  checksum: 01b08110c11de9069174bb8a2884e01a3b8d8898a6ff9cc131e60b488a8b9b7b2c7d5b7d5fb8fbbc20aa9fe51d74ddec35319220a1b12d398a54f446870d5788
   languageName: node
   linkType: hard
 
@@ -3039,17 +3016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-geolocation@npm:*":
-  version: 7.0.1
-  resolution: "@eeacms/volto-widget-geolocation@npm:7.0.1"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    i18n-iso-countries: 6.2.1
-  checksum: c61845e61eb629cf2efad588a44181116d6bb68aa54350c38df260661f7061d28c8ed0113a9dfb5405c3d919a83edb0e0fbc7b7f282ad52288075a4da5c8db80
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-widget-geolocation@npm:7.0.3":
+"@eeacms/volto-widget-geolocation@npm:*, @eeacms/volto-widget-geolocation@npm:7.0.3":
   version: 7.0.3
   resolution: "@eeacms/volto-widget-geolocation@npm:7.0.3"
   dependencies:
@@ -5456,16 +5423,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto-slate@npm:18.9.0":
-  version: 18.9.0
-  resolution: "@plone/volto-slate@npm:18.9.0"
+"@plone/volto-slate@npm:18.9.1":
+  version: 18.9.1
+  resolution: "@plone/volto-slate@npm:18.9.1"
   dependencies:
     classnames: 2.5.1
     github-slugger: 1.4.0
     image-extensions: 1.1.0
     is-hotkey: 0.2.0
     is-url: 1.2.4
-    jsdom: ^16.6.0
     lodash: 4.17.23
     react-intersection-observer: 9.1.0
     react-intl: 3.12.1
@@ -5483,13 +5449,13 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 66f91c1166c114094361078857a2c10a416da28d02aedc5e2d71699283f7f1bd0bce730322c160bdcd83539c0eab77064ad442fab84ff64fd1f2ff55941ea681
+  checksum: e8b8225423704fec1682533b8d1e7cd03d251db428387f3459dd2da03024a67d3ddf934b17a76f252faf25cf8221fe255202f8f49d9c4dea34ce1048a67364bb
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:18.33.0":
-  version: 18.33.0
-  resolution: "@plone/volto@npm:18.33.0"
+"@plone/volto@npm:18.33.1":
+  version: 18.33.1
+  resolution: "@plone/volto@npm:18.33.1"
   dependencies:
     "@dnd-kit/core": 6.0.8
     "@dnd-kit/sortable": 7.0.2
@@ -5498,7 +5464,7 @@ __metadata:
     "@loadable/server": 5.14.0
     "@plone/registry": 2.7.1
     "@plone/scripts": 3.10.5
-    "@plone/volto-slate": 18.9.0
+    "@plone/volto-slate": 18.9.1
     "@redux-devtools/extension": ^3.3.0
     classnames: 2.5.1
     connected-react-router: 6.8.0
@@ -5587,7 +5553,7 @@ __metadata:
     url: ^0.11.3
     use-deep-compare-effect: 1.8.1
     uuid: ^8.3.2
-  checksum: 7a2e392a1d7fb64a0b17e24904586949c92b91d0192b17660cda3d67e23b10245f2718a611626bc538d730afa5bc2ef9b9fa3bc96152e448b8b9a8734ea7a130
+  checksum: e9998f5ad184ef6b382cc634cdd78cdb3f423f29398419f6991984d6ae0c75445c15befbe7bdfbe7fb31628376d395aad34c4af3ec0f4de85d7f84adb0b48f55
   languageName: node
   linkType: hard
 
@@ -14267,7 +14233,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 1.0.2
     "@eeacms/volto-flourish": 1.0.1
     "@eeacms/volto-globalsearch": 4.0.1
-    "@eeacms/volto-plotlycharts": 14.0.1
+    "@eeacms/volto-plotlycharts": 14.0.2
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.1
     "@eeacms/volto-searchlib": 4.0.2
@@ -14283,7 +14249,7 @@ __metadata:
     "@plone-collective/volto-rss-provider": 1.0.1
     "@plone/scripts": ^3.6.0
     "@plone/types": 1.6.1
-    "@plone/volto": 18.33.0
+    "@plone/volto": 18.33.1
     "@redux-devtools/extension": ^3.3.0
     "@sinonjs/fake-timers": ^6.0.1
     "@storybook/addon-actions": ^8.0.4
@@ -20494,7 +20460,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdom@npm:^16.4.0, jsdom@npm:^16.6.0, jsdom@npm:^16.7.0":
+"jsdom@npm:^16.4.0, jsdom@npm:^16.7.0":
   version: 16.7.0
   resolution: "jsdom@npm:16.7.0"
   dependencies:
