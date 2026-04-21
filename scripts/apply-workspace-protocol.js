@@ -2,65 +2,138 @@
 const fs = require('fs');
 const path = require('path');
 
-const jsconfigPath = path.join(__dirname, '..', 'jsconfig.json');
-const packagePath = path.join(__dirname, '..', 'package.json');
-const backupPath = path.join(__dirname, '..', 'package.json.backup');
+const rootPath = path.join(__dirname, '..');
+const addonsPath = path.join(rootPath, 'src', 'addons');
+const lockfilePath = path.join(rootPath, 'yarn.lock');
+const releaseOnlyPackages = new Set(['@eeacms/countup']);
+const releaseOnlyWorkspaceGlobs = ['!src/addons/countup'];
+
+const backupFile = (filePath) => {
+  if (!fs.existsSync(filePath)) {
+    return false;
+  }
+
+  const backupPath = `${filePath}.backup`;
+  if (!fs.existsSync(backupPath)) {
+    fs.copyFileSync(filePath, backupPath);
+    return true;
+  }
+
+  return false;
+};
+
+const getPackagePaths = () => {
+  const packagePaths = [path.join(rootPath, 'package.json')];
+
+  if (!fs.existsSync(addonsPath)) {
+    return packagePaths;
+  }
+
+  const addonPackagePaths = fs
+    .readdirSync(addonsPath)
+    .sort()
+    .map((entry) => path.join(addonsPath, entry, 'package.json'))
+    .filter((packagePath) => fs.existsSync(packagePath));
+
+  return [...packagePaths, ...addonPackagePaths];
+};
+
+const packagePaths = getPackagePaths();
 
 console.log('📦 Applying workspace protocol for development...');
 
-// Read jsconfig.json to find workspace packages
-const jsconfig = JSON.parse(fs.readFileSync(jsconfigPath, 'utf8'));
-const workspacePaths = jsconfig.compilerOptions?.paths || {};
+const addonPackages = packagePaths
+  .filter((packagePath) => packagePath !== path.join(rootPath, 'package.json'))
+  .map((packagePath) => ({
+    packagePath,
+    name: JSON.parse(fs.readFileSync(packagePath, 'utf8')).name,
+  }))
+  .filter((pkg) => Boolean(pkg.name));
 
-// Extract workspace package names (those pointing to addons/*/src)
-const workspacePackages = Object.keys(workspacePaths)
-  .filter(key => {
-    const paths = workspacePaths[key];
-    return Array.isArray(paths) && paths.some(p => p.startsWith('addons/'));
-  });
+const workspacePackages = addonPackages
+  .map((pkg) => pkg.name)
+  .filter((pkgName) => !releaseOnlyPackages.has(pkgName))
+  .filter(Boolean);
 
 if (workspacePackages.length === 0) {
-  console.log('⚠️  No workspace packages found in jsconfig.json');
+  console.log('⚠️  No workspace packages found in src/addons');
   process.exit(0);
 }
 
-console.log(`   Found ${workspacePackages.length} workspace packages in jsconfig.json`);
+console.log(
+  `   Found ${workspacePackages.length} workspace packages in src/addons`,
+);
 
-// Read package.json
-const packageJson = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
+const releasePackagesFound = addonPackages
+  .map((pkg) => pkg.name)
+  .filter((pkgName) => releaseOnlyPackages.has(pkgName));
 
-// Backup original
-fs.writeFileSync(backupPath, JSON.stringify(packageJson, null, 2) + '\n');
-console.log('   ✓ Backed up package.json');
+if (releasePackagesFound.length > 0) {
+  console.log(
+    `   Keeping ${releasePackagesFound.join(', ')} on released packages`,
+  );
+}
 
-// Update dependencies to use workspace:*
-let updatedCount = 0;
-workspacePackages.forEach(pkg => {
-  if (packageJson.dependencies && packageJson.dependencies[pkg]) {
-    packageJson.dependencies[pkg] = 'workspace:*';
-    updatedCount++;
+if (backupFile(lockfilePath)) {
+  console.log(`   ✓ Backed up ${path.relative(rootPath, lockfilePath)}`);
+}
+
+packagePaths.forEach((packagePath) => {
+  if (!fs.existsSync(packagePath)) {
+    console.log(`   ⚠️  Skipping missing ${path.relative(rootPath, packagePath)}`);
+    return;
   }
-});
 
-console.log(`   ✓ Updated ${updatedCount} dependencies to workspace:*`);
+  const packageJson = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
+  const packageLabel = path.relative(rootPath, packagePath);
 
-// Remove workspace packages from resolutions
-let removedCount = 0;
-if (packageJson.resolutions) {
-  workspacePackages.forEach(pkg => {
-    if (packageJson.resolutions[pkg]) {
-      delete packageJson.resolutions[pkg];
-      removedCount++;
-    }
+  if (backupFile(packagePath)) {
+    console.log(`   ✓ Backed up ${packageLabel}`);
+  }
+
+  if (
+    packageLabel === 'package.json' &&
+    Array.isArray(packageJson.workspaces)
+  ) {
+    releaseOnlyWorkspaceGlobs.forEach((workspaceGlob) => {
+      if (!packageJson.workspaces.includes(workspaceGlob)) {
+        packageJson.workspaces.push(workspaceGlob);
+      }
+    });
+  }
+
+  let updatedCount = 0;
+  ['dependencies', 'devDependencies'].forEach((section) => {
+    if (!packageJson[section]) return;
+
+    workspacePackages.forEach((pkg) => {
+      if (packageJson[section][pkg]) {
+        packageJson[section][pkg] = 'workspace:*';
+        updatedCount++;
+      }
+    });
   });
-}
 
-if (removedCount > 0) {
-  console.log(`   ✓ Removed ${removedCount} packages from resolutions`);
-}
+  console.log(
+    `   ✓ Updated ${updatedCount} dependencies in ${packageLabel} to workspace:*`,
+  );
 
-// Write updated package.json
-fs.writeFileSync(packagePath, JSON.stringify(packageJson, null, 2) + '\n');
+  let removedCount = 0;
+  if (packageJson.resolutions) {
+    workspacePackages.forEach((pkg) => {
+      if (packageJson.resolutions[pkg]) {
+        delete packageJson.resolutions[pkg];
+        removedCount++;
+      }
+    });
+  }
+
+  if (removedCount > 0) {
+    console.log(`   ✓ Removed ${removedCount} packages from resolutions in ${packageLabel}`);
+  }
+
+  fs.writeFileSync(packagePath, JSON.stringify(packageJson, null, 2) + '\n');
+});
 
 console.log('✅ Workspace protocol applied');
 console.log('   Run yarn install with these workspace overrides');
