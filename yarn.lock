@@ -2736,6 +2736,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-genai-blocks@github:eea/volto-genai-blocks#develop":
+  version: 0.1.0
+  resolution: "@eeacms/volto-genai-blocks@https://github.com/eea/volto-genai-blocks.git#commit=3b081d0811634d269b9b1c2478fb46fe7aca1f7c"
+  checksum: f1f594e2cfa137d9350c7f659cc017ec4cd0d5f6dba1bd98c4db42fbfd0cc46fc276ce429af1428200f52141ee6dc4b97308744dd805d3fe8f12b8a033b676eb
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-globalsearch@npm:4.0.1":
   version: 4.0.1
   resolution: "@eeacms/volto-globalsearch@npm:4.0.1"
@@ -14232,6 +14239,7 @@ __metadata:
     "@eeacms/volto-embed-content": 1.0.1
     "@eeacms/volto-embed-static-content": 1.0.2
     "@eeacms/volto-flourish": 1.0.1
+    "@eeacms/volto-genai-blocks": "github:eea/volto-genai-blocks#develop"
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-plotlycharts": 14.0.2
     "@eeacms/volto-redirector": 1.0.1
