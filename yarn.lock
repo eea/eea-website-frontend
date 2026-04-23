@@ -2582,9 +2582,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.60.1":
-  version: 1.60.1
-  resolution: "@eeacms/volto-eea-design-system@npm:1.60.1"
+"@eeacms/volto-eea-design-system@npm:1.60.2":
+  version: 1.60.2
+  resolution: "@eeacms/volto-eea-design-system@npm:1.60.2"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2593,7 +2593,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 59427ce0a4c206a7f9e0c46254724b2530f3d26aab94fa9e58c94cb8377df90822e625dc0c522f593efa2c1fdbd7119a5379a0119363165327d53a0716430ad8
+  checksum: 7bc46a293dd79becaa118f1172497de4377be20a8a998c6ae308cbf1a0314357c03ece0807c842ab45ed81f0088f1b54a84c99e98de72820029ab8fe53fe346f
   languageName: node
   linkType: hard
 
@@ -2739,7 +2739,7 @@ __metadata:
 "@eeacms/volto-genai-blocks@github:eea/volto-genai-blocks#develop":
   version: 0.1.0
   resolution: "@eeacms/volto-genai-blocks@https://github.com/eea/volto-genai-blocks.git#commit=3b081d0811634d269b9b1c2478fb46fe7aca1f7c"
-  checksum: f1f594e2cfa137d9350c7f659cc017ec4cd0d5f6dba1bd98c4db42fbfd0cc46fc276ce429af1428200f52141ee6dc4b97308744dd805d3fe8f12b8a033b676eb
+  checksum: b3bd91e002ad3dd0c10ada451a10ac63419b8573c6ec86c0b39e4e019ffb8a444acddb99682bb9e8f78d3934ec4840dcaa13d6720a55ca0ba4a5e1651dbdab55
   languageName: node
   linkType: hard
 
@@ -14229,7 +14229,7 @@ __metadata:
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": 2.0.2
-    "@eeacms/volto-eea-design-system": 1.60.1
+    "@eeacms/volto-eea-design-system": 1.60.2
     "@eeacms/volto-eea-kitkat": 33.0.1
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-versions": 2.0.1
