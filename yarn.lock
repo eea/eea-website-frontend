@@ -2349,16 +2349,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:*":
-  version: 13.0.2
-  resolution: "@eeacms/volto-accordion-block@npm:13.0.2"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-  checksum: 8b440f488c785c88f8cd9d796d5f69f7627bf13633c3ba651059843ed3eab8ef60b5f033eb549f9694496201b06b6ac620c20ff656452265bd1a9d9e1bfe988c
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-accordion-block@npm:13.0.3":
+"@eeacms/volto-accordion-block@npm:*, @eeacms/volto-accordion-block@npm:13.0.3":
   version: 13.0.3
   resolution: "@eeacms/volto-accordion-block@npm:13.0.3"
   dependencies:
@@ -2755,14 +2746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-group-block@npm:*":
-  version: 10.0.2
-  resolution: "@eeacms/volto-group-block@npm:10.0.2"
-  checksum: b2c8db5d4a44512bbdf5a55e86c42b6618be221fb274140554dbe6690e10b11df18423537d6a1cf1e5c38b5102dad74683b41fd1a3c111307e7d558897029b2f
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-group-block@npm:10.0.3":
+"@eeacms/volto-group-block@npm:*, @eeacms/volto-group-block@npm:10.0.3":
   version: 10.0.3
   resolution: "@eeacms/volto-group-block@npm:10.0.3"
   checksum: 57a7f896a71a4010bda6f419743b718aaf07b72cda2178d8e4689b0b6d284b8524e5219c00cd7a53822f46ae90d8d6c0cab0c4faedff8a00614750a9649913c3
@@ -2930,14 +2914,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-footnote@npm:*":
-  version: 8.0.1
-  resolution: "@eeacms/volto-slate-footnote@npm:8.0.1"
-  checksum: ebf187ebf7a46c408f80682b6a0f5d9b8162817d0e4b59149fb9d898f6e61452d05537f8afb41dc21ac500e6937eb43c942d17b4f4b034c4b0384097a4de5a48
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-slate-footnote@npm:8.0.2":
+"@eeacms/volto-slate-footnote@npm:*, @eeacms/volto-slate-footnote@npm:8.0.2":
   version: 8.0.2
   resolution: "@eeacms/volto-slate-footnote@npm:8.0.2"
   checksum: 78709389900a88904373166a47606dab3ebf6910222fbaa7079cc3f00f421ba5f64e132df7a9b7c793bf611c6daff7752bc6da8ee5e99f91b7490d1c2ac8f2bd
