@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ Github utils
 """
 import base64
+import contextlib
+import csv
+import json
+import logging
 import os
 import sys
-import json
-from six.moves import urllib
-import logging
-import contextlib
+from configparser import ConfigParser
 from datetime import datetime
-from configparser import SafeConfigParser
+from urllib import error, request
 
 
 class Github(object):
@@ -62,12 +63,14 @@ class Github(object):
         self.username = ""
         self.password = ""
         self.token = os.environ.get("GITHUB_TOKEN", "")
+        self._output = csv.writer(sys.stdout, delimiter="\t", lineterminator="\n")
+        self._header_written = False
 
         self.loglevel = loglevel
         self._logger = None
         self.logpath = logpath
         if exclude:
-            self.logger.warning("Exclude %s", ", ".join(exclude))
+            self.logger.info("Exclude %s", ", ".join(exclude))
             self.exclude = exclude
         else:
             self.exclude = []
@@ -77,13 +80,12 @@ class Github(object):
         """Get github credentials"""
         if not (self.username or self.password):
             cfg_file = os.path.expanduser("~/.github")
-            if not os.path.exists(cfg_file):
-                with contextlib.closing(open(cfg_file, "w")) as cfg:
-                    cfg.write("[github]\nusername:\npassword:\n")
-            config = SafeConfigParser()
-            config.read([cfg_file])
-            self.username = config.get("github", "username")
-            self.password = config.get("github", "password")
+            if os.path.exists(cfg_file):
+                config = ConfigParser()
+                config.read([cfg_file])
+                if config.has_section("github"):
+                    self.username = config.get("github", "username", fallback="")
+                    self.password = config.get("github", "password", fallback="")
 
         return {
             "username": self.username,
@@ -92,16 +94,15 @@ class Github(object):
 
     def request(self, url):
         """Complex request"""
-        req = urllib.request.Request(url)
+        req = request.Request(url)
         if self.token:
             req.add_header("Authorization", "token %s" % self.token)
-        else:
+        elif self.credentials["username"] or self.credentials["password"]:
+            auth = "%(username)s:%(password)s" % self.credentials
             req.add_header(
                 "Authorization",
                 "Basic "
-                + base64.urlsafe_b64encode(
-                    "%(username)s:%(password)s" % self.credentials
-                ),
+                + base64.b64encode(auth.encode("utf-8")).decode("ascii"),
             )
         req.add_header("Content-Type", "application/json")
         req.add_header("Accept", "application/json")
@@ -139,7 +140,7 @@ class Github(object):
         url = repo.get("url", "") + "/pulls"
         try:
             with contextlib.closing(
-                urllib.request.urlopen(self.request(url), timeout=self.timeout)
+                request.urlopen(self.request(url), timeout=self.timeout)
             ) as conn:
                 pulls = json.loads(conn.read())
                 for pull in pulls:
@@ -147,28 +148,27 @@ class Github(object):
                     updated_at = datetime.strptime(
                         pull.get("updated_at", ""), "%Y-%m-%dT%H:%M:%SZ"
                     )
-                    self.logger.warning(
-                        "%s \t %s \t %s \t %s \t %s",
-                        updated_at.strftime("%d %b %Y"),
+                    self.write_row(
+                        updated_at.strftime("%Y-%m-%d"),
                         name,
                         pull.get("html_url", "-"),
-                        pull.get("user").get("login"),
+                        (pull.get("user") or {}).get("login", "-"),
                         pull.get("title", "-"),
                     )
-        except urllib.error.HTTPError as err:
+        except error.HTTPError as err:
             self.logger.warning("%s \t %s", str(err), url)
 
         url = repo.get("url", "") + "/forks"
         try:
             with contextlib.closing(
-                urllib.request.urlopen(self.request(url), timeout=self.timeout)
+                request.urlopen(self.request(url), timeout=self.timeout)
             ) as conn:
                 forks = json.loads(conn.read())
                 for fork in forks:
                     if "/collective/" in fork.get("url", ""):
                         self.check_pulls(fork)
                         break
-        except urllib.error.HTTPError as err:
+        except error.HTTPError as err:
             self.logger.warning("%s \t %s", str(err), url)
 
     def check_repo(self, repo):
@@ -192,22 +192,26 @@ class Github(object):
     def start(self):
         """Start syncing"""
         self.repos = []
+        self.ensure_header()
         with contextlib.closing(
-            urllib.request.urlopen(self.sources, timeout=self.timeout)
+            request.urlopen(self.sources, timeout=self.timeout)
         ) as conn:
             config = json.load(conn)
-            for path in config["compilerOptions"]["paths"]:
-                repo_name = path.replace("@eeacms/", "").strip()
-                repo_full_name = "eea/{name}".format(name=repo_name)
-                repo_url = "https://api.github.com/repos/eea/{name}".format(
-                    name=repo_name
-                )
-                if "collective/" in path:
-                    repo_name = path.replace("@plone-collective/", "").strip()
+            for package_name in config["compilerOptions"]["paths"]:
+                if package_name.startswith("@eeacms/"):
+                    repo_name = package_name.replace("@eeacms/", "").strip()
+                    repo_full_name = "eea/{name}".format(name=repo_name)
+                    repo_url = "https://api.github.com/repos/eea/{name}".format(
+                        name=repo_name
+                    )
+                elif package_name.startswith("@plone-collective/"):
+                    repo_name = package_name.replace("@plone-collective/", "").strip()
                     repo_full_name = "collective/{name}".format(name=repo_name)
                     repo_url = "https://api.github.com/repos/collective/{name}".format(
                         name=repo_name
                     )
+                else:
+                    continue
                 self.repos.append(
                     {
                         "full_name": repo_full_name,
@@ -217,6 +221,17 @@ class Github(object):
         self.check_repos()
 
     __call__ = start
+
+    def write_row(self, updated_at, repository, pull_url, author, title):
+        """Write one TSV row for spreadsheet-friendly output."""
+        self.ensure_header()
+        self._output.writerow([updated_at, repository, pull_url, author, title])
+
+    def ensure_header(self):
+        """Write the TSV header once."""
+        if not self._header_written:
+            self._output.writerow(["updated_at", "repository", "url", "author", "title"])
+            self._header_written = True
 
 
 if __name__ == "__main__":

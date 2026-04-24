@@ -1,15 +1,16 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """ Github utils
 """
 import base64
+import contextlib
+import csv
+import json
+import logging
 import os
 import sys
-import json
-from six.moves import urllib
-import logging
-import contextlib
+from configparser import ConfigParser
 from datetime import datetime
-from configparser import SafeConfigParser
+from urllib import request
 
 
 class Github(object):
@@ -58,12 +59,14 @@ class Github(object):
         self.username = ''
         self.password = ''
         self.token = os.environ.get("GITHUB_TOKEN", "")
+        self._output = csv.writer(sys.stdout, delimiter="\t", lineterminator="\n")
+        self._header_written = False
 
         self.loglevel = loglevel
         self._logger = None
         self.logpath = logpath
         if include:
-            self.logger.warning("Include %s", ', '.join(include))
+            self.logger.info("Include %s", ', '.join(include))
             self.include = include
         else:
             self.include = []
@@ -74,13 +77,12 @@ class Github(object):
         """
         if not (self.username or self.password):
             cfg_file = os.path.expanduser("~/.github")
-            if not os.path.exists(cfg_file):
-                with contextlib.closing(open(cfg_file, 'w')) as cfg:
-                    cfg.write("[github]\nusername:\npassword:\n")
-            config = SafeConfigParser()
-            config.read([cfg_file])
-            self.username = config.get('github', 'username')
-            self.password = config.get('github', 'password')
+            if os.path.exists(cfg_file):
+                config = ConfigParser()
+                config.read([cfg_file])
+                if config.has_section('github'):
+                    self.username = config.get('github', 'username', fallback='')
+                    self.password = config.get('github', 'password', fallback='')
 
         return {
             'username': self.username,
@@ -90,12 +92,15 @@ class Github(object):
     def request(self, url):
         """ Complex request
         """
-        req = urllib.request.Request(url)
+        req = request.Request(url)
         if self.token:
             req.add_header("Authorization", "token %s" % self.token)
-        else:
-            req.add_header("Authorization", "Basic " + base64.urlsafe_b64encode(
-                "%(username)s:%(password)s" % self.credentials))
+        elif self.credentials['username'] or self.credentials['password']:
+            auth = "%(username)s:%(password)s" % self.credentials
+            req.add_header(
+                "Authorization",
+                "Basic " + base64.b64encode(auth.encode("utf-8")).decode("ascii"),
+            )
         req.add_header("Content-Type", "application/json")
         req.add_header("Accept", "application/json")
         return req
@@ -141,18 +146,27 @@ class Github(object):
         self.logger.info('Checking repo pulls: %s', name)
         url = repo.get('url', '') + '/pulls'
         try:
-            with contextlib.closing(urllib.request.urlopen(
+            with contextlib.closing(request.urlopen(
                 self.request(url), timeout=self.timeout)) as conn:
                 pulls = json.loads(conn.read())
                 for pull in pulls:
                     self.status = 1
-                    self.logger.warning("%s - %s - %s - %s", pull.get('user').get('login'), name, pull.get('title', '-'), pull.get('html_url', '-'))
+                    updated_at = datetime.strptime(
+                        pull.get("updated_at", ""), "%Y-%m-%dT%H:%M:%SZ"
+                    )
+                    self.write_row(
+                        updated_at.strftime("%Y-%m-%d"),
+                        name,
+                        pull.get('html_url', '-'),
+                        (pull.get('user') or {}).get('login', '-'),
+                        pull.get('title', '-'),
+                    )
         except Exception as err:
             self.logger.exception(err)
 
         url = repo.get('url', '') + '/forks'
         try:
-            with contextlib.closing(urllib.request.urlopen(
+            with contextlib.closing(request.urlopen(
                 self.request(url), timeout=self.timeout)) as conn:
                 forks = json.loads(conn.read())
                 for fork in forks:
@@ -186,10 +200,11 @@ class Github(object):
         """ Start syncing
         """
         self.repos = []
+        self.ensure_header()
         links = [self.github % count for count in range(1,100)]
         try:
             for link in links:
-                with contextlib.closing(urllib.request.urlopen(
+                with contextlib.closing(request.urlopen(
                         self.request(link), timeout=self.timeout)) as conn:
                     repos = json.loads(conn.read())
                     if not repos:
@@ -201,6 +216,17 @@ class Github(object):
             self.logger.exception(err)
 
     __call__ = start
+
+    def write_row(self, updated_at, repository, pull_url, author, title):
+        """Write one TSV row for spreadsheet-friendly output."""
+        self.ensure_header()
+        self._output.writerow([updated_at, repository, pull_url, author, title])
+
+    def ensure_header(self):
+        """Write the TSV header once."""
+        if not self._header_written:
+            self._output.writerow(["updated_at", "repository", "url", "author", "title"])
+            self._header_written = True
 
 if __name__ == "__main__":
     LOG = len(sys.argv) > 1 and sys.argv[1] or 'info'

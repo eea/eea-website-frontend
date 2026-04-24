@@ -1,5 +1,6 @@
 # Folders
 .git
+**/.git
 .yarn/cache
 .storybook
 build
@@ -7,6 +8,7 @@ cache
 locales/*.json
 node_modules
 omelette
+src/addons
 
 # Files
 .env

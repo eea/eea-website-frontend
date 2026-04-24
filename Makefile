@@ -105,11 +105,11 @@ update: 		## git pull all src/addons
 
 .PHONY: issues
 issues: 		## Check github for open pull-requests
-	./scripts/pull-requests.py WARN
+	python3 ./scripts/pull-requests.py WARN
 
 .PHONY: issues-all
 issues-all: 	## Check github for open pull-requests
-	./scripts/pull-requests-volto.py WARN
+	python3 ./scripts/pull-requests-volto.py WARN
 
 .PHONY: status
 status: 		## Check src/addons for changes
