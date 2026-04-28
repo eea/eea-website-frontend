@@ -2803,16 +2803,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-object-widget@npm:*":
-  version: 9.1.0
-  resolution: "@eeacms/volto-object-widget@npm:9.1.0"
-  dependencies:
-    jsoneditor: 10.2.0
-  checksum: 54e8b9f4ee17b572db4dd6fff3a12d0ebba7d656b927d595ec9dafafd1325c709520b58513d06a7a702c5ed3c2afa404f2044a2b83b48bee3b071516b62fb764
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-object-widget@npm:9.1.1":
+"@eeacms/volto-object-widget@npm:*, @eeacms/volto-object-widget@npm:9.1.1":
   version: 9.1.1
   resolution: "@eeacms/volto-object-widget@npm:9.1.1"
   dependencies:
@@ -3025,17 +3016,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-geolocation@npm:*":
-  version: 7.0.3
-  resolution: "@eeacms/volto-widget-geolocation@npm:7.0.3"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    i18n-iso-countries: 6.2.1
-  checksum: 255cbed9f0c1c6b2aea4246cc5513aae4188cc45b91c8cd0defbcdf3ee1c20bbef74236921ae1332f8e092e273f7ba2bb6f98f59ec82acfeff15e3b949cc75a5
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-widget-geolocation@npm:7.0.4":
+"@eeacms/volto-widget-geolocation@npm:*, @eeacms/volto-widget-geolocation@npm:7.0.4":
   version: 7.0.4
   resolution: "@eeacms/volto-widget-geolocation@npm:7.0.4"
   dependencies:
