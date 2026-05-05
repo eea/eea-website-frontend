@@ -2738,8 +2738,8 @@ __metadata:
 
 "@eeacms/volto-genai-blocks@github:eea/volto-genai-blocks#develop":
   version: 0.1.0
-  resolution: "@eeacms/volto-genai-blocks@https://github.com/eea/volto-genai-blocks.git#commit=3b081d0811634d269b9b1c2478fb46fe7aca1f7c"
-  checksum: b3bd91e002ad3dd0c10ada451a10ac63419b8573c6ec86c0b39e4e019ffb8a444acddb99682bb9e8f78d3934ec4840dcaa13d6720a55ca0ba4a5e1651dbdab55
+  resolution: "@eeacms/volto-genai-blocks@https://github.com/eea/volto-genai-blocks.git#commit=e87d8a5d03371a742740ce658e17ded2acc0d5e9"
+  checksum: 95d520d97c90715bbe554acdf7b2d9e3ef4d030d18c9c82eee0829452e8ce20911c85895206e44c722e1cdf57c408760538e7bfa716134269da143e421c7aca1
   languageName: node
   linkType: hard
 
