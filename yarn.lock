@@ -2560,9 +2560,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.2"
+"@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#develop":
+  version: 2.0.3
+  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=93469d77aad99a911fcf96142f16c699b714d023"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2578,7 +2578,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 6a5cfe630565df515d64adb68fb206fc00e434f524633d3ac0c89c866615abefffa2338d06dbd9a6ad53fd4c049c2f6e2a45d3018f98704318e53879b4677957
+  checksum: 438947fecb4cae435c36c84c8b7dcb75dac210225065ff6ba5f2712ca1576ae4b37bbb9e0de2ec082e47a4e659d7703f4d10af087f00e55c7b6a65374222fdfb
   languageName: node
   linkType: hard
 
@@ -2868,9 +2868,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:4.0.3":
-  version: 4.0.3
-  resolution: "@eeacms/volto-searchlib@npm:4.0.3"
+"@eeacms/volto-searchlib@github:eea/volto-searchlib#develop":
+  version: 4.0.4
+  resolution: "@eeacms/volto-searchlib@https://github.com/eea/volto-searchlib.git#commit=005b5ff319b90042284be4686aa89e0392bb0aa2"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-eea-chatbot": "*"
@@ -2910,7 +2910,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 756ada1a64eec91a54e5d65db17a66b670229454727d50ad0ae9e90762af9f70eaf3eaa47c78abec986b344f6530b4bdda9f74c0c3198228fb352a19012a8700
+  checksum: 75a3514c0b1a3d05b7d25dc3dc9c84d8b4a5b00ae477ee849c7fb21780cce0bfc18cb2a08a26b70a746ffe28282b5180e9391b76a37d1f78dfb37716533f8c17
   languageName: node
   linkType: hard
 
@@ -14259,7 +14259,7 @@ __metadata:
     "@eeacms/volto-datahub": 3.0.2
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": 2.0.2
+    "@eeacms/volto-eea-chatbot": "github:eea/volto-eea-chatbot#develop"
     "@eeacms/volto-eea-design-system": 1.60.3
     "@eeacms/volto-eea-kitkat": 33.0.4
     "@eeacms/volto-eea-map": 6.0.1
@@ -14275,7 +14275,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 14.0.3
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.1
-    "@eeacms/volto-searchlib": 4.0.3
+    "@eeacms/volto-searchlib": "github:eea/volto-searchlib#develop"
     "@eeacms/volto-tableau": 9.0.1
     "@eeacms/volto-workflow-progress": 6.0.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
