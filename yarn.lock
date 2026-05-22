@@ -2560,9 +2560,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#develop":
+"@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#onyx_3.x_fixes":
   version: 2.0.3
-  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=93469d77aad99a911fcf96142f16c699b714d023"
+  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=8332c2e526cdd943c9aa9978bab36492c11a700e"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2578,7 +2578,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 438947fecb4cae435c36c84c8b7dcb75dac210225065ff6ba5f2712ca1576ae4b37bbb9e0de2ec082e47a4e659d7703f4d10af087f00e55c7b6a65374222fdfb
+  checksum: 65bdc49059fe260a45db2d7501d451dd3c5b646cb95d886c3c475fbbbd0434be3b373253a08d82e0506f50b45a5dea109c3a65491b87af7644ffb3dfbbbc76c2
   languageName: node
   linkType: hard
 
@@ -14142,7 +14142,7 @@ __metadata:
     "@eeacms/volto-datahub": 3.0.2
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": "github:eea/volto-eea-chatbot#develop"
+    "@eeacms/volto-eea-chatbot": "github:eea/volto-eea-chatbot#onyx_3.x_fixes"
     "@eeacms/volto-eea-design-system": 1.60.3
     "@eeacms/volto-eea-kitkat": 33.0.4
     "@eeacms/volto-eea-map": 6.0.1
