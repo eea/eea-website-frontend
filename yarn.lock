@@ -2567,9 +2567,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.3"
+"@eeacms/volto-eea-chatbot@npm:2.0.4":
+  version: 2.0.4
+  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.4"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2585,7 +2585,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 821e2a660b842fb853a945939cc50a767ec0866e5240aa61276a1f6f1c8ac329501159319d9217a7b753155d9eaace5ead55a2caffdba07d8c644f28537b80f0
+  checksum: cb20e4e0c981c51af3fa610f3a88444da7830d18f2fb148fbafc2e3489af425305e2c6317bcc80b30e25f601390b476641237978405d2383f0c2f815e01655f2
   languageName: node
   linkType: hard
 
@@ -2604,9 +2604,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:33.0.4":
-  version: 33.0.4
-  resolution: "@eeacms/volto-eea-kitkat@npm:33.0.4"
+"@eeacms/volto-eea-kitkat@npm:33.0.5":
+  version: 33.0.5
+  resolution: "@eeacms/volto-eea-kitkat@npm:33.0.5"
   dependencies:
     "@eeacms/countup": 3.0.1
     "@eeacms/volto-accordion-block": 13.0.3
@@ -2647,8 +2647,8 @@ __metadata:
     "@eeacms/volto-widget-temporal-coverage": 7.0.1
     "@eeacms/volto-widget-theme-picker": 3.0.1
     "@eeacms/volto-widget-toggle": 5.0.1
-    "@plone-collective/volto-sentry": 0.4.0
-  checksum: c03b4fc1d082ba7bba64230a0ecfe3eeff2e75336dce63b82aa93cd6f7a6f05fd53c4233ca870eb845b0041c2c8ced2a143f96ae743a6fafd21029d4d4d41057
+    "@plone-collective/volto-sentry": 1.0.0
+  checksum: 660eefb4723fd458e223ad7cf15c263b531348e6f31525dc0d70a468e4d24cde246f30fa747b19401d9d3cfb41de3b617bd57c0b7c2f074b3d1fa5a51bb28202
   languageName: node
   linkType: hard
 
@@ -2687,9 +2687,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.3.3":
-  version: 4.3.3
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.3"
+"@eeacms/volto-eea-website-theme@npm:4.3.5":
+  version: 4.3.5
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.5"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2697,7 +2697,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 8e116b8076578eb060eac0ecbe197846c993dfa09c7241fb596be071a0fe9b96335825f6017db47f93fd8d74d9d9a00fdc92d74bf4c2cc2b32b2f329b7ffab02
+  checksum: 26243c4ae57de2a632e67e88c07b49840ccd134637fbec077b59f8872e941793aa37007fb85b80c11f6768cbadad45d487f76d262eeb719b1ae49878afb82444
   languageName: node
   linkType: hard
 
@@ -5282,12 +5282,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-authomatic@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@plone-collective/volto-authomatic@npm:2.0.1"
+"@plone-collective/volto-authomatic@npm:2.0.4":
+  version: 2.0.4
+  resolution: "@plone-collective/volto-authomatic@npm:2.0.4"
   peerDependencies:
     "@plone/volto": ">=13.8.0"
-  checksum: 3ef620d30dd7c5716a327acdd8875df3b7902d2812c9d6dd1faf4dd36fd8462b32d04b20011070edfc781d5139f7eb0745702cf147e4703c0d8bb4315e8abfaa
+  checksum: 8f5f9f88f7a26a6b512a3f7bbef7ef1d9e34f86a58e0317c2dc758b00d0e28504161ad340287bd43c48d9c31fd589db8853a605113055f703d9a64e4bfb9d889
   languageName: node
   linkType: hard
 
@@ -5302,15 +5302,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:*, @plone-collective/volto-sentry@npm:0.4.0":
-  version: 0.4.0
-  resolution: "@plone-collective/volto-sentry@npm:0.4.0"
+"@plone-collective/volto-sentry@npm:*, @plone-collective/volto-sentry@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@plone-collective/volto-sentry@npm:1.0.0"
   dependencies:
     "@sentry/browser": 7.15.0
     "@sentry/integrations": 7.15.0
     "@sentry/node": 7.15.0
     "@sentry/webpack-plugin": 1.19.1
-  checksum: db8660ac3a82320d917222e940842479f2aa2945f3e6b8614d40fc12f96b5b4eb997fb4ab92ab7087492ec0cbb653b65fd2ee0f6f37d39ad5125e9c37c233c49
+  checksum: 858253fa262c4ee9c9602b79d9f0db5fcdf822bfb9f05710bfb395275b2b8e34abfda3dfd01fb263b55ea3773bcda653849d318f0fa5252615d982dcc40c739d
   languageName: node
   linkType: hard
 
@@ -14267,13 +14267,13 @@ __metadata:
     "@eeacms/volto-datahub": 3.0.2
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": 2.0.3
+    "@eeacms/volto-eea-chatbot": 2.0.4
     "@eeacms/volto-eea-design-system": 1.60.5
-    "@eeacms/volto-eea-kitkat": 33.0.4
+    "@eeacms/volto-eea-kitkat": 33.0.5
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-versions": 2.0.1
     "@eeacms/volto-eea-website-policy": 4.0.1
-    "@eeacms/volto-eea-website-theme": 4.3.3
+    "@eeacms/volto-eea-website-theme": 4.3.5
     "@eeacms/volto-embed": 11.0.4
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
@@ -14291,7 +14291,7 @@ __metadata:
     "@loadable/component": 5.16.7
     "@loadable/server": 5.16.7
     "@loadable/webpack-plugin": 5.15.2
-    "@plone-collective/volto-authomatic": 2.0.1
+    "@plone-collective/volto-authomatic": 2.0.4
     "@plone-collective/volto-rss-provider": 1.0.1
     "@plone/scripts": ^3.6.0
     "@plone/types": 1.6.2

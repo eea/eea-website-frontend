@@ -11,6 +11,9 @@ function apply_rebuild {
 # Should we re-build
 test -n "$REBUILD" && apply_rebuild
 
+# Upload source maps to Sentry (only when SENTRY_* env vars are set)
+gosu node ./node_modules/@plone-collective/volto-sentry/scripts/create-sentry-release.sh
+
 if [[ "$1" == "yarn"* ]]; then
   echo "Starting Volto"
   exec gosu node "$@"
