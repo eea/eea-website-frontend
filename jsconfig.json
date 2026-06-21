@@ -206,9 +206,6 @@
             "@eeacms/volto-embed-content": [
                 "addons/volto-embed-content/src"
             ],
-            "@eeacms/volto-chatbot": [
-                "addons/volto-chatbot/src"
-            ],
             "@eeacms/volto-flourish": [
                 "addons/volto-flourish/src"
             ],
