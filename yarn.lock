@@ -2567,9 +2567,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:2.0.4":
-  version: 2.0.4
-  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.4"
+"@eeacms/volto-eea-chatbot@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@eeacms/volto-eea-chatbot@npm:2.0.5"
   dependencies:
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
@@ -2585,7 +2585,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: cb20e4e0c981c51af3fa610f3a88444da7830d18f2fb148fbafc2e3489af425305e2c6317bcc80b30e25f601390b476641237978405d2383f0c2f815e01655f2
+  checksum: a75826d0570a60988614c4cf936d5a384558b106d220738ed3aaf616dd463d6487145e2b7027b6c88608b188eeb2b8c43ed9309a30c73ee4c6ca8048769af3e1
   languageName: node
   linkType: hard
 
@@ -2832,9 +2832,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:14.0.5":
-  version: 14.0.5
-  resolution: "@eeacms/volto-plotlycharts@npm:14.0.5"
+"@eeacms/volto-plotlycharts@npm:14.0.6":
+  version: 14.0.6
+  resolution: "@eeacms/volto-plotlycharts@npm:14.0.6"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
@@ -2847,7 +2847,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: a9e1e5ae17a4b32db90a0a1e382f16e26bd9303e59b190e1f759afa524ce2b85563dea0dd131790b9cee6bbd4c2f9a50bc30f2250912f9fc998d6bfaa511c781
+  checksum: 50808ef6575e33318c6b1abf399b2e822eeccccb1360ee0caa31c732704d202b83c434f11bc0f1bf15cb0cd3ba4d8055ca376538b6df9a5b9529665430ee1575
   languageName: node
   linkType: hard
 
@@ -2974,14 +2974,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:9.0.3":
-  version: 9.0.3
-  resolution: "@eeacms/volto-tableau@npm:9.0.3"
+"@eeacms/volto-tableau@npm:9.0.4":
+  version: 9.0.4
+  resolution: "@eeacms/volto-tableau@npm:9.0.4"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-resize-helper": "*"
-  checksum: 193499ebe87b184001cfa31381f611e37d8a9f1d1f372befef3119304a71d0bea5ceb6c496e1a6be13a483897a335f7c83dac2bb8506f8bfe7a666cabff72659
+  checksum: 321e9278a4e31ad643ad62b3f4e05527a23cc567d44b7654a55ec5a0e226b1b072f669cdfb592daafbe3422caa552850f718cadd364b646f238a09212946b1b9
   languageName: node
   linkType: hard
 
@@ -14292,7 +14292,7 @@ __metadata:
     "@eeacms/volto-datahub": 3.0.2
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": 2.0.4
+    "@eeacms/volto-eea-chatbot": 2.0.5
     "@eeacms/volto-eea-design-system": 1.60.8
     "@eeacms/volto-eea-kitkat": 33.0.7
     "@eeacms/volto-eea-map": 6.0.1
@@ -14304,11 +14304,11 @@ __metadata:
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-flourish": 1.0.1
     "@eeacms/volto-globalsearch": 4.0.1
-    "@eeacms/volto-plotlycharts": 14.0.5
+    "@eeacms/volto-plotlycharts": 14.0.6
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.2
     "@eeacms/volto-searchlib": 4.1.1
-    "@eeacms/volto-tableau": 9.0.3
+    "@eeacms/volto-tableau": 9.0.4
     "@eeacms/volto-workflow-progress": 6.0.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
     "@jest/globals": ^29.7.0
