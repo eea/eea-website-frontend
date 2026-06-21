@@ -2459,27 +2459,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@eeacms/volto-chatbot@npm:2.0.3"
-  dependencies:
-    "@eeacms/volto-matomo": "*"
-    "@microsoft/fetch-event-source": 2.0.1
-    "@plone-collective/volto-sentry": "*"
-    fast-json-patch: 3.1.1
-    highlight.js: 11.10.0
-    luxon: 3.5.0
-    marked: 13.0.3
-    node-fetch: 2.7.0
-    react-markdown: 8.0.7
-    react-textarea-autosize: ^8.5.3
-    rehype-prism-plus: 1.6.0
-    remark-gfm: 3.0.1
-    uuid: 10.0.0
-  checksum: ab0572bb6144ba8d29a6da19c51c8df5166870c0f9dbc08e243972aac60bd91dc0a5c4ec0ff37679d2ad399d04c4d72d3636eda3e6f08ebad7b8c4c93084070a
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-citation@npm:2.0.1":
   version: 2.0.1
   resolution: "@eeacms/volto-citation@npm:2.0.1"
@@ -2740,6 +2719,13 @@ __metadata:
   dependencies:
     "@eeacms/volto-embed": "*"
   checksum: 64abe8245fd5c06f2f5504a25f854d3e467dc784e14f58e2f17eb7aafeffb680aa885925dfc55e3c040b89a9c8e78341405a1dea340f673ae99cf8c41535a126
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-genai-blocks@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-genai-blocks@npm:1.0.0"
+  checksum: 5b4b269d7498fe98e6d98ae4b0f953846669a4ed8b6b07bdb10534a19fe491031fdddd547d9c4a53c3476d4c6c7e9eec6113a22586ea00216f0bdd6729eaf7fc
   languageName: node
   linkType: hard
 
@@ -14286,7 +14272,6 @@ __metadata:
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
     "@eeacms/volto-block-data-figure": 9.0.2
-    "@eeacms/volto-chatbot": 2.0.3
     "@eeacms/volto-citation": 2.0.1
     "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-datahub": 3.0.2
@@ -14303,6 +14288,7 @@ __metadata:
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-flourish": 1.0.1
+    "@eeacms/volto-genai-blocks": 1.0.0
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-plotlycharts": 14.0.6
     "@eeacms/volto-redirector": 1.0.1
