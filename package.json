@@ -68,7 +68,6 @@
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-eea-website-policy",
-    "@eeacms/volto-chatbot",
     "@eeacms/volto-eea-chatbot",
     "@plone-collective/volto-authomatic",
     "@eeacms/volto-citation",
