@@ -2459,27 +2459,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-chatbot@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@eeacms/volto-chatbot@npm:2.0.3"
-  dependencies:
-    "@eeacms/volto-matomo": "*"
-    "@microsoft/fetch-event-source": 2.0.1
-    "@plone-collective/volto-sentry": "*"
-    fast-json-patch: 3.1.1
-    highlight.js: 11.10.0
-    luxon: 3.5.0
-    marked: 13.0.3
-    node-fetch: 2.7.0
-    react-markdown: 8.0.7
-    react-textarea-autosize: ^8.5.3
-    rehype-prism-plus: 1.6.0
-    remark-gfm: 3.0.1
-    uuid: 10.0.0
-  checksum: ab0572bb6144ba8d29a6da19c51c8df5166870c0f9dbc08e243972aac60bd91dc0a5c4ec0ff37679d2ad399d04c4d72d3636eda3e6f08ebad7b8c4c93084070a
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-citation@npm:2.0.1":
   version: 2.0.1
   resolution: "@eeacms/volto-citation@npm:2.0.1"
@@ -2687,9 +2666,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.3.8":
-  version: 4.3.8
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.8"
+"@eeacms/volto-eea-website-theme@npm:4.3.9":
+  version: 4.3.9
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.3.9"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2697,7 +2676,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: c43fe9b7d0866d275e3423f2de23b0b9220a482ca8a738cc173a0dab2c45be5649ec5c3ebbf6352e5502a9fc7d427736c0818ec76d67628ed89262bfa4188705
+  checksum: 0ab2c730c6d0507bbac39f486821f401ae98497ebe0ceb484839c1a7f40a039930158004a96eda3e0851c2b6911bd216d639e87f4a0817e2ffcc513c8bfa928c
   languageName: node
   linkType: hard
 
@@ -14286,7 +14265,6 @@ __metadata:
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
     "@eeacms/volto-block-data-figure": 9.0.2
-    "@eeacms/volto-chatbot": 2.0.3
     "@eeacms/volto-citation": 2.0.1
     "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-datahub": 3.0.2
@@ -14298,7 +14276,7 @@ __metadata:
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-versions": 2.0.1
     "@eeacms/volto-eea-website-policy": 4.0.1
-    "@eeacms/volto-eea-website-theme": 4.3.8
+    "@eeacms/volto-eea-website-theme": 4.3.9
     "@eeacms/volto-embed": 11.0.4
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
