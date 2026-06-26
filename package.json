@@ -72,6 +72,7 @@
     "@plone-collective/volto-authomatic",
     "@eeacms/volto-citation",
     "@eeacms/volto-flourish",
+    "@eeacms/volto-genai-blocks",
     "volto-subsites",
     "@plone-collective/volto-rss-provider"
   ],
@@ -212,6 +213,7 @@
     "@plone-collective/volto-authomatic": "2.0.4",
     "@plone-collective/volto-rss-provider": "1.0.1",
     "@eeacms/volto-flourish": "1.0.1",
+    "@eeacms/volto-genai-blocks": "1.0.0",
     "volto-subsites": "4.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -253,6 +255,7 @@
     "@eeacms/volto-embed-content": "1.0.2",
     "@eeacms/volto-embed-static-content": "1.0.4",
     "@eeacms/volto-flourish": "1.0.1",
+    "@eeacms/volto-genai-blocks": "1.0.0",
     "@eeacms/volto-globalsearch": "4.0.1",
     "@eeacms/volto-plotlycharts": "14.0.6",
     "@eeacms/volto-redirector": "1.0.1",
