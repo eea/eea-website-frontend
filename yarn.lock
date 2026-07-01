@@ -2722,6 +2722,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-genai-blocks@npm:1.0.0":
+  version: 1.0.0
+  resolution: "@eeacms/volto-genai-blocks@npm:1.0.0"
+  checksum: 5b4b269d7498fe98e6d98ae4b0f953846669a4ed8b6b07bdb10534a19fe491031fdddd547d9c4a53c3476d4c6c7e9eec6113a22586ea00216f0bdd6729eaf7fc
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-globalsearch@npm:4.0.1":
   version: 4.0.1
   resolution: "@eeacms/volto-globalsearch@npm:4.0.1"
@@ -14269,6 +14276,7 @@ __metadata:
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-flourish": 1.0.1
+    "@eeacms/volto-genai-blocks": 1.0.0
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-plotlycharts": 14.0.6
     "@eeacms/volto-redirector": 1.0.1
