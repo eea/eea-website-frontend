@@ -42,7 +42,7 @@ class Github(object):
 
     [github]
     username: foobar
-    password: secret
+    password: secret #betterleaks:allow
 
     """
 
@@ -61,7 +61,7 @@ class Github(object):
         self.status = 0
         self.repos = []
         self.username = ""
-        self.password = ""
+        self.password = "" #betterleaks:allow
         self.token = os.environ.get("GITHUB_TOKEN", "")
         self._output = csv.writer(sys.stdout, delimiter="\t", lineterminator="\n")
         self._header_written = False
@@ -85,7 +85,7 @@ class Github(object):
                 config.read([cfg_file])
                 if config.has_section("github"):
                     self.username = config.get("github", "username", fallback="")
-                    self.password = config.get("github", "password", fallback="")
+                    self.password = config.get("github", "password", fallback="") #betterleaks:allow
 
         return {
             "username": self.username,

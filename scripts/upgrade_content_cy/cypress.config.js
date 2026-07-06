@@ -11,7 +11,7 @@ module.exports = {
     env: {
       loginRoute: process.env.CYPRESS_LOGIN_ROUTE,
       username: process.env.CYPRESS_USERNAME,
-      password: process.env.CYPRESS_PASSWORD,
+      password: process.env.CYPRESS_PASSWORD, //betterleaks:allow
       multiLingual: process.env.CYPRESS_MULTILINGUAL === 'true', // Convert string to boolean
       contentTypes: process.env.CYPRESS_CONTENT_TYPES.split(','), // Convert string to array
     },
