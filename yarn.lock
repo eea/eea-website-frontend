@@ -2649,10 +2649,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-versions@npm:2.0.1":
+"@eeacms/volto-eea-versions@github:eea/volto-eea-versions#fix-bug-genai":
   version: 2.0.1
-  resolution: "@eeacms/volto-eea-versions@npm:2.0.1"
-  checksum: 7ba81c37d6b4f284593a1631f8530e5ca15c528cb57b74ca2a16924cedee7703648fbeeef860af841fb2c94e901374069ce454f66a2bf3ae31911a9a9d8ba198
+  resolution: "@eeacms/volto-eea-versions@https://github.com/eea/volto-eea-versions.git#commit=cdc3c9745ceb4edc07a20f6eef7b956e19362a15"
+  checksum: 031c9c391c8b150b2d9cf2ecf1f329b51cbe87ef3646597f5ebb239176aad826306bf11bad1def0dfe5f94910cac2dab8516814456a7861e0bfc704f16f4f099
   languageName: node
   linkType: hard
 
@@ -14124,7 +14124,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.60.8
     "@eeacms/volto-eea-kitkat": 33.1.1
     "@eeacms/volto-eea-map": 6.0.2
-    "@eeacms/volto-eea-versions": 2.0.1
+    "@eeacms/volto-eea-versions": "github:eea/volto-eea-versions#fix-bug-genai"
     "@eeacms/volto-eea-website-policy": 4.0.1
     "@eeacms/volto-eea-website-theme": 4.4.0
     "@eeacms/volto-embed": 11.0.5
