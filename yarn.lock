@@ -2731,11 +2731,11 @@ __metadata:
 
 "@eeacms/volto-globalsearch@github:eea/volto-globalsearch#develop":
   version: 4.0.2
-  resolution: "@eeacms/volto-globalsearch@https://github.com/eea/volto-globalsearch.git#commit=00b5f530b435a9a1cdcacb34b9ede113a830a4f6"
+  resolution: "@eeacms/volto-globalsearch@https://github.com/eea/volto-globalsearch.git#commit=de0a16e71c02537c870762905ad7e83dee0b32a8"
   dependencies:
     "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-searchlib": "*"
-  checksum: ee4cde553a386c065db43e89adb4a4d1e849f1ab90ddbd7b0f42864dca02a8d46558049c1423ffc98275b1896b85242d870a1d3671b0773e36328a44cb1fe74d
+  checksum: 10df14f529c632dc5be76a0576113bba93ed7fea10e4717a9c9e2b04690d9643eb2beaa02582c9b40d5e3e392bb251cb7dd8f8a174bae599fe1970cf97e45a23
   languageName: node
   linkType: hard
 
