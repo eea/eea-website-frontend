@@ -1,7 +1,7 @@
 describe('Upgrade content', () => {
   let URL = Cypress.config('baseUrl');
   const USERNAME = Cypress.env('username');
-  const PASSWORD = Cypress.env('password');
+  const PASSWORD = Cypress.env('password'); //betterleaks:allow
   const multiLingual = Cypress.env('multiLingual');
   const contentTypes = Cypress.env('contentTypes');
   const LOGIN_ROUTE = Cypress.env('loginRoute');

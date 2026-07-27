@@ -2550,6 +2550,7 @@ __metadata:
   version: 2.0.5
   resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=b1cab8d64f0aa7856c714abd51906cc692481462"
   dependencies:
+    "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
     "@plone-collective/volto-sentry": "*"
