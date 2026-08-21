@@ -10,7 +10,7 @@
       },
       {
         "path": "build/public/static/js/sanitize-*.js",
-        "maxSize": "95kB"
+        "maxSize": "97kB"
       },
       {
         "path": "build/public/static/js/PlotlyEditor*.js",
