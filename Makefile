@@ -9,7 +9,7 @@
 #
 # Test add-ons:
 #
-#    make test src/addons/volto-accordion-block
+#    make test packages/volto-accordion-block
 #
 ##############################################################################
 # SETUP MAKE
@@ -49,58 +49,55 @@ all: develop husky
 
 .PHONY: develop
 develop:    	## Runs missdev in the local project (mrs.developer.json should be present)
-	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
-	@echo "$(MARK_COLOR)Applying workspace protocol for development...$(NO_COLOR)"
-	node scripts/apply-workspace-protocol.js
-	NODE_OPTIONS="--max-old-space-size=16384" yarn install
-	node scripts/restore-production-package.js
+	pnpm develop
+	NODE_OPTIONS="--max-old-space-size=16384" pnpm install
+	pnpm build:deps
+
+.PHONY: ci-install
+ci-install:		## Fetch workspaces and perform an immutable CI install
+	pnpm develop
+	NODE_OPTIONS="--max-old-space-size=16384" pnpm install --frozen-lockfile
+	pnpm build:deps
 
 .PHONY: install
 install:		## Install project and add-ons
-	NODE_OPTIONS="--max-old-space-size=16384" yarn install
+	NODE_OPTIONS="--max-old-space-size=16384" pnpm install
+	pnpm build:deps
 
 .PHONY: build
 build:			## Build frontend
-	NODE_OPTIONS="--max-old-space-size=16384" yarn build
+	NODE_OPTIONS="--max-old-space-size=16384" pnpm build
 
 .PHONY: bundlewatch
 bundlewatch:
-	yarn bundlewatch --config .bundlewatch.config.json
+	pnpm bundlewatch
 
 .PHONY: husky
-husky:			## Install husky git hooks in src/addons/*
+husky:			## Install husky git hooks in packages/*
 	./scripts/husky.sh
 
 .PHONY: start
 start:			## Start frontend
-	NODE_OPTIONS="--max-old-space-size=16384" yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" pnpm start
 
 .PHONY: relstorage
 relstorage:		## Start frontend w/ RelStorage Plone Backend
-	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www pnpm start
 
 .PHONY: staging
 staging:		## Start frontend w/ Staging Plone Backend
-	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://staging.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://staging.eea.europa.eu yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://staging.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://staging.eea.europa.eu pnpm start
 
 .PHONY: demo
 demo:		## Start frontend w/ Demo WWW Plone Backend
-	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://demo-www.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://demo-www.eea.europa.eu yarn start
-
-.PHONY: omelette
-omelette: 		## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)
-	if [ ! -d omelette ]; then ln -sf node_modules/@plone/volto omelette; fi
-
-.PHONY: patches
-patches:
-	/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://demo-www.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://demo-www.eea.europa.eu pnpm start
 
 .PHONY: release
 release: 		## Show release candidates
 	python3 ./scripts/release.py -s chore -s sonar -v
 
 .PHONY: update
-update: 		## git pull all src/addons
+update: 		## git pull all packages
 	./scripts/update.sh
 
 .PHONY: issues
@@ -112,36 +109,73 @@ issues-all: 	## Check github for open pull-requests
 	python3 ./scripts/pull-requests-volto.py WARN
 
 .PHONY: status
-status: 		## Check src/addons for changes
+status: 		## Check packages for changes
 	./scripts/status.sh
 
 .PHONY: pull
-pull: 			## Run git pull on all src/addons
+pull: 			## Run git pull on all packages
 	./scripts/pull.sh
 
 .PHONY: test
 test: 			## Run Jest tests for Volto add-on
-	RAZZLE_JEST_CONFIG=$(filter-out $@,$(MAKECMDGOALS))/jest-addon.config.js yarn test $(filter-out $@,$(MAKECMDGOALS))
+	pnpm test
+
+.PHONY: check
+check:			## Run static checks and unit tests
+	pnpm check
+
+.PHONY: lint
+lint:			## Run ESLint, Prettier and Stylelint checks
+	pnpm lint
+	pnpm prettier
+	pnpm stylelint
+
+.PHONY: format
+format:			## Apply ESLint, Prettier and Stylelint fixes
+	pnpm lint:fix
+	pnpm prettier:fix
+	pnpm stylelint:fix
+
+.PHONY: typecheck
+typecheck:		## Run TypeScript checks for the policy add-on
+	pnpm typecheck
+
+.PHONY: i18n
+i18n:			## Regenerate translation catalogs
+	pnpm i18n
+
+.PHONY: ci-i18n
+ci-i18n:		## Verify generated translation catalogs are committed
+	pnpm i18n
+	git diff --exit-code -- packages/eea-website-frontend/locales
 
 .PHONY: cypress
 cypress:		## Run Cypress acceptance tests (uses baseUrl from cypress.config.js)
-	yarn cypress:run
+	pnpm cypress:run
 
 .PHONY: cypress-open
 cypress-open:		## Open Cypress interactive test runner
-	yarn cypress:open
+	pnpm cypress:open
 
 .PHONY: cypress-staging
 cypress-staging:	## Run Cypress tests against staging
-	CYPRESS_BASE_URL=https://staging.eea.europa.eu/en yarn cypress:run
+	pnpm cypress:staging
 
 .PHONY: cypress-production
 cypress-production:	## Run Cypress tests against production
-	CYPRESS_BASE_URL=https://www.eea.europa.eu/en yarn cypress:run
+	pnpm cypress:production
 
 .PHONY: cypress-local
 cypress-local:		## Run Cypress tests against localhost:3000
-	CYPRESS_BASE_URL=http://localhost:3000 yarn cypress:run
+	pnpm cypress:smoke
+
+.PHONY: acceptance-backend-start
+acceptance-backend-start:	## Start the official Plone acceptance backend on port 55001
+	docker run --rm -p 55001:55001 plone/server-acceptance:6.0
+
+.PHONY: docker-build
+docker-build:		## Build the Volto 19 production image
+	DOCKER_BUILDKIT=1 docker build --build-arg VOLTO_VERSION=19.3.0 -t eeacms/eea-website-frontend:volto19 .
 
 .PHONY: help
 help:			## Show this help.

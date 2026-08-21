@@ -2,7 +2,6 @@ import '@plone/volto/config'; // This is the bootstrap for the global config - c
 import React from 'react';
 import { StaticRouter } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
-import enMessages from '@root/../locales/en.json';
 
 import '@root/theme';
 
@@ -18,7 +17,7 @@ export const parameters = {
 
 export const decorators = [
   (Story) => (
-    <IntlProvider messages={enMessages} locale="en" defaultLocale="en">
+    <IntlProvider messages={{}} locale="en" defaultLocale="en">
       <StaticRouter location="/">
         <Story />
       </StaticRouter>

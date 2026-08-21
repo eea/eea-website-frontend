@@ -1,16 +1,15 @@
-version: "3"
-
 services:
   frontend:
-    # build: .
-    image: eeacms/eea-website-frontend:develop
+    build:
+      context: .
+      args:
+        VOLTO_VERSION: "19.3.0"
+    image: eeacms/eea-website-frontend:volto19
     ports:
-    - "${FRONTEND:-3000}:3000"
+      - "${FRONTEND:-3000}:3000"
     environment:
       RAZZLE_INTERNAL_API_PATH: "http://backend:8080/Plone"
       RAZZLE_DEV_PROXY_API_PATH: "http://backend:8080/Plone"
-    volumes:
-    - ./src/addons:/app/src/addons
     depends_on:
       - backend
 

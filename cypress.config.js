@@ -22,6 +22,7 @@ module.exports = defineConfig({
       require('cypress-fail-fast/plugin')(on, config);
       return config;
     },
-    baseUrl: 'https://staging.eea.europa.eu/en',
+    baseUrl: process.env.CYPRESS_BASE_URL || 'http://localhost:3000',
+    specPattern: 'cypress/e2e/**/*.cy.js',
   },
 });

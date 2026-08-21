@@ -1,296 +1,113 @@
-# EEA Main Website frontend (Plone 6)
-[![Release](https://img.shields.io/github/v/release/eea/eea-website-frontend?sort=semver)](https://github.com/eea/eea-website-frontend/releases)
-[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto/eea-website-frontend/master&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/master/display/redirect)
-[![Pipeline develop](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Feea-website-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Feea-website-frontend%2F1.0.0-alpha.1&build=last&subject=release%20v1.0.0-alpha.1%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/eea-website-frontend/job/1.0.0-alpha.1/lastBuild/display/redirect/)
+# EEA website frontend
 
-## Documentation
+Frontend for the main EEA website, built with Volto 19.
 
-Trainings on how to create your own website using Plone 6 is available as part of the Plone training at [https://training.plone.org](https://training.plone.org).
+## Requirements
 
-## Getting started
-
-1. Install `nvm`
-
-        touch ~/.bash_profile
-        curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
-
-        source ~/.bash_profile
-        nvm version
-
-1. Install latest `NodeJS 18.x`:
-
-        nvm install 18
-        nvm use 18
-        node -v
-        v18.19.1
-
-1. Install `yarn`
-
-        curl -o- -L https://yarnpkg.com/install.sh | bash
-        yarn -v
-
-1. Clone:
-
-        git clone https://github.com/eea/eea-website-frontend.git
-        cd eea-website-frontend
-
-1. Install
-
-        yarn
-
-1. Start backend
-
-        docker-compose up -d
-        docker-compose logs -f
-
-1. Start frontend
-
-        yarn start
-
-1. See application at http://localhost:3000
-
-## Development
-
-### Frontend
-
-1. Enable `develop` option for add-ons you want to develop within `mrs.developer.json` and run:
-
-        make develop
-
-1. Install
-
-        yarn
-
-1. Start frontend
-
-        yarn start
-
-### Backend
-
-See [Plone 6 backend for EEA Main website](https://github.com/eea/eea-website-backend/tree/master/develop)
-
-## Testing
-
-### Acceptance tests
-
-The project uses [Cypress](https://www.cypress.io/) for acceptance testing. The tests are located in `cypress/e2e/` directory.
-
-#### Running tests
-
-You can run Cypress tests using either yarn scripts or Makefile commands:
-
-**Using Makefile (recommended):**
+- Node.js 22 or 24
+- pnpm 10.20.0, activated through Corepack
+- Git
+- Docker, when running the backend or production image locally
 
 ```bash
-make cypress               # Run tests against default environment (staging)
-make cypress-open          # Open Cypress interactive UI
-make cypress-staging       # Run tests against staging
-make cypress-production    # Run tests against production
-make cypress-local         # Run tests against localhost:3000
+nvm use
+corepack enable
+corepack prepare pnpm@10.20.0 --activate
 ```
 
-**Using yarn:**
+## Workspace layout
+
+- `core/` contains the Volto `19.3.0` checkout.
+- `packages/eea-website-frontend/` is the project policy add-on.
+- `packages/volto-eea-website-theme/` and
+  `packages/volto-eea-design-system/` are the only add-on development checkouts;
+  both are fetched from their `volto19` branches by `mrs-developer`.
+- `volto.config.js` is the authoritative add-on and theme configuration.
+
+Only the policy add-on is tracked by this repository. The theme and design
+system workspaces are development checkouts and are ignored by Git.
+
+## Install and start
+
+Fetch Volto, the theme, and the design system, install the locked dependencies,
+and build the core packages:
 
 ```bash
-yarn cypress:run           # Run tests in headless mode
-yarn cypress:open          # Open Cypress interactive UI
+make develop
 ```
 
-**Running against a custom URL:**
-
-You can override the base URL by setting the `CYPRESS_BASE_URL` environment variable:
+For an already prepared workspace:
 
 ```bash
-CYPRESS_BASE_URL=https://demo-www.eea.europa.eu/en yarn cypress:run
+make install
 ```
 
-or using the `--config` flag:
+Start the development server at <http://localhost:3000>:
 
 ```bash
-yarn cypress:run --config baseUrl=https://demo-www.eea.europa.eu/en
+make start
 ```
 
-#### Test configuration
+Useful backend variants are available through `make relstorage`, `make staging`,
+and `make demo`.
 
-The Cypress configuration is located in `cypress.config.js`. By default, tests run against the staging environment (`https://staging.eea.europa.eu/en`).
+## Checks
 
-## Release
-  
-### Automatic release using Jenkins
-
-#### Release flow
-
-The release flow on Plone 6 projects is split in 2 Jenkins jobs:
-
-* A job that runs on every commit on master and creates a production ready GitHub release and tag with the version from `package.json`
-* A job that runs on every new tag ( including the one created in the first job): 
-    * A new Docker image is built and released automatically on [DockerHub](https://hub.docker.com/r/eeacms/eea-website-frontend) with the release tag.
-    * A new entry is automatically added to [EEA Main Website - frontend](https://github.com/eea/eea.rancher.catalog/tree/master/templates/eea-website-frontend) `EEA Rancher Catalog` with the release tag
-    * If the project demo stack is configured in `RANCHER_STACKID`, the demo stack is automatically upgraded to the newly created template version
-    * If the project url is configured in `SONARQUBE_TAG`, all frontend addon dependencies will be updated both in SonarQube and their `develop` Jenkinsfile with the project url
-
-#### How to start a Production release
-
-*  The automatic release is started by creating a [Pull Request](../../compare/master...develop) from `develop` to `master`. The pull request status checks correlated to the branch and PR Jenkins jobs need to be processed successfully. 1 review from a github user with rights is mandatory.
-* It runs on every commit on `master` branch, which is protected from direct commits, only allowing pull request merge commits.
-* The automatic release is done by [Jenkins](https://ci.eionet.europa.eu). The status of the release job can be seen both in the `README.md` badges and the green check/red cross/yellow circle near the last commit information. If you click on the icon, you will have the list of checks that were run. The `continuous-integration/jenkins/branch` link goes to the Jenkins job execution webpage.
-* Automated release scripts are located in the `eeacms/gitflow` docker image, specifically [frontend-release.sh](https://github.com/eea/eea.docker.gitflow/blob/master/src/frontend-release.sh) script. It  uses the `release-it` tool.
-* As long as a PR request is open from develop to master, the PR Jenkins job will automatically re-create the CHANGELOG.md and package.json files to be production-ready.
-* The version format must be MAJOR.MINOR.PATCH. By default, next release is set to next minor version (with patch 0).
-* You can manually change the version in `package.json`.  The new version must not be already present in the tags/releases of the repository, otherwise it will be automatically increased by the script. Any changes to the version will trigger a `CHANGELOG.md` re-generation.
-* Automated commits and commits with [JENKINS] or [YARN] in the commit log are excluded from `CHANGELOG.md` file.
-
-
-> The release job that runs on the `master` branch only creates the release in GitHub. The release job that runs on the new tag is the one that does the rest. 
-
-
-### Manual release from the develop branch (beta release)
-
-#### Installation and configuration of release-it
-
-You need to first install the [release-it](https://github.com/release-it/release-it)  client.
-
-   ```
-   npm install -g release-it
-   ```
-
-Release-it uses the configuration written in the [`.release-it.json`](./.release-it.json) file located in the root of the repository.
-
-Release-it is a tool that automates 4 important steps in the release process:
-
-1. Version increase in `package.json` ( increased from the current version in `package.json`)
-2. `CHANGELOG.md` automatic generation from commit messages ( grouped by releases )
-3. GitHub release on the commit with the changelog and package.json modification on the develop branch
-
-To configure the authentification, you need to export GITHUB_TOKEN for [GitHub](https://github.com/settings/tokens)
-
-   ```
-   export GITHUB_TOKEN="${GITHUB_TOKEN}"
-   ```
-
- To configure npm, you can use the `npm login` command or use a configuration file with a TOKEN :
-
-   ```
-   echo "//registry.npmjs.org/:_authToken=YYYYYYYYYYYYYYYYYYYYYYYYYYYYYY" > .npmrc
-   ```
-
-#### Using release-it tool
-
-There are 3 yarn scripts that can be run to do the release
-
-##### yarn release-beta
-
-Automatically calculates and presents 3 beta versions - patch, minor and major for you to choose ( or Other for manual input).
-
-```
-? Select increment (next version):
-❯ prepatch (0.1.1-beta.0)
-  preminor (0.2.0-beta.0)
-  premajor (1.0.0-beta.0)
-  Other, please specify...
+```bash
+make lint
+make typecheck
+make test
+make ci-i18n
+make build
+make bundlewatch
 ```
 
-##### yarn release-major-beta
+`make check` runs the static checks and unit tests together. CI uses
+`make ci-install` so the committed `pnpm-lock.yaml` cannot be changed during an
+installation.
 
-Same as `yarn release-beta`, but with pre-major version pre-selected.
+## Cypress
 
-##### yarn release
+The default Cypress command is a local smoke test. Start a backend and the
+frontend in separate terminals, then run the test:
 
-Generic command, does not automatically add the `beta` to version, but you can still manually write it if you choose Other.
+```bash
+make acceptance-backend-start
+RAZZLE_API_PATH=http://localhost:55001/plone make start
+make cypress-local
+```
 
-#### Important notes
+The content-dependent regression suite remains separate:
 
-> The release can be triggered by creating a new tag in the GitHub repository. It is not recommended to do this, because both the version from `package.json` and the `CHANGELOG.md` files will be desynchronized.
+```bash
+make cypress-staging
+make cypress-production
+```
 
-> Do not use release-it tool on master branch, the commit on CHANGELOG.md file and the version increase in the package.json file can't be done without a PULL REQUEST.
+## Docker
 
-> Do not keep Pull Requests from develop to master branches open when you are doing beta releases from the develop branch. As long as a PR to master is open, an automatic script will run on every commit and will update both the version and the changelog to a production-ready state - ( MAJOR.MINOR.PATCH mandatory format for version).
+Build the Volto 19 image:
 
+```bash
+make docker-build
+```
 
+Run the frontend and EEA backend together:
 
-## Production
+```bash
+docker compose up --build
+```
 
-We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [Jenkins](https://jenkins.io/) to deploy this application in production.
+The image is based on the Plone frontend builder and production images pinned to
+Volto `19.3.0`.
 
-### Deploy
+## Working with add-on checkouts
 
-* Within `Rancher > Catalog > EEA` deploy [EEA Main Website - frontend](https://github.com/eea/eea.rancher.catalog/tree/master/templates/eea-website-frontend)
+```bash
+make status
+make pull
+make husky
+```
 
-### Upgrade
-
-* Within your Rancher environment click on the `Upgrade available` yellow button next to your stack.
-
-* Confirm the upgrade
-
-* Or roll-back if something went wrong and abort the upgrade procedure.
-
-## Secret Scanning
-
-This repository uses the Betterleaks GitHub Action to scan the current
-repository content on every push and pull request. The scan uses the rules in
-`.gitleaks.toml` and uploads a `betterleaks-report` artifact when a finding is
-detected.
-
-If the optional SMTP secrets are configured, failed scans also send an email to
-the last commit committer. The workflow expects these repository or
-organization secrets:
-
-- `SMTP_URL`
-- `SMTP_PORT` (optional, defaults to `25`)
-- `SMTP_EMAIL`
-- `SMTP_PASSWORD` (optional if the SMTP server does not require authentication)
-
-Port `465` is sent with direct TLS; other ports use the default SMTP handshake.
-The email includes a short finding summary from the redacted Betterleaks report,
-including the redacted matched line from each finding.
-
-There are three common outcomes:
-
-1. **Everything is OK.** The `Betterleaks / Scan for secrets` check is green and
-   no action is needed. Regular references to runtime values are OK, for example:
-
-   ```js
-   const tokenFromCookie = req.universalCookies.get('auth_token');
-   ```
-
-2. **A real secret was found.** The check is red and the workflow log asks you to
-   download the `betterleaks-report` artifact. Open the artifact from the GitHub
-   Actions run and check the reported file, line and rule. Remove the committed
-   value, move it to the proper secret store, and rotate it if it was exposed.
-   A report entry looks like this:
-
-   ```json
-   {
-     "RuleID": "secret-literal-assignment",
-     "File": "src/config.js",
-     "StartLine": 12,
-     "Secret": "[REDACTED]"
-   }
-   ```
-
-3. **The finding is a false positive.** Keep the value only if it is clearly not
-   sensitive, such as a test fixture, placeholder, or public example. Add
-   `betterleaks:allow` on the same line and include a short explanation in the
-   pull request.
-
-   ```js
-   const testPassword = 'admin'; //betterleaks:allow
-   ```
-
-   ```yaml
-   password: "admin" #betterleaks:allow
-   ```
-
-Do not add `betterleaks:allow` to real credentials.
-
-## Copyright and license
-
-The Initial Owner of the Original Code is European Environment Agency (EEA).
-All Rights Reserved.
-
-See [LICENSE.md](https://github.com/eea/eea-website-backend/blob/master/LICENSE.md) for details.
-
-## Funding
-
-[European Environment Agency (EU)](http://eea.europa.eu)
+These commands operate on `core/` and Git repositories immediately below
+`packages/`. They never switch an add-on to another branch automatically.

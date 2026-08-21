@@ -1,36 +1,43 @@
-FROM node:22-slim
+# syntax=docker/dockerfile:1
+ARG VOLTO_VERSION=19.3.0
+FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
 
-COPY . /app/
-WORKDIR /app/
+COPY --chown=node packages/eea-website-frontend /app/packages/eea-website-frontend
+COPY --chown=node volto.config.js /app/
+COPY --chown=node package.json /app/
+COPY --chown=node mrs.developer.json /app/
+COPY --chown=node pnpm-workspace.yaml /app/
+COPY --chown=node pnpm-lock.yaml /app/
+COPY --chown=node .npmrc .pnpmfile.cjs /app/
+COPY --chown=node entrypoint.sh /app/entrypoint.sh
 
-# Update apt packages
-RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
- && apt-get update \
- && apt-get install -y --no-install-recommends $runDeps \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists/* \
- && npm install -g mrs-developer \
- && cp jsconfig.json.prod jsconfig.json \
- && mkdir -p /app/src/addons \
- && rm -rf /app/src/addons/* \
- && find /app/ -not -user node -exec chown node {} \+ \
- && corepack enable
+RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
+    set -e
+    pnpm dlx mrs-developer@2.2.0 missdev --no-config --output=packages --fetch-https
+    pnpm install --frozen-lockfile
+    pnpm build:deps
+    pnpm build
+    CI=1 pnpm install --prod --frozen-lockfile
+EOT
 
-USER node
+FROM plone/frontend-prod-config:${VOLTO_VERSION}
 
-ARG MAX_OLD_SPACE_SIZE=16384
-ENV NODE_OPTIONS=--max_old_space_size=$MAX_OLD_SPACE_SIZE
+LABEL maintainer="European Environment Agency <webadmin@eea.europa.eu>" \
+      org.label-schema.name="eea-website-frontend" \
+      org.label-schema.description="EEA Main Website Volto frontend image." \
+      org.label-schema.vendor="European Environment Agency"
 
-RUN yarn \
-  && yarn build \
-  && rm -rf /home/node/.cache \
-  && rm -rf /home/node/.yarn \
-  && rm -rf /home/node/.npm \
-  && rm -rf /app/.yarn/cache
+COPY --from=builder /app/ /app/
 
-USER root
+RUN <<EOT
+    set -e
+    CI=1 npm i -g corepack@latest
+    corepack enable pnpm
+    corepack prepare pnpm@10.20.0 --activate
+    chmod +x /app/entrypoint.sh
+EOT
 
 EXPOSE 3000 3001
 
 ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["yarn", "start:prod"]
+CMD ["pnpm", "start:prod"]

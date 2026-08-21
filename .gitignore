@@ -9,6 +9,7 @@ coverage
 
 # Node
 node_modules
+.pnpm-store
 coverage
 jsdoc
 webpack-assets.json
@@ -69,6 +70,7 @@ selenium-screenshot-*.png
 cypress/videos/
 cypress/screenshots
 cypress/downloads/
+cypress/reports/
 
 # Local environment setup
 .env
@@ -84,16 +86,14 @@ package.json.backup
 data
 omelette
 
+# Volto 19 development workspaces fetched by mrs-developer
+core/
+packages/*
+!packages/eea-website-frontend/
+
+# Preserve but ignore legacy local add-on checkouts from the Yarn workspace.
+src/addons/*
+
 # build
 public/critical.css
-src/addons/*
 /cache
-
-# yarn 3
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions

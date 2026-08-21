@@ -122,10 +122,16 @@ pipeline {
     //   }
       // }
 
-    stage('Bundlewatch') {
+    stage('Volto 19 frontend checks') {
       when {
-        branch 'develop'
-        not { changelog '.*^Automated release [0-9\\.]+$' }
+        allOf {
+          anyOf {
+            changeRequest()
+            branch 'volto19'
+          }
+          not { changelog '.*^Automated release [0-9\\.]+$' }
+          not { buildingTag() }
+        }
       }
       steps {
         node(label: 'docker-big-jobs') {
@@ -133,13 +139,32 @@ pipeline {
             checkout scm
             env.NODEJS_HOME = "${tool 'NodeJS'}"
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
-            env.CI=false
-            sh "yarn config set -H enableImmutableInstalls false"
-            sh "yarn"
-            sh "make develop"
-            sh "make install"
-            sh "make build"
-            sh "make bundlewatch"
+            env.CI=true
+
+            sh 'node --version'
+            sh 'corepack enable'
+            sh 'corepack prepare pnpm@10.20.0 --activate'
+            sh 'make ci-install'
+            sh 'make check'
+            sh 'make ci-i18n'
+            sh 'make build'
+            sh 'make bundlewatch'
+
+            def imageName = "${env.BUILD_TAG}-volto19".toLowerCase()
+            def networkName = "${env.BUILD_TAG}-network".toLowerCase()
+            try {
+              sh "docker network create ${networkName}"
+              docker.build(imageName, '--build-arg VOLTO_VERSION=19.3.0 .')
+              sh "docker run --rm -d --name=${env.BUILD_TAG}-backend --network=${networkName} --network-alias=backend -e SITE=Plone eeacms/eea-website-backend"
+              sh "docker run --rm -d --name=${env.BUILD_TAG}-frontend --network=${networkName} -p 3000:3000 -e RAZZLE_INTERNAL_API_PATH=http://backend:8080/Plone -e RAZZLE_DEV_PROXY_API_PATH=http://backend:8080/Plone ${imageName}"
+              sh 'pnpm exec wait-on --timeout 120000 http://localhost:3000'
+              sh 'pnpm cypress:smoke'
+            } finally {
+              sh script: "docker rm -f ${env.BUILD_TAG}-frontend", returnStatus: true
+              sh script: "docker rm -f ${env.BUILD_TAG}-backend", returnStatus: true
+              sh script: "docker network rm ${networkName}", returnStatus: true
+              sh script: "docker rmi ${imageName}", returnStatus: true
+            }
           }
         }
       }
@@ -190,7 +215,7 @@ pipeline {
       when {
         anyOf {
           buildingTag()
-          branch 'volto-17'
+          branch 'volto19'
         }
       }
       steps{
