@@ -4,7 +4,17 @@ const webpack = require('webpack');
 
 const plugins = (defaultPlugins) => defaultPlugins;
 
-const modify = (config) => {
+const modify = (config, { target }) => {
+  // The server bundle runs in Node and is not downloaded by the browser, so
+  // Webpack's browser-oriented asset size hints are not useful for this target.
+  // In CI these hints are promoted to errors and would otherwise fail the build.
+  if (target === 'node') {
+    config.performance = {
+      ...config.performance,
+      hints: false,
+    };
+  }
+
   config.plugins.push(
     new CompressionPlugin({
       filename: '[path][base].gz',
