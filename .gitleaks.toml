@@ -84,7 +84,10 @@ tags = ["file", "secret-file"]
 description = "Allow the credential-free pnpm workspace configuration"
 regexTarget = "match"
 regexes = [
-  '''(?s)^public-hoist-pattern\[\]=\*eslint\*\r?\npublic-hoist-pattern\[\]=\*prettier\*\r?\npublic-hoist-pattern\[\]=\*stylelint\*\r?\npublic-hoist-pattern\[\]=\*cypress\*\r?\npublic-hoist-pattern\[\]=babel-plugin-react-intl\r?\npublic-hoist-pattern\[\]=\*babel-preset-razzle\r?\nengine-strict=true(?:\r?\n)?$''',
+  '''(?s)^(?:public-hoist-pattern\[\]=[^\r\n]+\r?\n)+engine-strict=true(?:\r?\n)?$''',
+]
+paths = [
+  '''^scripts/upgrade_content_cy/\.env\.example$''',
 ]
 
 [[allowlists]]

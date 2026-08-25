@@ -28,7 +28,7 @@ This project uses Cypress to Script the editing and resaving of content types li
    CYPRESS_URL=https://staging.eea.europa.eu
    CYPRESS_LOGIN_ROUTE=/fallback_login
    CYPRESS_USERNAME=your-username-here
-   CYPRESS_PASSWORD=your-password-here #betterleaks:allow
+   CYPRESS_PASSWORD=your-password-here # gitleaks:allow
    CYPRESS_MULTILINGUAL=true
    CYPRESS_CONTENT_TYPES=Map (interactive),Dashboard,Chart (interactive),Map (simple)
    ```

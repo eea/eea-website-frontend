@@ -1,6 +1,7 @@
 # syntax=docker/dockerfile:1
 ARG VOLTO_VERSION=19.3.0
 FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
+ARG MAX_OLD_SPACE_SIZE=7168
 
 COPY --chown=node packages/eea-website-frontend /app/packages/eea-website-frontend
 COPY --chown=node volto.config.js /app/
@@ -13,11 +14,13 @@ COPY --chown=node entrypoint.sh /app/entrypoint.sh
 
 RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
     set -e
+    export CI=1
+    export NODE_OPTIONS=--max-old-space-size=${MAX_OLD_SPACE_SIZE}
     pnpm dlx mrs-developer@2.2.0 missdev --no-config --output=packages --fetch-https
     pnpm install --frozen-lockfile
     pnpm build:deps
     pnpm build
-    CI=1 pnpm install --prod --frozen-lockfile
+    pnpm install --prod --frozen-lockfile
 EOT
 
 FROM plone/frontend-prod-config:${VOLTO_VERSION}

@@ -42,7 +42,7 @@ class Github(object):
 
     [github]
     username: foobar
-    password: secret #betterleaks:allow
+    password: secret # gitleaks:allow
 
     """
 
@@ -85,7 +85,7 @@ class Github(object):
                 config.read([cfg_file])
                 if config.has_section("github"):
                     self.username = config.get("github", "username", fallback="")
-                    self.password = config.get("github", "password", fallback="") #betterleaks:allow
+                    self.password = config.get("github", "password", fallback="") # gitleaks:allow
 
         return {
             "username": self.username,

@@ -17,4 +17,3 @@ msgstr ""
 "Language-Name: Romanian\n"
 "Preferred-Encodings: utf-8 latin1\n"
 
-
