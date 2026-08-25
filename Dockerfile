@@ -32,6 +32,8 @@ LABEL maintainer="European Environment Agency <webadmin@eea.europa.eu>" \
 
 COPY --from=builder /app/ /app/
 
+USER root
+
 RUN <<EOT
     set -e
     CI=1 npm i -g corepack@latest
@@ -39,6 +41,8 @@ RUN <<EOT
     corepack prepare pnpm@10.20.0 --activate
     chmod +x /app/entrypoint.sh
 EOT
+
+USER node
 
 EXPOSE 3000 3001
 
