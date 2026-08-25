@@ -20,7 +20,7 @@ RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
     pnpm install --frozen-lockfile
     pnpm build:deps
     pnpm build
-    pnpm install --prod --frozen-lockfile
+    pnpm install --prod --frozen-lockfile --ignore-scripts
 EOT
 
 FROM plone/frontend-prod-config:${VOLTO_VERSION}
