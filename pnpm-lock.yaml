@@ -180,6 +180,9 @@ importers:
 
   .:
     dependencies:
+      '@babel/runtime':
+        specifier: ^7.28.4
+        version: 7.29.7
       '@eeacms/countup':
         specifier: workspace:*
         version: link:packages/countup
@@ -396,6 +399,9 @@ importers:
       '@semantic-ui-react/event-stack':
         specifier: 3.1.3
         version: 3.1.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@sentry/cli':
+        specifier: 1.77.3
+        version: 1.77.3(encoding@0.1.13)
       classnames:
         specifier: 2.5.1
         version: 2.5.1
@@ -463,9 +469,6 @@ importers:
       '@babel/plugin-syntax-export-namespace-from':
         specifier: 7.8.3
         version: 7.8.3(@babel/core@7.29.7)
-      '@babel/runtime':
-        specifier: 7.20.6
-        version: 7.20.6
       '@babel/types':
         specifier: 7.20.5
         version: 7.20.5
@@ -2123,7 +2126,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2154,7 +2157,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2275,7 +2278,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2315,7 +2318,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2367,7 +2370,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2422,7 +2425,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2455,7 +2458,7 @@ importers:
         version: 6.0.0(postcss@8.5.26)
       razzle-plugin-scss:
         specifier: 4.2.18
-        version: 4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(webpack@5.105.4)
+        version: 4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(webpack@5.105.4)
       react-test-renderer:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
@@ -2492,7 +2495,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2535,7 +2538,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2572,7 +2575,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2581,7 +2584,7 @@ importers:
         version: 6.24.1
       cypress-fail-fast:
         specifier: ^5.0.1
-        version: 5.0.1(cypress@15.16.0)
+        version: 5.0.1(cypress@13.17.0)
       dotenv:
         specifier: ^16.3.2
         version: 16.6.1
@@ -2603,7 +2606,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2634,7 +2637,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2686,7 +2689,7 @@ importers:
         version: 7.18.10(@babel/core@7.29.7)
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2713,7 +2716,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2743,7 +2746,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2798,7 +2801,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/registry':
         specifier: '*'
         version: 3.0.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -2874,7 +2877,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2922,7 +2925,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2949,7 +2952,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -2958,7 +2961,7 @@ importers:
         version: 6.24.1
       cypress-fail-fast:
         specifier: ^5.0.1
-        version: 5.0.1(cypress@15.16.0)
+        version: 5.0.1(cypress@13.17.0)
       husky:
         specifier: ^8.0.3
         version: 8.0.3
@@ -2977,7 +2980,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.9.5
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@testing-library/jest-dom':
         specifier: 6.9.1
         version: 6.9.1
@@ -3077,7 +3080,7 @@ importers:
         version: 7.18.6(@babel/core@7.29.7)
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -3213,7 +3216,7 @@ importers:
         version: 7.8.3(@babel/core@7.29.7)
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@loadable/babel-plugin':
         specifier: 5.16.1
         version: 5.16.1(@babel/core@7.29.7)
@@ -3406,7 +3409,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -3475,7 +3478,7 @@ importers:
         version: 4.17.21
       razzle-plugin-scss:
         specifier: 4.2.18
-        version: 4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(webpack@5.105.4)
+        version: 4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(webpack@5.105.4)
       react-color:
         specifier: ~2.19.3
         version: 2.19.3(react@18.2.0)
@@ -3488,7 +3491,7 @@ importers:
         version: 7.24.6(@babel/core@7.29.7)
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@vitejs/plugin-react':
         specifier: 4.7.0
         version: 4.7.0(vite@6.4.3(@types/node@24.13.3)(jiti@2.7.0)(less@3.13.1)(lightningcss@1.33.0)(sass@1.58.0)(terser@5.50.0)(yaml@2.9.0))
@@ -3530,7 +3533,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -3585,7 +3588,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -3703,7 +3706,7 @@ importers:
         version: 7.8.3(@babel/core@7.29.7)
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@loadable/babel-plugin':
         specifier: 5.16.1
         version: 5.16.1(@babel/core@7.29.7)
@@ -3785,7 +3788,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -3855,7 +3858,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -3904,7 +3907,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -3959,7 +3962,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4023,7 +4026,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4068,7 +4071,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4102,7 +4105,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4145,7 +4148,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4176,7 +4179,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4215,11 +4218,11 @@ importers:
     dependencies:
       razzle-plugin-scss:
         specifier: 4.2.18
-        version: 4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(webpack@5.105.4)
+        version: 4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))(webpack@5.105.4)
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4250,7 +4253,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4259,7 +4262,7 @@ importers:
         version: 6.24.1
       cypress-fail-fast:
         specifier: ^5.0.1
-        version: 5.0.1(cypress@15.16.0)
+        version: 5.0.1(cypress@13.17.0)
       dotenv:
         specifier: ^16.3.2
         version: 16.6.1
@@ -4281,7 +4284,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: ^3.6.2
         version: 3.10.7
@@ -4354,7 +4357,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@vitejs/plugin-react':
         specifier: 4.7.0
         version: 4.7.0(vite@6.4.3(@types/node@24.13.3)(jiti@2.7.0)(less@3.13.1)(lightningcss@1.33.0)(sass@1.58.0)(terser@5.50.0)(yaml@2.9.0))
@@ -4397,7 +4400,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4421,7 +4424,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4466,7 +4469,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4487,7 +4490,7 @@ importers:
         version: 6.24.1
       cypress-fail-fast:
         specifier: ^5.0.1
-        version: 5.0.1(cypress@15.16.0)
+        version: 5.0.1(cypress@13.17.0)
       dotenv:
         specifier: ^16.3.2
         version: 16.6.1
@@ -4514,7 +4517,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4523,7 +4526,7 @@ importers:
         version: 6.24.1
       cypress-fail-fast:
         specifier: ^5.0.1
-        version: 5.0.1(cypress@15.16.0)
+        version: 5.0.1(cypress@13.17.0)
       dotenv:
         specifier: ^16.3.2
         version: 16.6.1
@@ -4759,7 +4762,7 @@ importers:
         version: 7.29.7
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@testing-library/jest-dom':
         specifier: 6.9.1
         version: 6.9.1
@@ -4835,7 +4838,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4859,7 +4862,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4886,7 +4889,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4910,7 +4913,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4941,7 +4944,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -4969,7 +4972,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5040,7 +5043,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5104,7 +5107,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5131,7 +5134,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5165,7 +5168,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5195,7 +5198,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5219,7 +5222,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5249,7 +5252,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5280,7 +5283,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5308,7 +5311,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5332,7 +5335,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5341,7 +5344,7 @@ importers:
         version: 6.24.1
       cypress-fail-fast:
         specifier: ^5.0.1
-        version: 5.0.1(cypress@15.16.0)
+        version: 5.0.1(cypress@13.17.0)
       dotenv:
         specifier: ^16.3.2
         version: 16.6.1
@@ -5359,7 +5362,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -5383,7 +5386,7 @@ importers:
     devDependencies:
       '@cypress/code-coverage':
         specifier: ^3.10.0
-        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)
+        version: 3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.17.0)(webpack@5.105.4)
       '@plone/scripts':
         specifier: '*'
         version: 3.10.7
@@ -6269,10 +6272,6 @@ packages:
 
   '@babel/runtime-corejs3@7.29.7':
     resolution: {integrity: sha512-ppj9ouYku+RX0ljtgZd+KMO5mkM2bCqg8H2PYAFWnLsHEIKIdRojqbJ2i3eVHrisuxy7nOFCmngTDdWtUCdXUQ==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/runtime@7.20.6':
-    resolution: {integrity: sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/runtime@7.29.7':
@@ -18745,9 +18744,6 @@ packages:
   regenerator-runtime@0.11.1:
     resolution: {integrity: sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==}
 
-  regenerator-runtime@0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
-
   regenerator-runtime@0.14.1:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
 
@@ -22997,10 +22993,6 @@ snapshots:
     dependencies:
       core-js-pure: 3.50.0
 
-  '@babel/runtime@7.20.6':
-    dependencies:
-      regenerator-runtime: 0.13.11
-
   '@babel/runtime@7.29.7': {}
 
   '@babel/template@7.29.7':
@@ -23303,12 +23295,31 @@ snapshots:
     dependencies:
       postcss-selector-parser: 7.1.5
 
-  '@cypress/code-coverage@3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)':
+  '@cypress/code-coverage@3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)':
     dependencies:
       '@babel/core': 7.29.7
       '@babel/preset-env': 7.24.6(@babel/core@7.29.7)
-      '@cypress/webpack-preprocessor': 6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)
-      babel-loader: 9.2.1(@babel/core@7.29.7)(webpack@5.105.4)
+      '@cypress/webpack-preprocessor': 6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)
+      babel-loader: 9.1.0(@babel/core@7.29.7)(webpack@5.105.4)
+      chalk: 4.1.2
+      cypress: 13.1.0
+      dayjs: 1.11.13
+      debug: 4.4.0
+      execa: 4.1.0
+      istanbul-lib-coverage: 3.2.2
+      js-yaml: 4.1.0
+      nyc: 15.1.0
+      tinyglobby: 0.2.17
+      webpack: 5.105.4
+    transitivePeerDependencies:
+      - supports-color
+
+  '@cypress/code-coverage@3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)':
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/preset-env': 7.29.7(@babel/core@7.29.7)
+      '@cypress/webpack-preprocessor': 6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)
+      babel-loader: 9.1.0(@babel/core@7.29.7)(webpack@5.105.4)
       chalk: 4.1.2
       cypress: 13.1.0
       dayjs: 1.11.13
@@ -23330,44 +23341,6 @@ snapshots:
       babel-loader: 9.1.0(@babel/core@7.29.7)(webpack@5.105.4)
       chalk: 4.1.2
       cypress: 13.17.0
-      dayjs: 1.11.13
-      debug: 4.4.0
-      execa: 4.1.0
-      istanbul-lib-coverage: 3.2.2
-      js-yaml: 4.1.0
-      nyc: 15.1.0
-      tinyglobby: 0.2.17
-      webpack: 5.105.4
-    transitivePeerDependencies:
-      - supports-color
-
-  '@cypress/code-coverage@3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@13.1.0)(webpack@5.105.4)':
-    dependencies:
-      '@babel/core': 7.29.7
-      '@babel/preset-env': 7.29.7(@babel/core@7.29.7)
-      '@cypress/webpack-preprocessor': 6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)
-      babel-loader: 9.2.1(@babel/core@7.29.7)(webpack@5.105.4)
-      chalk: 4.1.2
-      cypress: 13.1.0
-      dayjs: 1.11.13
-      debug: 4.4.0
-      execa: 4.1.0
-      istanbul-lib-coverage: 3.2.2
-      js-yaml: 4.1.0
-      nyc: 15.1.0
-      tinyglobby: 0.2.17
-      webpack: 5.105.4
-    transitivePeerDependencies:
-      - supports-color
-
-  '@cypress/code-coverage@3.14.7(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(cypress@15.16.0)(webpack@5.105.4)':
-    dependencies:
-      '@babel/core': 7.29.7
-      '@babel/preset-env': 7.29.7(@babel/core@7.29.7)
-      '@cypress/webpack-preprocessor': 6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)
-      babel-loader: 9.2.1(@babel/core@7.29.7)(webpack@5.105.4)
-      chalk: 4.1.2
-      cypress: 15.16.0
       dayjs: 1.11.13
       debug: 4.4.0
       execa: 4.1.0
@@ -23420,11 +23393,11 @@ snapshots:
       tough-cookie: 5.1.2
       tunnel-agent: 0.6.0
 
-  '@cypress/webpack-preprocessor@6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)':
+  '@cypress/webpack-preprocessor@6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.24.6(@babel/core@7.29.7))(babel-loader@9.1.0(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)':
     dependencies:
       '@babel/core': 7.29.7
       '@babel/preset-env': 7.24.6(@babel/core@7.29.7)
-      babel-loader: 9.2.1(@babel/core@7.29.7)(webpack@5.105.4)
+      babel-loader: 9.1.0(@babel/core@7.29.7)(webpack@5.105.4)
       bluebird: 3.7.1
       debug: 4.3.4(supports-color@5.5.0)
       lodash: 4.17.21
@@ -23438,19 +23411,6 @@ snapshots:
       '@babel/core': 7.29.7
       '@babel/preset-env': 7.29.7(@babel/core@7.29.7)
       babel-loader: 9.1.0(@babel/core@7.29.7)(webpack@5.105.4)
-      bluebird: 3.7.1
-      debug: 4.3.4(supports-color@5.5.0)
-      lodash: 4.17.21
-      semver: 7.8.5
-      webpack: 5.105.4
-    transitivePeerDependencies:
-      - supports-color
-
-  '@cypress/webpack-preprocessor@6.0.4(@babel/core@7.29.7)(@babel/preset-env@7.29.7(@babel/core@7.29.7))(babel-loader@9.2.1(@babel/core@7.29.7)(webpack@5.105.4))(webpack@5.105.4)':
-    dependencies:
-      '@babel/core': 7.29.7
-      '@babel/preset-env': 7.29.7(@babel/core@7.29.7)
-      babel-loader: 9.2.1(@babel/core@7.29.7)(webpack@5.105.4)
       bluebird: 3.7.1
       debug: 4.3.4(supports-color@5.5.0)
       lodash: 4.17.21
@@ -24287,6 +24247,43 @@ snapshots:
       jest-message-util: 27.5.1
       jest-util: 27.5.1
       slash: 3.0.0
+
+  '@jest/core@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))':
+    dependencies:
+      '@jest/console': 26.6.2
+      '@jest/reporters': 26.6.2
+      '@jest/test-result': 26.6.2
+      '@jest/transform': 26.6.2
+      '@jest/types': 26.6.2
+      '@types/node': 24.13.3
+      ansi-escapes: 4.3.2
+      chalk: 4.1.2
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      jest-changed-files: 26.6.2
+      jest-config: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-haste-map: 26.6.2
+      jest-message-util: 26.6.2
+      jest-regex-util: 26.0.0
+      jest-resolve: 26.6.2
+      jest-resolve-dependencies: 26.6.3
+      jest-runner: 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
+      jest-runtime: 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
+      jest-snapshot: 26.6.2
+      jest-util: 26.6.2
+      jest-validate: 26.6.2
+      jest-watcher: 26.6.2
+      micromatch: 4.0.8
+      p-each-series: 2.2.0
+      rimraf: 3.0.2
+      slash: 3.0.0
+      strip-ansi: 6.0.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - ts-node
+      - utf-8-validate
 
   '@jest/core@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))':
     dependencies:
@@ -25561,6 +25558,23 @@ snapshots:
 
   '@plotly/regl@2.1.2': {}
 
+  '@pmmmwh/react-refresh-webpack-plugin@0.5.17(react-refresh@0.14.2)(sockjs-client@1.4.0)(type-fest@4.18.2)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)':
+    dependencies:
+      ansi-html: 0.0.9
+      core-js-pure: 3.50.0
+      error-stack-parser: 2.1.4
+      html-entities: 2.6.0
+      loader-utils: 2.0.4
+      react-refresh: 0.14.2
+      schema-utils: 4.3.3
+      source-map: 0.7.6
+      webpack: 5.105.4
+    optionalDependencies:
+      sockjs-client: 1.4.0
+      type-fest: 4.18.2
+      webpack-dev-server: 4.11.1(webpack@5.105.4)
+      webpack-hot-middleware: 2.26.1
+
   '@pmmmwh/react-refresh-webpack-plugin@0.5.17(react-refresh@0.14.2)(sockjs-client@1.4.0)(type-fest@4.18.2)(webpack-dev-server@5.2.6(webpack@5.105.4(esbuild@0.25.12)))(webpack-hot-middleware@2.26.1)(webpack@5.105.4(esbuild@0.25.12))':
     dependencies:
       ansi-html: 0.0.9
@@ -25576,23 +25590,6 @@ snapshots:
       sockjs-client: 1.4.0
       type-fest: 4.18.2
       webpack-dev-server: 5.2.6(webpack@5.105.4(esbuild@0.25.12))
-      webpack-hot-middleware: 2.26.1
-
-  '@pmmmwh/react-refresh-webpack-plugin@0.5.17(react-refresh@0.14.2)(sockjs-client@1.4.0)(type-fest@4.18.2)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)':
-    dependencies:
-      ansi-html: 0.0.9
-      core-js-pure: 3.50.0
-      error-stack-parser: 2.1.4
-      html-entities: 2.6.0
-      loader-utils: 2.0.4
-      react-refresh: 0.14.2
-      schema-utils: 4.3.3
-      source-map: 0.7.6
-      webpack: 5.105.4
-    optionalDependencies:
-      sockjs-client: 1.4.0
-      type-fest: 4.18.2
-      webpack-dev-server: 5.2.6(webpack@5.105.4)
       webpack-hot-middleware: 2.26.1
 
   '@pnpm/config.env-replace@1.1.0': {}
@@ -30180,11 +30177,6 @@ snapshots:
       chalk: 4.1.2
       cypress: 13.17.0
 
-  cypress-fail-fast@5.0.1(cypress@15.16.0):
-    dependencies:
-      chalk: 4.1.2
-      cypress: 15.16.0
-
   cypress-file-upload@5.0.8(cypress@13.1.0):
     dependencies:
       cypress: 13.1.0
@@ -34321,6 +34313,28 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  jest-cli@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
+    dependencies:
+      '@jest/core': 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      '@jest/test-result': 26.6.2
+      '@jest/types': 26.6.2
+      chalk: 4.1.2
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      import-local: 3.2.0
+      is-ci: 2.0.0
+      jest-config: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-util: 26.6.2
+      jest-validate: 26.6.2
+      prompts: 2.4.2
+      yargs: 15.4.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - ts-node
+      - utf-8-validate
+
   jest-cli@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
     dependencies:
       '@jest/core': 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
@@ -34366,6 +34380,34 @@ snapshots:
       - ts-node
       - utf-8-validate
 
+  jest-config@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
+    dependencies:
+      '@babel/core': 7.29.7
+      '@jest/test-sequencer': 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
+      '@jest/types': 26.6.2
+      babel-jest: 26.6.3(@babel/core@7.29.7)
+      chalk: 4.1.2
+      deepmerge: 4.3.1
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      jest-environment-jsdom: 26.6.2
+      jest-environment-node: 26.6.2
+      jest-get-type: 26.3.0
+      jest-jasmine2: 26.6.3
+      jest-regex-util: 26.0.0
+      jest-resolve: 26.6.2
+      jest-util: 26.6.2
+      jest-validate: 26.6.2
+      micromatch: 4.0.8
+      pretty-format: 26.6.2
+    optionalDependencies:
+      ts-node: 10.9.2(@types/node@22.20.1)(typescript@5.9.3)
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - utf-8-validate
+
   jest-config@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
     dependencies:
       '@babel/core': 7.29.7
@@ -34379,7 +34421,7 @@ snapshots:
       jest-environment-jsdom: 26.6.2
       jest-environment-node: 26.6.2
       jest-get-type: 26.3.0
-      jest-jasmine2: 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
+      jest-jasmine2: 26.6.3
       jest-regex-util: 26.0.0
       jest-resolve: 26.6.2
       jest-util: 26.6.2
@@ -34564,7 +34606,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  jest-jasmine2@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
+  jest-jasmine2@26.6.3:
     dependencies:
       '@babel/traverse': 7.29.8(supports-color@5.5.0)
       '@jest/environment': 26.6.2
@@ -34585,11 +34627,7 @@ snapshots:
       pretty-format: 26.6.2
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   jest-jasmine2@27.5.1:
     dependencies:
@@ -35028,6 +35066,18 @@ snapshots:
       jest-util: 30.4.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
+
+  jest@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
+    dependencies:
+      '@jest/core': 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      import-local: 3.2.0
+      jest-cli: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - ts-node
+      - utf-8-validate
 
   jest@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
     dependencies:
@@ -37697,6 +37747,14 @@ snapshots:
     dependencies:
       postcss: 8.5.26
 
+  postcss-load-config@3.1.4(postcss@8.5.26)(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
+    dependencies:
+      lilconfig: 2.1.0
+      yaml: 1.10.3
+    optionalDependencies:
+      postcss: 8.5.26
+      ts-node: 10.9.2(@types/node@22.20.1)(typescript@5.9.3)
+
   postcss-load-config@3.1.4(postcss@8.5.26)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
     dependencies:
       lilconfig: 2.1.0
@@ -38388,7 +38446,7 @@ snapshots:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
-  razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4):
+  razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4):
     dependencies:
       '@babel/code-frame': 7.29.7
       chalk: 4.1.2
@@ -38402,14 +38460,35 @@ snapshots:
       sockjs-client: 1.4.0
       strip-ansi: 6.0.1
       webpack: 5.105.4
-      webpack-dev-server: 5.2.6(webpack@5.105.4)
+      webpack-dev-server: 4.11.1(webpack@5.105.4)
     transitivePeerDependencies:
       - eslint
       - supports-color
       - typescript
       - vue-template-compiler
 
-  razzle-plugin-scss@4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(webpack@5.105.4):
+  razzle-plugin-scss@4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))(webpack@5.105.4):
+    dependencies:
+      autoprefixer: 10.4.8(postcss@8.5.26)
+      css-loader: 5.2.7(webpack@5.105.4)
+      deepmerge: 4.3.1
+      mini-css-extract-plugin: 2.10.2(webpack@5.105.4)
+      postcss-load-config: 3.1.4(postcss@8.5.26)(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      postcss-loader: 4.3.0(postcss@8.5.26)(webpack@5.105.4)
+      postcss-scss: 3.0.5
+      razzle: 4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)
+      razzle-dev-utils: 4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4)
+      resolve-url-loader: 3.1.5
+      sass: 1.58.0
+      sass-loader: 10.5.2(sass@1.58.0)(webpack@5.105.4)
+    transitivePeerDependencies:
+      - fibers
+      - node-sass
+      - postcss
+      - ts-node
+      - webpack
+
+  razzle-plugin-scss@4.2.18(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(postcss@8.5.26)(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4))(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(webpack@5.105.4):
     dependencies:
       autoprefixer: 10.4.8(postcss@8.5.26)
       css-loader: 5.2.7(webpack@5.105.4)
@@ -38418,8 +38497,8 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.26)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
       postcss-loader: 4.3.0(postcss@8.5.26)(webpack@5.105.4)
       postcss-scss: 3.0.5
-      razzle: 4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)
-      razzle-dev-utils: 4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4)
+      razzle: 4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)
+      razzle-dev-utils: 4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4)
       resolve-url-loader: 3.1.5
       sass: 1.58.0
       sass-loader: 10.5.2(sass@1.58.0)(webpack@5.105.4)
@@ -38438,10 +38517,75 @@ snapshots:
     dependencies:
       webpack: 5.105.4
 
-  razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4):
+  razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4):
     dependencies:
       '@babel/plugin-transform-modules-commonjs': 7.29.7(@babel/core@7.29.7)
-      '@pmmmwh/react-refresh-webpack-plugin': 0.5.17(react-refresh@0.14.2)(sockjs-client@1.4.0)(type-fest@4.18.2)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.17(react-refresh@0.14.2)(sockjs-client@1.4.0)(type-fest@4.18.2)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)
+      autoprefixer: 10.4.8(postcss@8.5.26)
+      babel-jest: 26.6.3(@babel/core@7.29.7)
+      babel-loader: 8.4.1(@babel/core@7.29.7)(webpack@5.105.4)
+      babel-plugin-transform-define: 2.1.4
+      babel-preset-razzle: 4.2.17
+      buffer: 6.0.3
+      chalk: 4.1.2
+      clean-css: 5.3.3
+      copy-webpack-plugin: 6.4.1(webpack@5.105.4)
+      css-loader: 5.2.7(webpack@5.105.4)
+      css-minimizer-webpack-plugin: 1.3.0(webpack@5.105.4)
+      deepmerge: 4.3.1
+      dotenv: 8.6.0
+      dotenv-expand: 5.1.0
+      file-loader: 4.3.0(webpack@5.105.4)
+      fs-extra: 9.1.0
+      html-webpack-plugin: 5.6.7(webpack@5.105.4)
+      inquirer: 7.3.3
+      jest: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      mini-css-extract-plugin: 2.10.2(webpack@5.105.4)
+      mri: 1.2.0
+      null-loader: 4.0.1(webpack@5.105.4)
+      pnp-webpack-plugin: 1.7.0(typescript@5.9.3)
+      postcss: 8.5.26
+      postcss-load-config: 3.1.4(postcss@8.5.26)(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      postcss-loader: 4.3.0(postcss@8.5.26)(webpack@5.105.4)
+      process: 0.11.10
+      razzle-dev-utils: 4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4)
+      razzle-start-server-webpack-plugin: 4.2.18(webpack@5.105.4)
+      react-dev-utils: 11.0.4(eslint@8.57.1)(typescript@5.9.3)(webpack@5.105.4)
+      react-refresh: 0.14.2
+      resolve: 1.22.12
+      sade: 1.8.1
+      source-map-support: 0.5.21
+      string-hash: 1.1.3
+      style-loader: 2.0.0(webpack@5.105.4)
+      terminate: 2.8.0
+      terser-webpack-plugin: 2.3.8(webpack@5.105.4)
+      tiny-async-pool: 1.3.0
+      url-loader: 2.3.0(file-loader@4.3.0(webpack@5.105.4))(webpack@5.105.4)
+      webpack: 5.105.4
+      webpack-dev-server: 4.11.1(webpack@5.105.4)
+      webpack-manifest-plugin: 3.2.0(webpack@5.105.4)
+      webpackbar: 5.0.2(webpack@5.105.4)
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@types/webpack'
+      - bluebird
+      - bufferutil
+      - canvas
+      - eslint
+      - sockjs-client
+      - supports-color
+      - ts-node
+      - type-fest
+      - typescript
+      - utf-8-validate
+      - vue-template-compiler
+      - webpack-hot-middleware
+      - webpack-plugin-serve
+
+  razzle@4.2.18(@babel/core@7.29.7)(babel-preset-razzle@4.2.17)(eslint@8.57.1)(html-webpack-plugin@5.6.7(webpack@5.105.4))(mini-css-extract-plugin@2.10.2(webpack@5.105.4))(razzle-dev-utils@4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4))(sockjs-client@1.4.0)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))(type-fest@4.18.2)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4):
+    dependencies:
+      '@babel/plugin-transform-modules-commonjs': 7.29.7(@babel/core@7.29.7)
+      '@pmmmwh/react-refresh-webpack-plugin': 0.5.17(react-refresh@0.14.2)(sockjs-client@1.4.0)(type-fest@4.18.2)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack-hot-middleware@2.26.1)(webpack@5.105.4)
       autoprefixer: 10.4.8(postcss@8.5.26)
       babel-jest: 26.6.3(@babel/core@7.29.7)
       babel-loader: 8.4.1(@babel/core@7.29.7)(webpack@5.105.4)
@@ -38469,7 +38613,7 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.26)(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
       postcss-loader: 4.3.0(postcss@8.5.26)(webpack@5.105.4)
       process: 0.11.10
-      razzle-dev-utils: 4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@5.2.6(webpack@5.105.4))(webpack@5.105.4)
+      razzle-dev-utils: 4.2.18(eslint@8.57.1)(typescript@5.9.3)(webpack-dev-server@4.11.1(webpack@5.105.4))(webpack@5.105.4)
       razzle-start-server-webpack-plugin: 4.2.18(webpack@5.105.4)
       react-dev-utils: 11.0.4(eslint@8.57.1)(typescript@5.9.3)(webpack@5.105.4)
       react-refresh: 0.14.2
@@ -38483,7 +38627,7 @@ snapshots:
       tiny-async-pool: 1.3.0
       url-loader: 2.3.0(file-loader@4.3.0(webpack@5.105.4))(webpack@5.105.4)
       webpack: 5.105.4
-      webpack-dev-server: 5.2.6(webpack@5.105.4)
+      webpack-dev-server: 4.11.1(webpack@5.105.4)
       webpack-manifest-plugin: 3.2.0(webpack@5.105.4)
       webpackbar: 5.0.2(webpack@5.105.4)
     transitivePeerDependencies:
@@ -39556,8 +39700,6 @@ snapshots:
   regenerate@1.4.2: {}
 
   regenerator-runtime@0.11.1: {}
-
-  regenerator-runtime@0.13.11: {}
 
   regenerator-runtime@0.14.1: {}
 
@@ -42349,6 +42491,25 @@ snapshots:
       typescript: 5.9.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
+
+  ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3):
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      '@tsconfig/node10': 1.0.13
+      '@tsconfig/node12': 1.0.11
+      '@tsconfig/node14': 1.0.3
+      '@tsconfig/node16': 1.0.4
+      '@types/node': 22.20.1
+      acorn: 8.18.0
+      acorn-walk: 8.3.5
+      arg: 4.1.3
+      create-require: 1.1.1
+      diff: 4.0.4
+      make-error: 1.3.6
+      typescript: 5.9.3
+      v8-compile-cache-lib: 3.0.1
+      yn: 3.1.1
+    optional: true
 
   ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3):
     dependencies:
