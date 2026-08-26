@@ -417,6 +417,9 @@ importers:
       lodash.debounce:
         specifier: 4.0.8
         version: 4.0.8
+      postcss:
+        specifier: ^8.5.15
+        version: 8.5.26
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -426,6 +429,9 @@ importers:
       react-intl:
         specifier: 3.12.1
         version: 3.12.1(@types/react@18.3.31)(react@18.2.0)
+      react-is:
+        specifier: ^18.2.0
+        version: 18.3.1
       react-portal:
         specifier: ^4.3.0
         version: 4.3.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -444,6 +450,9 @@ importers:
       volto-subsites:
         specifier: workspace:*
         version: link:packages/volto-subsites
+      wikibase-sdk:
+        specifier: 8.1.1
+        version: 8.1.1
     devDependencies:
       '@babel/core':
         specifier: ^7.0.0
@@ -700,9 +709,6 @@ importers:
       mrs-developer:
         specifier: ^2.2.0
         version: 2.3.2
-      postcss:
-        specifier: ^8.5.15
-        version: 8.5.26
       postcss-flexbugs-fixes:
         specifier: 5.0.2
         version: 5.0.2(postcss@8.5.26)
@@ -727,9 +733,6 @@ importers:
       react-error-overlay:
         specifier: 6.0.9
         version: 6.0.9
-      react-is:
-        specifier: ^18.2.0
-        version: 18.3.1
       react-test-renderer:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
@@ -24267,8 +24270,8 @@ snapshots:
       jest-regex-util: 26.0.0
       jest-resolve: 26.6.2
       jest-resolve-dependencies: 26.6.3
-      jest-runner: 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
-      jest-runtime: 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
+      jest-runner: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-runtime: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
       jest-snapshot: 26.6.2
       jest-util: 26.6.2
       jest-validate: 26.6.2
@@ -24510,6 +24513,20 @@ snapshots:
       '@jest/types': 27.5.1
       '@types/istanbul-lib-coverage': 2.0.6
       collect-v8-coverage: 1.0.3
+
+  '@jest/test-sequencer@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))':
+    dependencies:
+      '@jest/test-result': 26.6.2
+      graceful-fs: 4.2.11
+      jest-haste-map: 26.6.2
+      jest-runner: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-runtime: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - ts-node
+      - utf-8-validate
 
   '@jest/test-sequencer@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))':
     dependencies:
@@ -34383,7 +34400,7 @@ snapshots:
   jest-config@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
     dependencies:
       '@babel/core': 7.29.7
-      '@jest/test-sequencer': 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
+      '@jest/test-sequencer': 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
       '@jest/types': 26.6.2
       babel-jest: 26.6.3(@babel/core@7.29.7)
       chalk: 4.1.2
@@ -34393,7 +34410,7 @@ snapshots:
       jest-environment-jsdom: 26.6.2
       jest-environment-node: 26.6.2
       jest-get-type: 26.3.0
-      jest-jasmine2: 26.6.3
+      jest-jasmine2: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
       jest-regex-util: 26.0.0
       jest-resolve: 26.6.2
       jest-util: 26.6.2
@@ -34421,7 +34438,7 @@ snapshots:
       jest-environment-jsdom: 26.6.2
       jest-environment-node: 26.6.2
       jest-get-type: 26.3.0
-      jest-jasmine2: 26.6.3
+      jest-jasmine2: 26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3))
       jest-regex-util: 26.0.0
       jest-resolve: 26.6.2
       jest-util: 26.6.2
@@ -34606,7 +34623,34 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  jest-jasmine2@26.6.3:
+  jest-jasmine2@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
+    dependencies:
+      '@babel/traverse': 7.29.8(supports-color@5.5.0)
+      '@jest/environment': 26.6.2
+      '@jest/source-map': 26.6.2
+      '@jest/test-result': 26.6.2
+      '@jest/types': 26.6.2
+      '@types/node': 24.13.3
+      chalk: 4.1.2
+      co: 4.6.0
+      expect: 26.6.2
+      is-generator-fn: 2.1.0
+      jest-each: 26.6.2
+      jest-matcher-utils: 26.6.2
+      jest-message-util: 26.6.2
+      jest-runtime: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-snapshot: 26.6.2
+      jest-util: 26.6.2
+      pretty-format: 26.6.2
+      throat: 5.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - ts-node
+      - utf-8-validate
+
+  jest-jasmine2@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
     dependencies:
       '@babel/traverse': 7.29.8(supports-color@5.5.0)
       '@jest/environment': 26.6.2
@@ -34627,7 +34671,11 @@ snapshots:
       pretty-format: 26.6.2
       throat: 5.0.0
     transitivePeerDependencies:
+      - bufferutil
+      - canvas
       - supports-color
+      - ts-node
+      - utf-8-validate
 
   jest-jasmine2@27.5.1:
     dependencies:
@@ -34789,6 +34837,35 @@ snapshots:
       resolve.exports: 1.1.1
       slash: 3.0.0
 
+  jest-runner@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
+    dependencies:
+      '@jest/console': 26.6.2
+      '@jest/environment': 26.6.2
+      '@jest/test-result': 26.6.2
+      '@jest/types': 26.6.2
+      '@types/node': 24.13.3
+      chalk: 4.1.2
+      emittery: 0.7.2
+      exit: 0.1.2
+      graceful-fs: 4.2.11
+      jest-config: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-docblock: 26.0.0
+      jest-haste-map: 26.6.2
+      jest-leak-detector: 26.6.2
+      jest-message-util: 26.6.2
+      jest-resolve: 26.6.2
+      jest-runtime: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-util: 26.6.2
+      jest-worker: 26.6.2
+      source-map-support: 0.5.21
+      throat: 5.0.0
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - ts-node
+      - utf-8-validate
+
   jest-runner@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
     dependencies:
       '@jest/console': 26.6.2
@@ -34845,6 +34922,42 @@ snapshots:
       - bufferutil
       - canvas
       - supports-color
+      - utf-8-validate
+
+  jest-runtime@26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3)):
+    dependencies:
+      '@jest/console': 26.6.2
+      '@jest/environment': 26.6.2
+      '@jest/fake-timers': 26.6.2
+      '@jest/globals': 26.6.2
+      '@jest/source-map': 26.6.2
+      '@jest/test-result': 26.6.2
+      '@jest/transform': 26.6.2
+      '@jest/types': 26.6.2
+      '@types/yargs': 15.0.20
+      chalk: 4.1.2
+      cjs-module-lexer: 0.6.0
+      collect-v8-coverage: 1.0.3
+      exit: 0.1.2
+      glob: 7.2.3
+      graceful-fs: 4.2.11
+      jest-config: 26.6.3(ts-node@10.9.2(@types/node@22.20.1)(typescript@5.9.3))
+      jest-haste-map: 26.6.2
+      jest-message-util: 26.6.2
+      jest-mock: 26.6.2
+      jest-regex-util: 26.0.0
+      jest-resolve: 26.6.2
+      jest-snapshot: 26.6.2
+      jest-util: 26.6.2
+      jest-validate: 26.6.2
+      slash: 3.0.0
+      strip-bom: 4.0.0
+      yargs: 15.4.1
+    transitivePeerDependencies:
+      - bufferutil
+      - canvas
+      - supports-color
+      - ts-node
       - utf-8-validate
 
   jest-runtime@26.6.3(ts-node@10.9.2(@types/node@24.13.3)(typescript@5.9.3)):
