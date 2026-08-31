@@ -2356,16 +2356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:*":
-  version: 13.0.3
-  resolution: "@eeacms/volto-accordion-block@npm:13.0.3"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-  checksum: cf5585ba53fc5d0084d45a391fdf7f838e663f53b743445f907362f9072b8b709a402e9f9b3d7bc6f6a12bb6f9d7e10c652e764565f10c6d850e32e7e433ac14
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-accordion-block@npm:13.1.0":
+"@eeacms/volto-accordion-block@npm:*, @eeacms/volto-accordion-block@npm:13.1.0":
   version: 13.1.0
   resolution: "@eeacms/volto-accordion-block@npm:13.1.0"
   dependencies:
@@ -2750,14 +2741,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-group-block@npm:*":
-  version: 10.0.3
-  resolution: "@eeacms/volto-group-block@npm:10.0.3"
-  checksum: 57a7f896a71a4010bda6f419743b718aaf07b72cda2178d8e4689b0b6d284b8524e5219c00cd7a53822f46ae90d8d6c0cab0c4faedff8a00614750a9649913c3
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-group-block@npm:10.1.0":
+"@eeacms/volto-group-block@npm:*, @eeacms/volto-group-block@npm:10.1.0":
   version: 10.1.0
   resolution: "@eeacms/volto-group-block@npm:10.1.0"
   dependencies:
@@ -2778,14 +2762,14 @@ __metadata:
 
 "@eeacms/volto-listing-block@github:eea/volto-listing-block#ims-vizualization-cards":
   version: 10.0.2
-  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=2dd7b29bd5d5103d84f5d58fd4115e351cc9a739"
+  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=0d220a99051050b611bcce270428b59832147dd7"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: c4945f75bd9ec5443d231b90fcf9e73c1cf6bc8de5bc9b0c50d295bc61fcf269f0bb3ba49a61213567660b16808fa32d3b9cd89c574020683f2020c52bc0e2f0
+  checksum: 1daae49b1a4875afd96d4563a80f47ca443828d9fd6c5a7c43039bfd0e9f7cca34db4494a29b3ba8de290a9f184828413473bb12e53bdffefed170a0d8cf8278
   languageName: node
   linkType: hard
 
