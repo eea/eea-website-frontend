@@ -2578,14 +2578,14 @@ __metadata:
 
 "@eeacms/volto-listing-block@github:eea/volto-listing-block#ims-vizualization-cards":
   version: 10.0.2
-  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=a1e597f85fd3bf408bef9121c1856a6d8f9b030c"
+  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=fb95adc213158cb7c38c9ce1f2d65f9b4aafae14"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 439294d90a3c0a24f60e79d1c1de69d044a7ff144c03400d11b96168604af21c4d00c4b189e9009d9bad806bc5b25c3a409af9e93d0353a01f7061d3ffc2ca06
+  checksum: 8c2dfbdf4e5404b55fa07e62d3877405344e997db54b5a1c08820f37cc48e6da12bc3d09d12c7d0bb97b8d4eb81bd3789a02c6db48998f8dab8ef8f0ffa9bec9
   languageName: node
   linkType: hard
 
