@@ -2385,9 +2385,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.60.8":
-  version: 1.60.8
-  resolution: "@eeacms/volto-eea-design-system@npm:1.60.8"
+"@eeacms/volto-eea-design-system@github:eea/volto-eea-design-system#develop":
+  version: 1.61.0
+  resolution: "@eeacms/volto-eea-design-system@https://github.com/eea/volto-eea-design-system.git#commit=852307abd0b026323b6c6f50317aec4bfbe5a163"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2396,7 +2396,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 98e98fed67cc5e919f1b81e261873c45738e20be76daf090d5fca2410746b1b9628d2103cf2b3e424b626bd5e6c24764f7ee195aea106c82b5f5242e62752698
+  checksum: e4f39d62bbd9e325c3c3620efc51b2cfed6d80ce2ed746a821c37b47098045d36824152e5680270b04e98042b1129d1843ec0239e80e97345c604871943d5cb9
   languageName: node
   linkType: hard
 
@@ -2585,7 +2585,7 @@ __metadata:
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: f23e522a995df789f43598d554ed7d39924fc349ea0895638ded08b4ece31b8041418a911d9700a9c1c7aaa025e300c825bfce7dfb5dd048bfcbc032513fde3b
+  checksum: d379b401245c66aa326a7359321c8b68c087c1ea99633b2fa55743dabb09a62943e9546a9152a0cc2000eb60b688b72e9ec6be3717f0d461009a8b0af7600306
   languageName: node
   linkType: hard
 
@@ -2675,9 +2675,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:5.0.0":
+"@eeacms/volto-searchlib@github:eea/volto-searchlib#develop":
   version: 5.0.0
-  resolution: "@eeacms/volto-searchlib@npm:5.0.0"
+  resolution: "@eeacms/volto-searchlib@https://github.com/eea/volto-searchlib.git#commit=5a03af1328196bfc8719db974256f7583948d6f2"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-eea-chatbot": "*"
@@ -2718,7 +2718,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: e8ee6e0a4336c89a4adf56f601e3b18ef912ccd153de1889fc0ee9f3e4b7241a6a1cb2e36dc075284c4455b6e19f96f5249d30a50cae8693d0411515b3cb3c89
+  checksum: f0294e716873fb4a43bcd9b9a5616ccde99e704d9da18aa78187c24c1339e58923265a59ceb6434f9d5c0769a1df7529b03d9d1939830e944d92ec1813780f20
   languageName: node
   linkType: hard
 
@@ -13836,7 +13836,7 @@ __metadata:
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": 4.0.0
-    "@eeacms/volto-eea-design-system": 1.60.8
+    "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#develop"
     "@eeacms/volto-eea-kitkat": 33.2.0
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
@@ -13852,7 +13852,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 14.0.7
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.2
-    "@eeacms/volto-searchlib": 5.0.0
+    "@eeacms/volto-searchlib": "github:eea/volto-searchlib#develop"
     "@eeacms/volto-tableau": 9.0.4
     "@eeacms/volto-workflow-progress": 6.0.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
