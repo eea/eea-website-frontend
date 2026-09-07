@@ -2578,14 +2578,14 @@ __metadata:
 
 "@eeacms/volto-listing-block@github:eea/volto-listing-block#ims-vizualization-cards":
   version: 10.0.2
-  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=e17fe3b4a3bec26f070f4d6b18682035288c981b"
+  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=d865ee5ef5a744e00653da1096ca3e708e8987bc"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 83a07fa7480e4b49937057da6c00bf2e907adadf668c74624ffd6fa8ec11095537f0c49fef7a368258af1adc5ce4b9d38c91cd81a3324a4128df83fa2d0cf98a
+  checksum: f23e522a995df789f43598d554ed7d39924fc349ea0895638ded08b4ece31b8041418a911d9700a9c1c7aaa025e300c825bfce7dfb5dd048bfcbc032513fde3b
   languageName: node
   linkType: hard
 
@@ -11293,7 +11293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"confbox@npm:^0.3.0":
+"confbox@npm:^0.3.1":
   version: 0.3.1
   resolution: "confbox@npm:0.3.1"
   checksum: 9a08ae5928966988516d0757ed810241546e8c4f6ad21943fd52bb7a287b57d5000d230a4d32473d8a16d2c16a6be9fd132e29b79fba326ae9a6c0f51c61a269
@@ -23807,13 +23807,13 @@ __metadata:
   linkType: hard
 
 "pkg-types@npm:^2.3.0":
-  version: 2.3.2
-  resolution: "pkg-types@npm:2.3.2"
+  version: 2.3.3
+  resolution: "pkg-types@npm:2.3.3"
   dependencies:
-    confbox: ^0.3.0
+    confbox: ^0.3.1
     exsolve: ^1.1.1
     pathe: ^2.0.3
-  checksum: 419adc790e33d21bcde1a5e5b06e9bda995ce205f752649111ea73ace791cbd480f7bfaed9f5016340ed59e0d28f2a6ecaa0342f1741afbd05fb11226cec615b
+  checksum: 0d65871005a093aceec0fd199acec098fe91b0ac8480aea35f464b7d2b6cd760b223758dee924221b9a700974e21abb1da04fb0daf5ac4bf5e047dc759105e8d
   languageName: node
   linkType: hard
 
