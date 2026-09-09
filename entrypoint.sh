@@ -9,18 +9,6 @@ function run_as_node {
   fi
 }
 
-function apply_rebuild {
-  mkdir -p /app/packages
-  run_as_node pnpm develop
-  run_as_node pnpm install --no-frozen-lockfile
-  run_as_node pnpm build
-}
-
-# Should we re-build
-if [[ -n "${REBUILD:-}" ]]; then
-  apply_rebuild
-fi
-
 # Upload source maps only when the Sentry integration is fully configured.
 SENTRY_SCRIPT="/app/node_modules/@plone-collective/volto-sentry/scripts/create-sentry-release.sh"
 if [[ -x "$SENTRY_SCRIPT" && -n "${SENTRY_AUTH_TOKEN:-}" && -n "${SENTRY_ORG:-}" && -n "${SENTRY_PROJECT:-}" ]]; then
