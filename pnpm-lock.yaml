@@ -3811,6 +3811,9 @@ importers:
         specifier: workspace:*
         version: link:../../core/packages/volto
     devDependencies:
+      lint-staged:
+        specifier: ^14.0.1
+        version: 14.0.1(enquirer@2.4.1)
       mrs-developer:
         specifier: ^2.2.0
         version: 2.3.2
@@ -5862,6 +5865,9 @@ importers:
         specifier: workspace:*
         version: link:../../core/packages/volto
     devDependencies:
+      lint-staged:
+        specifier: ^14.0.1
+        version: 14.0.1(enquirer@2.4.1)
       mrs-developer:
         specifier: ^2.2.0
         version: 2.3.2
@@ -7354,6 +7360,9 @@ importers:
         specifier: workspace:*
         version: link:../../core/packages/volto
     devDependencies:
+      lint-staged:
+        specifier: ^14.0.1
+        version: 14.0.1(enquirer@2.4.1)
       mrs-developer:
         specifier: ^2.2.0
         version: 2.3.2
@@ -7587,6 +7596,9 @@ importers:
         specifier: workspace:*
         version: link:../../core/packages/volto
     devDependencies:
+      lint-staged:
+        specifier: ^14.0.1
+        version: 14.0.1(enquirer@2.4.1)
       mrs-developer:
         specifier: ^2.2.0
         version: 2.3.2
