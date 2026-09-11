@@ -98,7 +98,7 @@
     "not dead"
   ],
   "engines": {
-    "node": "^22 || ^24"
+    "node": "^24"
   },
   "pnpm": {
     "overrides": {
@@ -363,7 +363,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "html-webpack-plugin": "5.6.7",
     "identity-obj-proxy": "3.0.0",
-    "husky": "8.0.3",
+    "husky": "9.1.7",
     "jiti": "^2.4.2",
     "jsdom": "23.0.0",
     "jsonwebtoken": "9.0.0",
