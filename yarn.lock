@@ -2555,9 +2555,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.0"
+"@eeacms/volto-eea-chatbot@npm:4.1.1":
+  version: 4.1.1
+  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.1"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2574,7 +2574,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 9bb8011cbb9ec002ebd92179805be45f5a1385bb514198937887c13134e64d80cf004499b4ddeabbf29b7b14492b86f1041bf61dca8806a7bdd90d91e65d7a11
+  checksum: 83caf7789c416070e234bf0bccf2d2d47294dcf88315c9cde64b58e4ecbfa0312e48809e676cb62cf3391c3668e52d1e3d638446d0700794f5f7e9f3cd708854
   languageName: node
   linkType: hard
 
@@ -14289,7 +14289,7 @@ __metadata:
     "@eeacms/volto-datahub": 4.0.0
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": 4.1.0
+    "@eeacms/volto-eea-chatbot": 4.1.1
     "@eeacms/volto-eea-design-system": 1.61.1
     "@eeacms/volto-eea-kitkat": 33.2.0
     "@eeacms/volto-eea-map": 6.0.2
