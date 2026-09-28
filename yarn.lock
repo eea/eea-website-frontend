@@ -2362,9 +2362,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@eeacms/volto-eea-chatbot@npm:4.0.0"
+"@eeacms/volto-eea-chatbot@npm:4.1.3":
+  version: 4.1.3
+  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.3"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2381,13 +2381,13 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 3fb3685031ed23b3242c8c6db045b60245c619672323bc16d2f3f311f30cf5260a8d31f11b6fc84fa6ba06a5c8a549477406d951431b032b0f287558f54591c0
+  checksum: 812191838bc7ae4283973fbb14b1d5c7c7fd69577c4b61cf0ae1c80062517030cd6133b03ede395473ed72131a9145af046059382fc9ad2e91ce26d51b1446a4
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@github:eea/volto-eea-design-system#develop":
+"@eeacms/volto-eea-design-system@npm:1.61.1":
   version: 1.61.1
-  resolution: "@eeacms/volto-eea-design-system@https://github.com/eea/volto-eea-design-system.git#commit=3540badaf11c06786e39b999dcddd06292353226"
+  resolution: "@eeacms/volto-eea-design-system@npm:1.61.1"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2396,7 +2396,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 910e07ecd91b42f868967dd9bbf2aaf8baa2fe7d1a317287bb2444e19d4e55e7c0e8f30714d523f574ab5c091aae5976f364178e2113d80023963e7cf24bbc43
+  checksum: dfa5b849cc03cc9c5e2fbfbd3215fd6acdca86fbe43d9b83805e3a5af1a1c54f70ebf5c07a8cb1cf5f55d81d8b8e59760600a88803ce1e5354ca194e462af687
   languageName: node
   linkType: hard
 
@@ -2473,20 +2473,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@npm:4.0.4":
-  version: 4.0.4
-  resolution: "@eeacms/volto-eea-website-policy@npm:4.0.4"
+"@eeacms/volto-eea-website-policy@npm:4.0.5":
+  version: 4.0.5
+  resolution: "@eeacms/volto-eea-website-policy@npm:4.0.5"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@plone-collective/volto-authomatic": "*"
-  checksum: 27eec3154dc715e973fe2291880f7744ccdfd7dfe23702a2de3fed9def117bdae473017699220e39ceba93406f5dc3392ecbb026ac8f2f9bc3f0338b022e76c8
+  checksum: c7a8f9662f5b5af84eced60db5d590c01989d82b657999175c6edf556a03fd12f0bf1231b0423d28568e7abcfa0a3935f1dc0937dca89ab115f11f6b67663f0c
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.5.0":
-  version: 4.5.0
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.5.0"
+"@eeacms/volto-eea-website-theme@npm:4.5.1":
+  version: 4.5.1
+  resolution: "@eeacms/volto-eea-website-theme@npm:4.5.1"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2494,7 +2494,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 8a372196edc08f625ff0e004cc655524546155f007f114b5828c336b1e8d78dcf19f02848ff75bc6cd16efec73d7093179e929723c16bcede8bcb1f1cb25f5e2
+  checksum: 956359dc072a14b20195bad928eceeeec09c4a48b6bfa9bab89144acfaf7ec10f87dd72eaa8d36ec4850704b05ce9a3ff347318c261e749e9a76501e79a06272
   languageName: node
   linkType: hard
 
@@ -13836,13 +13836,13 @@ __metadata:
     "@eeacms/volto-datahub": 4.0.0
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": 4.0.0
-    "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#develop"
+    "@eeacms/volto-eea-chatbot": 4.1.3
+    "@eeacms/volto-eea-design-system": 1.61.1
     "@eeacms/volto-eea-kitkat": 33.2.0
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
-    "@eeacms/volto-eea-website-policy": 4.0.4
-    "@eeacms/volto-eea-website-theme": 4.5.0
+    "@eeacms/volto-eea-website-policy": 4.0.5
+    "@eeacms/volto-eea-website-theme": 4.5.1
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
