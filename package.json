@@ -198,7 +198,7 @@
     "@eeacms/volto-redirector": "1.0.1",
     "@eeacms/volto-eea-map": "6.0.2",
     "@eeacms/volto-eea-versions": "2.0.2",
-    "@eeacms/volto-eea-website-policy": "4.0.5",
+    "@eeacms/volto-eea-website-policy": "github:eea/volto-eea-website-policy#teaser-grid-external-link",
     "@eeacms/volto-eea-website-theme": "4.5.1",
     "@eeacms/volto-globalsearch": "4.1.1",
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#ims-vizualization-cards",
