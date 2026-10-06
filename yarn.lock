@@ -5458,9 +5458,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone/volto-slate@npm:18.10.2":
-  version: 18.10.2
-  resolution: "@plone/volto-slate@npm:18.10.2"
+"@plone/volto-slate@npm:18.10.1":
+  version: 18.10.1
+  resolution: "@plone/volto-slate@npm:18.10.1"
   dependencies:
     classnames: 2.5.1
     github-slugger: 1.4.0
@@ -5484,13 +5484,13 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: a85b8e7ea2a6469e4626f353be045a55450abda937b7d2ff068d34857bda491d5f393dd2cb058bfc0f92ca59f7debc06efad88f8e3abdba3c13fefd0b04876c1
+  checksum: 6ea261030056b7a46bc70c269de2bc8a21f977b05aafc7dd1b4eec5aedcb752bf6b90884e03438f75be8a02466d1363e20bf9067e963859ccab3a4d926dcc9b6
   languageName: node
   linkType: hard
 
-"@plone/volto@npm:18.36.0":
-  version: 18.36.0
-  resolution: "@plone/volto@npm:18.36.0"
+"@plone/volto@npm:18.35.1":
+  version: 18.35.1
+  resolution: "@plone/volto@npm:18.35.1"
   dependencies:
     "@dnd-kit/core": 6.0.8
     "@dnd-kit/sortable": 7.0.2
@@ -5499,7 +5499,7 @@ __metadata:
     "@loadable/server": 5.16.7
     "@plone/registry": 2.7.3
     "@plone/scripts": 3.10.7
-    "@plone/volto-slate": 18.10.2
+    "@plone/volto-slate": 18.10.1
     "@redux-devtools/extension": ^3.3.0
     classnames: 2.5.1
     connected-react-router: 6.8.0
@@ -5585,7 +5585,7 @@ __metadata:
     url: ^0.11.3
     use-deep-compare-effect: 1.8.1
     uuid: ^14.0.0
-  checksum: 73015c8a0daeb344ec96e58807d8f34e9e29ada11bf8529a54c5560aebb9095010eca4e5ff2bb1e6087528e542e8cdf162ee37ad880e1081a3b6215c9f4852f4
+  checksum: fbae30dad34e6ffa40c5fef806d336c16ab2bcff481594f11f36a9b8199a1411814ea6cbad4f181fb8a16d949276a789514029c73ed845bc90cddd936a89b955
   languageName: node
   linkType: hard
 
@@ -14354,7 +14354,7 @@ __metadata:
     "@plone-collective/volto-rss-provider": 1.0.1
     "@plone/scripts": ^3.6.0
     "@plone/types": 1.6.3
-    "@plone/volto": 18.36.0
+    "@plone/volto": 18.35.1
     "@redux-devtools/extension": ^3.3.0
     "@sinonjs/fake-timers": ^6.0.1
     "@storybook/addon-actions": ^8.0.4
