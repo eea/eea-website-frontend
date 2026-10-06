@@ -2479,13 +2479,13 @@ __metadata:
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
-  checksum: 2578542f2aea5441f693d31eb3f160f512fe4e71f28c4ccb30d4422ea4be20b3a1febed2f45cf7f76e06cc9b5546f01584b5efa2664e997dd3fa8de26ea1849d
+  checksum: 445013dc8250fb7e9160a47f630a21d4f7f49a2884f53159539f3669be7a01dfe45c7c8131ec1583ca265ef779429c615f64b506942907afc8e1c7c767e6a2c2
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#remove-dropdown-epanet":
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#epanet-and-ai":
   version: 4.5.2
-  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=28b83ae756bb166a3312c360a4f0929cc2613e30"
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=c582e639402f2d06df2857babad1dfeee55e9209"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2493,7 +2493,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 3b1027d1ed13fc4a27f2da8ef3a5c9eac83addfc1b633052656d83fd94fdebfc9c9c50c83552d7e5672e96583e2615b170a13f52795333c9d9d482059ae76f93
+  checksum: 9d454d385aecacbf5a08a1b3ddcb1be33733414637ca18eb3776a5abcf44a6e7b5d84f690ffbcf2c088dab2bbeb67075e1ff072d3c31663202541693526a9615
   languageName: node
   linkType: hard
 
@@ -2584,7 +2584,7 @@ __metadata:
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: cf56557e080a00d14614733fbae9e0229db5cbaf5593250e886d9ab72e055c038c8630d58da2309315524fb92b27289b10b52cbc241cd564a6e2a7a5370c430e
+  checksum: 07c548b3710082dac9c406f3db482e313f3506c5289f82ca553898af62ee00e6ec9fe98c719c970c12799c380803ee75501199c229efaae5f00a20592bc74a86
   languageName: node
   linkType: hard
 
@@ -2717,7 +2717,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: c4ffe6bad915be045b277ee435a5358f16596a03d14b645c17197496ce23bc9188bca34d49c64404531a025dee6680fae3ae25b484b1f297c8a18529281d4c33
+  checksum: 7009cb284c6f2d106b199a852ee75732a51a00d564b8c1664b619b92708461fb3d92540257445e509009e8586bf0917c1e4e2b4edf3a4dd3511d48af3c64116b
   languageName: node
   linkType: hard
 
@@ -13879,7 +13879,7 @@ __metadata:
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
     "@eeacms/volto-eea-website-policy": "github:eea/volto-eea-website-policy#remove-dropdown-epanet"
-    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#remove-dropdown-epanet"
+    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#epanet-and-ai"
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
