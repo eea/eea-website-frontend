@@ -2774,14 +2774,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-policy@github:eea/volto-eea-website-policy#develop":
+"@eeacms/volto-eea-website-policy@github:eea/volto-eea-website-policy#remove-dropdown-epanet":
   version: 4.0.6
-  resolution: "@eeacms/volto-eea-website-policy@https://github.com/eea/volto-eea-website-policy.git#commit=e69fbf944f701dac028115d4098c2039fc2936ee"
+  resolution: "@eeacms/volto-eea-website-policy@https://github.com/eea/volto-eea-website-policy.git#commit=229e832bf858bd04137384556ee547e0b704b0bb"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
-    "@plone-collective/volto-authomatic": 2.0.4
-  checksum: 86fd7a689a8dc4a4ed6ebcb2e2fcff4609006680b7e2e39b9634040e5061a3a0c2609ccd8607bc335e0c44b2a69711a86e9dee69d60c9fed46779c44e9655f7a
+  checksum: 445013dc8250fb7e9160a47f630a21d4f7f49a2884f53159539f3669be7a01dfe45c7c8131ec1583ca265ef779429c615f64b506942907afc8e1c7c767e6a2c2
   languageName: node
   linkType: hard
 
@@ -2792,7 +2791,6 @@ __metadata:
     "@cypress/code-coverage": ^3.10.0
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
-    "@plone-collective/volto-authomatic": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
     cypress: 13.1.0
@@ -2803,9 +2801,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#develop":
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#remove-dropdown-epanet":
   version: 4.5.2
-  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=05f390734a2765b214c77451c0ec7130e5812db6"
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=28b83ae756bb166a3312c360a4f0929cc2613e30"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2813,7 +2811,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 3b18788fb8aaf79229fa2b913112998987098f0469e563cba99ed1f056847628e814106f6165fb9d807642467df08fa7a66a213d6cc0ac8812285a84c50295ca
+  checksum: a6b988a83e58cb4f3ee05a73bea23d70b0ecb1fd9213828f5797434fdc91ad542e5432e4e81e129f8cfd28da3a5a4ea7efa569a7e61142c080e783aef061f8ab
   languageName: node
   linkType: hard
 
