@@ -37,7 +37,7 @@ jobs:
           context: .
           platforms: linux/arm64
           build-args: |
-            VOLTO_VERSION=19.3.0
+            VOLTO_VERSION=19.5.0
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ env.version }}-arm64

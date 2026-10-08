@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        VOLTO_VERSION: "19.3.0"
+        VOLTO_VERSION: "19.5.0"
     image: eeacms/eea-website-frontend:volto19
     ports:
       - "${FRONTEND:-3000}:3000"

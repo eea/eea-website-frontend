@@ -154,7 +154,7 @@ pipeline {
             def networkName = "${env.BUILD_TAG}-network".toLowerCase()
             try {
               sh "docker network create ${networkName}"
-              docker.build(imageName, '--build-arg VOLTO_VERSION=19.3.0 .')
+              docker.build(imageName, '--build-arg VOLTO_VERSION=19.5.0 .')
               sh "docker run --rm -d --name=${env.BUILD_TAG}-backend --network=${networkName} --network-alias=backend -e SITE=Plone eeacms/eea-website-backend"
               sh "docker run --rm -d --name=${env.BUILD_TAG}-frontend --network=${networkName} -p 3000:3000 -e RAZZLE_INTERNAL_API_PATH=http://backend:8080/Plone -e RAZZLE_DEV_PROXY_API_PATH=http://backend:8080/Plone ${imageName}"
               sh 'pnpm exec wait-on --timeout 120000 http://localhost:3000'

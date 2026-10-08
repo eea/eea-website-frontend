@@ -169,6 +169,7 @@
       "@plone-collective/volto-authomatic": "workspace:*",
       "volto-subsites": "workspace:*",
       "@plone-collective/volto-rss-provider": "workspace:*",
+      "@plone/volto": "workspace:*",
       "@plone/babel-preset-razzle>chalk": "4.1.2",
       "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
       "react": "18.2.0",

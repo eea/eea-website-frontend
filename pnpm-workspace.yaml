@@ -2,3 +2,4 @@ packages:
   - 'core/packages/*'
   - 'packages/*'
   - 'packages/**/packages/*'
+  - '!packages/**/core/**'

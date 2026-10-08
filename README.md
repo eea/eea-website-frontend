@@ -17,7 +17,7 @@ corepack prepare pnpm@10.20.0 --activate
 
 ## Workspace layout
 
-- `core/` contains the Volto `19.3.0` checkout.
+- `core/` contains the Volto `19.5.0` checkout.
 - `packages/eea-website-frontend/` is the project policy add-on.
 - `packages/volto-eea-website-theme/` and
   `packages/volto-eea-design-system/` are the only add-on development checkouts;
@@ -99,7 +99,7 @@ docker compose up --build
 ```
 
 The image is based on the Plone frontend builder and production images pinned to
-Volto `19.3.0`.
+Volto `19.5.0`.
 
 ## Working with add-on checkouts
 

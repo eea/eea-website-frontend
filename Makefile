@@ -175,7 +175,7 @@ acceptance-backend-start:	## Start the official Plone acceptance backend on port
 
 .PHONY: docker-build
 docker-build:		## Build the Volto 19 production image
-	DOCKER_BUILDKIT=1 docker build --build-arg VOLTO_VERSION=19.3.0 -t eeacms/eea-website-frontend:volto19 .
+	DOCKER_BUILDKIT=1 docker build --build-arg VOLTO_VERSION=19.5.0 -t eeacms/eea-website-frontend:volto19 .
 
 .PHONY: help
 help:			## Show this help.
