@@ -94,7 +94,7 @@ demo:		## Start frontend w/ Demo WWW Plone Backend
 
 .PHONY: release
 release: 		## Show release candidates
-	python3 ./scripts/release.py -s chore -s sonar -v
+	python3 ./scripts/release.py -s chromium -s betterleaks -s gitleaks -s jenkinsfile -s chore -s sonar -v
 
 .PHONY: update
 update: 		## git pull all packages
