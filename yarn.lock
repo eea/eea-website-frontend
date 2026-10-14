@@ -2483,9 +2483,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.5.3":
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#ai-alt":
   version: 4.5.3
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.5.3"
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=424a17b431f9f336d9dca786ff25d2f611cd3b35"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2493,7 +2493,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: ed230ddb0a956eb31ff14e48643ea13e2db17b13641a6dc5e8bcc37283d3235e61c607825fae616e9ff05919b3a8fd3c02a806f68680b4bcf6a56e5155c57764
+  checksum: b421a290f5c67b63323d32a3472275733f7c564cdff916169aa551b976f244c50af0d984f64ea0eed99ea793f3fed1320604edecc22e972f37e423e6243a3be0
   languageName: node
   linkType: hard
 
@@ -2539,10 +2539,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-genai-blocks@npm:1.0.1":
+"@eeacms/volto-genai-blocks@github:eea/volto-genai-blocks#develop":
   version: 1.0.1
-  resolution: "@eeacms/volto-genai-blocks@npm:1.0.1"
-  checksum: 8fc4a149dd9706662d6f1b3bae2f7d2b5f4278d252f9d1ae5347b29044ae9f252846bf4b8753ca152e7ee01cf61cc0ee66a5b3ef8c6bc0aa119b87277c113ce6
+  resolution: "@eeacms/volto-genai-blocks@https://github.com/eea/volto-genai-blocks.git#commit=ff9158dbbdc5cc4a4443551b4642ade97bb2e4ed"
+  checksum: b64105e997f6682f98130bc18f325dda242faa56b09254aad31ffda464240b1c3282531881983d53d3de85fc40d10ec859338df530ad2a303fb3ba7a180213bc
   languageName: node
   linkType: hard
 
@@ -2584,7 +2584,7 @@ __metadata:
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: d4b02c20efe5c07f1532bed6ee722efdca21a5dee4f292b73b82d58f34a9444e7d3c9bb3c9de778f6a565ea9e1e2dd723b59da96615de6ff2d71f58aa34f509b
+  checksum: de77a9c316d1653ee6391e2ce7f5a06c67674b8b7075d6d4c508c5a79bc9d7fe808eb5142976c756a91b2ef7d85c0aa01db2837afa468cbe0f987a49e05a9157
   languageName: node
   linkType: hard
 
@@ -2717,7 +2717,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: c4ffe6bad915be045b277ee435a5358f16596a03d14b645c17197496ce23bc9188bca34d49c64404531a025dee6680fae3ae25b484b1f297c8a18529281d4c33
+  checksum: 7009cb284c6f2d106b199a852ee75732a51a00d564b8c1664b619b92708461fb3d92540257445e509009e8586bf0917c1e4e2b4edf3a4dd3511d48af3c64116b
   languageName: node
   linkType: hard
 
@@ -13879,12 +13879,12 @@ __metadata:
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
     "@eeacms/volto-eea-website-policy": 4.0.7
-    "@eeacms/volto-eea-website-theme": 4.5.3
+    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#ai-alt"
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-flourish": 1.0.1
-    "@eeacms/volto-genai-blocks": 1.0.1
+    "@eeacms/volto-genai-blocks": "github:eea/volto-genai-blocks#develop"
     "@eeacms/volto-globalsearch": 4.1.1
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#new-cards-layout"
     "@eeacms/volto-plotlycharts": 14.0.7
