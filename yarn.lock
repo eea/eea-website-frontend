@@ -2752,7 +2752,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:10.1.0":
+"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:10.1.0":
   version: 10.1.0
   resolution: "@eeacms/volto-listing-block@npm:10.1.0"
   dependencies:
@@ -5273,7 +5273,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:*, @plone-collective/volto-sentry@npm:1.0.1":
+"@plone-collective/volto-sentry@npm:*":
+  version: 1.0.0
+  resolution: "@plone-collective/volto-sentry@npm:1.0.0"
+  dependencies:
+    "@sentry/browser": 7.15.0
+    "@sentry/integrations": 7.15.0
+    "@sentry/node": 7.15.0
+    "@sentry/webpack-plugin": 1.19.1
+  checksum: 858253fa262c4ee9c9602b79d9f0db5fcdf822bfb9f05710bfb395275b2b8e34abfda3dfd01fb263b55ea3773bcda653849d318f0fa5252615d982dcc40c739d
+  languageName: node
+  linkType: hard
+
+"@plone-collective/volto-sentry@npm:1.0.1":
   version: 1.0.1
   resolution: "@plone-collective/volto-sentry@npm:1.0.1"
   dependencies:
@@ -14310,7 +14322,6 @@ __metadata:
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-flourish": 1.0.1
     "@eeacms/volto-globalsearch": 4.1.1
-    "@eeacms/volto-listing-block": 10.1.0
     "@eeacms/volto-plotlycharts": 14.0.7
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.2
