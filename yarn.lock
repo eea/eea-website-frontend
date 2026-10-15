@@ -2483,9 +2483,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:4.5.3":
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#ai-alt":
   version: 4.5.3
-  resolution: "@eeacms/volto-eea-website-theme@npm:4.5.3"
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=424a17b431f9f336d9dca786ff25d2f611cd3b35"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2493,7 +2493,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: ed230ddb0a956eb31ff14e48643ea13e2db17b13641a6dc5e8bcc37283d3235e61c607825fae616e9ff05919b3a8fd3c02a806f68680b4bcf6a56e5155c57764
+  checksum: 26312e14f48a492d4c9281b426507d617516ef8dbb0775de32200639e295c23e68746c70f54fb367e280f2addf47c405ffb6b6910cee7adb47b7140d970fe40c
   languageName: node
   linkType: hard
 
@@ -2539,10 +2539,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-genai-blocks@npm:1.0.1":
+"@eeacms/volto-genai-blocks@github:eea/volto-genai-blocks#develop":
   version: 1.0.1
-  resolution: "@eeacms/volto-genai-blocks@npm:1.0.1"
-  checksum: 8fc4a149dd9706662d6f1b3bae2f7d2b5f4278d252f9d1ae5347b29044ae9f252846bf4b8753ca152e7ee01cf61cc0ee66a5b3ef8c6bc0aa119b87277c113ce6
+  resolution: "@eeacms/volto-genai-blocks@https://github.com/eea/volto-genai-blocks.git#commit=ff9158dbbdc5cc4a4443551b4642ade97bb2e4ed"
+  checksum: 7754e0cf3f1d74900fd116b9dc38a6d9afdb6828674c5c540145b3f979bd8a37a4b4078b7ae9f7d85d01646ddd6a4e129325ad36656e0e39fc8cacfb9ac623f4
   languageName: node
   linkType: hard
 
@@ -13879,12 +13879,12 @@ __metadata:
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
     "@eeacms/volto-eea-website-policy": 4.0.7
-    "@eeacms/volto-eea-website-theme": 4.5.3
+    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#ai-alt"
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-flourish": 1.0.1
-    "@eeacms/volto-genai-blocks": 1.0.1
+    "@eeacms/volto-genai-blocks": "github:eea/volto-genai-blocks#develop"
     "@eeacms/volto-globalsearch": 4.1.1
     "@eeacms/volto-listing-block": "github:eea/volto-listing-block#new-cards-layout"
     "@eeacms/volto-plotlycharts": 14.0.7
