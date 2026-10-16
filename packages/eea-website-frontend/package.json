@@ -1,0 +1,43 @@
+{
+  "name": "eea-website-frontend",
+  "version": "6.6.0",
+  "description": "EEA Main Website Volto policy add-on",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "test": "vitest --config ./vitest.config.mjs run --passWithNoTests",
+    "test:fix": "vitest --config ./vitest.config.mjs run --passWithNoTests --update"
+  },
+  "addons": [],
+  "dependencies": {
+    "compression-webpack-plugin": "10.0.0"
+  },
+  "peerDependencies": {
+    "@plone/volto": ">=19.0.0 <20.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@plone/razzle": "workspace:*",
+    "@plone/registry": "workspace:*",
+    "@plone/scripts": "workspace:*",
+    "@plone/types": "workspace:*",
+    "@testing-library/jest-dom": "6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@vitejs/plugin-react": "4.7.0",
+    "@vitest/coverage-v8": "3.2.7",
+    "jsdom": "23.0.0",
+    "typescript": "^5.7.3",
+    "vite": "6.4.3",
+    "vitest": "3.2.7"
+  },
+  "packageManager": "pnpm@10.20.0"
+}

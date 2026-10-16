@@ -3,7 +3,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 FRONTEND_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
-ADDONS_ROOT="${FRONTEND_ROOT}/src/addons"
+ADDONS_ROOT="${FRONTEND_ROOT}/packages"
 
 SLEEP_MINUTES=7
 TARGET_BRANCH="volto-18-eslint"
@@ -24,7 +24,7 @@ Usage:
 Options:
   --addons-file <file>    File with add-ons (one per line, # for comments)
   --addons-root <path>    Add-ons parent folder for name-only args
-                          (default: src/addons under the frontend checkout)
+                          (default: packages under the frontend checkout)
   --branch <name>         Branch that must be active in each add-on repo
                           (default: volto-18-eslint)
   --base <name>           PR base branch (default: develop)
@@ -42,7 +42,7 @@ Examples:
     volto-widget-dataprovenance \
     volto-widget-geolocation
 
-  cd src/addons
+  cd packages
   ../../scripts/batch-addon-prs.sh --yes
 
   # from monorepo root:

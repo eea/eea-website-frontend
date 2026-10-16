@@ -1,16 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-for repo in $(ls src/addons); do
-  if [ ! -d "src/addons/$repo" ]; then
-    continue
+for repo in core packages/*; do
+  [[ -d "$repo/.git" ]] || continue
+  status="$(git -C "$repo" status --short)"
+  if [[ -n "$status" ]]; then
+    echo "============= $repo ============="
+    echo "$status"
   fi
-
-  cd "src/addons/$repo"
-  STATUS=`git status -s`
-  if [ ! -z "$STATUS" ]; then
-    echo "$repo"
-    echo "$STATUS"
-  fi
-
-  cd ../../../
 done

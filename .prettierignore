@@ -1,2 +1,6 @@
-src/**/CHANGELOG.md
-src/**/README.md
+.storybook
+core
+packages/**/CHANGELOG.md
+packages/**/README.md
+node_modules
+build

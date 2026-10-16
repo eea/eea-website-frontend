@@ -122,10 +122,16 @@ pipeline {
     //   }
       // }
 
-    stage('Bundlewatch') {
+    stage('Volto 19 frontend checks') {
       when {
-        branch 'develop'
-        not { changelog '.*^Automated release [0-9\\.]+$' }
+        allOf {
+          anyOf {
+            changeRequest()
+            branch 'volto19'
+          }
+          not { changelog '.*^Automated release [0-9\\.]+$' }
+          not { buildingTag() }
+        }
       }
       steps {
         node(label: 'docker-big-jobs') {
@@ -133,13 +139,32 @@ pipeline {
             checkout scm
             env.NODEJS_HOME = "${tool 'NodeJS'}"
             env.PATH="${env.NODEJS_HOME}/bin:${env.PATH}"
-            env.CI=false
-            sh "yarn config set -H enableImmutableInstalls false"
-            sh "yarn"
-            sh "make develop"
-            sh "make install"
-            sh "make build"
-            sh "make bundlewatch"
+            env.CI=true
+
+            sh 'node --version'
+            sh 'corepack enable'
+            sh 'corepack prepare pnpm@10.20.0 --activate'
+            sh 'make ci-install'
+            sh 'make check'
+            sh 'make ci-i18n'
+            sh 'make build'
+            sh 'make bundlewatch'
+
+            def imageName = "${env.BUILD_TAG}-volto19".toLowerCase()
+            def networkName = "${env.BUILD_TAG}-network".toLowerCase()
+            try {
+              sh "docker network create ${networkName}"
+              docker.build(imageName, '--build-arg VOLTO_VERSION=19.5.0 .')
+              sh "docker run --rm -d --name=${env.BUILD_TAG}-backend --network=${networkName} --network-alias=backend -e SITE=Plone eeacms/eea-website-backend"
+              sh "docker run --rm -d --name=${env.BUILD_TAG}-frontend --network=${networkName} -p 3000:3000 -e RAZZLE_INTERNAL_API_PATH=http://backend:8080/Plone -e RAZZLE_DEV_PROXY_API_PATH=http://backend:8080/Plone ${imageName}"
+              sh 'pnpm exec wait-on --timeout 120000 http://localhost:3000'
+              sh 'pnpm cypress:smoke'
+            } finally {
+              sh script: "docker rm -f ${env.BUILD_TAG}-frontend", returnStatus: true
+              sh script: "docker rm -f ${env.BUILD_TAG}-backend", returnStatus: true
+              sh script: "docker network rm ${networkName}", returnStatus: true
+              sh script: "docker rmi ${imageName}", returnStatus: true
+            }
           }
         }
       }
@@ -190,7 +215,7 @@ pipeline {
       when {
         anyOf {
           buildingTag()
-          branch 'volto-17'
+          branch 'volto19'
         }
       }
       steps{
@@ -221,7 +246,7 @@ pipeline {
       }
       steps{
         node(label: 'docker') {
-          withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN'),  usernamePassword(credentialsId: 'jekinsdockerhub', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) { //betterleaks:allow
+          withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN'),  usernamePassword(credentialsId: 'jekinsdockerhub', usernameVariable: 'DOCKERHUB_USER', passwordVariable: 'DOCKERHUB_PASS')]) { // gitleaks:allow
             sh '''docker pull eeacms/gitflow; docker run -i --rm --name="$BUILD_TAG-release"  -e GIT_BRANCH="$BRANCH_NAME" -e GIT_NAME="$GIT_NAME" -e DOCKERHUB_REPO="$registry" -e GIT_TOKEN="$GITHUB_TOKEN" -e DOCKERHUB_USER="$DOCKERHUB_USER" -e DOCKERHUB_PASS="$DOCKERHUB_PASS"  -e DEPENDENT_DOCKERFILE_URL="$DEPENDENT_DOCKERFILE_URL" -e RANCHER_CATALOG_PATHS="$template" -e GITFLOW_BEHAVIOR="RUN_ON_TAG" eeacms/gitflow'''
          }
         }
@@ -236,7 +261,7 @@ pipeline {
       }
       steps {
         node(label: 'docker') {
-          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Rancher_dev_token', usernameVariable: 'RANCHER_ACCESS', passwordVariable: 'RANCHER_SECRET'],string(credentialsId: 'Rancher_dev_url', variable: 'RANCHER_URL')]) { //betterleaks:allow
+          withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: 'Rancher_dev_token', usernameVariable: 'RANCHER_ACCESS', passwordVariable: 'RANCHER_SECRET'],string(credentialsId: 'Rancher_dev_url', variable: 'RANCHER_URL')]) { // gitleaks:allow
             sh '''wget -O rancher_upgrade.sh https://raw.githubusercontent.com/eea/eea.docker.gitflow/master/src/rancher_upgrade.sh'''
             sh '''chmod 755 rancher_upgrade.sh'''
             sh '''./rancher_upgrade.sh'''
