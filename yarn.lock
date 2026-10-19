@@ -2362,9 +2362,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:4.1.3":
-  version: 4.1.3
-  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.3"
+"@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#develop":
+  version: 4.1.5
+  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=fe6f4f40c221fdfb602dcac27a060dc611a7b171"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2381,7 +2381,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 812191838bc7ae4283973fbb14b1d5c7c7fd69577c4b61cf0ae1c80062517030cd6133b03ede395473ed72131a9145af046059382fc9ad2e91ce26d51b1446a4
+  checksum: 018ea2e65a0cd38d09ca9b2302362e699857b3035cc9ee467cc6bc50d232a83cde60f286d34dac72318a72ceb8c1ebeeb8d7b376e919478ef878e8d7ae607154
   languageName: node
   linkType: hard
 
@@ -2396,7 +2396,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: b03b51135b07be15b2beb2287b29aeb0225187af65058235fdc0ab22f5bdfaeea9444458468c1c920d5bc0d82e0f0c9e42c8f0b3f3f891ff1a16e3647d97ab4d
+  checksum: 03f54e6a3bb46e6387b37d3a631e57ea04f29b2e3779b9fa97dd04592bc99aa59bff889b8f023b96498f37f11d716ba1d12a4e49830e5abc695515977f6b99d0
   languageName: node
   linkType: hard
 
@@ -2493,7 +2493,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 26312e14f48a492d4c9281b426507d617516ef8dbb0775de32200639e295c23e68746c70f54fb367e280f2addf47c405ffb6b6910cee7adb47b7140d970fe40c
+  checksum: b421a290f5c67b63323d32a3472275733f7c564cdff916169aa551b976f244c50af0d984f64ea0eed99ea793f3fed1320604edecc22e972f37e423e6243a3be0
   languageName: node
   linkType: hard
 
@@ -2542,7 +2542,7 @@ __metadata:
 "@eeacms/volto-genai-blocks@github:eea/volto-genai-blocks#develop":
   version: 1.0.1
   resolution: "@eeacms/volto-genai-blocks@https://github.com/eea/volto-genai-blocks.git#commit=ff9158dbbdc5cc4a4443551b4642ade97bb2e4ed"
-  checksum: 7754e0cf3f1d74900fd116b9dc38a6d9afdb6828674c5c540145b3f979bd8a37a4b4078b7ae9f7d85d01646ddd6a4e129325ad36656e0e39fc8cacfb9ac623f4
+  checksum: b64105e997f6682f98130bc18f325dda242faa56b09254aad31ffda464240b1c3282531881983d53d3de85fc40d10ec859338df530ad2a303fb3ba7a180213bc
   languageName: node
   linkType: hard
 
@@ -2584,7 +2584,7 @@ __metadata:
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: 4073b5f2cbc663794dffb46a887c462e2d05ceb2b04f84f20a73070207008232437b497076ceab159e303dde8cac8bc19ece9540d1d6dcc9614b00f3c128ad05
+  checksum: 60660524375e23f90f84590f299fe4f64a492ea6b46031e0c6b9d47dc5a8fc0ac56131ce23ccd027f870ab708258ef374783c46bdbcbdbacb7fca1a6a8dd77be
   languageName: node
   linkType: hard
 
@@ -2717,7 +2717,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: b372e3b9137c060b5b8b9810e481623da5c7a1d631b039b303e71c3a78adcac1b5a5ec5aa7f690ac4eba6c8170969ba6bb24d23b9fd8d9a3ed285e036dd4c199
+  checksum: 76682c43c98f664f0bedc0b815a8403a1e982887399957b2cbc1fa7b17b0a8dda1e34134473b94ee08a121f664c7312246f6b7ef3892341e4eb533d86107437b
   languageName: node
   linkType: hard
 
@@ -13873,7 +13873,7 @@ __metadata:
     "@eeacms/volto-datahub": 4.0.0
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": 4.1.3
+    "@eeacms/volto-eea-chatbot": "github:eea/volto-eea-chatbot#develop"
     "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#fix-card-header-alignment"
     "@eeacms/volto-eea-kitkat": 33.2.0
     "@eeacms/volto-eea-map": 6.0.2
