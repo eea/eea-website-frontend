@@ -2385,9 +2385,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.61.5":
+"@eeacms/volto-eea-design-system@github:eea/volto-eea-design-system#fix-card-header-alignment":
   version: 1.61.5
-  resolution: "@eeacms/volto-eea-design-system@npm:1.61.5"
+  resolution: "@eeacms/volto-eea-design-system@https://github.com/eea/volto-eea-design-system.git#commit=fa5e8d9867f0c15c5736084185628d0edea1ee68"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2396,7 +2396,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 158d053737e9ed085bfaf17554791fb83fb1366d210cc5725a9dc7e58d1874ecb6f6e259c1798b46a373978f42a8020d9f59e0aa6a345949aec4fd082e3b5b78
+  checksum: 3a5269c03f71eb5b78e0aae91e9081d78e2df6ab0d44cc015f8777617eb461caf96d09dc7f67aa6ff94786f7a4463632a37339026f1e47125e79e6186e1007dc
   languageName: node
   linkType: hard
 
@@ -13874,7 +13874,7 @@ __metadata:
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": 4.1.3
-    "@eeacms/volto-eea-design-system": 1.61.5
+    "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#fix-card-header-alignment"
     "@eeacms/volto-eea-kitkat": 33.2.0
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
