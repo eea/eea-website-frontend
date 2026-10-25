@@ -2679,7 +2679,7 @@ __metadata:
 
 "@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#ai-alt":
   version: 4.5.3
-  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=909921a6a139d781eac0a85e5e4d7746d71d0b75"
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=dc3119ec95bf0915c4db3452ff6803c03114de78"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2687,7 +2687,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 7580448ba52a85869150ec1cde6d8e5851cae98cb27d0a4e51637575470a0b9d32e43ff551bf434f6f829399608cbfe7e2e4ade4d5f033a86fdf209ba9859260
+  checksum: 489e031fddc79f5dfbe59326575fc1e3f8c36e105c572a9ba5b0a4ee59e48b1f9ce3db89ca268c454b067fcbdc62de4af252ae4334dc508fa468c26264aaf07c
   languageName: node
   linkType: hard
 
