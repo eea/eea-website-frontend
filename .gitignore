@@ -95,5 +95,6 @@ packages/*
 src/addons/*
 
 # build
-public/critical.css
+# Volto copies the policy add-on public/ here in development mode
+/public/
 /cache

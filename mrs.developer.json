@@ -588,7 +588,7 @@
     "package": "@plone-collective/volto-authomatic",
     "url": "git@github.com:collective/volto-authomatic.git",
     "https": "https://github.com/collective/volto-authomatic.git",
-    "branch": "volto19",
+    "branch": "main",
     "develop": true,
     "filterBlobs": true
   },

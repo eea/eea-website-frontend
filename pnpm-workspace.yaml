@@ -1,5 +1,5 @@
 packages:
   - 'core/packages/*'
-  - 'packages/*'
-  - 'packages/**/packages/*'
+  - 'packages/eea-website-frontend'
+  - 'packages/*/packages/*'
   - '!packages/**/core/**'
