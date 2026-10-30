@@ -2356,16 +2356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-accordion-block@npm:*":
-  version: 13.1.0
-  resolution: "@eeacms/volto-accordion-block@npm:13.1.0"
-  dependencies:
-    "@eeacms/volto-widget-theme-picker": "*"
-  checksum: db07d04301f5c1e4551736a1dd73b82171da8b50ca9852470fc07a493845a978b1bedf2e410d4ff17ea524d08bd530e3ccff4a9a10c39ccd094ec2592444af96
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-accordion-block@npm:13.1.1":
+"@eeacms/volto-accordion-block@npm:*, @eeacms/volto-accordion-block@npm:13.1.1":
   version: 13.1.1
   resolution: "@eeacms/volto-accordion-block@npm:13.1.1"
   dependencies:
@@ -2449,17 +2440,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:*":
-  version: 9.0.1
-  resolution: "@eeacms/volto-block-toc@npm:9.0.1"
-  dependencies:
-    github-slugger: 1.4.0
-    smoothscroll-polyfill: ^0.4.4
-  checksum: 0098c9d8a679dc33cc0f9d98e5dffbb6ebdb7d9d09bf4ab03794eafdff3f17bd3816887f984be42d660f6b274c67cd9b47b647ee4b018993af8a1deaea72a97f
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-toc@npm:9.0.4":
+"@eeacms/volto-block-toc@npm:*, @eeacms/volto-block-toc@npm:9.0.4":
   version: 9.0.4
   resolution: "@eeacms/volto-block-toc@npm:9.0.4"
   dependencies:
@@ -2752,16 +2733,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-group-block@npm:*":
-  version: 10.1.0
-  resolution: "@eeacms/volto-group-block@npm:10.1.0"
-  dependencies:
-    uuid: ^8.3.2
-  checksum: 7989806063a738684b8677fe1493f9c512b6164602d8d89f9e9f45ab316c067fe4f9d58a24d82db21ba23f646c23df68cf410ff97db05ee78414a79f04dc468d
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-group-block@npm:10.1.1":
+"@eeacms/volto-group-block@npm:*, @eeacms/volto-group-block@npm:10.1.1":
   version: 10.1.1
   resolution: "@eeacms/volto-group-block@npm:10.1.1"
   dependencies:
