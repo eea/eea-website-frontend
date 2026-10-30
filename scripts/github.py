@@ -121,6 +121,7 @@ class Github:
         self.excludes = excludes or []
         self.username = ""
         self.password = ""  # betterleaks:allow
+        self.read_credentials()
         self.token = os.environ.get("GITHUB_TOKEN", "")
         self.gh = shutil.which("gh")
         self._gh_checked = False
@@ -145,21 +146,20 @@ class Github:
     @property
     def credentials(self):
         """GitHub credentials from ``~/.github``"""
-        if not (self.username or self.password):
-            cfg_file = Path.home() / ".github"
-            if cfg_file.exists():
-                config = ConfigParser()
-                config.read([str(cfg_file)])
-                if config.has_section("github"):
-                    self.username = config.get("github", "username", fallback="")
-                    self.password = config.get(
-                        "github", "password", fallback=""
-                    )  # betterleaks:allow
+        return {"username": self.username, "password": self.password}
 
-        return {
-            "username": self.username,
-            "password": self.password,
-        }
+    def read_credentials(self):
+        """Read the GitHub credentials stored in ``~/.github``"""
+        cfg_file = Path.home() / ".github"
+        if not cfg_file.exists():
+            return
+        config = ConfigParser()
+        config.read([str(cfg_file)])
+        if not config.has_section("github"):
+            return
+        section = config["github"]
+        self.username = section.get("username", "")
+        self.password = section.get("password", "")  # betterleaks:allow
 
     def _gh_available(self):
         """Check once that ``gh`` is installed and authenticated"""
