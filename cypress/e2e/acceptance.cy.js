@@ -1,3 +1,25 @@
+// The top-level navigation entries open a mega menu instead of navigating, and
+// the menu links are duplicated in a hidden tablet/mobile accordion, so always
+// click the entries rendered in the visible desktop panel.
+const openMegaMenu = (label) => {
+  cy.get(`nav a[title="${label}"]`).click();
+  // The desktop panel can unmount right after opening, while the header data is
+  // still settling, so reopen the menu when that happens.
+  cy.wait(400);
+  cy.get('body').then(($body) => {
+    if (!$body.find('#mega-menu .menu-content').length) {
+      cy.get(`nav a[title="${label}"]`).click();
+    }
+  });
+  cy.get('#mega-menu .menu-content').should('be.visible');
+};
+
+const clickMegaMenuLink = (label) => {
+  // Some entries open a new tab (target="_blank"), navigate in the current tab
+  // instead so the test can follow the click.
+  cy.contains('#mega-menu .menu-content a', label).invoke('removeAttr', 'target').click();
+};
+
 describe('EEA website acceptance tests', () => {
   beforeEach(() => {
     cy.visit('/');
@@ -26,19 +48,21 @@ describe('EEA website acceptance tests', () => {
   });
 
   it('Check if the hero image is loaded', () => {
-    cy.get('.hero-block-image').then(($div) => {
-      // Get the background image URL from the inline style
-      const backgroundImage = $div.css('background-image');
+    // The hero background image is set after hydration, once the block becomes
+    // visible (IntersectionObserver), so wait for the style to be applied.
+    cy.get('.hero-block-image')
+      .invoke('css', 'background-image')
+      .should('match', /^url\(["']?https?:/)
+      .then((backgroundImage) => {
+        // Extract the URL part from `background-image`
+        const imageUrl = backgroundImage.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
 
-      // Extract the URL part from `background-image`
-      const imageUrl = backgroundImage.replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
-
-      // Send a request to the extracted image URL
-      cy.request(imageUrl).then((response) => {
-        // Check if the image status is 200 (OK)
-        expect(response.status).to.eq(200);
+        // Send a request to the extracted image URL
+        cy.request(imageUrl).then((response) => {
+          // Check if the image status is 200 (OK)
+          expect(response.status).to.eq(200);
+        });
       });
-    });
   });
 
   it('Check if all main navigation buttons exist', () => {
@@ -50,8 +74,8 @@ describe('EEA website acceptance tests', () => {
   });
 
   it('Check if Topics page title and content load', () => {
-    cy.contains('a', 'Topics').click();
-    cy.contains('a', 'Topics overview').click();
+    openMegaMenu('Topics');
+    clickMegaMenuLink('Topics overview');
     cy.url().should('include', '/en/topics');
     cy.get('img').should('have.length.greaterThan', 0);
     cy.scrollTo(0, 1000);
@@ -63,8 +87,9 @@ describe('EEA website acceptance tests', () => {
 
   it('Test first query result in Publications', () => {
     cy.visit('/');
-    cy.contains('a', 'Analysis and data').click();
-    cy.contains('a', 'Publications').click({ force: true });
+    openMegaMenu('Analysis and data');
+    clickMegaMenuLink('Publications');
+    cy.url().should('include', '/en/analysis/publications');
     cy.scrollTo(0, 1000);
     cy.get('.listing-item .listing-header').first().find('a').invoke('removeAttr', 'target').click();
     cy.get('img').should('have.length.greaterThan', 0);
@@ -72,8 +97,9 @@ describe('EEA website acceptance tests', () => {
 
   it('Test first query result in Datahub', () => {
     cy.visit('/');
-    cy.contains('a', 'Analysis and data').click();
-    cy.contains('a', 'Datahub').click({ force: true });
+    openMegaMenu('Analysis and data');
+    clickMegaMenuLink('Datahub');
+    cy.url().should('include', '/en/datahub');
     cy.get('.listing-item .listing-header').first().find('a').invoke('removeAttr', 'target').click();
     cy.contains('h2', 'Datasets').should('be.visible');
     cy.get('.ui.accordion')
@@ -87,9 +113,15 @@ describe('EEA website acceptance tests', () => {
 
   it('Test first query result in Maps and Charts', () => {
     cy.visit('/');
-    cy.contains('a', 'Analysis and data').click();
-    cy.contains('a', 'Maps and charts').click({ force: true });
-    cy.get('a.centered.fluid.image').first().invoke('removeAttr', 'target').click();
+    openMegaMenu('Analysis and data');
+    clickMegaMenuLink('Maps and charts');
+    cy.url().should('include', '/en/analysis/maps-and-charts');
+    // The cards markup differs between frontend versions: `.cardsVisualization`
+    // cards in 7.x and `a.centered.fluid.image` in 6.x.
+    cy.get('.cardsVisualization a.image, a.centered.fluid.image')
+      .first()
+      .invoke('removeAttr', 'target')
+      .click();
     cy.get('img').should('have.length.greaterThan', 0);
     // const tabs = ['Downloads', 'Data sources', 'Metadata', 'More info'];
     // tabs.forEach((tab) => {
@@ -99,8 +131,9 @@ describe('EEA website acceptance tests', () => {
 
   it('Test first query result in Indicators', () => {
     cy.visit('/');
-    cy.contains('a', 'Analysis and data').click();
-    cy.contains('a', 'Indicators').click({ force: true });
+    openMegaMenu('Analysis and data');
+    clickMegaMenuLink('Indicators');
+    cy.url().should('match', /\/en\/analysis\/indicators(\?|$)/);
     cy.scrollTo(0, 1000);
     cy.get('.listing-item').should('be.visible').first().find('a').invoke('removeAttr', 'target').click({ force: true });
     cy.get('svg').should('exist');
@@ -108,16 +141,17 @@ describe('EEA website acceptance tests', () => {
 
   it('Test first query result in Country fact sheets', () => {
     cy.visit('/');
-    cy.contains('a', 'Analysis and data').click();
-    cy.contains('a', 'Country fact sheets').click({ force: true });
+    openMegaMenu('Analysis and data');
+    clickMegaMenuLink('Country fact sheets');
     cy.scrollTo(0, 1000);
     cy.get('.listing-header').should('be.visible').first().find('a').click({ force: true });
   });
 
   it('Test first query result in Countries', () => {
     cy.visit('/');
-    cy.contains('a', 'Countries').click();
-    cy.contains('a', 'Austria').click({ force: true });
+    openMegaMenu('Countries');
+    clickMegaMenuLink('Austria');
+    cy.url().should('include', '/en/countries/eea-member-countries/austria');
     cy.scrollTo(0, 1000);
     cy.get('.listing-header').should('be.visible').first().find('a').invoke('removeAttr', 'target').click({ force: true });
   });
