@@ -2546,15 +2546,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-chatbot@npm:4.1.6":
+"@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#improvments":
   version: 4.1.6
-  resolution: "@eeacms/volto-eea-chatbot@npm:4.1.6"
+  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=4750f0f0363159fed0dc0b39390a67b81e785768"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
     "@microsoft/fetch-event-source": 2.0.1
     "@plone-collective/volto-sentry": "*"
     compromise: 14.14.5
+    docx: ^9.1.0
     fast-json-patch: 3.1.1
     highlight.js: 11.10.0
     luxon: 3.5.0
@@ -2565,7 +2566,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 7f26b4a0ab791a2925e6195163774ca571e272c76c93ba57798932792ab5b8f344dea9ebf83f9562a55f717432e7b4b1ddf5b9363e05084abf4feffa7de6b98c
+  checksum: 5f9d6061324efc6dd7182ba8bc3d05e12d3231c744402b2b011168e5e7624a8dfdc9f1ae74239f278433fba844f3b010b83fef3c29de1bf996a0db7ddc4fa80f
   languageName: node
   linkType: hard
 
@@ -7203,6 +7204,15 @@ __metadata:
   dependencies:
     undici-types: ~6.21.0
   checksum: c817456948b0453b15a15d7865faea0b0de9bc93e9725788a62978f05994702b673029300ce9667d52ce439acfb43ecd8122acb8eba9145c26b1c4d22e67a234
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^26.6.2":
+  version: 26.6.6
+  resolution: "@types/node@npm:26.6.6"
+  dependencies:
+    undici-types: ~8.9.0
+  checksum: e937cc3f4181fb2147241e3bacbd81f57c5e20c47eaa2f79b937908f45170ef8e751dfa62f5ebaff75953eca5f9158ed43363d7360ab5034d7985e5f8c4b6d1f
   languageName: node
   linkType: hard
 
@@ -13750,6 +13760,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"docx@npm:^9.1.0":
+  version: 9.15.2
+  resolution: "docx@npm:9.15.2"
+  dependencies:
+    "@types/node": ^26.6.2
+    fflate: ^0.8.3
+    nanoid: ^6.0.1
+  checksum: fc5f7c0297a392b7450f4336acd7b57eb1b8351b4d72200e62c9c597b79c08fe97aa18b25877aef0b62990cecf367bddfe3f6a200b5c0784e83c5e653642e1ed
+  languageName: node
+  linkType: hard
+
 "dom-accessibility-api@npm:^0.5.9":
   version: 0.5.16
   resolution: "dom-accessibility-api@npm:0.5.16"
@@ -14173,7 +14194,7 @@ __metadata:
     "@eeacms/volto-datahub": 4.0.0
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
-    "@eeacms/volto-eea-chatbot": 4.1.6
+    "@eeacms/volto-eea-chatbot": "github:eea/volto-eea-chatbot#improvments"
     "@eeacms/volto-eea-design-system": 1.61.7
     "@eeacms/volto-eea-kitkat": 33.2.3
     "@eeacms/volto-eea-map": 6.0.2
@@ -16238,6 +16259,13 @@ __metadata:
   version: 0.8.2
   resolution: "fflate@npm:0.8.2"
   checksum: 29470337b85d3831826758e78f370e15cda3169c5cd4477c9b5eea2402261a74b2975bae816afabe1c15d21d98591e0d30a574f7103aa117bff60756fa3035d4
+  languageName: node
+  linkType: hard
+
+"fflate@npm:^0.8.3":
+  version: 0.8.3
+  resolution: "fflate@npm:0.8.3"
+  checksum: a2a417e8fb5128b946cb397ab59a90e089057cba492f2c17a89c4af6ba8568b3da72ed36ef1efe901df7858a20964ce56e84d282e60498be1947fcc6133bc891
   languageName: node
   linkType: hard
 
@@ -22854,6 +22882,15 @@ __metadata:
   bin:
     nanoid: bin/nanoid.cjs
   checksum: e5061282c25412663f527abe382b3dc7165585f18b5edb7c6500a5f56d9570b1de8b26500c231ae5e28e299f20d3877f839268ed5c302f997b5627237a04dcf9
+  languageName: node
+  linkType: hard
+
+"nanoid@npm:^6.0.1":
+  version: 6.0.2
+  resolution: "nanoid@npm:6.0.2"
+  bin:
+    nanoid: bin/nanoid.js
+  checksum: c555e99171c0988195d71ba22a7acd96f18c767b4a1db5c2a3d75ebf9c302a269fcda3c22e2d6022f3e5a345dcf7188a36f88c6d5fffc2828c68a1b7f9996daf
   languageName: node
   linkType: hard
 
@@ -31342,6 +31379,13 @@ __metadata:
   version: 7.10.0
   resolution: "undici-types@npm:7.10.0"
   checksum: 6917fcd8c80963919fe918952f9243a6749af0e3f759a39f8d2c2486144a66c86ae4125aebbce700b636cb1dcd45e85eb8c49c60d60738a97b63f0e89ef9b053
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~8.9.0":
+  version: 8.9.0
+  resolution: "undici-types@npm:8.9.0"
+  checksum: 78c081bf592406e4bb8bbcbd6baa5c395b5998b9a6a22786e6df4bb5bc90a86aaaaa43a447b455d90589c8b5f36a5827942c20d5c7248efb66675feec1a7bb02
   languageName: node
   linkType: hard
 
