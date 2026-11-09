@@ -2658,19 +2658,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@npm:4.0.8":
+"@eeacms/volto-eea-website-policy@github:eea/volto-eea-website-policy#develop":
   version: 4.0.8
-  resolution: "@eeacms/volto-eea-website-policy@npm:4.0.8"
+  resolution: "@eeacms/volto-eea-website-policy@https://github.com/eea/volto-eea-website-policy.git#commit=2fd5486fb64960894541063c88087ea4d827470b"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
-  checksum: 6702f4a6a72ba8dd87e865192c4ee357022b1bcf72bc03ccfff5e0934c37fbbd2c855e95f94410dbe4210f7e4767b19788343edb4203d22b4e54a5f4ce744c56
+  checksum: 74c3eacfdbb05bc012f0dd43cb7c7d29023d429e4e6ce3448e242b5b807758e153d3fa999f77fa6948de723429996484a1254a6ee0c6029db3d20ec38aeb5a06
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:5.0.2":
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#develop":
   version: 5.0.2
-  resolution: "@eeacms/volto-eea-website-theme@npm:5.0.2"
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=2c6517cfc71bc89612b7d6906cb32a4ef395c441"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2678,7 +2678,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 36a9488146f0c7d939dd1bbd0be6df34ee760a31895b438c830ea45b97d160c44531c4f873e6fa67843866fe1747e5dd9f5ccb029e62acee61bb0cf6a779fc8f
+  checksum: 038a75ea6bf66c4d122839524b0973483b5aeb6b0916f6714236afb2513f88d62462f6484cf78d41151f374d4e0b5e2af91bfdefe82a8b0e4db2aed81dea6ae2
   languageName: node
   linkType: hard
 
@@ -14199,8 +14199,8 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 34.0.2
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
-    "@eeacms/volto-eea-website-policy": 4.0.8
-    "@eeacms/volto-eea-website-theme": 5.0.2
+    "@eeacms/volto-eea-website-policy": "github:eea/volto-eea-website-policy#develop"
+    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#develop"
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
