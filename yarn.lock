@@ -2548,7 +2548,7 @@ __metadata:
 
 "@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#improvments":
   version: 4.1.6
-  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=4750f0f0363159fed0dc0b39390a67b81e785768"
+  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=a11729a6904592c594f45579e5148db005394f3d"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2566,7 +2566,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 5f9d6061324efc6dd7182ba8bc3d05e12d3231c744402b2b011168e5e7624a8dfdc9f1ae74239f278433fba844f3b010b83fef3c29de1bf996a0db7ddc4fa80f
+  checksum: 7c9b9a3047f6097f905fa2bb121ebe071221f14b77ebb88a68dbaf4d0a4eac438ff9c884838e6c235250df9f4acba00aae8fa0997a2f57f058309c7251d92306
   languageName: node
   linkType: hard
 
