@@ -4,8 +4,9 @@
 //
 // They are redirected to the parent object, or - for the Plone search views -
 // to the site search page, by `@eeacms/volto-eea-website-theme`
-// middleware/legacyRoutes.js. The behaviour is opt-in per site, so other EEA
-// frontends are not affected.
+// middleware/legacyRoutes.js. The dead Plone endpoints Volto cannot render at
+// all (`/RSS`, `/atom.xml`, `/mail_password_form`) are answered with 410.
+// The behaviour is opt-in per site, so other EEA frontends are not affected.
 //
 // Runs against whatever `baseUrl` points to (staging by default, see
 // `make cypress`), so a release that regresses it fails here.
@@ -37,10 +38,18 @@ describe('Legacy Plone routes', () => {
   });
 
   it('redirects the Plone view and file suffixes to the parent object', () => {
-    ['/en/about/view', '/en/about/@@view', '/en/about/folder_listing', '/en/about/at_download/file'].forEach((path) => {
+    ['/en/about/view', '/en/about/@@view', '/en/about/folder_listing', '/en/about/folder_contents', '/en/about/at_download/file'].forEach((path) => {
       request(path).then(({ status, headers }) => {
         expect(status, path).to.eq(301);
         expect(headers.location, path).to.eq('/en/about');
+      });
+    });
+  });
+
+  it('answers 410 for the dead Plone endpoints', () => {
+    ['/RSS', '/atom.xml', '/mail_password_form', '/en/mail_password_form'].forEach((path) => {
+      request(path).then(({ status }) => {
+        expect(status, path).to.eq(410);
       });
     });
   });
