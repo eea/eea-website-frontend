@@ -2668,9 +2668,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:5.0.5":
+"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#fix-date-hydration-mismatch":
   version: 5.0.5
-  resolution: "@eeacms/volto-eea-website-theme@npm:5.0.5"
+  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=6a95fccd2f9e016b230e636def86df8e766553ce"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2678,7 +2678,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 7bbc0de588c2596c60640ec4fc1dda552fdb162721bd3680d8f0028a2a412b8fd99c615108697736c169b671f6fcdeaf6dd1bc16172ec808e2b315b5a9d8a8e3
+  checksum: 11e509ab0db466ae2d3ef47c0bc94a760eed1788e1a3ab9c3c33cbab8bae00e3a2044c43d8b4eebc216300f425b8a7e8d08f4b22eeb850421376608c5d7f5a31
   languageName: node
   linkType: hard
 
@@ -14200,7 +14200,7 @@ __metadata:
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
     "@eeacms/volto-eea-website-policy": 4.0.10
-    "@eeacms/volto-eea-website-theme": 5.0.5
+    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#fix-date-hydration-mismatch"
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
