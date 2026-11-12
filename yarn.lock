@@ -2548,7 +2548,7 @@ __metadata:
 
 "@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#improvments":
   version: 4.1.6
-  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=a11729a6904592c594f45579e5148db005394f3d"
+  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=ddddadfb98c25215a6992b008276fcca7dda7472"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2566,13 +2566,13 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 292c123558cf73b79e87d6ca89f281c0ab30ff62a035ec48347828a592cf3374ded7293c6779c20274d25ed492e565e25e9413c145322068d23f291dc07047e5
+  checksum: 5cd95c6819b74e49ecbce4a57936f430117775ae86de885494331d24270a7d2c0f5807a8c6b8085ff465a530f151c7d7759de575ff547a33e08aab9e4c0f9a1e
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@npm:1.61.8":
-  version: 1.61.8
-  resolution: "@eeacms/volto-eea-design-system@npm:1.61.8"
+"@eeacms/volto-eea-design-system@npm:1.61.9":
+  version: 1.61.9
+  resolution: "@eeacms/volto-eea-design-system@npm:1.61.9"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-corsproxy": "*"
@@ -2581,7 +2581,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 7f0ef1205e2f2bdf0f069252cbb853f30708171ead5f38098c2aed2f65630ab722fe8a8a4d2004262d7bef5edbadef6a02228b5960341138da6938406cfb9820
+  checksum: d0f3e6d57cca258766f4e6e0ad4707b5428e5bb55a6130e270a561658cfa1c0a59a8457923aed8b91bfc82ef57ee6216f4fefb491a140c4e803bc5e8fb5515b4
   languageName: node
   linkType: hard
 
@@ -2658,19 +2658,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@npm:4.0.10":
-  version: 4.0.10
-  resolution: "@eeacms/volto-eea-website-policy@npm:4.0.10"
+"@eeacms/volto-eea-website-policy@npm:4.0.11":
+  version: 4.0.11
+  resolution: "@eeacms/volto-eea-website-policy@npm:4.0.11"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
-  checksum: f457c873c6b167a4639e0044e679f64ece2a8868a87b932496aa51ea1209296c9a0f395dcd627cd0f391800f8101dfcd54cbbc7e1f67e19d9854a8874506f951
+  checksum: 7e0e3c0da6306866ca4ca1fdb419880f86e88371341c833f0c3a0f1dd8ba634b51d4f18f9bc847e5f1410dad26ac8eb39a8074051999cc9443cbf37edc927524
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#fix-date-hydration-mismatch":
-  version: 5.0.5
-  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=6a95fccd2f9e016b230e636def86df8e766553ce"
+"@eeacms/volto-eea-website-theme@npm:5.0.6":
+  version: 5.0.6
+  resolution: "@eeacms/volto-eea-website-theme@npm:5.0.6"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
@@ -2678,7 +2678,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 11e509ab0db466ae2d3ef47c0bc94a760eed1788e1a3ab9c3c33cbab8bae00e3a2044c43d8b4eebc216300f425b8a7e8d08f4b22eeb850421376608c5d7f5a31
+  checksum: ac32f82393a033a2ff457b7088ca88c3b5897b6bd849e52f74531c40f327a8b0aeefc725c72f8f510d445ab4afe86dc098e9b7f618b4e3208af3977e3ba8829e
   languageName: node
   linkType: hard
 
@@ -14195,12 +14195,12 @@ __metadata:
     "@eeacms/volto-design-tokens": 2.0.1
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": "github:eea/volto-eea-chatbot#improvments"
-    "@eeacms/volto-eea-design-system": 1.61.8
+    "@eeacms/volto-eea-design-system": 1.61.9
     "@eeacms/volto-eea-kitkat": 34.0.3
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
-    "@eeacms/volto-eea-website-policy": 4.0.10
-    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#fix-date-hydration-mismatch"
+    "@eeacms/volto-eea-website-policy": 4.0.11
+    "@eeacms/volto-eea-website-theme": 5.0.6
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
