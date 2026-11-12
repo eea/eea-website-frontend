@@ -13,7 +13,13 @@
 
 const origin = new URL(Cypress.config('baseUrl')).origin;
 
-const request = (path) => cy.request({ url: `${origin}${path}`, followRedirect: false });
+// A 410 is a valid answer here, so the assertions decide, not Cypress.
+const request = (path) =>
+  cy.request({
+    url: `${origin}${path}`,
+    followRedirect: false,
+    failOnStatusCode: false,
+  });
 
 describe('Legacy Plone routes', () => {
   it('redirects the Plone search views to the site search page', () => {
