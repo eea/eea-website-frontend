@@ -5263,14 +5263,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-rss-provider@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@plone-collective/volto-rss-provider@npm:1.0.2"
+"@plone-collective/volto-rss-provider@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@plone-collective/volto-rss-provider@npm:1.1.0"
   dependencies:
     rss: 1.2.2
   peerDependencies:
     "@plone/volto": ^17.0.0
-  checksum: 95da0867e01165f919fbf21e13aed929e856c3545f3575688e3379ca787ff3e25d0b07451d92dd570e72795c7ad5b10b60fc142fe9e96331d81a358ceee293f1
+  checksum: 32bd2ce6e3493e3eb37ced1675d2fdd6c468e57c824e3d88aaf999bedddc72c0cf195d6df04c0ba0c087cc7921b1beae2c5634febeb181f78bd44a7e762cfc8f
   languageName: node
   linkType: hard
 
@@ -14336,7 +14336,7 @@ __metadata:
     "@loadable/server": 5.16.7
     "@loadable/webpack-plugin": 5.15.2
     "@plone-collective/volto-authomatic": 2.0.4
-    "@plone-collective/volto-rss-provider": 1.0.2
+    "@plone-collective/volto-rss-provider": 1.1.0
     "@plone/scripts": ^3.6.0
     "@plone/types": 1.6.3
     "@plone/volto": 18.36.0
