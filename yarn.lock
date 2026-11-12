@@ -2548,7 +2548,7 @@ __metadata:
 
 "@eeacms/volto-eea-chatbot@github:eea/volto-eea-chatbot#improvments":
   version: 4.1.6
-  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=ddddadfb98c25215a6992b008276fcca7dda7472"
+  resolution: "@eeacms/volto-eea-chatbot@https://github.com/eea/volto-eea-chatbot.git#commit=153120343605dc9708bb219fc4145d8d6a491bdf"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-matomo": "*"
@@ -2566,7 +2566,7 @@ __metadata:
     rehype-prism-plus: 1.6.0
     remark-gfm: 3.0.1
     uuid: 10.0.0
-  checksum: 5cd95c6819b74e49ecbce4a57936f430117775ae86de885494331d24270a7d2c0f5807a8c6b8085ff465a530f151c7d7759de575ff547a33e08aab9e4c0f9a1e
+  checksum: fe7cb2e89c4325750f25e44276c36c62af82c270a6f67e0ca8e3426f77c181b820ecb63bebeb26d2a698c7a6ea5f976c14963069162b7e32f9d04c141a7321fd
   languageName: node
   linkType: hard
 
@@ -2658,13 +2658,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-policy@npm:4.0.11":
-  version: 4.0.11
-  resolution: "@eeacms/volto-eea-website-policy@npm:4.0.11"
+"@eeacms/volto-eea-website-policy@npm:4.0.12":
+  version: 4.0.12
+  resolution: "@eeacms/volto-eea-website-policy@npm:4.0.12"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
-  checksum: 7e0e3c0da6306866ca4ca1fdb419880f86e88371341c833f0c3a0f1dd8ba634b51d4f18f9bc847e5f1410dad26ac8eb39a8074051999cc9443cbf37edc927524
+  checksum: 8b15ff0cc4689c18d4580a387b7050dce752a20750fa99225bb96969d03a87df9ff02c32ee4f46f44f0563172cecb2d243f20cf854b1784463be44f30812afe3
   languageName: node
   linkType: hard
 
@@ -5255,14 +5255,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-rss-provider@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@plone-collective/volto-rss-provider@npm:1.0.1"
+"@plone-collective/volto-rss-provider@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@plone-collective/volto-rss-provider@npm:1.1.0"
   dependencies:
     rss: 1.2.2
   peerDependencies:
     "@plone/volto": ^17.0.0
-  checksum: 62c7811f2646497ca94d4c57243da37daf0f4de591dc9d343d4866ad63fe294cf332131d9cbfaa6e5035a4bc3551eec4e7f7557b1a99a059ee12508e25826595
+  checksum: 32bd2ce6e3493e3eb37ced1675d2fdd6c468e57c824e3d88aaf999bedddc72c0cf195d6df04c0ba0c087cc7921b1beae2c5634febeb181f78bd44a7e762cfc8f
   languageName: node
   linkType: hard
 
@@ -14199,7 +14199,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 34.0.3
     "@eeacms/volto-eea-map": 6.0.2
     "@eeacms/volto-eea-versions": 2.0.2
-    "@eeacms/volto-eea-website-policy": 4.0.11
+    "@eeacms/volto-eea-website-policy": 4.0.12
     "@eeacms/volto-eea-website-theme": 5.0.6
     "@eeacms/volto-embed": 11.0.6
     "@eeacms/volto-embed-content": 1.0.2
@@ -14220,7 +14220,7 @@ __metadata:
     "@loadable/server": 5.16.7
     "@loadable/webpack-plugin": 5.15.2
     "@plone-collective/volto-authomatic": 2.0.4
-    "@plone-collective/volto-rss-provider": 1.0.1
+    "@plone-collective/volto-rss-provider": 1.1.0
     "@plone/scripts": ^3.6.0
     "@plone/types": 1.6.3
     "@plone/volto": 18.36.0
