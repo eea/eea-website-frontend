@@ -348,6 +348,13 @@
     "branch": "main",
     "path": "src"
   },
+  "volto-rss-provider": {
+    "url": "git@github.com:collective/volto-rss-provider.git",
+    "https": "https://github.com/collective/volto-rss-provider.git",
+    "package": "@plone-collective/volto-rss-provider",
+    "branch": "main",
+    "path": "src"
+  },
   "volto-redmine-helpdesk": {
     "url": "git@github.com:eea/volto-redmine-helpdesk.git",
     "https": "https://github.com/eea/volto-redmine-helpdesk.git",

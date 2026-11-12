@@ -217,6 +217,9 @@
             ],
             "@eeacms/volto-eea-chatbot": [
                 "addons/volto-eea-chatbot/src"
+            ],
+            "@plone-collective/volto-rss-provider": [
+                "addons/volto-rss-provider/src"
             ]
         },
         "baseUrl": "src"
