@@ -5274,18 +5274,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:*":
-  version: 1.0.0
-  resolution: "@plone-collective/volto-sentry@npm:1.0.0"
-  dependencies:
-    "@sentry/browser": 7.15.0
-    "@sentry/integrations": 7.15.0
-    "@sentry/node": 7.15.0
-    "@sentry/webpack-plugin": 1.19.1
-  checksum: 858253fa262c4ee9c9602b79d9f0db5fcdf822bfb9f05710bfb395275b2b8e34abfda3dfd01fb263b55ea3773bcda653849d318f0fa5252615d982dcc40c739d
-  languageName: node
-  linkType: hard
-
 "@plone-collective/volto-sentry@npm:1.0.2":
   version: 1.0.2
   resolution: "@plone-collective/volto-sentry@npm:1.0.2"

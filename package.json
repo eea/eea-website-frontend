@@ -2,7 +2,7 @@
   "name": "eea-website-frontend",
   "description": "EEA Main Website frontend (Plone 6)",
   "license": "MIT",
-  "version": "7.6.0",
+  "version": "7.6.1",
   "scripts": {
     "start": "razzle start",
     "postinstall": "make omelette && make patches",
@@ -211,6 +211,7 @@
     "@eeacms/volto-eea-chatbot": "4.1.6",
     "@plone-collective/volto-authomatic": "2.0.4",
     "@plone-collective/volto-rss-provider": "1.1.0",
+    "@plone-collective/volto-sentry": "1.0.2",
     "@eeacms/volto-flourish": "1.0.1",
     "volto-subsites": "4.0.0",
     "react": "18.2.0",
