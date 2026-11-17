@@ -45,7 +45,6 @@
   "private": true,
   "workspaces": [
     "src/addons/*",
-    "!src/addons/volto-sentry",
     "!src/addons/volto-taxonomy"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
