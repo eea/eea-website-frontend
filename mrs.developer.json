@@ -27,9 +27,9 @@
     "url": "git@github.com:eea/volto-taxonomy.git",
     "https": "https://github.com/eea/volto-taxonomy.git",
     "package": "@eeacms/volto-taxonomy",
-    "branch": "develop",
+    "branch": "volto19",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-taxonomy/src"
   },
   "volto-object-widget": {
     "url": "git@github.com:eea/volto-object-widget.git",

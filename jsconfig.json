@@ -36,7 +36,7 @@
                 "addons/volto-corsproxy/src"
             ],
             "@eeacms/volto-taxonomy": [
-                "addons/volto-taxonomy/src"
+                "addons/volto-taxonomy/packages/volto-taxonomy/src"
             ],
             "@eeacms/volto-object-widget": [
                 "addons/volto-object-widget/src"

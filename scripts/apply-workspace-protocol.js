@@ -2,83 +2,104 @@
 const fs = require('fs');
 const path = require('path');
 
-const rootPath = path.join(__dirname, '..');
-const addonsPath = path.join(rootPath, 'src', 'addons');
+const { discoverAddons, rootPath } = require('./lib/discover-addons');
+
+const rootPackagePath = path.join(rootPath, 'package.json');
 const lockfilePath = path.join(rootPath, 'yarn.lock');
+const managedWorkspaceGlobs = ['src/addons/*', 'src/addons/*/packages/*'];
 const releaseOnlyPackages = new Set(['@eeacms/countup']);
 const releaseOnlyWorkspaceGlobs = ['!src/addons/countup'];
+
+const { packages, packagePaths, shells } = discoverAddons();
+
+const shellWorkspaceGlobs = shells.map((shell) => `!src/addons/${shell}`);
+const workspacePackages = packages.map((pkg) => pkg.name).filter((pkgName) => pkgName && !releaseOnlyPackages.has(pkgName));
+const addonPackagePaths = new Set(packagePaths);
+const allPackagePaths = [rootPackagePath, ...packagePaths];
 
 const backupFile = (filePath) => {
   if (!fs.existsSync(filePath)) {
     return false;
   }
 
-  const backupPath = `${filePath}.backup`;
-  if (!fs.existsSync(backupPath)) {
-    fs.copyFileSync(filePath, backupPath);
-    return true;
-  }
-
-  return false;
+  fs.copyFileSync(filePath, `${filePath}.backup`);
+  return true;
 };
 
-const getPackagePaths = () => {
-  const packagePaths = [path.join(rootPath, 'package.json')];
+const isManagedWorkspaceGlob = (workspaceGlob) => managedWorkspaceGlobs.includes(workspaceGlob) || workspaceGlob.startsWith('!src/addons/');
 
-  if (!fs.existsSync(addonsPath)) {
-    return packagePaths;
+/**
+ * Rewrites the workspaces of the project so that the dev checkouts are
+ * installable while the "-dev" shells stay out of the graph.
+ *
+ * Yarn applies the globs in order and a negated directory also removes its
+ * descendants, so the exclusions have to be listed before the nested
+ * `src/addons/*/ packages; /*` glob, otherwise the real add-on package of a
+ * Volto 19 repository is pruned together with its shell.
+ */
+const applyWorkspaceGlobs = (packageJson) => {
+  if (!Array.isArray(packageJson.workspaces)) {
+    return;
   }
 
-  const addonPackagePaths = fs
-    .readdirSync(addonsPath)
-    .sort()
-    .map((entry) => path.join(addonsPath, entry, 'package.json'))
-    .filter((packagePath) => fs.existsSync(packagePath));
+  const otherWorkspaceGlobs = packageJson.workspaces.filter((workspaceGlob) => !isManagedWorkspaceGlob(workspaceGlob));
 
-  return [...packagePaths, ...addonPackagePaths];
+  packageJson.workspaces = ['src/addons/*', ...shellWorkspaceGlobs, ...releaseOnlyWorkspaceGlobs, 'src/addons/*/packages/*', ...otherWorkspaceGlobs];
 };
 
-const packagePaths = getPackagePaths();
+const dropUnresolvableWorkspaceDeps = (packageJson, packageLabel) => {
+  if (!addonPackagePaths.has(packageLabel)) {
+    return 0;
+  }
+
+  let removedCount = 0;
+
+  ['dependencies', 'devDependencies', 'optionalDependencies'].forEach((section) => {
+    const deps = packageJson[section];
+
+    if (!deps) return;
+
+    Object.keys(deps).forEach((pkg) => {
+      const isWorkspaceDep = typeof deps[pkg] === 'string' && deps[pkg].startsWith('workspace:');
+
+      if (isWorkspaceDep && !workspacePackages.includes(pkg)) {
+        delete deps[pkg];
+        removedCount++;
+      }
+    });
+
+    if (Object.keys(deps).length === 0) {
+      delete packageJson[section];
+    }
+  });
+
+  return removedCount;
+};
 
 console.log('📦 Applying workspace protocol for development...');
 
-const addonPackages = packagePaths
-  .filter((packagePath) => packagePath !== path.join(rootPath, 'package.json'))
-  .map((packagePath) => ({
-    packagePath,
-    name: JSON.parse(fs.readFileSync(packagePath, 'utf8')).name,
-  }))
-  .filter((pkg) => Boolean(pkg.name));
-
-const workspacePackages = addonPackages
-  .map((pkg) => pkg.name)
-  .filter((pkgName) => !releaseOnlyPackages.has(pkgName))
-  .filter(Boolean);
-
-if (workspacePackages.length === 0) {
+if (workspacePackages.length === 0 && shells.length === 0) {
   console.log('⚠️  No workspace packages found in src/addons');
   process.exit(0);
 }
 
-console.log(
-  `   Found ${workspacePackages.length} workspace packages in src/addons`,
-);
+console.log(`   Found ${workspacePackages.length} workspace packages in src/addons`);
 
-const releasePackagesFound = addonPackages
-  .map((pkg) => pkg.name)
-  .filter((pkgName) => releaseOnlyPackages.has(pkgName));
+if (shells.length > 0) {
+  console.log(`   Excluding Volto 19 dev shells: ${shells.join(', ')}`);
+}
+
+const releasePackagesFound = workspacePackages.filter((pkgName) => releaseOnlyPackages.has(pkgName));
 
 if (releasePackagesFound.length > 0) {
-  console.log(
-    `   Keeping ${releasePackagesFound.join(', ')} on released packages`,
-  );
+  console.log(`   Keeping ${releasePackagesFound.join(', ')} on released packages`);
 }
 
 if (backupFile(lockfilePath)) {
   console.log(`   ✓ Backed up ${path.relative(rootPath, lockfilePath)}`);
 }
 
-packagePaths.forEach((packagePath) => {
+allPackagePaths.forEach((packagePath) => {
   if (!fs.existsSync(packagePath)) {
     console.log(`   ⚠️  Skipping missing ${path.relative(rootPath, packagePath)}`);
     return;
@@ -91,15 +112,14 @@ packagePaths.forEach((packagePath) => {
     console.log(`   ✓ Backed up ${packageLabel}`);
   }
 
-  if (
-    packageLabel === 'package.json' &&
-    Array.isArray(packageJson.workspaces)
-  ) {
-    releaseOnlyWorkspaceGlobs.forEach((workspaceGlob) => {
-      if (!packageJson.workspaces.includes(workspaceGlob)) {
-        packageJson.workspaces.push(workspaceGlob);
-      }
-    });
+  if (packagePath === rootPackagePath) {
+    applyWorkspaceGlobs(packageJson);
+  }
+
+  const droppedCount = dropUnresolvableWorkspaceDeps(packageJson, packagePath);
+
+  if (droppedCount > 0) {
+    console.log(`   ✓ Dropped ${droppedCount} unresolvable workspace dependencies in ${packageLabel}`);
   }
 
   let updatedCount = 0;
@@ -114,9 +134,7 @@ packagePaths.forEach((packagePath) => {
     });
   });
 
-  console.log(
-    `   ✓ Updated ${updatedCount} dependencies in ${packageLabel} to workspace:*`,
-  );
+  console.log(`   ✓ Updated ${updatedCount} dependencies in ${packageLabel} to workspace:*`);
 
   let removedCount = 0;
   if (packageJson.resolutions) {

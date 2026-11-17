@@ -2,51 +2,67 @@
 const fs = require('fs');
 const path = require('path');
 
-const rootPath = path.join(__dirname, '..');
+const { rootPath } = require('./lib/discover-addons');
+
 const addonsPath = path.join(rootPath, 'src', 'addons');
-const lockfilePath = path.join(rootPath, 'yarn.lock');
+const rootBackups = ['yarn.lock', 'package.json'].map((file) =>
+  path.join(rootPath, file),
+);
+const maxAddonDepth = 4;
 
-const getPackagePaths = () => {
-  const packagePaths = [path.join(rootPath, 'package.json')];
+const skipDirs = new Set(['.git', 'node_modules', '.yarn']);
 
-  if (!fs.existsSync(addonsPath)) {
-    return packagePaths;
+const findBackups = (dir, depth) => {
+  if (depth > maxAddonDepth || !fs.existsSync(dir)) {
+    return [];
   }
 
-  const addonPackagePaths = fs
-    .readdirSync(addonsPath)
-    .sort()
-    .map((entry) => path.join(addonsPath, entry, 'package.json'))
-    .filter((packagePath) => fs.existsSync(packagePath));
+  return fs.readdirSync(dir).flatMap((entry) => {
+    const entryPath = path.join(dir, entry);
 
-  return [...packagePaths, ...addonPackagePaths];
+    if (entry.endsWith('.backup')) {
+      return [entryPath];
+    }
+
+    if (skipDirs.has(entry) || !fs.statSync(entryPath).isDirectory()) {
+      return [];
+    }
+
+    return findBackups(entryPath, depth + 1);
+  });
 };
 
-const packagePaths = getPackagePaths();
+const backupPaths = [
+  ...rootBackups.map((filePath) => `${filePath}.backup`),
+  ...findBackups(addonsPath, 0),
+].filter((backupPath) => fs.existsSync(backupPath));
 
 let restoredCount = 0;
 
-const restoreFile = (filePath, label) => {
-  const backupPath = `${filePath}.backup`;
+if (backupPaths.length > 0) {
+  console.log('🔄 Restoring production package files...');
+}
 
-  if (fs.existsSync(backupPath)) {
-    if (restoredCount === 0) {
-      console.log('🔄 Restoring production package files...');
-    }
+backupPaths.forEach((backupPath) => {
+  const filePath = backupPath.slice(0, -'.backup'.length);
 
-    fs.copyFileSync(backupPath, filePath);
-    fs.unlinkSync(backupPath);
-    restoredCount++;
-    console.log(`   ✓ Restored ${label}`);
-  } else {
-    console.log(`ℹ️  No backup found for ${label} - unchanged`);
-  }
-};
-
-restoreFile(lockfilePath, path.relative(rootPath, lockfilePath));
-packagePaths.forEach((packagePath) => {
-  restoreFile(packagePath, path.relative(rootPath, packagePath));
+  fs.copyFileSync(backupPath, filePath);
+  fs.unlinkSync(backupPath);
+  restoredCount++;
+  console.log(`   ✓ Restored ${path.relative(rootPath, filePath)}`);
 });
+
+const productionPackageJson = fs.readFileSync(
+  path.join(rootPath, 'package.json'),
+  'utf8',
+);
+
+if (productionPackageJson.includes('"workspace:')) {
+  console.error(
+    '❌ package.json still declares workspace: dependencies after restore, do not commit it',
+  );
+  process.exit(1);
+}
 
 if (restoredCount > 0) {
   console.log('✅ Production package files restored');

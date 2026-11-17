@@ -52,7 +52,7 @@ develop:    	## Runs missdev in the local project (mrs.developer.json should be 
 	npx -p mrs-developer missdev --config=jsconfig.json --output=addons --fetch-https
 	@echo "$(MARK_COLOR)Applying workspace protocol for development...$(NO_COLOR)"
 	node scripts/apply-workspace-protocol.js
-	NODE_OPTIONS="--max-old-space-size=16384" yarn install
+	@trap 'node scripts/restore-production-package.js' EXIT; NODE_OPTIONS="--max-old-space-size=16384" yarn install
 	node scripts/restore-production-package.js
 
 .PHONY: install
@@ -73,19 +73,19 @@ husky:			## Install husky git hooks in src/addons/*
 
 .PHONY: start
 start:			## Start frontend
-	NODE_OPTIONS="--max-old-space-size=16384" yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" ./node_modules/.bin/razzle start
 
 .PHONY: relstorage
 relstorage:		## Start frontend w/ RelStorage Plone Backend
-	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_DEV_PROXY_API_PATH=http://localhost:8080/www ./node_modules/.bin/razzle start
 
 .PHONY: staging
 staging:		## Start frontend w/ Staging Plone Backend
-	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://staging.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://staging.eea.europa.eu yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://staging.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://staging.eea.europa.eu ./node_modules/.bin/razzle start
 
 .PHONY: demo
 demo:		## Start frontend w/ Demo WWW Plone Backend
-	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://demo-www.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://demo-www.eea.europa.eu yarn start
+	NODE_OPTIONS="--max-old-space-size=16384" RAZZLE_API_PATH=https://demo-www.eea.europa.eu RAZZLE_INTERNAL_API_PATH=https://demo-www.eea.europa.eu ./node_modules/.bin/razzle start
 
 .PHONY: omelette
 omelette: 		## Creates the omelette folder that contains a link to the installed version of Volto (a softlink pointing to node_modules/@plone/volto)
