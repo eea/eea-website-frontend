@@ -2859,9 +2859,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@eeacms/volto-searchlib@npm:7.0.0"
+"@eeacms/volto-searchlib@github:eea/volto-searchlib#fix-unknown-result-view-310953":
+  version: 7.0.1
+  resolution: "@eeacms/volto-searchlib@https://github.com/eea/volto-searchlib.git#commit=ccb9345493eb0c3a7da62ac216f0e3a013ed30b6"
   dependencies:
     "@eeacms/volto-design-tokens": "*"
     "@eeacms/volto-eea-chatbot": "*"
@@ -2903,7 +2903,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: 3f36c2b2018c2999cfa7c963e95cdd05e4a325e12b88aa8d400314dfce384af625fe8a2c4303e988bc98dc841a07c2b2c29701ece35d972b6c405faac2acfef5
+  checksum: 1e30de7375d81a328a74a965560edd8f20a1cde19dfdfe2198d569cb6169673209045489c24c3be564b70d1e99086062eb9770dbb03f0f654a64ccb5b1416f29
   languageName: node
   linkType: hard
 
@@ -14199,7 +14199,7 @@ __metadata:
     "@eeacms/volto-plotlycharts": 14.0.7
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.2
-    "@eeacms/volto-searchlib": 7.0.0
+    "@eeacms/volto-searchlib": "github:eea/volto-searchlib#fix-unknown-result-view-310953"
     "@eeacms/volto-tableau": 9.0.4
     "@eeacms/volto-workflow-progress": 6.0.1
     "@fiverr/afterbuild-webpack-plugin": ^1.0.0
