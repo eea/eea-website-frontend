@@ -45,7 +45,8 @@
   "private": true,
   "workspaces": [
     "src/addons/*",
-    "!src/addons/volto-taxonomy"
+    "!src/addons/volto-taxonomy",
+    "!src/addons/volto-accordion-block"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [

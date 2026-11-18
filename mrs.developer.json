@@ -101,7 +101,7 @@
     "package": "@eeacms/volto-accordion-block",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-accordion-block/src"
   },
   "volto-block-data-figure": {
     "url": "git@github.com:eea/volto-block-data-figure.git",

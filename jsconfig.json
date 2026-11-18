@@ -63,7 +63,7 @@
                 "addons/volto-slate-zotero/src"
             ],
             "@eeacms/volto-accordion-block": [
-                "addons/volto-accordion-block/src"
+                "addons/volto-accordion-block/packages/volto-accordion-block/src"
             ],
             "@eeacms/volto-block-data-figure": [
                 "addons/volto-block-data-figure/src"
