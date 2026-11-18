@@ -46,7 +46,8 @@
   "workspaces": [
     "src/addons/*",
     "!src/addons/volto-taxonomy",
-    "!src/addons/volto-accordion-block"
+    "!src/addons/volto-accordion-block",
+    "!src/addons/volto-sentry"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [

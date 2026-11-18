@@ -156,7 +156,7 @@
                 "addons/volto-editing-progress/src"
             ],
             "@plone-collective/volto-sentry": [
-                "addons/volto-sentry/src"
+                "addons/volto-sentry/packages/volto-sentry/src"
             ],
             "@eeacms/volto-redmine-helpdesk": [
                 "addons/volto-redmine-helpdesk/src"

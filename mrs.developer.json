@@ -346,7 +346,7 @@
     "https": "https://github.com/collective/volto-sentry.git",
     "package": "@plone-collective/volto-sentry",
     "branch": "main",
-    "path": "src"
+    "path": "packages/volto-sentry/src"
   },
   "volto-rss-provider": {
     "url": "git@github.com:collective/volto-rss-provider.git",
