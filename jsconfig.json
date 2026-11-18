@@ -102,7 +102,7 @@
                 "addons/volto-eea-versions/src"
             ],
             "@eeacms/volto-eea-kitkat": [
-                "addons/volto-eea-kitkat/src"
+                "addons/volto-eea-kitkat/packages/volto-eea-kitkat/src"
             ],
             "@eeacms/volto-embed": [
                 "addons/volto-embed/src"

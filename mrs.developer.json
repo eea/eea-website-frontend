@@ -205,7 +205,7 @@
     "package": "@eeacms/volto-eea-kitkat",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-eea-kitkat/src"
   },
   "volto-embed": {
     "url": "git@github.com:eea/volto-embed.git",

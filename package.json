@@ -47,7 +47,8 @@
     "src/addons/*",
     "!src/addons/volto-taxonomy",
     "!src/addons/volto-accordion-block",
-    "!src/addons/volto-sentry"
+    "!src/addons/volto-sentry",
+    "!src/addons/volto-eea-kitkat"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [
