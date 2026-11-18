@@ -2760,16 +2760,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:*, @eeacms/volto-listing-block@npm:11.0.5, @eeacms/volto-listing-block@npm:^11.0.0":
+"@eeacms/volto-listing-block@github:eea/volto-listing-block#fix-indicator-preview-first-child-chart":
   version: 11.0.5
-  resolution: "@eeacms/volto-listing-block@npm:11.0.5"
+  resolution: "@eeacms/volto-listing-block@https://github.com/eea/volto-listing-block.git#commit=6fa4ea95ebef3ee7b719f2a26082b3769186f1a4"
   dependencies:
     "@eeacms/volto-object-widget": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: f51d59575edecde9562444e26a359c1fcd86bb6858d0e88a2fb1e7017b225392219634afd3e63e9389595f53c90dd1fbcf8e706083cbb099119ac1fa63229246
+  checksum: ee280fe8754bf48ce080e3d9269f21a2c95ccd1765a674bb4f91d36dab3bcd0def2664713245acf8d00744265398a9a1ce22e4b91d3adda817465d47a3d19a99
   languageName: node
   linkType: hard
 
@@ -14195,6 +14195,7 @@ __metadata:
     "@eeacms/volto-flourish": 1.0.1
     "@eeacms/volto-genai-blocks": 1.0.2
     "@eeacms/volto-globalsearch": 4.1.1
+    "@eeacms/volto-listing-block": "github:eea/volto-listing-block#fix-indicator-preview-first-child-chart"
     "@eeacms/volto-plotlycharts": 14.0.7
     "@eeacms/volto-redirector": 1.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.2
