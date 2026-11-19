@@ -81,7 +81,10 @@
     "!src/addons/volto-controlpanel",
     "!src/addons/volto-slate-footnote",
     "!src/addons/volto-slate-metadata-mentions",
-    "!src/addons/volto-sentry-rancher-config"
+    "!src/addons/volto-sentry-rancher-config",
+    "!src/addons/volto-widget-dataprovenance",
+    "!src/addons/volto-widget-geolocation",
+    "!src/addons/volto-nextcloud-video-block"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [

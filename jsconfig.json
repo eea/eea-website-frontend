@@ -45,13 +45,13 @@
                 "addons/volto-widget-toggle/packages/volto-widget-toggle/src"
             ],
             "@eeacms/volto-widget-dataprovenance": [
-                "addons/volto-widget-dataprovenance/src"
+                "addons/volto-widget-dataprovenance/packages/volto-widget-dataprovenance/src"
             ],
             "@eeacms/volto-widget-temporal-coverage": [
                 "addons/volto-widget-temporal-coverage/packages/volto-widget-temporal-coverage/src"
             ],
             "@eeacms/volto-widget-geolocation": [
-                "addons/volto-widget-geolocation/src"
+                "addons/volto-widget-geolocation/packages/volto-widget-geolocation/src"
             ],
             "@eeacms/volto-slate-metadata-mentions": [
                 "addons/volto-slate-metadata-mentions/packages/volto-slate-metadata-mentions/src"
@@ -180,7 +180,7 @@
                 "addons/volto-tableau/packages/volto-tableau/src"
             ],
             "@eeacms/volto-nextcloud-video-block": [
-                "addons/volto-nextcloud-video-block/src"
+                "addons/volto-nextcloud-video-block/packages/volto-nextcloud-video-block/src"
             ],
             "@eeacms/volto-citation": [
                 "addons/volto-citation/src"
