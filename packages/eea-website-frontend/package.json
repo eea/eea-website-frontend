@@ -1,6 +1,6 @@
 {
   "name": "eea-website-frontend",
-  "version": "6.6.0",
+  "version": "7.6.1",
   "description": "EEA Main Website Volto policy add-on",
   "main": "src/index.js",
   "license": "MIT",
