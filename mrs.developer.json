@@ -117,7 +117,7 @@
     "package": "@eeacms/volto-block-divider",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-block-divider/src"
   },
   "volto-listing-block": {
     "url": "git@github.com:eea/volto-listing-block.git",
@@ -173,7 +173,7 @@
     "package": "@eeacms/volto-banner",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-banner/src"
   },
   "volto-resize-helper": {
     "url": "git@github.com:eea/volto-resize-helper.git",
@@ -369,7 +369,7 @@
     "package": "@eeacms/volto-anchors",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-anchors/src"
   },
   "volto-widget-theme-picker": {
     "url": "git@github.com:eea/volto-widget-theme-picker.git",

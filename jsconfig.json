@@ -69,7 +69,7 @@
                 "addons/volto-block-data-figure/src"
             ],
             "@eeacms/volto-block-divider": [
-                "addons/volto-block-divider/src"
+                "addons/volto-block-divider/packages/volto-block-divider/src"
             ],
             "@eeacms/volto-listing-block": [
                 "addons/volto-listing-block/src"
@@ -90,7 +90,7 @@
                 "addons/volto-block-image-cards/src"
             ],
             "@eeacms/volto-banner": [
-                "addons/volto-banner/src"
+                "addons/volto-banner/packages/volto-banner/src"
             ],
             "@eeacms/volto-resize-helper": [
                 "addons/volto-resize-helper/src"
@@ -162,7 +162,7 @@
                 "addons/volto-redmine-helpdesk/src"
             ],
             "@eeacms/volto-anchors": [
-                "addons/volto-anchors/src"
+                "addons/volto-anchors/packages/volto-anchors/src"
             ],
             "@eeacms/volto-widget-theme-picker": [
                 "addons/volto-widget-theme-picker/src"
