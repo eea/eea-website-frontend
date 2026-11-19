@@ -33,22 +33,22 @@
                 "addons/volto-sentry-rancher-config/src"
             ],
             "@eeacms/volto-corsproxy": [
-                "addons/volto-corsproxy/src"
+                "addons/volto-corsproxy/packages/volto-corsproxy/src"
             ],
             "@eeacms/volto-taxonomy": [
                 "addons/volto-taxonomy/packages/volto-taxonomy/src"
             ],
             "@eeacms/volto-object-widget": [
-                "addons/volto-object-widget/src"
+                "addons/volto-object-widget/packages/volto-object-widget/src"
             ],
             "@eeacms/volto-widget-toggle": [
-                "addons/volto-widget-toggle/src"
+                "addons/volto-widget-toggle/packages/volto-widget-toggle/src"
             ],
             "@eeacms/volto-widget-dataprovenance": [
                 "addons/volto-widget-dataprovenance/src"
             ],
             "@eeacms/volto-widget-temporal-coverage": [
-                "addons/volto-widget-temporal-coverage/src"
+                "addons/volto-widget-temporal-coverage/packages/volto-widget-temporal-coverage/src"
             ],
             "@eeacms/volto-widget-geolocation": [
                 "addons/volto-widget-geolocation/src"
@@ -75,7 +75,7 @@
                 "addons/volto-listing-block/src"
             ],
             "@eeacms/volto-metadata-block": [
-                "addons/volto-metadata-block/src"
+                "addons/volto-metadata-block/packages/volto-metadata-block/src"
             ],
             "@eeacms/volto-group-block": [
                 "addons/volto-group-block/packages/volto-group-block/src"
@@ -84,16 +84,16 @@
                 "addons/volto-columns-block/packages/volto-columns-block/src"
             ],
             "@eeacms/volto-tabs-block": [
-                "addons/volto-tabs-block/src"
+                "addons/volto-tabs-block/packages/volto-tabs-block/src"
             ],
             "@eeacms/volto-block-image-cards": [
-                "addons/volto-block-image-cards/src"
+                "addons/volto-block-image-cards/packages/volto-block-image-cards/src"
             ],
             "@eeacms/volto-banner": [
                 "addons/volto-banner/packages/volto-banner/src"
             ],
             "@eeacms/volto-resize-helper": [
-                "addons/volto-resize-helper/src"
+                "addons/volto-resize-helper/packages/volto-resize-helper/src"
             ],
             "@eeacms/volto-block-style": [
                 "addons/volto-block-style/packages/volto-block-style/src"
@@ -123,19 +123,19 @@
                 "addons/volto-statistic-block/packages/volto-statistic-block/src"
             ],
             "@eeacms/volto-timeline-block": [
-                "addons/volto-timeline-block/src"
+                "addons/volto-timeline-block/packages/volto-timeline-block/src"
             ],
             "@eeacms/volto-slate-label": [
-                "addons/volto-slate-label/src"
+                "addons/volto-slate-label/packages/volto-slate-label/src"
             ],
             "@eeacms/volto-tags-block": [
-                "addons/volto-tags-block/src"
+                "addons/volto-tags-block/packages/volto-tags-block/src"
             ],
             "@eeacms/volto-description-block": [
-                "addons/volto-description-block/src"
+                "addons/volto-description-block/packages/volto-description-block/src"
             ],
             "@eeacms/volto-call-to-action-block": [
-                "addons/volto-call-to-action-block/src"
+                "addons/volto-call-to-action-block/packages/volto-call-to-action-block/src"
             ],
             "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
@@ -147,7 +147,7 @@
                 "addons/volto-globalsearch/src"
             ],
             "@eeacms/volto-hero-block": [
-                "addons/volto-hero-block/src"
+                "addons/volto-hero-block/packages/volto-hero-block/src"
             ],
             "@eeacms/volto-workflow-progress": [
                 "addons/volto-workflow-progress/src"
@@ -165,7 +165,7 @@
                 "addons/volto-anchors/packages/volto-anchors/src"
             ],
             "@eeacms/volto-widget-theme-picker": [
-                "addons/volto-widget-theme-picker/src"
+                "addons/volto-widget-theme-picker/packages/volto-widget-theme-picker/src"
             ],
             "@eeacms/volto-datablocks": [
                 "addons/volto-datablocks/packages/volto-datablocks/src"
@@ -186,13 +186,13 @@
                 "addons/volto-citation/src"
             ],
             "@eeacms/countup": [
-                "addons/countup/src"
+                "addons/countup/packages/countup/src"
             ],
             "@eeacms/volto-toolbar-actions": [
-                "addons/volto-toolbar-actions/src"
+                "addons/volto-toolbar-actions/packages/volto-toolbar-actions/src"
             ],
             "@eeacms/volto-controlpanel": [
-                "addons/volto-controlpanel/src"
+                "addons/volto-controlpanel/packages/volto-controlpanel/src"
             ],
             "@eeacms/volto-block-data-table": [
                 "addons/volto-block-data-table/packages/volto-block-data-table/src"
