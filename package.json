@@ -51,7 +51,16 @@
     "!src/addons/volto-eea-kitkat",
     "!src/addons/volto-block-divider",
     "!src/addons/volto-anchors",
-    "!src/addons/volto-banner"
+    "!src/addons/volto-banner",
+    "!src/addons/volto-group-block",
+    "!src/addons/volto-datablocks",
+    "!src/addons/volto-statistic-block",
+    "!src/addons/volto-columns-block",
+    "!src/addons/volto-tableau",
+    "!src/addons/volto-block-data-table",
+    "!src/addons/volto-block-toc",
+    "!src/addons/volto-block-style",
+    "!src/addons/volto-embed"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [

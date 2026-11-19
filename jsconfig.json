@@ -78,10 +78,10 @@
                 "addons/volto-metadata-block/src"
             ],
             "@eeacms/volto-group-block": [
-                "addons/volto-group-block/src"
+                "addons/volto-group-block/packages/volto-group-block/src"
             ],
             "@eeacms/volto-columns-block": [
-                "addons/volto-columns-block/src"
+                "addons/volto-columns-block/packages/volto-columns-block/src"
             ],
             "@eeacms/volto-tabs-block": [
                 "addons/volto-tabs-block/src"
@@ -96,7 +96,7 @@
                 "addons/volto-resize-helper/src"
             ],
             "@eeacms/volto-block-style": [
-                "addons/volto-block-style/src"
+                "addons/volto-block-style/packages/volto-block-style/src"
             ],
             "@eeacms/volto-eea-versions": [
                 "addons/volto-eea-versions/src"
@@ -105,7 +105,7 @@
                 "addons/volto-eea-kitkat/packages/volto-eea-kitkat/src"
             ],
             "@eeacms/volto-embed": [
-                "addons/volto-embed/src"
+                "addons/volto-embed/packages/volto-embed/src"
             ],
             "@eeacms/volto-eea-design-system": [
                 "addons/volto-eea-design-system/src"
@@ -120,7 +120,7 @@
                 "addons/volto-quote-block/src"
             ],
             "@eeacms/volto-statistic-block": [
-                "addons/volto-statistic-block/src"
+                "addons/volto-statistic-block/packages/volto-statistic-block/src"
             ],
             "@eeacms/volto-timeline-block": [
                 "addons/volto-timeline-block/src"
@@ -168,7 +168,7 @@
                 "addons/volto-widget-theme-picker/src"
             ],
             "@eeacms/volto-datablocks": [
-                "addons/volto-datablocks/src"
+                "addons/volto-datablocks/packages/volto-datablocks/src"
             ],
             "@eeacms/volto-plotlycharts": [
                 "addons/volto-plotlycharts/src"
@@ -177,7 +177,7 @@
                 "addons/volto-eea-map/src"
             ],
             "@eeacms/volto-tableau": [
-                "addons/volto-tableau/src"
+                "addons/volto-tableau/packages/volto-tableau/src"
             ],
             "@eeacms/volto-nextcloud-video-block": [
                 "addons/volto-nextcloud-video-block/src"
@@ -195,10 +195,10 @@
                 "addons/volto-controlpanel/src"
             ],
             "@eeacms/volto-block-data-table": [
-                "addons/volto-block-data-table/src"
+                "addons/volto-block-data-table/packages/volto-block-data-table/src"
             ],
             "@eeacms/volto-block-toc": [
-                "addons/volto-block-toc/src"
+                "addons/volto-block-toc/packages/volto-block-toc/src"
             ],
             "@eeacms/volto-embed-static-content": [
                 "addons/volto-embed-static-content/src"

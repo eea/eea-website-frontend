@@ -141,7 +141,7 @@
     "package": "@eeacms/volto-group-block",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-group-block/src"
   },
   "volto-columns-block": {
     "url": "git@github.com:eea/volto-columns-block.git",
@@ -149,7 +149,7 @@
     "package": "@eeacms/volto-columns-block",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-columns-block/src"
   },
   "volto-tabs-block": {
     "url": "git@github.com:eea/volto-tabs-block.git",
@@ -189,7 +189,7 @@
     "package": "@eeacms/volto-block-style",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-block-style/src"
   },
   "volto-eea-versions": {
     "url": "git@github.com:eea/volto-eea-versions.git",
@@ -213,7 +213,7 @@
     "package": "@eeacms/volto-embed",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-embed/src"
   },
   "volto-eea-design-system": {
     "url": "git@github.com:eea/volto-eea-design-system.git",
@@ -253,7 +253,7 @@
     "package": "@eeacms/volto-statistic-block",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-statistic-block/src"
   },
   "volto-timeline-block": {
     "url": "git@github.com:eea/volto-timeline-block.git",
@@ -385,7 +385,7 @@
     "package": "@eeacms/volto-datablocks",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-datablocks/src"
   },
   "volto-plotlycharts": {
     "url": "git@github.com:eea/volto-plotlycharts.git",
@@ -409,7 +409,7 @@
     "package": "@eeacms/volto-tableau",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-tableau/src"
   },
   "volto-nextcloud-video-block": {
     "develop": true,
@@ -456,7 +456,7 @@
     "url": "git@github.com:eea/volto-block-data-table.git",
     "https": "https://github.com/eea/volto-block-data-table.git",
     "package": "@eeacms/volto-block-data-table",
-    "path": "src",
+    "path": "packages/volto-block-data-table/src",
     "branch": "develop"
   },
   "volto-block-toc": {
@@ -464,7 +464,7 @@
     "url": "git@github.com:eea/volto-block-toc.git",
     "https": "https://github.com/eea/volto-block-toc.git",
     "package": "@eeacms/volto-block-toc",
-    "path": "src",
+    "path": "packages/volto-block-toc/src",
     "branch": "develop"
   },
   "volto-embed-static-content": {
