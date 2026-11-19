@@ -12,7 +12,7 @@
     "package": "@eeacms/volto-matomo",
     "url": "git@github.com:eea/volto-matomo.git",
     "https": "https://github.com/eea/volto-matomo.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -21,7 +21,7 @@
     "package": "@eeacms/volto-sentry-rancher-config",
     "url": "git@github.com:eea/volto-sentry-rancher-config.git",
     "https": "https://github.com/eea/volto-sentry-rancher-config.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -66,7 +66,7 @@
     "package": "@eeacms/volto-widget-dataprovenance",
     "url": "git@github.com:eea/volto-widget-dataprovenance.git",
     "https": "https://github.com/eea/volto-widget-dataprovenance.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -84,7 +84,7 @@
     "package": "@eeacms/volto-widget-geolocation",
     "url": "git@github.com:eea/volto-widget-geolocation.git",
     "https": "https://github.com/eea/volto-widget-geolocation.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -93,7 +93,7 @@
     "package": "@eeacms/volto-slate-metadata-mentions",
     "url": "git@github.com:eea/volto-slate-metadata-mentions.git",
     "https": "https://github.com/eea/volto-slate-metadata-mentions.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -102,7 +102,7 @@
     "package": "@eeacms/volto-slate-footnote",
     "url": "git@github.com:eea/volto-slate-footnote.git",
     "https": "https://github.com/eea/volto-slate-footnote.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -111,7 +111,7 @@
     "package": "@eeacms/volto-slate-zotero",
     "url": "git@github.com:eea/volto-slate-zotero.git",
     "https": "https://github.com/eea/volto-slate-zotero.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -147,7 +147,7 @@
     "package": "@eeacms/volto-listing-block",
     "url": "git@github.com:eea/volto-listing-block.git",
     "https": "https://github.com/eea/volto-listing-block.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -282,7 +282,7 @@
     "package": "@eeacms/volto-quote-block",
     "url": "git@github.com:eea/volto-quote-block.git",
     "https": "https://github.com/eea/volto-quote-block.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -399,7 +399,7 @@
     "package": "@plone-collective/volto-sentry",
     "url": "git@github.com:collective/volto-sentry.git",
     "https": "https://github.com/collective/volto-sentry.git",
-    "branch": "develop",
+    "branch": "main",
     "develop": true,
     "filterBlobs": true
   },
@@ -471,7 +471,7 @@
     "package": "@eeacms/volto-nextcloud-video-block",
     "url": "git@github.com:eea/volto-nextcloud-video-block.git",
     "https": "https://github.com/eea/volto-nextcloud-video-block.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -597,7 +597,7 @@
     "package": "volto-subsites",
     "url": "git@github.com:collective/volto-subsites.git",
     "https": "https://github.com/collective/volto-subsites.git",
-    "branch": "develop",
+    "branch": "volto19",
     "develop": true,
     "filterBlobs": true
   },
@@ -606,7 +606,7 @@
     "package": "@plone-collective/volto-rss-provider",
     "url": "git@github.com:collective/volto-rss-provider.git",
     "https": "https://github.com/collective/volto-rss-provider.git",
-    "branch": "develop",
+    "branch": "volto19",
     "develop": true,
     "filterBlobs": true
   }
