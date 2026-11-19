@@ -13,7 +13,7 @@
     "package": "@eeacms/volto-sentry-rancher-config",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-sentry-rancher-config/src"
   },
   "volto-corsproxy": {
     "url": "git@github.com:eea/volto-corsproxy.git",
@@ -77,7 +77,7 @@
     "package": "@eeacms/volto-slate-metadata-mentions",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-slate-metadata-mentions/src"
   },
   "volto-slate-footnote": {
     "url": "git@github.com:eea/volto-slate-footnote.git",
@@ -85,7 +85,7 @@
     "package": "@eeacms/volto-slate-footnote",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-slate-footnote/src"
   },
   "volto-slate-zotero": {
     "url": "git@github.com:eea/volto-slate-zotero.git",

@@ -30,7 +30,7 @@
                 "addons/volto-matomo/src"
             ],
             "@eeacms/volto-sentry-rancher-config": [
-                "addons/volto-sentry-rancher-config/src"
+                "addons/volto-sentry-rancher-config/packages/volto-sentry-rancher-config/src"
             ],
             "@eeacms/volto-corsproxy": [
                 "addons/volto-corsproxy/packages/volto-corsproxy/src"
@@ -54,10 +54,10 @@
                 "addons/volto-widget-geolocation/src"
             ],
             "@eeacms/volto-slate-metadata-mentions": [
-                "addons/volto-slate-metadata-mentions/src"
+                "addons/volto-slate-metadata-mentions/packages/volto-slate-metadata-mentions/src"
             ],
             "@eeacms/volto-slate-footnote": [
-                "addons/volto-slate-footnote/src"
+                "addons/volto-slate-footnote/packages/volto-slate-footnote/src"
             ],
             "@eeacms/volto-slate-zotero": [
                 "addons/volto-slate-zotero/src"

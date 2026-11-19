@@ -78,7 +78,10 @@
     "!src/addons/volto-widget-theme-picker",
     "!src/addons/countup",
     "!src/addons/volto-toolbar-actions",
-    "!src/addons/volto-controlpanel"
+    "!src/addons/volto-controlpanel",
+    "!src/addons/volto-slate-footnote",
+    "!src/addons/volto-slate-metadata-mentions",
+    "!src/addons/volto-sentry-rancher-config"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [
