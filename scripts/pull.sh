@@ -1,19 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-for repo in $(ls src/addons); do
-  if [ ! -d "src/addons/$repo" ]; then
-    continue
-  fi
-
-  cd "src/addons/$repo"
-  STATUS=`git status -s`
-  echo "============= $repo =========="
-  if [ -z "$STATUS" ]; then
-    git checkout develop
-    git pull
+for repo in core packages/*; do
+  [[ -d "$repo/.git" ]] || continue
+  status="$(git -C "$repo" status --short)"
+  echo "============= $repo ============="
+  if [[ -z "$status" ]]; then
+    git -C "$repo" pull --ff-only
   else
-    echo "$STATUS"
+    echo "Skipped because the worktree is not clean:"
+    echo "$status"
   fi
-
-  cd ../../../
 done
