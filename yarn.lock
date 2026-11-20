@@ -2381,15 +2381,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-figure@npm:9.0.2":
-  version: 9.0.2
-  resolution: "@eeacms/volto-block-data-figure@npm:9.0.2"
+"@eeacms/volto-block-data-figure@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@eeacms/volto-block-data-figure@npm:10.0.0"
   dependencies:
     "@eeacms/volto-corsproxy": "*"
     "@eeacms/volto-widget-dataprovenance": "*"
     "@eeacms/volto-widget-geolocation": "*"
     "@eeacms/volto-widget-temporal-coverage": "*"
-  checksum: fd95695044173638dc4bee6443a3ca105ade456de6bde4365dfe0ffb6a1c62a996e32b3977064249177414ecc5a10616b70c160c0644a9e9a2c0dff78833a048
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 383cb2c89a52b2de242dfa01bef51bf88e4d918c31cf4ac7c879d17a12b8f90314e1d38a76ebf613a0cf33f0c263c27bf1ee6f5967acad0cad3d19e0bf4c7e1a
   languageName: node
   linkType: hard
 
@@ -14303,7 +14306,7 @@ __metadata:
     "@dnd-kit/core": 6.0.8
     "@dnd-kit/sortable": 7.0.2
     "@dnd-kit/utilities": 3.2.2
-    "@eeacms/volto-block-data-figure": 9.0.2
+    "@eeacms/volto-block-data-figure": 10.0.0
     "@eeacms/volto-citation": 2.0.1
     "@eeacms/volto-datablocks": 10.0.0
     "@eeacms/volto-datahub": 4.0.0
