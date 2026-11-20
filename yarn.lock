@@ -2880,10 +2880,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-redirector@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@eeacms/volto-redirector@npm:1.0.1"
-  checksum: 8cff419e689bd33a53f2fea49b6b4e010acea6849bb07e22b09789d76c0fd51622a81c4cee5dd346a11795326ba2d1451dd5b20f279c0ba972107f6864c578d5
+"@eeacms/volto-redirector@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@eeacms/volto-redirector@npm:2.0.0"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 70bd6100660f2a178c5f07c76bca53f254b42231b48c783804896a5eff34d203f6d82e13edac3e1d0ead012c1c504c42322eb7ac7add388aa807ca41165a90e0
   languageName: node
   linkType: hard
 
@@ -14364,7 +14367,7 @@ __metadata:
     "@eeacms/volto-flourish": 2.0.0
     "@eeacms/volto-globalsearch": 5.0.0
     "@eeacms/volto-plotlycharts": 14.0.7
-    "@eeacms/volto-redirector": 1.0.1
+    "@eeacms/volto-redirector": 2.0.0
     "@eeacms/volto-redmine-helpdesk": 3.0.0
     "@eeacms/volto-searchlib": 8.0.0
     "@eeacms/volto-tableau": 10.0.0
