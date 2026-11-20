@@ -99,7 +99,7 @@
                 "addons/volto-block-style/packages/volto-block-style/src"
             ],
             "@eeacms/volto-eea-versions": [
-                "addons/volto-eea-versions/src"
+                "addons/volto-eea-versions/packages/volto-eea-versions/src"
             ],
             "@eeacms/volto-eea-kitkat": [
                 "addons/volto-eea-kitkat/packages/volto-eea-kitkat/src"
@@ -141,7 +141,7 @@
                 "addons/volto-searchlib/packages/volto-searchlib/src"
             ],
             "@eeacms/volto-datahub": [
-                "addons/volto-datahub/src"
+                "addons/volto-datahub/packages/volto-datahub/src"
             ],
             "@eeacms/volto-globalsearch": [
                 "addons/volto-globalsearch/src"
@@ -150,10 +150,10 @@
                 "addons/volto-hero-block/packages/volto-hero-block/src"
             ],
             "@eeacms/volto-workflow-progress": [
-                "addons/volto-workflow-progress/src"
+                "addons/volto-workflow-progress/packages/volto-workflow-progress/src"
             ],
             "@eeacms/volto-editing-progress": [
-                "addons/volto-editing-progress/src"
+                "addons/volto-editing-progress/packages/volto-editing-progress/src"
             ],
             "@plone-collective/volto-sentry": [
                 "addons/volto-sentry/packages/volto-sentry/src"
@@ -183,7 +183,7 @@
                 "addons/volto-nextcloud-video-block/packages/volto-nextcloud-video-block/src"
             ],
             "@eeacms/volto-citation": [
-                "addons/volto-citation/src"
+                "addons/volto-citation/packages/volto-citation/src"
             ],
             "@eeacms/countup": [
                 "addons/countup/packages/countup/src"
@@ -210,7 +210,7 @@
                 "addons/volto-flourish/src"
             ],
             "@eeacms/volto-design-tokens": [
-                "addons/volto-design-tokens/src"
+                "addons/volto-design-tokens/packages/volto-design-tokens/src"
             ],
             "@eeacms/volto-redirector": [
                 "addons/volto-redirector/src"

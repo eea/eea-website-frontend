@@ -87,7 +87,13 @@
     "!src/addons/volto-nextcloud-video-block",
     "!src/addons/volto-searchlib",
     "!src/addons/volto-eea-map",
-    "!src/addons/volto-block-data-figure"
+    "!src/addons/volto-block-data-figure",
+    "!src/addons/volto-citation",
+    "!src/addons/volto-datahub",
+    "!src/addons/volto-design-tokens",
+    "!src/addons/volto-editing-progress",
+    "!src/addons/volto-eea-versions",
+    "!src/addons/volto-workflow-progress"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [

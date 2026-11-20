@@ -197,7 +197,7 @@
     "package": "@eeacms/volto-eea-versions",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-eea-versions/src"
   },
   "volto-eea-kitkat": {
     "url": "git@github.com:eea/volto-eea-kitkat.git",
@@ -308,7 +308,7 @@
     "url": "git@github.com:eea/volto-datahub.git",
     "https": "https://github.com/eea/volto-datahub.git",
     "package": "@eeacms/volto-datahub",
-    "path": "src",
+    "path": "packages/volto-datahub/src",
     "branch": "develop"
   },
   "volto-globalsearch": {
@@ -332,14 +332,14 @@
     "https": "https://github.com/eea/volto-workflow-progress.git",
     "package": "@eeacms/volto-workflow-progress",
     "branch": "develop",
-    "path": "src"
+    "path": "packages/volto-workflow-progress/src"
   },
   "volto-editing-progress": {
     "url": "git@github.com:eea/volto-editing-progress.git",
     "https": "https://github.com/eea/volto-editing-progress.git",
     "package": "@eeacms/volto-editing-progress",
     "branch": "develop",
-    "path": "src"
+    "path": "packages/volto-editing-progress/src"
   },
   "volto-sentry": {
     "url": "git@github.com:collective/volto-sentry.git",
@@ -424,7 +424,7 @@
     "url": "git@github.com:eea/volto-citation.git",
     "https": "https://github.com/eea/volto-citation.git",
     "package": "@eeacms/volto-citation",
-    "path": "src",
+    "path": "packages/volto-citation/src",
     "branch": "develop"
   },
   "countup": {
@@ -504,7 +504,7 @@
     "url": "git@github.com:eea/volto-design-tokens.git",
     "https": "https://github.com/eea/volto-design-tokens.git",
     "package": "@eeacms/volto-design-tokens",
-    "path": "src",
+    "path": "packages/volto-design-tokens/src",
     "branch": "develop"
   },
   "volto-redirector": {
