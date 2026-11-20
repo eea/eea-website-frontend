@@ -109,7 +109,7 @@
     "package": "@eeacms/volto-block-data-figure",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-block-data-figure/src"
   },
   "volto-block-divider": {
     "url": "git@github.com:eea/volto-block-divider.git",
@@ -301,7 +301,7 @@
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
     "branch": "develop",
-    "path": "src"
+    "path": "packages/volto-searchlib/src"
   },
   "volto-datahub": {
     "develop": true,
@@ -401,7 +401,7 @@
     "package": "@eeacms/volto-eea-map",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-eea-map/src"
   },
   "volto-tableau": {
     "url": "git@github.com:eea/volto-tableau.git",

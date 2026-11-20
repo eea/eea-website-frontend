@@ -66,7 +66,7 @@
                 "addons/volto-accordion-block/packages/volto-accordion-block/src"
             ],
             "@eeacms/volto-block-data-figure": [
-                "addons/volto-block-data-figure/src"
+                "addons/volto-block-data-figure/packages/volto-block-data-figure/src"
             ],
             "@eeacms/volto-block-divider": [
                 "addons/volto-block-divider/packages/volto-block-divider/src"
@@ -138,7 +138,7 @@
                 "addons/volto-call-to-action-block/packages/volto-call-to-action-block/src"
             ],
             "@eeacms/volto-searchlib": [
-                "addons/volto-searchlib/src"
+                "addons/volto-searchlib/packages/volto-searchlib/src"
             ],
             "@eeacms/volto-datahub": [
                 "addons/volto-datahub/src"
@@ -174,7 +174,7 @@
                 "addons/volto-plotlycharts/src"
             ],
             "@eeacms/volto-eea-map": [
-                "addons/volto-eea-map/src"
+                "addons/volto-eea-map/packages/volto-eea-map/src"
             ],
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/packages/volto-tableau/src"

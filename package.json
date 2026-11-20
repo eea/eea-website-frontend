@@ -84,7 +84,10 @@
     "!src/addons/volto-sentry-rancher-config",
     "!src/addons/volto-widget-dataprovenance",
     "!src/addons/volto-widget-geolocation",
-    "!src/addons/volto-nextcloud-video-block"
+    "!src/addons/volto-nextcloud-video-block",
+    "!src/addons/volto-searchlib",
+    "!src/addons/volto-eea-map",
+    "!src/addons/volto-block-data-figure"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [
