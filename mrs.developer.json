@@ -129,7 +129,7 @@
     "package": "@eeacms/volto-block-data-figure",
     "url": "git@github.com:eea/volto-block-data-figure.git",
     "https": "https://github.com/eea/volto-block-data-figure.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -228,7 +228,7 @@
     "package": "@eeacms/volto-eea-versions",
     "url": "git@github.com:eea/volto-eea-versions.git",
     "https": "https://github.com/eea/volto-eea-versions.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -345,7 +345,7 @@
     "package": "@eeacms/volto-searchlib",
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -381,7 +381,7 @@
     "package": "@eeacms/volto-workflow-progress",
     "url": "git@github.com:eea/volto-workflow-progress.git",
     "https": "https://github.com/eea/volto-workflow-progress.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -390,7 +390,7 @@
     "package": "@eeacms/volto-editing-progress",
     "url": "git@github.com:eea/volto-editing-progress.git",
     "https": "https://github.com/eea/volto-editing-progress.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -453,7 +453,7 @@
     "package": "@eeacms/volto-eea-map",
     "url": "git@github.com:eea/volto-eea-map.git",
     "https": "https://github.com/eea/volto-eea-map.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -480,7 +480,7 @@
     "package": "@eeacms/volto-citation",
     "url": "git@github.com:eea/volto-citation.git",
     "https": "https://github.com/eea/volto-citation.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -570,7 +570,7 @@
     "package": "@eeacms/volto-design-tokens",
     "url": "git@github.com:eea/volto-design-tokens.git",
     "https": "https://github.com/eea/volto-design-tokens.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -597,7 +597,7 @@
     "package": "volto-subsites",
     "url": "git@github.com:collective/volto-subsites.git",
     "https": "https://github.com/collective/volto-subsites.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   },
@@ -606,7 +606,7 @@
     "package": "@plone-collective/volto-rss-provider",
     "url": "git@github.com:collective/volto-rss-provider.git",
     "https": "https://github.com/collective/volto-rss-provider.git",
-    "branch": "volto19",
+    "branch": "develop",
     "develop": true,
     "filterBlobs": true
   }
