@@ -2544,10 +2544,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-design-tokens@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@eeacms/volto-design-tokens@npm:2.0.1"
-  checksum: eaf582701f84e2b1c70f85f1ce4e8692109d81b981eb8883ce0147c6a5a89bab427684627c6a17daf1b8ffd4d98dc1ea8eb9b3f844b417ba6fdada72bce19e0a
+"@eeacms/volto-design-tokens@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-design-tokens@npm:3.0.0"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 1b080ac3d7e0f57df0681c9b3d547438422e81fe8d0d00b84f115fe55431f73d8210ecf2e0ff601b09c587888ff518b5790f70d778519d4217b9b3a77c499ac4
   languageName: node
   linkType: hard
 
@@ -14321,7 +14324,7 @@ __metadata:
     "@eeacms/volto-citation": 3.0.0
     "@eeacms/volto-datablocks": 10.0.0
     "@eeacms/volto-datahub": 5.0.0
-    "@eeacms/volto-design-tokens": 2.0.1
+    "@eeacms/volto-design-tokens": 3.0.0
     "@eeacms/volto-editing-progress": 4.0.0
     "@eeacms/volto-eea-chatbot": 4.1.7
     "@eeacms/volto-eea-design-system": 1.61.10
