@@ -27,7 +27,7 @@
                 "."
             ],
             "@eeacms/volto-matomo": [
-                "addons/volto-matomo/src"
+                "addons/volto-matomo/packages/volto-matomo/src"
             ],
             "@eeacms/volto-sentry-rancher-config": [
                 "addons/volto-sentry-rancher-config/packages/volto-sentry-rancher-config/src"
@@ -60,7 +60,7 @@
                 "addons/volto-slate-footnote/packages/volto-slate-footnote/src"
             ],
             "@eeacms/volto-slate-zotero": [
-                "addons/volto-slate-zotero/src"
+                "addons/volto-slate-zotero/packages/volto-slate-zotero/src"
             ],
             "@eeacms/volto-accordion-block": [
                 "addons/volto-accordion-block/packages/volto-accordion-block/src"
@@ -72,7 +72,7 @@
                 "addons/volto-block-divider/packages/volto-block-divider/src"
             ],
             "@eeacms/volto-listing-block": [
-                "addons/volto-listing-block/src"
+                "addons/volto-listing-block/packages/volto-listing-block/src"
             ],
             "@eeacms/volto-metadata-block": [
                 "addons/volto-metadata-block/packages/volto-metadata-block/src"
@@ -108,16 +108,16 @@
                 "addons/volto-embed/packages/volto-embed/src"
             ],
             "@eeacms/volto-eea-design-system": [
-                "addons/volto-eea-design-system/src"
+                "addons/volto-eea-design-system/packages/volto-eea-design-system/src"
             ],
             "@eeacms/volto-eea-website-theme": [
-                "addons/volto-eea-website-theme/src"
+                "addons/volto-eea-website-theme/packages/volto-eea-website-theme/src"
             ],
             "@eeacms/volto-eea-website-policy": [
-                "addons/volto-eea-website-policy/src"
+                "addons/volto-eea-website-policy/packages/volto-eea-website-policy/src"
             ],
             "@eeacms/volto-quote-block": [
-                "addons/volto-quote-block/src"
+                "addons/volto-quote-block/packages/volto-quote-block/src"
             ],
             "@eeacms/volto-statistic-block": [
                 "addons/volto-statistic-block/packages/volto-statistic-block/src"
@@ -144,7 +144,7 @@
                 "addons/volto-datahub/packages/volto-datahub/src"
             ],
             "@eeacms/volto-globalsearch": [
-                "addons/volto-globalsearch/src"
+                "addons/volto-globalsearch/packages/volto-globalsearch/src"
             ],
             "@eeacms/volto-hero-block": [
                 "addons/volto-hero-block/packages/volto-hero-block/src"
@@ -159,7 +159,7 @@
                 "addons/volto-sentry/packages/volto-sentry/src"
             ],
             "@eeacms/volto-redmine-helpdesk": [
-                "addons/volto-redmine-helpdesk/src"
+                "addons/volto-redmine-helpdesk/packages/volto-redmine-helpdesk/src"
             ],
             "@eeacms/volto-anchors": [
                 "addons/volto-anchors/packages/volto-anchors/src"
@@ -171,7 +171,7 @@
                 "addons/volto-datablocks/packages/volto-datablocks/src"
             ],
             "@eeacms/volto-plotlycharts": [
-                "addons/volto-plotlycharts/src"
+                "addons/volto-plotlycharts/packages/volto-plotlycharts/src"
             ],
             "@eeacms/volto-eea-map": [
                 "addons/volto-eea-map/packages/volto-eea-map/src"
@@ -201,22 +201,22 @@
                 "addons/volto-block-toc/packages/volto-block-toc/src"
             ],
             "@eeacms/volto-embed-static-content": [
-                "addons/volto-embed-static-content/src"
+                "addons/volto-embed-static-content/packages/volto-embed-static-content/src"
             ],
             "@eeacms/volto-embed-content": [
-                "addons/volto-embed-content/src"
+                "addons/volto-embed-content/packages/volto-embed-content/src"
             ],
             "@eeacms/volto-flourish": [
-                "addons/volto-flourish/src"
+                "addons/volto-flourish/packages/volto-flourish/src"
             ],
             "@eeacms/volto-design-tokens": [
                 "addons/volto-design-tokens/packages/volto-design-tokens/src"
             ],
             "@eeacms/volto-redirector": [
-                "addons/volto-redirector/src"
+                "addons/volto-redirector/packages/volto-redirector/src"
             ],
             "@eeacms/volto-eea-chatbot": [
-                "addons/volto-eea-chatbot/src"
+                "addons/volto-eea-chatbot/packages/volto-eea-chatbot/src"
             ],
             "@plone-collective/volto-rss-provider": [
                 "addons/volto-rss-provider/src"

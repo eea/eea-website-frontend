@@ -93,7 +93,22 @@
     "!src/addons/volto-design-tokens",
     "!src/addons/volto-editing-progress",
     "!src/addons/volto-eea-versions",
-    "!src/addons/volto-workflow-progress"
+    "!src/addons/volto-workflow-progress",
+    "!src/addons/volto-eea-chatbot",
+    "!src/addons/volto-eea-design-system",
+    "!src/addons/volto-eea-website-policy",
+    "!src/addons/volto-eea-website-theme",
+    "!src/addons/volto-embed-content",
+    "!src/addons/volto-embed-static-content",
+    "!src/addons/volto-flourish",
+    "!src/addons/volto-globalsearch",
+    "!src/addons/volto-listing-block",
+    "!src/addons/volto-matomo",
+    "!src/addons/volto-plotlycharts",
+    "!src/addons/volto-quote-block",
+    "!src/addons/volto-redirector",
+    "!src/addons/volto-redmine-helpdesk",
+    "!src/addons/volto-slate-zotero"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [

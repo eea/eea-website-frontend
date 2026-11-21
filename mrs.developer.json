@@ -5,7 +5,7 @@
     "package": "@eeacms/volto-matomo",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-matomo/src"
   },
   "volto-sentry-rancher-config": {
     "url": "git@github.com:eea/volto-sentry-rancher-config.git",
@@ -93,7 +93,7 @@
     "package": "@eeacms/volto-slate-zotero",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-slate-zotero/src"
   },
   "volto-accordion-block": {
     "url": "git@github.com:eea/volto-accordion-block.git",
@@ -125,7 +125,7 @@
     "package": "@eeacms/volto-listing-block",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-listing-block/src"
   },
   "volto-metadata-block": {
     "url": "git@github.com:eea/volto-metadata-block.git",
@@ -221,7 +221,7 @@
     "package": "@eeacms/volto-eea-design-system",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-eea-design-system/src"
   },
   "volto-eea-website-theme": {
     "url": "git@github.com:eea/volto-eea-website-theme.git",
@@ -229,7 +229,7 @@
     "package": "@eeacms/volto-eea-website-theme",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-eea-website-theme/src"
   },
   "volto-eea-website-policy": {
     "url": "git@github.com:eea/volto-eea-website-policy.git",
@@ -237,7 +237,7 @@
     "package": "@eeacms/volto-eea-website-policy",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-eea-website-policy/src"
   },
   "volto-quote-block": {
     "url": "git@github.com:eea/volto-quote-block.git",
@@ -245,7 +245,7 @@
     "package": "@eeacms/volto-quote-block",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-quote-block/src"
   },
   "volto-statistic-block": {
     "url": "git@github.com:eea/volto-statistic-block.git",
@@ -316,7 +316,7 @@
     "url": "git@github.com:eea/volto-globalsearch.git",
     "https": "https://github.com/eea/volto-globalsearch.git",
     "package": "@eeacms/volto-globalsearch",
-    "path": "src",
+    "path": "packages/volto-globalsearch/src",
     "branch": "develop"
   },
   "volto-hero-block": {
@@ -361,7 +361,7 @@
     "package": "@eeacms/volto-redmine-helpdesk",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-redmine-helpdesk/src"
   },
   "volto-anchors": {
     "url": "git@github.com:eea/volto-anchors.git",
@@ -393,7 +393,7 @@
     "package": "@eeacms/volto-plotlycharts",
     "branch": "develop",
     "develop": true,
-    "path": "src"
+    "path": "packages/volto-plotlycharts/src"
   },
   "volto-eea-map": {
     "url": "git@github.com:eea/volto-eea-map.git",
@@ -472,7 +472,7 @@
     "url": "git@github.com:eea/volto-embed-static-content.git",
     "https": "https://github.com/eea/volto-embed-static-content.git",
     "package": "@eeacms/volto-embed-static-content",
-    "path": "src",
+    "path": "packages/volto-embed-static-content/src",
     "branch": "develop"
   },
   "volto-embed-content": {
@@ -480,7 +480,7 @@
     "url": "git@github.com:eea/volto-embed-content.git",
     "https": "https://github.com/eea/volto-embed-content.git",
     "package": "@eeacms/volto-embed-content",
-    "path": "src",
+    "path": "packages/volto-embed-content/src",
     "branch": "develop"
   },
   "volto-eea-chatbot": {
@@ -488,7 +488,7 @@
     "url": "git@github.com:eea/volto-eea-chatbot.git",
     "https": "https://github.com/eea/volto-eea-chatbot.git",
     "package": "@eeacms/volto-eea-chatbot",
-    "path": "src",
+    "path": "packages/volto-eea-chatbot/src",
     "branch": "develop"
   },
   "volto-flourish": {
@@ -496,7 +496,7 @@
     "url": "git@github.com:eea/volto-flourish.git",
     "https": "https://github.com/eea/volto-flourish.git",
     "package": "@eeacms/volto-flourish",
-    "path": "src",
+    "path": "packages/volto-flourish/src",
     "branch": "develop"
   },
   "volto-design-tokens": {
@@ -512,7 +512,7 @@
     "url": "git@github.com:eea/volto-redirector.git",
     "https": "https://github.com/eea/volto-redirector.git",
     "package": "@eeacms/volto-redirector",
-    "path": "src",
+    "path": "packages/volto-redirector/src",
     "branch": "develop"
   }
 }
