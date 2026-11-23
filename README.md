@@ -17,20 +17,34 @@ corepack prepare pnpm@10.20.0 --activate
 
 ## Workspace layout
 
-- `core/` contains the Volto `19.5.0` checkout.
+- `core/` contains the Volto checkout (the `core` tag in `mrs.developer.json`).
 - `packages/eea-website-frontend/` is the project policy add-on.
-- `packages/volto-eea-website-theme/` and
-  `packages/volto-eea-design-system/` are the only add-on development checkouts;
-  both are fetched from their `volto19` branches by `mrs-developer`.
+- `packages/<add-on>/` are the add-on development checkouts, fetched by
+  `mrs-developer` from the branches listed in `mrs.developer.json`.
 - `volto.config.js` is the authoritative add-on and theme configuration.
 
-Only the policy add-on is tracked by this repository. The theme and design
-system workspaces are development checkouts and are ignored by Git.
+Only the policy add-on is tracked by this repository. The add-on workspaces are
+development checkouts and are ignored by Git.
+
+## Add-on versions
+
+As on `master`, `package.json` pins the released add-on versions in
+`dependencies` and `pnpm.overrides`. The production image and CI install only
+these releases (`pnpm develop:core` fetches just Volto core).
+
+Add-ons without a Volto 19 release yet are installed from their `volto19`
+branch; `dependencies-comments` lists them. Set their released version once
+they are merged and released.
+
+`make develop` checks out every add-on, temporarily switches them to
+`workspace:*` (`scripts/apply-workspace-protocol.cjs`), installs, and restores
+the pinned `package.json` and `pnpm-lock.yaml`
+(`scripts/restore-production-package.cjs`).
 
 ## Install and start
 
-Fetch Volto, the theme, and the design system, install the locked dependencies,
-and build the core packages:
+Fetch Volto and the add-ons, link the add-on checkouts, and build the core
+packages:
 
 ```bash
 make develop

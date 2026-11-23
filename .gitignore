@@ -81,6 +81,7 @@ cypress/reports/
 
 # Development workspace backups
 package.json.backup
+pnpm-lock.yaml.backup
 
 # generic
 data

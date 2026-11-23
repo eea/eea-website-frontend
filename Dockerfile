@@ -10,13 +10,14 @@ COPY --chown=node mrs.developer.json /app/
 COPY --chown=node pnpm-workspace.yaml /app/
 COPY --chown=node pnpm-lock.yaml /app/
 COPY --chown=node .npmrc .pnpmfile.cjs /app/
+COPY --chown=node scripts/fetch-core.cjs /app/scripts/fetch-core.cjs
 COPY --chown=node entrypoint.sh /app/entrypoint.sh
 
 RUN --mount=type=cache,id=pnpm,target=/app/.pnpm-store,uid=1000 <<EOT
     set -e
     export CI=1
     export NODE_OPTIONS=--max-old-space-size=${MAX_OLD_SPACE_SIZE}
-    pnpm dlx mrs-developer@2.2.0 missdev --no-config --output=packages --fetch-https
+    pnpm develop:core
     pnpm install --frozen-lockfile
     pnpm build:deps
     pnpm build

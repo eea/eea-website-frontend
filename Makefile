@@ -50,18 +50,22 @@ all: develop husky
 .PHONY: develop
 develop:    	## Runs missdev in the local project (mrs.developer.json should be present)
 	pnpm develop
-	NODE_OPTIONS="--max-old-space-size=16384" pnpm install
+	node scripts/apply-workspace-protocol.cjs
+	NODE_OPTIONS="--max-old-space-size=16384" pnpm install || (node scripts/restore-production-package.cjs && exit 1)
+	node scripts/restore-production-package.cjs
 	pnpm build:deps
 
 .PHONY: ci-install
-ci-install:		## Fetch workspaces and perform an immutable CI install
-	pnpm develop
+ci-install:		## Fetch Volto core and perform an immutable install of the pinned add-ons
+	pnpm develop:core
 	NODE_OPTIONS="--max-old-space-size=16384" pnpm install --frozen-lockfile
 	pnpm build:deps
 
 .PHONY: install
 install:		## Install project and add-ons
-	NODE_OPTIONS="--max-old-space-size=16384" pnpm install
+	node scripts/apply-workspace-protocol.cjs
+	NODE_OPTIONS="--max-old-space-size=16384" pnpm install || (node scripts/restore-production-package.cjs && exit 1)
+	node scripts/restore-production-package.cjs
 	pnpm build:deps
 
 .PHONY: build
