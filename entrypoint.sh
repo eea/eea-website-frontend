@@ -12,7 +12,7 @@ function run_as_node {
 # Upload source maps only when the Sentry integration is fully configured.
 SENTRY_SCRIPT="/app/node_modules/@plone-collective/volto-sentry/scripts/create-sentry-release.sh"
 if [[ -x "$SENTRY_SCRIPT" && -n "${SENTRY_AUTH_TOKEN:-}" && -n "${SENTRY_ORG:-}" && -n "${SENTRY_PROJECT:-}" ]]; then
-  run_as_node "$SENTRY_SCRIPT"
+  run_as_node "$SENTRY_SCRIPT" &
 fi
 
 if [[ "${1:-}" == "pnpm" ]]; then
