@@ -113,7 +113,7 @@ docker compose up --build
 ```
 
 The image is based on the Plone frontend builder and production images pinned to
-Volto `19.5.0`.
+Volto `19.6.1`.
 
 ## Working with add-on checkouts
 
