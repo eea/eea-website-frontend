@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-ARG VOLTO_VERSION=19.5.0
+ARG VOLTO_VERSION=19.6.1
 FROM plone/frontend-builder:${VOLTO_VERSION} AS builder
 ARG MAX_OLD_SPACE_SIZE=7168
 
