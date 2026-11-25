@@ -108,7 +108,8 @@
     "!src/addons/volto-quote-block",
     "!src/addons/volto-redirector",
     "!src/addons/volto-redmine-helpdesk",
-    "!src/addons/volto-slate-zotero"
+    "!src/addons/volto-slate-zotero",
+    "!src/addons/volto-rss-provider"
   ],
   "theme": "@eeacms/volto-eea-website-theme",
   "addons": [
@@ -274,7 +275,7 @@
     "@eeacms/volto-citation": "3.0.0",
     "@eeacms/volto-eea-chatbot": "5.0.0",
     "@plone-collective/volto-authomatic": "2.0.4",
-    "@plone-collective/volto-rss-provider": "1.1.0",
+    "@plone-collective/volto-rss-provider": "2.0.0",
     "@plone-collective/volto-sentry": "1.0.2",
     "@eeacms/volto-flourish": "2.0.0",
     "volto-subsites": "4.0.0",
@@ -328,7 +329,7 @@
     "@loadable/component": "5.16.7",
     "@loadable/server": "5.16.7",
     "@plone-collective/volto-authomatic": "2.0.4",
-    "@plone-collective/volto-rss-provider": "1.1.0",
+    "@plone-collective/volto-rss-provider": "2.0.0",
     "@plone/scripts": "^3.6.0",
     "@plone/volto": "18.36.0",
     "@redux-devtools/extension": "^3.3.0",
