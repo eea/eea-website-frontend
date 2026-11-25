@@ -597,7 +597,7 @@
     "package": "volto-subsites",
     "url": "git@github.com:collective/volto-subsites.git",
     "https": "https://github.com/collective/volto-subsites.git",
-    "branch": "volto19",
+    "branch": "master",
     "develop": true,
     "filterBlobs": true
   },
@@ -606,7 +606,7 @@
     "package": "@plone-collective/volto-rss-provider",
     "url": "git@github.com:collective/volto-rss-provider.git",
     "https": "https://github.com/collective/volto-rss-provider.git",
-    "branch": "volto19",
+    "branch": "main",
     "develop": true,
     "filterBlobs": true
   }

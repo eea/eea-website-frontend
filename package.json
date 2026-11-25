@@ -128,9 +128,9 @@
       "@eeacms/volto-tableau": "10.0.0",
       "@eeacms/volto-workflow-progress": "7.0.0",
       "@plone-collective/volto-authomatic": "3.1.1",
-      "@plone-collective/volto-rss-provider": "github:collective/volto-rss-provider#volto19&path:/packages/volto-rss-provider",
+      "@plone-collective/volto-rss-provider": "2.0.0",
       "@plone-collective/volto-sentry": "2.0.0",
-      "volto-subsites": "github:collective/volto-subsites#volto19&path:/packages/volto-subsites",
+      "volto-subsites": "github:collective/volto-subsites#master&path:/packages/volto-subsites",
       "@plone/volto": "workspace:*",
       "@plone/babel-preset-razzle>chalk": "4.1.2",
       "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
@@ -185,7 +185,7 @@
     "@eeacms/volto-workflow-progress": "7.0.0",
     "@loadable/component": "5.16.7",
     "@plone-collective/volto-authomatic": "3.1.1",
-    "@plone-collective/volto-rss-provider": "github:collective/volto-rss-provider#volto19&path:/packages/volto-rss-provider",
+    "@plone-collective/volto-rss-provider": "2.0.0",
     "@plone/registry": "workspace:*",
     "@plone/scripts": "workspace:*",
     "@plone/volto": "workspace:*",
@@ -207,12 +207,11 @@
     "redux-localstorage-simple": "2.5.1",
     "semantic-ui-less": "2.4.1",
     "semantic-ui-react": "2.1.5",
-    "volto-subsites": "github:collective/volto-subsites#volto19&path:/packages/volto-subsites",
+    "volto-subsites": "github:collective/volto-subsites#master&path:/packages/volto-subsites",
     "wikibase-sdk": "8.1.1"
   },
   "dependencies-comments": {
-    "@plone-collective/volto-rss-provider": "TODO: not released for Volto 19 yet. Installed from the volto19 branch until collective/volto-rss-provider#7 is merged and released; then set the released version here and in pnpm.overrides.",
-    "volto-subsites": "TODO: not released for Volto 19 yet. Installed from the volto19 branch until collective/volto-subsites#11 is merged and released; then set the released version here and in pnpm.overrides."
+    "volto-subsites": "TODO: 5.0.0 is not on the registry yet. Installed from the master branch until it is; then set 5.0.0 here and in pnpm.overrides."
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",
