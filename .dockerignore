@@ -1,13 +1,16 @@
 # Folders
 .git
 **/.git
-.yarn/cache
 .storybook
 build
 cache
+core
 locales/*.json
 node_modules
 omelette
+packages/*
+!packages/eea-website-frontend
+!packages/eea-website-frontend/**
 src/addons
 
 # Files

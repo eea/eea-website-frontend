@@ -80,6 +80,15 @@ description = "Forbidden secret-bearing file committed to repository"
 path = '''(?i)(^|/)(\.env\..*|\.npmrc|\.pypirc|id_rsa|id_ed25519|.*\.(pem|key|p12|pfx|jks|kubeconfig))$'''
 regex = '''(?s).{1,}'''
 tags = ["file", "secret-file"]
+[[rules.allowlists]]
+description = "Allow the credential-free pnpm workspace configuration"
+regexTarget = "match"
+regexes = [
+  '''(?s)^(?:public-hoist-pattern\[\]=[^\r\n]+\r?\n)+engine-strict=true(?:\r?\n)?$''',
+]
+paths = [
+  '''^scripts/upgrade_content_cy/\.env\.example$''',
+]
 
 [[allowlists]]
 description = "Allow Jenkins SonarQube token environment variable reference"
